@@ -1,0 +1,16 @@
+# Compiled Translation Files 
+*.mo
+*.gmo
+
+# Backup and Temporary Files 
+*.po~
+*.bak
+*.tmp
+
+# Editor Specific 
+.DS_Store
+*.po.bak
+
+# VS Code / IDEs
+.vscode/
+.idea/
