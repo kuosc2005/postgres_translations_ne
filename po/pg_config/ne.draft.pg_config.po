@@ -1,0 +1,323 @@
+# Nepali translation draft for PostgreSQL pg_config.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_config\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_config.po\\n"
+
+#: ../../common/config_info.c:134 ../../common/config_info.c:142
+#: ../../common/config_info.c:150 ../../common/config_info.c:158
+#: ../../common/config_info.c:166 ../../common/config_info.c:174
+#: ../../common/config_info.c:182 ../../common/config_info.c:190
+msgid "not recorded"
+msgstr "not recorded"
+
+#: ../../common/exec.c:174
+#, c-format
+msgid "invalid binary \"%s\": %m"
+msgstr "अमान्य binary \"%s\": %m"
+
+#: ../../common/exec.c:217
+#, c-format
+msgid "could not read binary \"%s\": %m"
+msgstr "गर्न सकिएन read binary \"%s\": %m"
+
+#: ../../common/exec.c:225
+#, c-format
+msgid "could not find a \"%s\" to execute"
+msgstr "गर्न सकिएन find a \"%s\" to execute"
+
+#: ../../common/exec.c:252
+#, c-format
+msgid "could not resolve path \"%s\" to absolute form: %m"
+msgstr "गर्न सकिएन resolve path \"%s\" to absolute form: %m"
+
+#: ../../common/exec.c:382
+#, c-format
+msgid "could not execute command \"%s\": %m"
+msgstr "गर्न सकिएन execute command \"%s\": %m"
+
+#: ../../common/exec.c:394
+#, c-format
+msgid "could not read from command \"%s\": %m"
+msgstr "गर्न सकिएन read from command \"%s\": %m"
+
+#: ../../common/exec.c:397
+#, c-format
+msgid "no data was returned by command \"%s\""
+msgstr "[REVIEW: untranslated] no data was returned by command \"%s\""
+
+#: ../../common/exec.c:424
+#, c-format
+msgid "%s() failed: %m"
+msgstr "%s() असफल भयो: %m"
+
+#: ../../common/exec.c:562 ../../common/exec.c:607 ../../common/exec.c:699
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: pg_config.c:74
+#, c-format
+msgid ""
+"\n"
+"%s provides information about the installed version of PostgreSQL.\n"
+"\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] %s provides information about the installed version of PostgreSQL.\n"
+"\n"
+
+#: pg_config.c:75
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_config.c:76
+#, c-format
+msgid ""
+"  %s [OPTION]...\n"
+"\n"
+msgstr ""
+"  %s [OPTION]...\n"
+"\n"
+
+#: pg_config.c:77
+#, c-format
+msgid ""
+"Options:\n"
+msgstr ""
+"Options:\n"
+
+#: pg_config.c:78
+#, c-format
+msgid ""
+"  --bindir              show location of user executables\n"
+msgstr ""
+"  --bindir              show location of प्रयोगकर्ता executables\n"
+
+#: pg_config.c:79
+#, c-format
+msgid ""
+"  --docdir              show location of documentation files\n"
+msgstr ""
+"  --docdir              show location of documentation फाइलs\n"
+
+#: pg_config.c:80
+#, c-format
+msgid ""
+"  --htmldir             show location of HTML documentation files\n"
+msgstr ""
+"  --htmldir             show location of HTML documentation फाइलs\n"
+
+#: pg_config.c:81
+#, c-format
+msgid ""
+"  --includedir          show location of C header files of the client\n"
+"                        interfaces\n"
+msgstr ""
+"  --includedir          show location of C header फाइलs of the client\n"
+"                        interfaces\n"
+
+#: pg_config.c:83
+#, c-format
+msgid ""
+"  --pkgincludedir       show location of other C header files\n"
+msgstr ""
+"  --pkgincludedir       show location of other C header फाइलs\n"
+
+#: pg_config.c:84
+#, c-format
+msgid ""
+"  --includedir-server   show location of C header files for the server\n"
+msgstr ""
+"  --includedir-server   show location of C header फाइलs for the server\n"
+
+#: pg_config.c:85
+#, c-format
+msgid ""
+"  --libdir              show location of object code libraries\n"
+msgstr ""
+"[REVIEW: untranslated]   --libdir              show location of object code libraries\n"
+
+#: pg_config.c:86
+#, c-format
+msgid ""
+"  --pkglibdir           show location of dynamically loadable modules\n"
+msgstr ""
+"[REVIEW: untranslated]   --pkglibdir           show location of dynamically loadable modules\n"
+
+#: pg_config.c:87
+#, c-format
+msgid ""
+"  --localedir           show location of locale support files\n"
+msgstr ""
+"[REVIEW: locale]   --localedir           show location of locale support फाइलs\n"
+
+#: pg_config.c:88
+#, c-format
+msgid ""
+"  --mandir              show location of manual pages\n"
+msgstr ""
+"[REVIEW: untranslated]   --mandir              show location of manual pages\n"
+
+#: pg_config.c:89
+#, c-format
+msgid ""
+"  --sharedir            show location of architecture-independent support files\n"
+msgstr ""
+"  --sharedir            show location of architecture-independent support फाइलs\n"
+
+#: pg_config.c:90
+#, c-format
+msgid ""
+"  --sysconfdir          show location of system-wide configuration files\n"
+msgstr ""
+"  --sysconfdir          show location of system-wide configuration फाइलs\n"
+
+#: pg_config.c:91
+#, c-format
+msgid ""
+"  --pgxs                show location of extension makefile\n"
+msgstr ""
+"[REVIEW: extension]   --pgxs                show location of extension makeफाइल\n"
+
+#: pg_config.c:92
+#, c-format
+msgid ""
+"  --configure           show options given to \"configure\" script when\n"
+"                        PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --configure           show options given to \"configure\" script when\n"
+"[REVIEW: untranslated]                         PostgreSQL was built\n"
+
+#: pg_config.c:94
+#, c-format
+msgid ""
+"  --cc                  show CC value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --cc                  show CC value used when PostgreSQL was built\n"
+
+#: pg_config.c:95
+#, c-format
+msgid ""
+"  --cppflags            show CPPFLAGS value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --cppflags            show CPPFLAGS value used when PostgreSQL was built\n"
+
+#: pg_config.c:96
+#, c-format
+msgid ""
+"  --cflags              show CFLAGS value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --cflags              show CFLAGS value used when PostgreSQL was built\n"
+
+#: pg_config.c:97
+#, c-format
+msgid ""
+"  --cflags_sl           show CFLAGS_SL value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --cflags_sl           show CFLAGS_SL value used when PostgreSQL was built\n"
+
+#: pg_config.c:98
+#, c-format
+msgid ""
+"  --ldflags             show LDFLAGS value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --ldflags             show LDFLAGS value used when PostgreSQL was built\n"
+
+#: pg_config.c:99
+#, c-format
+msgid ""
+"  --ldflags_ex          show LDFLAGS_EX value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --ldflags_ex          show LDFLAGS_EX value used when PostgreSQL was built\n"
+
+#: pg_config.c:100
+#, c-format
+msgid ""
+"  --ldflags_sl          show LDFLAGS_SL value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --ldflags_sl          show LDFLAGS_SL value used when PostgreSQL was built\n"
+
+#: pg_config.c:101
+#, c-format
+msgid ""
+"  --libs                show LIBS value used when PostgreSQL was built\n"
+msgstr ""
+"[REVIEW: untranslated]   --libs                show LIBS value used when PostgreSQL was built\n"
+
+#: pg_config.c:102
+#, c-format
+msgid ""
+"  --version             show the PostgreSQL version\n"
+msgstr ""
+"[REVIEW: untranslated]   --version             show the PostgreSQL version\n"
+
+#: pg_config.c:103
+#, c-format
+msgid ""
+"  -?, --help            show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help            show this help, then exit\n"
+
+#: pg_config.c:104
+#, c-format
+msgid ""
+"\n"
+"With no arguments, all known items are shown.\n"
+"\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] With no arguments, all known items are shown.\n"
+"\n"
+
+#: pg_config.c:105
+#, c-format
+msgid ""
+"Report bugs to <%s>.\n"
+msgstr ""
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_config.c:106
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_config.c:112
+#, c-format
+msgid ""
+"Try \"%s --help\" for more information.\n"
+msgstr ""
+"थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।\n"
+
+#: pg_config.c:154
+#, c-format
+msgid ""
+"%s: could not find own program executable\n"
+msgstr ""
+"%s: गर्न सकिएन find own program executable\n"
+
+#: pg_config.c:181
+#, c-format
+msgid ""
+"%s: invalid argument: %s\n"
+msgstr ""
+"%s: अमान्य argument: %s\n"

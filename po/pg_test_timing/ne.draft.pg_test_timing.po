@@ -1,0 +1,107 @@
+# Nepali translation draft for PostgreSQL pg_test_timing.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_test_timing\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_test_timing.po\\n"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: pg_test_timing.c:59
+#, c-format
+msgid ""
+"Usage: %s [-d DURATION]\n"
+msgstr ""
+"Usage: %s [-d DURATION]\n"
+
+#: pg_test_timing.c:81
+#, c-format
+msgid ""
+"%s: invalid argument for option %s\n"
+msgstr ""
+"%s: अमान्य argument for option %s\n"
+
+#: pg_test_timing.c:83 pg_test_timing.c:97 pg_test_timing.c:109
+#, c-format
+msgid ""
+"Try \"%s --help\" for more information.\n"
+msgstr ""
+"थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।\n"
+
+#: pg_test_timing.c:90
+#, c-format
+msgid ""
+"%s: %s must be in range %u..%u\n"
+msgstr ""
+"[REVIEW: untranslated] %s: %s must be in range %u..%u\n"
+
+#: pg_test_timing.c:107
+#, c-format
+msgid ""
+"%s: too many command-line arguments (first is \"%s\")\n"
+msgstr ""
+"%s: too many command-लाइन arguments (first is \"%s\")\n"
+
+#: pg_test_timing.c:115
+#, c-format
+msgid ""
+"Testing timing overhead for %u second.\n"
+msgid_plural ""
+"Testing timing overhead for %u seconds.\n"
+msgstr[0] ""
+"[REVIEW: untranslated] Testing timing overhead for %u second.\n"
+msgstr[1] ""
+"[REVIEW: untranslated] Testing timing overhead for %u seconds.\n"
+
+#: pg_test_timing.c:151
+#, c-format
+msgid ""
+"Detected clock going backwards in time.\n"
+msgstr ""
+"[REVIEW: lock; untranslated] Detected clock going backwards in time.\n"
+
+#: pg_test_timing.c:152
+#, c-format
+msgid ""
+"Time warp: %d ms\n"
+msgstr ""
+"[REVIEW: untranslated] Time warp: %d ms\n"
+
+#: pg_test_timing.c:175
+#, c-format
+msgid ""
+"Per loop time including overhead: %0.2f ns\n"
+msgstr ""
+"[REVIEW: untranslated] Per loop time including overhead: %0.2f ns\n"
+
+#: pg_test_timing.c:186
+msgid "< us"
+msgstr "< us"
+
+#: pg_test_timing.c:187
+#, no-c-format
+msgid "% of total"
+msgstr "% of total"
+
+#: pg_test_timing.c:188
+msgid "count"
+msgstr "count"
+
+#: pg_test_timing.c:197
+#, c-format
+msgid ""
+"Histogram of timing durations:\n"
+msgstr ""
+"[REVIEW: untranslated] Histogram of timing durations:\n"

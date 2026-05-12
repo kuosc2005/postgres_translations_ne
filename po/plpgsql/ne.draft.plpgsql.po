@@ -1,0 +1,850 @@
+# Nepali translation draft for PostgreSQL plpgsql.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL plpgsql\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/plpgsql.po\\n"
+
+#: pl_comp.c:434 pl_handler.c:496
+#, c-format
+msgid "PL/pgSQL functions cannot accept type %s"
+msgstr "PL/pgSQL functions गर्न सकिँदैन accept type %s"
+
+#: pl_comp.c:526
+#, c-format
+msgid "could not determine actual return type for polymorphic function \"%s\""
+msgstr "गर्न सकिएन determine actual return type for polymorphic function \"%s\""
+
+#: pl_comp.c:556
+#, c-format
+msgid "trigger functions can only be called as triggers"
+msgstr "[REVIEW: untranslated] trigger functions can only be called as triggers"
+
+#: pl_comp.c:560 pl_handler.c:480
+#, c-format
+msgid "PL/pgSQL functions cannot return type %s"
+msgstr "PL/pgSQL functions गर्न सकिँदैन return type %s"
+
+#: pl_comp.c:600
+#, c-format
+msgid "trigger functions cannot have declared arguments"
+msgstr "trigger functions गर्न सकिँदैन have declared arguments"
+
+#: pl_comp.c:601
+#, c-format
+msgid "The arguments of the trigger can be accessed through TG_NARGS and TG_ARGV instead."
+msgstr "[REVIEW: untranslated] The arguments of the trigger can be accessed through TG_NARGS and TG_ARGV instead."
+
+#: pl_comp.c:734
+#, c-format
+msgid "event trigger functions cannot have declared arguments"
+msgstr "event trigger functions गर्न सकिँदैन have declared arguments"
+
+#: pl_comp.c:998
+#, c-format
+msgid "compilation of PL/pgSQL function \"%s\" near line %d"
+msgstr "compilation of PL/pgSQL function \"%s\" near लाइन %d"
+
+#: pl_comp.c:1021
+#, c-format
+msgid "parameter name \"%s\" used more than once"
+msgstr "parameter नाम \"%s\" used more than once"
+
+#: pl_comp.c:1135
+#, c-format
+msgid "column reference \"%s\" is ambiguous"
+msgstr "[REVIEW: untranslated] column reference \"%s\" is ambiguous"
+
+#: pl_comp.c:1137
+#, c-format
+msgid "It could refer to either a PL/pgSQL variable or a table column."
+msgstr "[REVIEW: untranslated] It could refer to either a PL/pgSQL variable or a table column."
+
+#: pl_comp.c:1314 pl_exec.c:5257 pl_exec.c:5430 pl_exec.c:5517 pl_exec.c:5608
+#: pl_exec.c:6626
+#, c-format
+msgid "record \"%s\" has no field \"%s\""
+msgstr "[REVIEW: untranslated] record \"%s\" has no field \"%s\""
+
+#: pl_comp.c:1633 pl_gram.y:646 pl_gram.y:661 pl_gram.y:687
+#, c-format
+msgid "variable \"%s\" does not exist"
+msgstr "variable \"%s\" अवस्थित छैन"
+
+#: pl_comp.c:1722
+#, c-format
+msgid "column \"%s\" of relation \"%s\" does not exist"
+msgstr "[REVIEW: relation] column \"%s\" of relation \"%s\" अवस्थित छैन"
+
+#: pl_comp.c:1775
+#, c-format
+msgid "relation \"%s\" does not exist"
+msgstr "[REVIEW: relation] relation \"%s\" अवस्थित छैन"
+
+#: pl_comp.c:1782 pl_comp.c:1820
+#, c-format
+msgid "relation \"%s\" does not have a composite type"
+msgstr "[REVIEW: relation; untranslated] relation \"%s\" does not have a composite type"
+
+#: pl_comp.c:1886
+#, c-format
+msgid "variable \"%s\" has pseudo-type %s"
+msgstr "[REVIEW: untranslated] variable \"%s\" has pseudo-type %s"
+
+#: pl_comp.c:2075
+#, c-format
+msgid "type \"%s\" is only a shell"
+msgstr "[REVIEW: untranslated] type \"%s\" is only a shell"
+
+#: pl_comp.c:2157 pl_exec.c:6927
+#, c-format
+msgid "type %s is not composite"
+msgstr "[REVIEW: untranslated] type %s is not composite"
+
+#: pl_comp.c:2193
+#, c-format
+msgid "could not find array type for data type %s"
+msgstr "गर्न सकिएन find array type for data type %s"
+
+#: pl_comp.c:2232 pl_comp.c:2285
+#, c-format
+msgid "unrecognized exception condition \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized exception condition \"%s\""
+
+#: pl_comp.c:2514
+#, c-format
+msgid "could not determine actual argument type for polymorphic function \"%s\""
+msgstr "गर्न सकिएन determine actual argument type for polymorphic function \"%s\""
+
+#: pl_exec.c:511 pl_exec.c:950 pl_exec.c:1185
+msgid "during initialization of execution state"
+msgstr "[REVIEW: untranslated] during initialization of execution state"
+
+#: pl_exec.c:517
+msgid "while storing call arguments into local variables"
+msgstr "[REVIEW: untranslated] while storing call arguments into local variables"
+
+#: pl_exec.c:605 pl_exec.c:1023
+msgid "during function entry"
+msgstr "[REVIEW: untranslated] during function entry"
+
+#: pl_exec.c:628
+#, c-format
+msgid "control reached end of function without RETURN"
+msgstr "[REVIEW: untranslated] control reached end of function without RETURN"
+
+#: pl_exec.c:634
+msgid "while casting return value to function's return type"
+msgstr "[REVIEW: untranslated] while casting return value to function's return type"
+
+#: pl_exec.c:646 pl_exec.c:3681
+#, c-format
+msgid "set-valued function called in context that cannot accept a set"
+msgstr "set-valued function called in context that गर्न सकिँदैन accept a set"
+
+#: pl_exec.c:651 pl_exec.c:3687
+#, c-format
+msgid "materialize mode required, but it is not allowed in this context"
+msgstr "[REVIEW: sentence] materialize mode आवश्यक, but it is not allowed in this context"
+
+#: pl_exec.c:778 pl_exec.c:1049 pl_exec.c:1207
+msgid "during function exit"
+msgstr "[REVIEW: untranslated] during function exit"
+
+#: pl_exec.c:833 pl_exec.c:897 pl_exec.c:3480
+msgid "returned record type does not match expected record type"
+msgstr "[REVIEW: untranslated] returned record type does not match expected record type"
+
+#: pl_exec.c:1046 pl_exec.c:1204
+#, c-format
+msgid "control reached end of trigger procedure without RETURN"
+msgstr "[REVIEW: untranslated] control reached end of trigger procedure without RETURN"
+
+#: pl_exec.c:1054
+#, c-format
+msgid "trigger procedure cannot return a set"
+msgstr "trigger procedure गर्न सकिँदैन return a set"
+
+#: pl_exec.c:1093 pl_exec.c:1121
+msgid "returned row structure does not match the structure of the triggering table"
+msgstr "[REVIEW: untranslated] returned row structure does not match the structure of the triggering table"
+
+#. translator: last %s is a phrase such as "during statement block
+#. local variable initialization"
+#.
+#: pl_exec.c:1262
+#, c-format
+msgid "PL/pgSQL function %s line %d %s"
+msgstr "PL/pgSQL function %s लाइन %d %s"
+
+#. translator: last %s is a phrase such as "while storing call
+#. arguments into local variables"
+#.
+#: pl_exec.c:1273
+#, c-format
+msgid "PL/pgSQL function %s %s"
+msgstr "[REVIEW: untranslated] PL/pgSQL function %s %s"
+
+#. translator: last %s is a plpgsql statement type name
+#: pl_exec.c:1281
+#, c-format
+msgid "PL/pgSQL function %s line %d at %s"
+msgstr "PL/pgSQL function %s लाइन %d at %s"
+
+#: pl_exec.c:1287
+#, c-format
+msgid "PL/pgSQL function %s"
+msgstr "[REVIEW: untranslated] PL/pgSQL function %s"
+
+#: pl_exec.c:1658
+msgid "during statement block local variable initialization"
+msgstr "[REVIEW: statement, lock; untranslated] during statement block local variable initialization"
+
+#: pl_exec.c:1763
+msgid "during statement block entry"
+msgstr "[REVIEW: statement, lock; untranslated] during statement block entry"
+
+#: pl_exec.c:1795
+msgid "during statement block exit"
+msgstr "[REVIEW: statement, lock; untranslated] during statement block exit"
+
+#: pl_exec.c:1833
+msgid "during exception cleanup"
+msgstr "[REVIEW: untranslated] during exception cleanup"
+
+#: pl_exec.c:2370
+#, c-format
+msgid "procedure parameter \"%s\" is an output parameter but corresponding argument is not writable"
+msgstr "[REVIEW: untranslated] procedure parameter \"%s\" is an output parameter but corresponding argument is not writable"
+
+#: pl_exec.c:2375
+#, c-format
+msgid "procedure parameter %d is an output parameter but corresponding argument is not writable"
+msgstr "[REVIEW: untranslated] procedure parameter %d is an output parameter but corresponding argument is not writable"
+
+#: pl_exec.c:2409
+#, c-format
+msgid "GET STACKED DIAGNOSTICS cannot be used outside an exception handler"
+msgstr "GET STACKED DIAGNOSTICS गर्न सकिँदैन be used outside an exception handler"
+
+#: pl_exec.c:2615
+#, c-format
+msgid "case not found"
+msgstr "case फेला परेन"
+
+#: pl_exec.c:2616
+#, c-format
+msgid "CASE statement is missing ELSE part."
+msgstr "[REVIEW: statement] CASE statement is हराइरहेको ELSE part."
+
+#: pl_exec.c:2709
+#, c-format
+msgid "lower bound of FOR loop cannot be null"
+msgstr "lower bound of FOR loop गर्न सकिँदैन be null"
+
+#: pl_exec.c:2725
+#, c-format
+msgid "upper bound of FOR loop cannot be null"
+msgstr "upper bound of FOR loop गर्न सकिँदैन be null"
+
+#: pl_exec.c:2743
+#, c-format
+msgid "BY value of FOR loop cannot be null"
+msgstr "BY value of FOR loop गर्न सकिँदैन be null"
+
+#: pl_exec.c:2749
+#, c-format
+msgid "BY value of FOR loop must be greater than zero"
+msgstr "[REVIEW: untranslated] BY value of FOR loop must be greater than zero"
+
+#: pl_exec.c:2883 pl_exec.c:4690
+#, c-format
+msgid "cursor \"%s\" already in use"
+msgstr "[REVIEW: cursor; untranslated] cursor \"%s\" already in use"
+
+#: pl_exec.c:2906 pl_exec.c:4760
+#, c-format
+msgid "arguments given for cursor without arguments"
+msgstr "[REVIEW: cursor; untranslated] arguments given for cursor without arguments"
+
+#: pl_exec.c:2925 pl_exec.c:4779
+#, c-format
+msgid "arguments required for cursor"
+msgstr "[REVIEW: cursor] arguments आवश्यक for cursor"
+
+#: pl_exec.c:3016
+#, c-format
+msgid "FOREACH expression must not be null"
+msgstr "[REVIEW: untranslated] FOREACH expression must not be null"
+
+#: pl_exec.c:3031
+#, c-format
+msgid "FOREACH expression must yield an array, not type %s"
+msgstr "[REVIEW: untranslated] FOREACH expression must yield an array, not type %s"
+
+#: pl_exec.c:3048
+#, c-format
+msgid "slice dimension (%d) is out of the valid range 0..%d"
+msgstr "[REVIEW: untranslated] slice dimension (%d) is out of the valid range 0..%d"
+
+#: pl_exec.c:3075
+#, c-format
+msgid "FOREACH ... SLICE loop variable must be of an array type"
+msgstr "[REVIEW: untranslated] FOREACH ... SLICE loop variable must be of an array type"
+
+#: pl_exec.c:3079
+#, c-format
+msgid "FOREACH loop variable must not be of an array type"
+msgstr "[REVIEW: untranslated] FOREACH loop variable must not be of an array type"
+
+#: pl_exec.c:3241 pl_exec.c:3298 pl_exec.c:3473
+#, c-format
+msgid "cannot return non-composite value from function returning composite type"
+msgstr "गर्न सकिँदैन return non-composite value from function returning composite type"
+
+#: pl_exec.c:3337 pl_gram.y:3376
+#, c-format
+msgid "cannot use RETURN NEXT in a non-SETOF function"
+msgstr "गर्न सकिँदैन use RETURN NEXT in a non-SETOF function"
+
+#: pl_exec.c:3378 pl_exec.c:3510
+#, c-format
+msgid "wrong result type supplied in RETURN NEXT"
+msgstr "[REVIEW: untranslated] wrong result type supplied in RETURN NEXT"
+
+#: pl_exec.c:3416 pl_exec.c:3437
+#, c-format
+msgid "wrong record type supplied in RETURN NEXT"
+msgstr "[REVIEW: untranslated] wrong record type supplied in RETURN NEXT"
+
+#: pl_exec.c:3529
+#, c-format
+msgid "RETURN NEXT must have a parameter"
+msgstr "[REVIEW: untranslated] RETURN NEXT must have a parameter"
+
+#: pl_exec.c:3557 pl_gram.y:3440
+#, c-format
+msgid "cannot use RETURN QUERY in a non-SETOF function"
+msgstr "[REVIEW: query] गर्न सकिँदैन use RETURN QUERY in a non-SETOF function"
+
+#: pl_exec.c:3575
+msgid "structure of query does not match function result type"
+msgstr "[REVIEW: query; untranslated] structure of query does not match function result type"
+
+#: pl_exec.c:3630 pl_exec.c:4466 pl_exec.c:8726
+#, c-format
+msgid "query string argument of EXECUTE is null"
+msgstr "[REVIEW: query; untranslated] query string argument of EXECUTE is null"
+
+#: pl_exec.c:3715 pl_exec.c:3853
+#, c-format
+msgid "RAISE option already specified: %s"
+msgstr "[REVIEW: untranslated] RAISE option already specified: %s"
+
+#: pl_exec.c:3749
+#, c-format
+msgid "RAISE without parameters cannot be used outside an exception handler"
+msgstr "RAISE without parameters गर्न सकिँदैन be used outside an exception handler"
+
+#: pl_exec.c:3843
+#, c-format
+msgid "RAISE statement option cannot be null"
+msgstr "[REVIEW: statement] RAISE statement option गर्न सकिँदैन be null"
+
+#: pl_exec.c:3913
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: pl_exec.c:3968
+#, c-format
+msgid "assertion failed"
+msgstr "assertion असफल भयो"
+
+#: pl_exec.c:4339 pl_exec.c:4529
+#, c-format
+msgid "cannot COPY to/from client in PL/pgSQL"
+msgstr "गर्न सकिँदैन COPY to/from client in PL/pgSQL"
+
+#: pl_exec.c:4345
+#, c-format
+msgid "unsupported transaction command in PL/pgSQL"
+msgstr "[REVIEW: transaction; untranslated] unsupported transaction command in PL/pgSQL"
+
+#: pl_exec.c:4368 pl_exec.c:4558
+#, c-format
+msgid "INTO used with a command that cannot return data"
+msgstr "INTO used with a command that गर्न सकिँदैन return data"
+
+#: pl_exec.c:4391 pl_exec.c:4581
+#, c-format
+msgid "query returned no rows"
+msgstr "[REVIEW: query; untranslated] query returned no rows"
+
+#: pl_exec.c:4413 pl_exec.c:4600 pl_exec.c:5752
+#, c-format
+msgid "query returned more than one row"
+msgstr "[REVIEW: query; untranslated] query returned more than one row"
+
+#: pl_exec.c:4415
+#, c-format
+msgid "Make sure the query returns a single row, or use LIMIT 1."
+msgstr "[REVIEW: query; untranslated] Make sure the query returns a single row, or use LIMIT 1."
+
+#: pl_exec.c:4431
+#, c-format
+msgid "query has no destination for result data"
+msgstr "[REVIEW: query; untranslated] query has no destination for result data"
+
+#: pl_exec.c:4432
+#, c-format
+msgid "If you want to discard the results of a SELECT, use PERFORM instead."
+msgstr "[REVIEW: untranslated] If you want to discard the results of a SELECT, use PERFORM instead."
+
+#: pl_exec.c:4521
+#, c-format
+msgid "EXECUTE of SELECT ... INTO is not implemented"
+msgstr "[REVIEW: untranslated] EXECUTE of SELECT ... INTO is not implemented"
+
+#: pl_exec.c:4522
+#, c-format
+msgid "You might want to use EXECUTE ... INTO or EXECUTE CREATE TABLE ... AS instead."
+msgstr "[REVIEW: untranslated] You might want to use EXECUTE ... INTO or EXECUTE CREATE TABLE ... AS instead."
+
+#: pl_exec.c:4535
+#, c-format
+msgid "EXECUTE of transaction commands is not implemented"
+msgstr "[REVIEW: transaction; untranslated] EXECUTE of transaction commands is not implemented"
+
+#: pl_exec.c:4845 pl_exec.c:4933
+#, c-format
+msgid "cursor variable \"%s\" is null"
+msgstr "[REVIEW: cursor; untranslated] cursor variable \"%s\" is null"
+
+#: pl_exec.c:4856 pl_exec.c:4944
+#, c-format
+msgid "cursor \"%s\" does not exist"
+msgstr "[REVIEW: cursor] cursor \"%s\" अवस्थित छैन"
+
+#: pl_exec.c:4869
+#, c-format
+msgid "relative or absolute cursor position is null"
+msgstr "[REVIEW: cursor; untranslated] relative or absolute cursor position is null"
+
+#: pl_exec.c:5107 pl_exec.c:5202
+#, c-format
+msgid "null value cannot be assigned to variable \"%s\" declared NOT NULL"
+msgstr "null value गर्न सकिँदैन be assigned to variable \"%s\" declared NOT NULL"
+
+#: pl_exec.c:5183
+#, c-format
+msgid "cannot assign non-composite value to a row variable"
+msgstr "गर्न सकिँदैन assign non-composite value to a row variable"
+
+#: pl_exec.c:5215
+#, c-format
+msgid "cannot assign non-composite value to a record variable"
+msgstr "गर्न सकिँदैन assign non-composite value to a record variable"
+
+#: pl_exec.c:5266
+#, c-format
+msgid "cannot assign to system column \"%s\""
+msgstr "गर्न सकिँदैन assign to system column \"%s\""
+
+#: pl_exec.c:5715
+#, c-format
+msgid "query did not return data"
+msgstr "[REVIEW: query; untranslated] query did not return data"
+
+#: pl_exec.c:5716 pl_exec.c:5728 pl_exec.c:5753 pl_exec.c:5829 pl_exec.c:5834
+#, c-format
+msgid "query: %s"
+msgstr "[REVIEW: query] query: %s"
+
+#: pl_exec.c:5724
+#, c-format
+msgid "query returned %d column"
+msgid_plural "query returned %d columns"
+msgstr[0] "[REVIEW: query; untranslated] query returned %d column"
+msgstr[1] "[REVIEW: query; untranslated] query returned %d columns"
+
+#: pl_exec.c:5828
+#, c-format
+msgid "query is SELECT INTO, but it should be plain SELECT"
+msgstr "[REVIEW: query; untranslated] query is SELECT INTO, but it should be plain SELECT"
+
+#: pl_exec.c:5833
+#, c-format
+msgid "query is not a SELECT"
+msgstr "[REVIEW: query; untranslated] query is not a SELECT"
+
+#: pl_exec.c:6640 pl_exec.c:6680 pl_exec.c:6720
+#, c-format
+msgid "type of parameter %d (%s) does not match that when preparing the plan (%s)"
+msgstr "[REVIEW: untranslated] type of parameter %d (%s) does not match that when preparing the plan (%s)"
+
+#: pl_exec.c:7131 pl_exec.c:7165 pl_exec.c:7239 pl_exec.c:7265
+#, c-format
+msgid "number of source and target fields in assignment does not match"
+msgstr "[REVIEW: untranslated] number of source and target fields in assignment does not match"
+
+#. translator: %s represents a name of an extra check
+#: pl_exec.c:7133 pl_exec.c:7167 pl_exec.c:7241 pl_exec.c:7267
+#, c-format
+msgid "%s check of %s is active."
+msgstr "[REVIEW: untranslated] %s check of %s is active."
+
+#: pl_exec.c:7137 pl_exec.c:7171 pl_exec.c:7245 pl_exec.c:7271
+#, c-format
+msgid "Make sure the query returns the exact list of columns."
+msgstr "[REVIEW: query; untranslated] Make sure the query returns the exact list of columns."
+
+#: pl_exec.c:7658
+#, c-format
+msgid "record \"%s\" is not assigned yet"
+msgstr "[REVIEW: untranslated] record \"%s\" is not assigned yet"
+
+#: pl_exec.c:7659
+#, c-format
+msgid "The tuple structure of a not-yet-assigned record is indeterminate."
+msgstr "[REVIEW: tuple; untranslated] The tuple structure of a not-yet-assigned record is indeterminate."
+
+#: pl_exec.c:8324 pl_gram.y:3499
+#, c-format
+msgid "variable \"%s\" is declared CONSTANT"
+msgstr "[REVIEW: untranslated] variable \"%s\" is declared CONSTANT"
+
+#: pl_funcs.c:237
+msgid "statement block"
+msgstr "[REVIEW: statement, lock] statement block"
+
+#: pl_funcs.c:239
+msgid "assignment"
+msgstr "assignment"
+
+#: pl_funcs.c:249
+msgid "FOR with integer loop variable"
+msgstr "[REVIEW: untranslated] FOR with integer loop variable"
+
+#: pl_funcs.c:251
+msgid "FOR over SELECT rows"
+msgstr "[REVIEW: untranslated] FOR over SELECT rows"
+
+#: pl_funcs.c:253
+msgid "FOR over cursor"
+msgstr "[REVIEW: cursor; untranslated] FOR over cursor"
+
+#: pl_funcs.c:255
+msgid "FOREACH over array"
+msgstr "[REVIEW: untranslated] FOREACH over array"
+
+#: pl_funcs.c:269
+msgid "SQL statement"
+msgstr "[REVIEW: statement] SQL statement"
+
+#: pl_funcs.c:273
+msgid "FOR over EXECUTE statement"
+msgstr "[REVIEW: statement; untranslated] FOR over EXECUTE statement"
+
+#: pl_gram.y:486
+#, c-format
+msgid "block label must be placed before DECLARE, not after"
+msgstr "[REVIEW: lock; untranslated] block label must be placed before DECLARE, not after"
+
+#: pl_gram.y:506
+#, c-format
+msgid "collations are not supported by type %s"
+msgstr "[REVIEW: collation; untranslated] collations are not supported by type %s"
+
+#: pl_gram.y:525
+#, c-format
+msgid "variable \"%s\" must have a default value, since it's declared NOT NULL"
+msgstr "[REVIEW: untranslated] variable \"%s\" must have a default value, since it's declared NOT NULL"
+
+#: pl_gram.y:705 pl_gram.y:733
+msgid "duplicate declaration"
+msgstr "duplicate declaration"
+
+#: pl_gram.y:716 pl_gram.y:744
+#, c-format
+msgid "variable \"%s\" shadows a previously defined variable"
+msgstr "[REVIEW: untranslated] variable \"%s\" shadows a previously defined variable"
+
+#: pl_gram.y:1018
+#, c-format
+msgid "diagnostics item %s is not allowed in GET STACKED DIAGNOSTICS"
+msgstr "[REVIEW: untranslated] diagnostics item %s is not allowed in GET STACKED DIAGNOSTICS"
+
+#: pl_gram.y:1036
+#, c-format
+msgid "diagnostics item %s is not allowed in GET CURRENT DIAGNOSTICS"
+msgstr "[REVIEW: untranslated] diagnostics item %s is not allowed in GET CURRENT DIAGNOSTICS"
+
+#: pl_gram.y:1134
+msgid "unrecognized GET DIAGNOSTICS item"
+msgstr "[REVIEW: untranslated] unrecognized GET DIAGNOSTICS item"
+
+#: pl_gram.y:1150 pl_gram.y:3615
+#, c-format
+msgid "\"%s\" is not a scalar variable"
+msgstr "[REVIEW: untranslated] \"%s\" is not a scalar variable"
+
+#: pl_gram.y:1380 pl_gram.y:1574
+#, c-format
+msgid "loop variable of loop over rows must be a record variable or list of scalar variables"
+msgstr "[REVIEW: untranslated] loop variable of loop over rows must be a record variable or list of scalar variables"
+
+#: pl_gram.y:1415
+#, c-format
+msgid "cursor FOR loop must have only one target variable"
+msgstr "[REVIEW: cursor; untranslated] cursor FOR loop must have only one target variable"
+
+#: pl_gram.y:1422
+#, c-format
+msgid "cursor FOR loop must use a bound cursor variable"
+msgstr "[REVIEW: cursor; untranslated] cursor FOR loop must use a bound cursor variable"
+
+#: pl_gram.y:1513
+#, c-format
+msgid "integer FOR loop must have only one target variable"
+msgstr "[REVIEW: untranslated] integer FOR loop must have only one target variable"
+
+#: pl_gram.y:1547
+#, c-format
+msgid "cannot specify REVERSE in query FOR loop"
+msgstr "[REVIEW: query] गर्न सकिँदैन specify REVERSE in query FOR loop"
+
+#: pl_gram.y:1677
+#, c-format
+msgid "loop variable of FOREACH must be a known variable or list of variables"
+msgstr "[REVIEW: untranslated] loop variable of FOREACH must be a known variable or list of variables"
+
+#: pl_gram.y:1719
+#, c-format
+msgid "there is no label \"%s\" attached to any block or loop enclosing this statement"
+msgstr "[REVIEW: statement, lock; untranslated] there is no label \"%s\" attached to any block or loop enclosing this statement"
+
+#: pl_gram.y:1727
+#, c-format
+msgid "block label \"%s\" cannot be used in CONTINUE"
+msgstr "[REVIEW: lock] block label \"%s\" गर्न सकिँदैन be used in CONTINUE"
+
+#: pl_gram.y:1742
+#, c-format
+msgid "EXIT cannot be used outside a loop, unless it has a label"
+msgstr "EXIT गर्न सकिँदैन be used outside a loop, unless it has a label"
+
+#: pl_gram.y:1743
+#, c-format
+msgid "CONTINUE cannot be used outside a loop"
+msgstr "CONTINUE गर्न सकिँदैन be used outside a loop"
+
+#: pl_gram.y:1767 pl_gram.y:1805 pl_gram.y:1853 pl_gram.y:3062 pl_gram.y:3150
+#: pl_gram.y:3261 pl_gram.y:4014
+msgid "unexpected end of function definition"
+msgstr "[REVIEW: untranslated] unexpected end of function definition"
+
+#: pl_gram.y:1873 pl_gram.y:1897 pl_gram.y:1913 pl_gram.y:1919 pl_gram.y:2044
+#: pl_gram.y:2052 pl_gram.y:2066 pl_gram.y:2161 pl_gram.y:2385 pl_gram.y:2475
+#: pl_gram.y:2634 pl_gram.y:3857 pl_gram.y:3918 pl_gram.y:3995
+msgid "syntax error"
+msgstr "syntax त्रुटि"
+
+#: pl_gram.y:1901 pl_gram.y:1903 pl_gram.y:2389 pl_gram.y:2391
+msgid "invalid SQLSTATE code"
+msgstr "अमान्य SQLSTATE code"
+
+#: pl_gram.y:2109
+msgid "syntax error, expected \"FOR\""
+msgstr "syntax त्रुटि, expected \"FOR\""
+
+#: pl_gram.y:2170
+#, c-format
+msgid "FETCH statement cannot return multiple rows"
+msgstr "[REVIEW: statement] FETCH statement गर्न सकिँदैन return multiple rows"
+
+#: pl_gram.y:2267
+#, c-format
+msgid "cursor variable must be a simple variable"
+msgstr "[REVIEW: cursor; untranslated] cursor variable must be a simple variable"
+
+#: pl_gram.y:2273
+#, c-format
+msgid "variable \"%s\" must be of type cursor or refcursor"
+msgstr "[REVIEW: cursor; untranslated] variable \"%s\" must be of type cursor or refcursor"
+
+#: pl_gram.y:2605 pl_gram.y:2616
+#, c-format
+msgid "\"%s\" is not a known variable"
+msgstr "[REVIEW: untranslated] \"%s\" is not a known variable"
+
+#: pl_gram.y:2722 pl_gram.y:2732 pl_gram.y:2912
+msgid "mismatched parentheses"
+msgstr "mismatched parentheses"
+
+#: pl_gram.y:2736
+#, c-format
+msgid "missing \"%s\" at end of SQL expression"
+msgstr "हराइरहेको \"%s\" at end of SQL expression"
+
+#: pl_gram.y:2742
+#, c-format
+msgid "missing \"%s\" at end of SQL statement"
+msgstr "[REVIEW: statement] हराइरहेको \"%s\" at end of SQL statement"
+
+#: pl_gram.y:2759
+msgid "missing expression"
+msgstr "हराइरहेको expression"
+
+#: pl_gram.y:2761
+msgid "missing SQL statement"
+msgstr "[REVIEW: statement] हराइरहेको SQL statement"
+
+#: pl_gram.y:2890
+msgid "syntax error, expected \"]\""
+msgstr "syntax त्रुटि, expected \"]\""
+
+#: pl_gram.y:2914
+msgid "incomplete data type declaration"
+msgstr "[REVIEW: untranslated] incomplete data type declaration"
+
+#: pl_gram.y:2937
+msgid "missing data type declaration"
+msgstr "हराइरहेको data type declaration"
+
+#: pl_gram.y:3072
+msgid "INTO specified more than once"
+msgstr "[REVIEW: untranslated] INTO specified more than once"
+
+#: pl_gram.y:3242
+msgid "expected FROM or IN"
+msgstr "[REVIEW: untranslated] expected FROM or IN"
+
+#: pl_gram.y:3303
+#, c-format
+msgid "RETURN cannot have a parameter in function returning set"
+msgstr "RETURN गर्न सकिँदैन have a parameter in function returning set"
+
+#: pl_gram.y:3304
+#, c-format
+msgid "Use RETURN NEXT or RETURN QUERY."
+msgstr "[REVIEW: query; untranslated] Use RETURN NEXT or RETURN QUERY."
+
+#: pl_gram.y:3314
+#, c-format
+msgid "RETURN cannot have a parameter in a procedure"
+msgstr "RETURN गर्न सकिँदैन have a parameter in a procedure"
+
+#: pl_gram.y:3319
+#, c-format
+msgid "RETURN cannot have a parameter in function returning void"
+msgstr "[REVIEW: OID] RETURN गर्न सकिँदैन have a parameter in function returning void"
+
+#: pl_gram.y:3328
+#, c-format
+msgid "RETURN cannot have a parameter in function with OUT parameters"
+msgstr "RETURN गर्न सकिँदैन have a parameter in function with OUT parameters"
+
+#: pl_gram.y:3391
+#, c-format
+msgid "RETURN NEXT cannot have a parameter in function with OUT parameters"
+msgstr "RETURN NEXT गर्न सकिँदैन have a parameter in function with OUT parameters"
+
+#: pl_gram.y:3557
+#, c-format
+msgid "record variable cannot be part of multiple-item INTO list"
+msgstr "record variable गर्न सकिँदैन be part of multiple-item INTO list"
+
+#: pl_gram.y:3603
+#, c-format
+msgid "too many INTO variables specified"
+msgstr "[REVIEW: untranslated] too many INTO variables specified"
+
+#: pl_gram.y:3811
+#, c-format
+msgid "end label \"%s\" specified for unlabeled block"
+msgstr "[REVIEW: lock; untranslated] end label \"%s\" specified for unlabeled block"
+
+#: pl_gram.y:3818
+#, c-format
+msgid "end label \"%s\" differs from block's label \"%s\""
+msgstr "[REVIEW: lock; untranslated] end label \"%s\" differs from block's label \"%s\""
+
+#: pl_gram.y:3852
+#, c-format
+msgid "cursor \"%s\" has no arguments"
+msgstr "[REVIEW: cursor; untranslated] cursor \"%s\" has no arguments"
+
+#: pl_gram.y:3866
+#, c-format
+msgid "cursor \"%s\" has arguments"
+msgstr "[REVIEW: cursor; untranslated] cursor \"%s\" has arguments"
+
+#: pl_gram.y:3908
+#, c-format
+msgid "cursor \"%s\" has no argument named \"%s\""
+msgstr "[REVIEW: cursor] cursor \"%s\" has no argument नामd \"%s\""
+
+#: pl_gram.y:3928
+#, c-format
+msgid "value for parameter \"%s\" of cursor \"%s\" specified more than once"
+msgstr "[REVIEW: cursor; untranslated] value for parameter \"%s\" of cursor \"%s\" specified more than once"
+
+#: pl_gram.y:3953
+#, c-format
+msgid "not enough arguments for cursor \"%s\""
+msgstr "[REVIEW: cursor; untranslated] not enough arguments for cursor \"%s\""
+
+#: pl_gram.y:3960
+#, c-format
+msgid "too many arguments for cursor \"%s\""
+msgstr "[REVIEW: cursor; untranslated] too many arguments for cursor \"%s\""
+
+#: pl_gram.y:4046
+msgid "unrecognized RAISE statement option"
+msgstr "[REVIEW: statement; untranslated] unrecognized RAISE statement option"
+
+#: pl_gram.y:4050
+msgid "syntax error, expected \"=\""
+msgstr "syntax त्रुटि, expected \"=\""
+
+#: pl_gram.y:4091
+#, c-format
+msgid "too many parameters specified for RAISE"
+msgstr "[REVIEW: untranslated] too many parameters specified for RAISE"
+
+#: pl_gram.y:4095
+#, c-format
+msgid "too few parameters specified for RAISE"
+msgstr "[REVIEW: untranslated] too few parameters specified for RAISE"
+
+#: pl_handler.c:156
+msgid "Sets handling of conflicts between PL/pgSQL variable names and table column names."
+msgstr "[REVIEW: sentence] Sets handling of conflicts between PL/pgSQL variable नामs and table column नामs."
+
+#: pl_handler.c:165
+msgid "Print information about parameters in the DETAIL part of the error messages generated on INTO ... STRICT failures."
+msgstr "[REVIEW: sentence] Print information about parameters in the DETAIL part of the त्रुटि messages generated on INTO ... STRICT failures."
+
+#: pl_handler.c:173
+msgid "Perform checks given in ASSERT statements."
+msgstr "[REVIEW: statement; untranslated] Perform checks given in ASSERT statements."
+
+#: pl_handler.c:181
+msgid "List of programming constructs that should produce a warning."
+msgstr "List of programming constructs that should produce a चेतावनी."
+
+#: pl_handler.c:191
+msgid "List of programming constructs that should produce an error."
+msgstr "List of programming constructs that should produce an त्रुटि."
+
+#. translator: %s is typically the translation of "syntax error"
+#: pl_scanner.c:508
+#, c-format
+msgid "%s at end of input"
+msgstr "[REVIEW: untranslated] %s at end of input"
+
+#. translator: first %s is typically the translation of "syntax error"
+#: pl_scanner.c:524
+#, c-format
+msgid "%s at or near \"%s\""
+msgstr "[REVIEW: untranslated] %s at or near \"%s\""

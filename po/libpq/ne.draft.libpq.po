@@ -1,0 +1,1964 @@
+# Nepali translation draft for PostgreSQL libpq.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL libpq\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/ka/libpq.po\\n"
+
+#: ../libpq-oauth/oauth-curl.c:292 ../libpq-oauth/oauth-curl.c:1910
+#, c-format
+msgid "libcurl easy handle removal failed: %s"
+msgstr "libcurl easy handle removal असफल भयो: %s"
+
+#: ../libpq-oauth/oauth-curl.c:312
+#, c-format
+msgid "libcurl multi handle cleanup failed: %s"
+msgstr "libcurl multi handle cleanup असफल भयो: %s"
+
+#: ../libpq-oauth/oauth-curl.c:375 ../libpq-oauth/oauth-curl.c:386
+#, c-format
+msgid "failed to set %s on OAuth connection: %s"
+msgstr "असफल भयो to set %s on OAuth connection: %s"
+
+#: ../libpq-oauth/oauth-curl.c:397
+#, c-format
+msgid "failed to get %s from OAuth response: %s"
+msgstr "असफल भयो to get %s from OAuth response: %s"
+
+#: ../libpq-oauth/oauth-curl.c:519
+#, c-format
+msgid "internal error: started field '%s' before field '%s' was finished"
+msgstr "internal त्रुटि: started field '%s' before field '%s' was finished"
+
+#: ../libpq-oauth/oauth-curl.c:546
+#, c-format
+msgid "field \"%s\" is duplicated"
+msgstr "[REVIEW: untranslated] field \"%s\" is duplicated"
+
+#: ../libpq-oauth/oauth-curl.c:571
+#, c-format
+msgid "internal error: field '%s' still active at end of object"
+msgstr "internal त्रुटि: field '%s' still active at end of object"
+
+#: ../libpq-oauth/oauth-curl.c:586 ../libpq-oauth/oauth-curl.c:640
+#, c-format
+msgid "top-level element must be an object"
+msgstr "[REVIEW: untranslated] top-level element must be an object"
+
+#: ../libpq-oauth/oauth-curl.c:621
+#, c-format
+msgid "internal error: found unexpected array end while parsing field '%s'"
+msgstr "internal त्रुटि: found unexpected array end while parsing field '%s'"
+
+#: ../libpq-oauth/oauth-curl.c:676
+#, c-format
+msgid "internal error: scalar target found at nesting level %d"
+msgstr "internal त्रुटि: scalar target found at nesting level %d"
+
+#: ../libpq-oauth/oauth-curl.c:686
+#, c-format
+msgid "internal error: scalar field '%s' would be assigned twice"
+msgstr "internal त्रुटि: scalar field '%s' would be assigned twice"
+
+#: ../libpq-oauth/oauth-curl.c:708
+#, c-format
+msgid "internal error: array member found at nesting level %d"
+msgstr "internal त्रुटि: array member found at nesting level %d"
+
+#: ../libpq-oauth/oauth-curl.c:743
+#, c-format
+msgid "no content type was provided"
+msgstr "[REVIEW: untranslated] no content type was provided"
+
+#: ../libpq-oauth/oauth-curl.c:782
+#, c-format
+msgid "unexpected content type: \"%s\""
+msgstr "[REVIEW: untranslated] unexpected content type: \"%s\""
+
+#: ../libpq-oauth/oauth-curl.c:807
+#, c-format
+msgid "response contains embedded NULLs"
+msgstr "[REVIEW: untranslated] response contains embedded NULLs"
+
+#: ../libpq-oauth/oauth-curl.c:817
+#, c-format
+msgid "response is not valid UTF-8"
+msgstr "[REVIEW: untranslated] response is not valid UTF-8"
+
+#: ../libpq-oauth/oauth-curl.c:857
+#, c-format
+msgid "field \"%s\" is missing"
+msgstr "field \"%s\" is हराइरहेको"
+
+#: ../libpq-oauth/oauth-curl.c:1091
+#, c-format
+msgid "provider rejected the oauth_client_secret"
+msgstr "[REVIEW: untranslated] provider rejected the oauth_client_secret"
+
+#: ../libpq-oauth/oauth-curl.c:1155
+#, c-format
+msgid "failed to create epoll set: %m"
+msgstr "असफल भयो to create epoll set: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1162
+#, c-format
+msgid "failed to create timerfd: %m"
+msgstr "असफल भयो to create timerfd: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1168
+#, c-format
+msgid "failed to add timerfd to epoll set: %m"
+msgstr "असफल भयो to add timerfd to epoll set: %m"
+
+#. translator: the term "kqueue" (kernel queue) should not be translated
+#: ../libpq-oauth/oauth-curl.c:1178
+#, c-format
+msgid "failed to create kqueue: %m"
+msgstr "असफल भयो to create kqueue: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1191
+#, c-format
+msgid "failed to create timer kqueue: %m"
+msgstr "असफल भयो to create timer kqueue: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1235 ../libpq-oauth/oauth-curl.c:1307
+#, c-format
+msgid "unknown libcurl socket operation: %d"
+msgstr "अज्ञात libcurl socket operation: %d"
+
+#: ../libpq-oauth/oauth-curl.c:1252
+#, c-format
+msgid "could not add to epoll set: %m"
+msgstr "गर्न सकिएन add to epoll set: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1256
+#, c-format
+msgid "could not delete from epoll set: %m"
+msgstr "गर्न सकिएन delete from epoll set: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1260
+#, c-format
+msgid "could not update epoll set: %m"
+msgstr "गर्न सकिएन update epoll set: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1314
+#, c-format
+msgid "could not modify kqueue: %m"
+msgstr "गर्न सकिएन modify kqueue: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1338
+#, c-format
+msgid "could not delete from kqueue: %m"
+msgstr "गर्न सकिएन delete from kqueue: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1341
+#, c-format
+msgid "could not add to kqueue: %m"
+msgstr "गर्न सकिएन add to kqueue: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1393
+#, c-format
+msgid "setting timerfd to %ld: %m"
+msgstr "[REVIEW: untranslated] setting timerfd to %ld: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1423
+#, c-format
+msgid "deleting kqueue timer: %m"
+msgstr "[REVIEW: untranslated] deleting kqueue timer: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1430
+#, c-format
+msgid "removing kqueue timer from multiplexer: %m"
+msgstr "[REVIEW: untranslated] removing kqueue timer from multiplexer: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1441
+#, c-format
+msgid "setting kqueue timer to %ld: %m"
+msgstr "[REVIEW: untranslated] setting kqueue timer to %ld: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1448
+#, c-format
+msgid "adding kqueue timer to multiplexer: %m"
+msgstr "[REVIEW: untranslated] adding kqueue timer to multiplexer: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1471
+#, c-format
+msgid "getting timerfd value: %m"
+msgstr "[REVIEW: untranslated] getting timerfd value: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1493
+#, c-format
+msgid "checking kqueue for timeout: %m"
+msgstr "[REVIEW: untranslated] checking kqueue for timeout: %m"
+
+#: ../libpq-oauth/oauth-curl.c:1625
+#, c-format
+msgid "failed to create libcurl multi handle"
+msgstr "असफल भयो to create libcurl multi handle"
+
+#: ../libpq-oauth/oauth-curl.c:1645
+#, c-format
+msgid "failed to create libcurl handle"
+msgstr "असफल भयो to create libcurl handle"
+
+#: ../libpq-oauth/oauth-curl.c:1729 ../libpq-oauth/oauth-curl.c:1770
+#: ../libpq-oauth/oauth-curl.c:2083 ../libpq-oauth/oauth-curl.c:2244
+#: ../libpq-oauth/oauth-curl.c:2305 ../libpq-oauth/oauth-curl.c:2394
+#: ../libpq-oauth/oauth-curl.c:2688 ../libpq-oauth/oauth-curl.c:2879
+#: fe-auth-scram.c:374 fe-auth-scram.c:447 fe-auth-scram.c:599
+#: fe-auth-scram.c:619 fe-auth-scram.c:643 fe-auth-scram.c:657
+#: fe-auth-scram.c:703 fe-auth-scram.c:739 fe-auth-scram.c:931 fe-auth.c:308
+#: fe-auth.c:382 fe-auth.c:416 fe-auth.c:694 fe-auth.c:827 fe-auth.c:1330
+#: fe-auth.c:1493 fe-cancel.c:177 fe-connect.c:1011 fe-connect.c:1051
+#: fe-connect.c:2175 fe-connect.c:2337 fe-connect.c:3730 fe-connect.c:5178
+#: fe-connect.c:5491 fe-connect.c:5746 fe-connect.c:5864 fe-connect.c:6111
+#: fe-connect.c:6191 fe-connect.c:6289 fe-connect.c:6540 fe-connect.c:6567
+#: fe-connect.c:6643 fe-connect.c:6666 fe-connect.c:6690 fe-connect.c:6725
+#: fe-connect.c:6811 fe-connect.c:6819 fe-connect.c:7176 fe-connect.c:7358
+#: fe-exec.c:530 fe-exec.c:1315 fe-exec.c:3254 fe-exec.c:4291 fe-exec.c:4457
+#: fe-gssapi-common.c:109 fe-lobj.c:870 fe-protocol3.c:210 fe-protocol3.c:233
+#: fe-protocol3.c:256 fe-protocol3.c:273 fe-protocol3.c:294 fe-protocol3.c:368
+#: fe-protocol3.c:732 fe-protocol3.c:972 fe-protocol3.c:1552
+#: fe-protocol3.c:1861 fe-protocol3.c:2262 fe-secure-common.c:110
+#: fe-secure-gssapi.c:496 fe-secure-openssl.c:405 fe-secure-openssl.c:1131
+#, c-format
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: ../libpq-oauth/oauth-curl.c:1757
+#, c-format
+msgid "response is too large"
+msgstr "[REVIEW: untranslated] response is too large"
+
+#: ../libpq-oauth/oauth-curl.c:1799
+#, c-format
+msgid "failed to queue HTTP request: %s"
+msgstr "असफल भयो to queue HTTP request: %s"
+
+#: ../libpq-oauth/oauth-curl.c:1816 ../libpq-oauth/oauth-curl.c:1869
+#, c-format
+msgid "asynchronous HTTP request failed: %s"
+msgstr "asynchronous HTTP request असफल भयो: %s"
+
+#: ../libpq-oauth/oauth-curl.c:1921
+#, c-format
+msgid "no result was retrieved for the finished handle"
+msgstr "[REVIEW: untranslated] no result was retrieved for the finished handle"
+
+#: ../libpq-oauth/oauth-curl.c:2054 ../libpq-oauth/oauth-curl.c:2360
+#: ../libpq-oauth/oauth-curl.c:2439
+#, c-format
+msgid "unexpected response code %ld"
+msgstr "[REVIEW: untranslated] unexpected response code %ld"
+
+#: ../libpq-oauth/oauth-curl.c:2126
+#, c-format
+msgid "the issuer identifier (%s) does not match oauth_issuer (%s)"
+msgstr "[REVIEW: untranslated] the issuer identifier (%s) does not match oauth_issuer (%s)"
+
+#: ../libpq-oauth/oauth-curl.c:2153
+#, c-format
+msgid "issuer \"%s\" does not provide a device authorization endpoint"
+msgstr "[REVIEW: authorization; untranslated] issuer \"%s\" does not provide a device authorization endpoint"
+
+#: ../libpq-oauth/oauth-curl.c:2179
+#, c-format
+msgid "device authorization endpoint \"%s\" must use HTTPS"
+msgstr "[REVIEW: authorization; untranslated] device authorization endpoint \"%s\" must use HTTPS"
+
+#: ../libpq-oauth/oauth-curl.c:2188
+#, c-format
+msgid "token endpoint \"%s\" must use HTTPS"
+msgstr "[REVIEW: untranslated] token endpoint \"%s\" must use HTTPS"
+
+#: ../libpq-oauth/oauth-curl.c:2497
+#, c-format
+msgid "slow_down interval overflow"
+msgstr "[REVIEW: untranslated] slow_down interval overflow"
+
+#. translator: The first %s is a URL for the user to visit in a
+#. browser, and the second %s is a code to be copy-pasted there.
+#.
+#: ../libpq-oauth/oauth-curl.c:2533
+#, c-format
+msgid ""
+"Visit %s and enter the code: %s\n"
+msgstr ""
+"[REVIEW: untranslated] Visit %s and enter the code: %s\n"
+
+#: ../libpq-oauth/oauth-curl.c:2538
+#, c-format
+msgid "device prompt failed"
+msgstr "device prompt असफल भयो"
+
+#: ../libpq-oauth/oauth-curl.c:2594
+#, c-format
+msgid "curl_global_init previously failed during OAuth setup"
+msgstr "curl_global_init previously असफल भयो during OAuth setup"
+
+#: ../libpq-oauth/oauth-curl.c:2613
+#, c-format
+msgid "curl_global_init failed during OAuth setup"
+msgstr "curl_global_init असफल भयो during OAuth setup"
+
+#: ../libpq-oauth/oauth-curl.c:2634
+#, c-format
+msgid ""
+"libcurl is no longer thread-safe\n"
+"\tCurl initialization was reported thread-safe when libpq\n"
+"\twas compiled, but the currently installed version of\n"
+"\tlibcurl reports that it is not. Recompile libpq against\n"
+"\tthe installed version of libcurl."
+msgstr ""
+"[REVIEW: untranslated] libcurl is no longer thread-safe\n"
+"[REVIEW: untranslated] \tCurl initialization was reported thread-safe when libpq\n"
+"[REVIEW: untranslated] \twas compiled, but the currently installed version of\n"
+"[REVIEW: untranslated] \tlibcurl reports that it is not. Recompile libpq against\n"
+"[REVIEW: untranslated] \tthe installed version of libcurl."
+
+#: fe-auth-scram.c:228
+#, c-format
+msgid "malformed SCRAM message (empty message)"
+msgstr "[REVIEW: untranslated] malformed SCRAM message (empty message)"
+
+#: fe-auth-scram.c:233
+#, c-format
+msgid "malformed SCRAM message (length mismatch)"
+msgstr "[REVIEW: untranslated] malformed SCRAM message (length mismatch)"
+
+#: fe-auth-scram.c:277
+#, c-format
+msgid "could not verify server signature: %s"
+msgstr "गर्न सकिएन verify server signature: %s"
+
+#: fe-auth-scram.c:283
+#, c-format
+msgid "incorrect server signature"
+msgstr "[REVIEW: untranslated] incorrect server signature"
+
+#: fe-auth-scram.c:292
+#, c-format
+msgid "invalid SCRAM exchange state"
+msgstr "अमान्य SCRAM exchange state"
+
+#: fe-auth-scram.c:316
+#, c-format
+msgid "malformed SCRAM message (attribute \"%c\" expected)"
+msgstr "[REVIEW: untranslated] malformed SCRAM message (attribute \"%c\" expected)"
+
+#: fe-auth-scram.c:325
+#, c-format
+msgid "malformed SCRAM message (expected character \"=\" for attribute \"%c\")"
+msgstr "[REVIEW: untranslated] malformed SCRAM message (expected character \"=\" for attribute \"%c\")"
+
+#: fe-auth-scram.c:365
+#, c-format
+msgid "could not generate nonce"
+msgstr "गर्न सकिएन generate nonce"
+
+#: fe-auth-scram.c:381
+#, c-format
+msgid "could not encode nonce"
+msgstr "गर्न सकिएन encode nonce"
+
+#: fe-auth-scram.c:569
+#, c-format
+msgid "could not calculate client proof: %s"
+msgstr "गर्न सकिएन calculate client proof: %s"
+
+#: fe-auth-scram.c:584
+#, c-format
+msgid "could not encode client proof"
+msgstr "गर्न सकिएन encode client proof"
+
+#: fe-auth-scram.c:636
+#, c-format
+msgid "invalid SCRAM response (nonce mismatch)"
+msgstr "अमान्य SCRAM response (nonce mismatch)"
+
+#: fe-auth-scram.c:666
+#, c-format
+msgid "malformed SCRAM message (invalid salt)"
+msgstr "malformed SCRAM message (अमान्य salt)"
+
+#: fe-auth-scram.c:679
+#, c-format
+msgid "malformed SCRAM message (invalid iteration count)"
+msgstr "malformed SCRAM message (अमान्य iteration count)"
+
+#: fe-auth-scram.c:684
+#, c-format
+msgid "malformed SCRAM message (garbage at end of server-first-message)"
+msgstr "[REVIEW: untranslated] malformed SCRAM message (garbage at end of server-first-message)"
+
+#: fe-auth-scram.c:718
+#, c-format
+msgid "error received from server in SCRAM exchange: %s"
+msgstr "त्रुटि received from server in SCRAM exchange: %s"
+
+#: fe-auth-scram.c:733
+#, c-format
+msgid "malformed SCRAM message (garbage at end of server-final-message)"
+msgstr "[REVIEW: untranslated] malformed SCRAM message (garbage at end of server-final-message)"
+
+#: fe-auth-scram.c:750
+#, c-format
+msgid "malformed SCRAM message (invalid server signature)"
+msgstr "malformed SCRAM message (अमान्य server signature)"
+
+#: fe-auth-scram.c:940
+msgid "could not generate random salt"
+msgstr "गर्न सकिएन generate random salt"
+
+#: fe-auth.c:80
+#, c-format
+msgid "out of memory allocating GSSAPI buffer (%d)"
+msgstr "[REVIEW: buffer; untranslated] out of memory allocating GSSAPI buffer (%d)"
+
+#: fe-auth.c:146
+msgid "GSSAPI continuation error"
+msgstr "GSSAPI continuation त्रुटि"
+
+#: fe-auth.c:176 fe-auth.c:410 fe-gssapi-common.c:97 fe-secure-common.c:99
+#: fe-secure-common.c:173
+#, c-format
+msgid "host name must be specified"
+msgstr "host नाम must be specified"
+
+#: fe-auth.c:182
+#, c-format
+msgid "duplicate GSS authentication request"
+msgstr "[REVIEW: authentication; untranslated] duplicate GSS authentication request"
+
+#: fe-auth.c:246
+#, c-format
+msgid "out of memory allocating SSPI buffer (%d)"
+msgstr "[REVIEW: buffer; untranslated] out of memory allocating SSPI buffer (%d)"
+
+#: fe-auth.c:297
+msgid "SSPI continuation error"
+msgstr "SSPI continuation त्रुटि"
+
+#: fe-auth.c:372
+#, c-format
+msgid "duplicate SSPI authentication request"
+msgstr "[REVIEW: authentication; untranslated] duplicate SSPI authentication request"
+
+#: fe-auth.c:397
+msgid "could not acquire SSPI credentials"
+msgstr "गर्न सकिएन acquire SSPI credentials"
+
+#: fe-auth.c:449
+#, c-format
+msgid "channel binding required, but SSL not in use"
+msgstr "channel binding आवश्यक, but SSL not in use"
+
+#: fe-auth.c:455
+#, c-format
+msgid "duplicate SASL authentication request"
+msgstr "[REVIEW: authentication; untranslated] duplicate SASL authentication request"
+
+#: fe-auth.c:513
+#, c-format
+msgid "channel binding is required, but client does not support it"
+msgstr "channel binding is आवश्यक, but client does not support it"
+
+#: fe-auth.c:529
+#, c-format
+msgid "server offered SCRAM-SHA-256-PLUS authentication over a non-SSL connection"
+msgstr "[REVIEW: authentication; untranslated] server offered SCRAM-SHA-256-PLUS authentication over a non-SSL connection"
+
+#: fe-auth.c:551
+#, c-format
+msgid "none of the server's SASL authentication mechanisms are supported"
+msgstr "[REVIEW: authentication; untranslated] none of the server's SASL authentication mechanisms are supported"
+
+#: fe-auth.c:571
+#, c-format
+msgid "authentication method requirement \"%s\" failed: server requested %s authentication"
+msgstr "[REVIEW: authentication] authentication method requirement \"%s\" असफल भयो: server requested %s authentication"
+
+#: fe-auth.c:580
+#, c-format
+msgid "channel binding is required, but server did not offer an authentication method that supports channel binding"
+msgstr "[REVIEW: authentication; sentence] channel binding is आवश्यक, but server did not offer an authentication method that supports channel binding"
+
+#: fe-auth.c:716
+#, c-format
+msgid "out of memory allocating SASL buffer (%d)"
+msgstr "[REVIEW: buffer; untranslated] out of memory allocating SASL buffer (%d)"
+
+#: fe-auth.c:758
+#, c-format
+msgid "AuthenticationSASLFinal received from server, but SASL authentication was not completed"
+msgstr "[REVIEW: authentication; untranslated] AuthenticationSASLFinal received from server, but SASL authentication was not completed"
+
+#: fe-auth.c:768
+#, c-format
+msgid "no client response found after SASL exchange success"
+msgstr "[REVIEW: untranslated] no client response found after SASL exchange success"
+
+#: fe-auth.c:836 fe-auth.c:843 fe-auth.c:1476 fe-auth.c:1487
+#, c-format
+msgid "could not encrypt password: %s"
+msgstr "गर्न सकिएन encrypt password: %s"
+
+#: fe-auth.c:873
+msgid "server requested a cleartext password"
+msgstr "[REVIEW: untranslated] server requested a cleartext password"
+
+#: fe-auth.c:875
+msgid "server requested a hashed password"
+msgstr "[REVIEW: untranslated] server requested a hashed password"
+
+#: fe-auth.c:878
+msgid "server requested GSSAPI authentication"
+msgstr "[REVIEW: authentication; untranslated] server requested GSSAPI authentication"
+
+#: fe-auth.c:880
+msgid "server requested SSPI authentication"
+msgstr "[REVIEW: authentication; untranslated] server requested SSPI authentication"
+
+#: fe-auth.c:884
+msgid "server requested SASL authentication"
+msgstr "[REVIEW: authentication; untranslated] server requested SASL authentication"
+
+#: fe-auth.c:887
+msgid "server requested an unknown authentication type"
+msgstr "[REVIEW: authentication] server requested an अज्ञात authentication type"
+
+#: fe-auth.c:920
+#, c-format
+msgid "server did not request an SSL certificate"
+msgstr "[REVIEW: untranslated] server did not request an SSL certificate"
+
+#: fe-auth.c:925
+#, c-format
+msgid "server accepted connection without a valid SSL certificate"
+msgstr "[REVIEW: untranslated] server accepted connection without a valid SSL certificate"
+
+#: fe-auth.c:979
+msgid "server did not complete authentication"
+msgstr "[REVIEW: authentication; untranslated] server did not complete authentication"
+
+#: fe-auth.c:1013
+#, c-format
+msgid "authentication method requirement \"%s\" failed: %s"
+msgstr "[REVIEW: authentication] authentication method requirement \"%s\" असफल भयो: %s"
+
+#: fe-auth.c:1036
+#, c-format
+msgid "channel binding required, but server authenticated client without channel binding"
+msgstr "channel binding आवश्यक, but server authenticated client without channel binding"
+
+#: fe-auth.c:1041
+#, c-format
+msgid "channel binding required but not supported by server's authentication request"
+msgstr "[REVIEW: authentication] channel binding आवश्यक but not supported by server's authentication request"
+
+#: fe-auth.c:1081
+#, c-format
+msgid "Kerberos 4 authentication not supported"
+msgstr "[REVIEW: authentication; untranslated] Kerberos 4 authentication not supported"
+
+#: fe-auth.c:1085
+#, c-format
+msgid "Kerberos 5 authentication not supported"
+msgstr "[REVIEW: authentication; untranslated] Kerberos 5 authentication not supported"
+
+#: fe-auth.c:1155
+#, c-format
+msgid "GSSAPI authentication not supported"
+msgstr "[REVIEW: authentication; untranslated] GSSAPI authentication not supported"
+
+#: fe-auth.c:1186
+#, c-format
+msgid "SSPI authentication not supported"
+msgstr "[REVIEW: authentication; untranslated] SSPI authentication not supported"
+
+#: fe-auth.c:1193
+#, c-format
+msgid "Crypt authentication not supported"
+msgstr "[REVIEW: authentication; untranslated] Crypt authentication not supported"
+
+#: fe-auth.c:1267
+#, c-format
+msgid "authentication method %u not supported"
+msgstr "[REVIEW: authentication; untranslated] authentication method %u not supported"
+
+#: fe-auth.c:1307
+#, c-format
+msgid "user name lookup failure: error code %lu"
+msgstr "प्रयोगकर्ता नाम lookup failure: त्रुटि code %lu"
+
+#: fe-auth.c:1315
+#, c-format
+msgid "could not look up local user ID %ld: %m"
+msgstr "गर्न सकिएन look up local प्रयोगकर्ता ID %ld: %m"
+
+#: fe-auth.c:1320
+#, c-format
+msgid "local user with ID %ld does not exist"
+msgstr "local प्रयोगकर्ता with ID %ld अवस्थित छैन"
+
+#: fe-auth.c:1439
+#, c-format
+msgid "unexpected shape of result set returned for SHOW"
+msgstr "[REVIEW: untranslated] unexpected shape of result set returned for SHOW"
+
+#: fe-auth.c:1447
+#, c-format
+msgid "\"password_encryption\" value too long"
+msgstr "[REVIEW: untranslated] \"password_encryption\" value too long"
+
+#: fe-auth.c:1497
+#, c-format
+msgid "unrecognized password encryption algorithm \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized password encryption algorithm \"%s\""
+
+#: fe-cancel.c:79
+#, c-format
+msgid "connection pointer is NULL"
+msgstr "[REVIEW: untranslated] connection pointer is NULL"
+
+#: fe-cancel.c:85 fe-misc.c:587
+#, c-format
+msgid "connection not open"
+msgstr "[REVIEW: untranslated] connection not open"
+
+#: fe-cancel.c:92
+#, c-format
+msgid "no cancellation key received"
+msgstr "[REVIEW: untranslated] no cancellation key received"
+
+#: fe-cancel.c:211
+#, c-format
+msgid "cancel request is already being sent on this connection"
+msgstr "[REVIEW: untranslated] cancel request is already being sent on this connection"
+
+#: fe-cancel.c:281
+#, c-format
+msgid "unexpected response from server"
+msgstr "[REVIEW: untranslated] unexpected response from server"
+
+#: fe-connect.c:1308
+#, c-format
+msgid "could not match %d host names to %d hostaddr values"
+msgstr "गर्न सकिएन match %d host नामs to %d hostaddr values"
+
+#: fe-connect.c:1388
+#, c-format
+msgid "could not match %d port numbers to %d hosts"
+msgstr "गर्न सकिएन match %d port numbers to %d hosts"
+
+#: fe-connect.c:1516
+#, c-format
+msgid "negative require_auth method \"%s\" cannot be mixed with non-negative methods"
+msgstr "negative require_auth method \"%s\" गर्न सकिँदैन be mixed with non-negative methods"
+
+#: fe-connect.c:1529
+#, c-format
+msgid "require_auth method \"%s\" cannot be mixed with negative methods"
+msgstr "require_auth method \"%s\" गर्न सकिँदैन be mixed with negative methods"
+
+#: fe-connect.c:1605 fe-connect.c:1734 fe-connect.c:1776 fe-connect.c:1819
+#: fe-connect.c:1922 fe-connect.c:1968 fe-connect.c:2008 fe-connect.c:2079
+#: fe-connect.c:8250
+#, c-format
+msgid "invalid %s value: \"%s\""
+msgstr "अमान्य %s value: \"%s\""
+
+#: fe-connect.c:1647
+#, c-format
+msgid "internal error: no space in allowed_sasl_mechs"
+msgstr "internal त्रुटि: no space in allowed_sasl_mechs"
+
+#: fe-connect.c:1686
+#, c-format
+msgid "require_auth method \"%s\" is specified more than once"
+msgstr "[REVIEW: untranslated] require_auth method \"%s\" is specified more than once"
+
+#: fe-connect.c:1757 fe-connect.c:1796 fe-connect.c:1828 fe-connect.c:1930
+#, c-format
+msgid "%s value \"%s\" invalid when SSL support is not compiled in"
+msgstr "%s value \"%s\" अमान्य when SSL support is not compiled in"
+
+#: fe-connect.c:1848
+#, c-format
+msgid "weak sslmode \"%s\" may not be used with sslnegotiation=direct (use \"require\", \"verify-ca\", or \"verify-full\")"
+msgstr "[REVIEW: untranslated] weak sslmode \"%s\" may not be used with sslnegotiation=direct (use \"require\", \"verify-ca\", or \"verify-full\")"
+
+#: fe-connect.c:1870
+#, c-format
+msgid "weak sslmode \"%s\" may not be used with sslrootcert=system (use \"verify-full\")"
+msgstr "[REVIEW: untranslated] weak sslmode \"%s\" may not be used with sslrootcert=system (use \"verify-full\")"
+
+#: fe-connect.c:1883 fe-connect.c:1891
+#, c-format
+msgid "invalid \"%s\" value: \"%s\""
+msgstr "अमान्य \"%s\" value: \"%s\""
+
+#: fe-connect.c:1908
+#, c-format
+msgid "invalid SSL protocol version range"
+msgstr "अमान्य SSL protocol version range"
+
+#: fe-connect.c:1945
+#, c-format
+msgid "%s value \"%s\" is not supported (check OpenSSL version)"
+msgstr "[REVIEW: untranslated] %s value \"%s\" is not supported (check OpenSSL version)"
+
+#: fe-connect.c:1975
+#, c-format
+msgid "gssencmode value \"%s\" invalid when GSSAPI support is not compiled in"
+msgstr "gssencmode value \"%s\" अमान्य when GSSAPI support is not compiled in"
+
+#: fe-connect.c:2029
+#, c-format
+msgid "invalid SCRAM client key"
+msgstr "अमान्य SCRAM client key"
+
+#: fe-connect.c:2035
+#, c-format
+msgid "invalid SCRAM client key length: %d"
+msgstr "अमान्य SCRAM client key length: %d"
+
+#: fe-connect.c:2054
+#, c-format
+msgid "invalid SCRAM server key"
+msgstr "अमान्य SCRAM server key"
+
+#: fe-connect.c:2060
+#, c-format
+msgid "invalid SCRAM server key length: %d"
+msgstr "अमान्य SCRAM server key length: %d"
+
+#: fe-connect.c:2148
+#, c-format
+msgid "min_protocol_version is greater than max_protocol_version"
+msgstr "[REVIEW: untranslated] min_protocol_version is greater than max_protocol_version"
+
+#: fe-connect.c:2360
+#, c-format
+msgid "could not set socket to TCP no delay mode: %s"
+msgstr "गर्न सकिएन set socket to TCP no delay mode: %s"
+
+#: fe-connect.c:2419
+#, c-format
+msgid "connection to server on socket \"%s\" failed: "
+msgstr "connection to server on socket \"%s\" असफल भयो: "
+
+#: fe-connect.c:2445
+#, c-format
+msgid "connection to server at \"%s\" (%s), port %s failed: "
+msgstr "connection to server at \"%s\" (%s), port %s असफल भयो: "
+
+#: fe-connect.c:2450
+#, c-format
+msgid "connection to server at \"%s\", port %s failed: "
+msgstr "connection to server at \"%s\", port %s असफल भयो: "
+
+#: fe-connect.c:2473
+#, c-format
+msgid "\tIs the server running locally and accepting connections on that socket?"
+msgstr "[REVIEW: untranslated] \tIs the server running locally and accepting connections on that socket?"
+
+#: fe-connect.c:2475
+#, c-format
+msgid "\tIs the server running on that host and accepting TCP/IP connections?"
+msgstr "[REVIEW: untranslated] \tIs the server running on that host and accepting TCP/IP connections?"
+
+#: fe-connect.c:2521 fe-connect.c:2555 fe-connect.c:2590 fe-connect.c:2688
+#: fe-connect.c:3414
+#, c-format
+msgid "%s(%s) failed: %s"
+msgstr "%s(%s) असफल भयो: %s"
+
+#: fe-connect.c:2654
+#, c-format
+msgid "%s(%s) failed: error code %d"
+msgstr "%s(%s) असफल भयो: त्रुटि code %d"
+
+#: fe-connect.c:2966
+#, c-format
+msgid "invalid connection state, probably indicative of memory corruption"
+msgstr "अमान्य connection state, probably indicative of memory corruption"
+
+#: fe-connect.c:3049
+#, c-format
+msgid "invalid port number: \"%s\""
+msgstr "अमान्य port number: \"%s\""
+
+#: fe-connect.c:3063
+#, c-format
+msgid "could not translate host name \"%s\" to address: %s"
+msgstr "गर्न सकिएन translate host नाम \"%s\" to address: %s"
+
+#: fe-connect.c:3075
+#, c-format
+msgid "could not parse network address \"%s\": %s"
+msgstr "गर्न सकिएन parse network address \"%s\": %s"
+
+#: fe-connect.c:3086
+#, c-format
+msgid "Unix-domain socket path \"%s\" is too long (maximum %d bytes)"
+msgstr "[REVIEW: untranslated] Unix-domain socket path \"%s\" is too long (maximum %d bytes)"
+
+#: fe-connect.c:3100
+#, c-format
+msgid "could not translate Unix-domain socket path \"%s\" to address: %s"
+msgstr "गर्न सकिएन translate Unix-domain socket path \"%s\" to address: %s"
+
+#: fe-connect.c:3266 fe-connect.c:4713
+#, c-format
+msgid "GSSAPI encryption required but it is not supported over a local socket"
+msgstr "[REVIEW: sentence] GSSAPI encryption आवश्यक but it is not supported over a local socket"
+
+#: fe-connect.c:3274 fe-connect.c:4842
+#, c-format
+msgid "GSSAPI encryption required but no credential cache"
+msgstr "GSSAPI encryption आवश्यक but no credential cache"
+
+#: fe-connect.c:3342
+#, c-format
+msgid "could not create socket: %s"
+msgstr "गर्न सकिएन create socket: %s"
+
+#: fe-connect.c:3373
+#, c-format
+msgid "could not set socket to nonblocking mode: %s"
+msgstr "[REVIEW: lock] गर्न सकिएन set socket to nonblocking mode: %s"
+
+#: fe-connect.c:3384
+#, c-format
+msgid "could not set socket to close-on-exec mode: %s"
+msgstr "गर्न सकिएन set socket to close-on-exec mode: %s"
+
+#: fe-connect.c:3541
+#, c-format
+msgid "could not get socket error status: %s"
+msgstr "गर्न सकिएन get socket त्रुटि status: %s"
+
+#: fe-connect.c:3568
+#, c-format
+msgid "could not get client address from socket: %s"
+msgstr "गर्न सकिएन get client address from socket: %s"
+
+#: fe-connect.c:3594
+#, c-format
+msgid "requirepeer parameter is not supported on this platform"
+msgstr "[REVIEW: untranslated] requirepeer parameter is not supported on this platform"
+
+#: fe-connect.c:3596
+#, c-format
+msgid "could not get peer credentials: %s"
+msgstr "गर्न सकिएन get peer credentials: %s"
+
+#: fe-connect.c:3609
+#, c-format
+msgid "requirepeer specifies \"%s\", but actual peer user name is \"%s\""
+msgstr "requirepeer specifies \"%s\", but actual peer प्रयोगकर्ता नाम is \"%s\""
+
+#: fe-connect.c:3647
+#, c-format
+msgid "could not send GSSAPI negotiation packet: %s"
+msgstr "गर्न सकिएन send GSSAPI negotiation packet: %s"
+
+#: fe-connect.c:3686
+#, c-format
+msgid "could not send SSL negotiation packet: %s"
+msgstr "गर्न सकिएन send SSL negotiation packet: %s"
+
+#: fe-connect.c:3712
+#, c-format
+msgid "could not send cancel packet: %s"
+msgstr "गर्न सकिएन send cancel packet: %s"
+
+#: fe-connect.c:3742
+#, c-format
+msgid "could not send startup packet: %s"
+msgstr "गर्न सकिएन send startup packet: %s"
+
+#: fe-connect.c:3815
+msgid "server does not support SSL, but SSL was required"
+msgstr "server does not support SSL, but SSL was आवश्यक"
+
+#: fe-connect.c:3825
+#, c-format
+msgid "server sent an error response during SSL exchange"
+msgstr "server sent an त्रुटि response during SSL exchange"
+
+#: fe-connect.c:3830
+#, c-format
+msgid "received invalid response to SSL negotiation: %c"
+msgstr "received अमान्य response to SSL negotiation: %c"
+
+#: fe-connect.c:3850
+#, c-format
+msgid "received unencrypted data after SSL response"
+msgstr "[REVIEW: untranslated] received unencrypted data after SSL response"
+
+#: fe-connect.c:3913
+#, c-format
+msgid "server sent an error response during GSS encryption exchange"
+msgstr "server sent an त्रुटि response during GSS encryption exchange"
+
+#: fe-connect.c:3931
+msgid "server doesn't support GSSAPI encryption, but it was required"
+msgstr "server doesn't support GSSAPI encryption, but it was आवश्यक"
+
+#: fe-connect.c:3935
+#, c-format
+msgid "received invalid response to GSSAPI negotiation: %c"
+msgstr "received अमान्य response to GSSAPI negotiation: %c"
+
+#: fe-connect.c:3957
+#, c-format
+msgid "received unencrypted data after GSSAPI encryption response"
+msgstr "[REVIEW: untranslated] received unencrypted data after GSSAPI encryption response"
+
+#: fe-connect.c:4018
+#, c-format
+msgid "expected authentication request from server, but received %c"
+msgstr "[REVIEW: authentication; untranslated] expected authentication request from server, but received %c"
+
+#: fe-connect.c:4046 fe-connect.c:4178
+#, c-format
+msgid "received invalid authentication request"
+msgstr "[REVIEW: authentication] received अमान्य authentication request"
+
+#: fe-connect.c:4052
+#, c-format
+msgid "received invalid protocol negotiation message"
+msgstr "received अमान्य protocol negotiation message"
+
+#: fe-connect.c:4071 fe-connect.c:4125
+#, c-format
+msgid "received invalid error message"
+msgstr "received अमान्य त्रुटि message"
+
+#: fe-connect.c:4155
+#, c-format
+msgid "received duplicate protocol negotiation message"
+msgstr "[REVIEW: untranslated] received duplicate protocol negotiation message"
+
+#: fe-connect.c:4257
+#, c-format
+msgid "internal error: async authentication has no handler"
+msgstr "[REVIEW: authentication] internal त्रुटि: async authentication has no handler"
+
+#: fe-connect.c:4282
+#, c-format
+msgid "internal error: async cleanup did not release polling socket"
+msgstr "internal त्रुटि: async cleanup did not release polling socket"
+
+#: fe-connect.c:4305
+#, c-format
+msgid "internal error: async authentication did not set a socket for polling"
+msgstr "[REVIEW: authentication] internal त्रुटि: async authentication did not set a socket for polling"
+
+#: fe-connect.c:4338
+#, c-format
+msgid "unexpected message from server during startup"
+msgstr "[REVIEW: untranslated] unexpected message from server during startup"
+
+#: fe-connect.c:4429
+#, c-format
+msgid "session is read-only"
+msgstr "[REVIEW: untranslated] session is read-only"
+
+#: fe-connect.c:4431
+#, c-format
+msgid "session is not read-only"
+msgstr "[REVIEW: untranslated] session is not read-only"
+
+#: fe-connect.c:4484
+#, c-format
+msgid "server is in hot standby mode"
+msgstr "[REVIEW: hot standby, standby; untranslated] server is in hot standby mode"
+
+#: fe-connect.c:4486
+#, c-format
+msgid "server is not in hot standby mode"
+msgstr "[REVIEW: hot standby, standby; untranslated] server is not in hot standby mode"
+
+#: fe-connect.c:4611 fe-connect.c:4661
+#, c-format
+msgid "\"%s\" failed"
+msgstr "\"%s\" असफल भयो"
+
+#: fe-connect.c:4675
+#, c-format
+msgid "invalid connection state %d, probably indicative of memory corruption"
+msgstr "अमान्य connection state %d, probably indicative of memory corruption"
+
+#: fe-connect.c:5504
+#, c-format
+msgid "invalid LDAP URL \"%s\": scheme must be ldap://"
+msgstr "अमान्य LDAP URL \"%s\": scheme must be ldap://"
+
+#: fe-connect.c:5519
+#, c-format
+msgid "invalid LDAP URL \"%s\": missing distinguished name"
+msgstr "अमान्य LDAP URL \"%s\": हराइरहेको distinguished नाम"
+
+#: fe-connect.c:5531 fe-connect.c:5589
+#, c-format
+msgid "invalid LDAP URL \"%s\": must have exactly one attribute"
+msgstr "अमान्य LDAP URL \"%s\": must have exactly one attribute"
+
+#: fe-connect.c:5543 fe-connect.c:5605
+#, c-format
+msgid "invalid LDAP URL \"%s\": must have search scope (base/one/sub)"
+msgstr "अमान्य LDAP URL \"%s\": must have search scope (base/one/sub)"
+
+#: fe-connect.c:5555
+#, c-format
+msgid "invalid LDAP URL \"%s\": no filter"
+msgstr "अमान्य LDAP URL \"%s\": no filter"
+
+#: fe-connect.c:5577
+#, c-format
+msgid "invalid LDAP URL \"%s\": invalid port number"
+msgstr "अमान्य LDAP URL \"%s\": अमान्य port number"
+
+#: fe-connect.c:5614
+#, c-format
+msgid "could not create LDAP structure"
+msgstr "गर्न सकिएन create LDAP structure"
+
+#: fe-connect.c:5689
+#, c-format
+msgid "lookup on LDAP server failed: %s"
+msgstr "lookup on LDAP server असफल भयो: %s"
+
+#: fe-connect.c:5699
+#, c-format
+msgid "more than one entry found on LDAP lookup"
+msgstr "[REVIEW: untranslated] more than one entry found on LDAP lookup"
+
+#: fe-connect.c:5701 fe-connect.c:5712
+#, c-format
+msgid "no entry found on LDAP lookup"
+msgstr "[REVIEW: untranslated] no entry found on LDAP lookup"
+
+#: fe-connect.c:5722 fe-connect.c:5734
+#, c-format
+msgid "attribute has no values on LDAP lookup"
+msgstr "[REVIEW: untranslated] attribute has no values on LDAP lookup"
+
+#: fe-connect.c:5785 fe-connect.c:5804 fe-connect.c:6328
+#, c-format
+msgid "missing \"=\" after \"%s\" in connection info string"
+msgstr "हराइरहेको \"=\" after \"%s\" in connection info string"
+
+#: fe-connect.c:5875 fe-connect.c:6511 fe-connect.c:7341
+#, c-format
+msgid "invalid connection option \"%s\""
+msgstr "अमान्य connection option \"%s\""
+
+#: fe-connect.c:5890 fe-connect.c:6376
+#, c-format
+msgid "unterminated quoted string in connection info string"
+msgstr "[REVIEW: untranslated] unterminated quoted string in connection info string"
+
+#: fe-connect.c:5970
+#, c-format
+msgid "definition of service \"%s\" not found"
+msgstr "definition of service \"%s\" फेला परेन"
+
+#: fe-connect.c:5996
+#, c-format
+msgid "service file \"%s\" not found"
+msgstr "service फाइल \"%s\" फेला परेन"
+
+#: fe-connect.c:6009
+#, c-format
+msgid "line %d too long in service file \"%s\""
+msgstr "लाइन %d too long in service फाइल \"%s\""
+
+#: fe-connect.c:6080 fe-connect.c:6123
+#, c-format
+msgid "syntax error in service file \"%s\", line %d"
+msgstr "syntax त्रुटि in service फाइल \"%s\", लाइन %d"
+
+#: fe-connect.c:6091
+#, c-format
+msgid "nested service specifications not supported in service file \"%s\", line %d"
+msgstr "nested service specifications not supported in service फाइल \"%s\", लाइन %d"
+
+#: fe-connect.c:6830
+#, c-format
+msgid "invalid URI propagated to internal parser routine: \"%s\""
+msgstr "अमान्य URI propagated to internal parser routine: \"%s\""
+
+#: fe-connect.c:6907
+#, c-format
+msgid "end of string reached when looking for matching \"]\" in IPv6 host address in URI: \"%s\""
+msgstr "[REVIEW: untranslated] end of string reached when looking for matching \"]\" in IPv6 host address in URI: \"%s\""
+
+#: fe-connect.c:6914
+#, c-format
+msgid "IPv6 host address may not be empty in URI: \"%s\""
+msgstr "[REVIEW: untranslated] IPv6 host address may not be empty in URI: \"%s\""
+
+#: fe-connect.c:6929
+#, c-format
+msgid "unexpected character \"%c\" at position %d in URI (expected \":\" or \"/\"): \"%s\""
+msgstr "[REVIEW: untranslated] unexpected character \"%c\" at position %d in URI (expected \":\" or \"/\"): \"%s\""
+
+#: fe-connect.c:7058
+#, c-format
+msgid "extra key/value separator \"=\" in URI query parameter: \"%s\""
+msgstr "[REVIEW: query; untranslated] extra key/value separator \"=\" in URI query parameter: \"%s\""
+
+#: fe-connect.c:7078
+#, c-format
+msgid "missing key/value separator \"=\" in URI query parameter: \"%s\""
+msgstr "[REVIEW: query] हराइरहेको key/value separator \"=\" in URI query parameter: \"%s\""
+
+#: fe-connect.c:7130
+#, c-format
+msgid "invalid URI query parameter: \"%s\""
+msgstr "[REVIEW: query] अमान्य URI query parameter: \"%s\""
+
+#: fe-connect.c:7214
+#, c-format
+msgid "invalid percent-encoded token: \"%s\""
+msgstr "अमान्य percent-encoded token: \"%s\""
+
+#: fe-connect.c:7224
+#, c-format
+msgid "forbidden value %%00 in percent-encoded value: \"%s\""
+msgstr "[REVIEW: untranslated] forbidden value %%00 in percent-encoded value: \"%s\""
+
+#: fe-connect.c:7246
+#, c-format
+msgid "unexpected spaces found in \"%s\", use percent-encoded spaces (%%20) instead"
+msgstr "[REVIEW: untranslated] unexpected spaces found in \"%s\", use percent-encoded spaces (%%20) instead"
+
+#: fe-connect.c:7628
+msgid ""
+"connection pointer is NULL\n"
+msgstr ""
+"[REVIEW: untranslated] connection pointer is NULL\n"
+
+#: fe-connect.c:7636 fe-exec.c:713 fe-exec.c:975 fe-exec.c:3459
+#: fe-protocol3.c:987 fe-protocol3.c:1020
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: fe-connect.c:7938
+#, c-format
+msgid ""
+"WARNING: password file \"%s\" is not a plain file\n"
+msgstr ""
+"WARNING: password फाइल \"%s\" is not a plain फाइल\n"
+
+#: fe-connect.c:7948
+#, c-format
+msgid ""
+"WARNING: password file \"%s\" has group or world access; permissions should be u=rw (0600) or less\n"
+msgstr ""
+"[REVIEW: permission; sentence] WARNING: password फाइल \"%s\" has group or world access; permissions should be u=rw (0600) or less\n"
+
+#: fe-connect.c:8052
+#, c-format
+msgid "password retrieved from file \"%s\""
+msgstr "password retrieved from फाइल \"%s\""
+
+#: fe-connect.c:8218
+#, c-format
+msgid "invalid integer value \"%s\" for connection option \"%s\""
+msgstr "अमान्य integer value \"%s\" for connection option \"%s\""
+
+#: fe-exec.c:469 fe-exec.c:3533
+#, c-format
+msgid "row number %d is out of range 0..%d"
+msgstr "[REVIEW: untranslated] row number %d is out of range 0..%d"
+
+#: fe-exec.c:531 fe-protocol3.c:2067
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: fe-exec.c:834
+#, c-format
+msgid "write to server failed"
+msgstr "write to server असफल भयो"
+
+#: fe-exec.c:874
+#, c-format
+msgid "no error text available"
+msgstr "no त्रुटि text available"
+
+#: fe-exec.c:963
+msgid "NOTICE"
+msgstr "NOTICE"
+
+#: fe-exec.c:1021
+msgid "PGresult cannot support more than INT_MAX tuples"
+msgstr "[REVIEW: tuple] PGresult गर्न सकिँदैन support more than INT_MAX tuples"
+
+#: fe-exec.c:1033
+msgid "size_t overflow"
+msgstr "size_t overflow"
+
+#: fe-exec.c:1438 fe-exec.c:1507 fe-exec.c:1553
+#, c-format
+msgid "command string is a null pointer"
+msgstr "[REVIEW: untranslated] command string is a null pointer"
+
+#: fe-exec.c:1444 fe-exec.c:3003
+#, c-format
+msgid "%s not allowed in pipeline mode"
+msgstr "%s not allowed in pipeलाइन mode"
+
+#: fe-exec.c:1512 fe-exec.c:1558 fe-exec.c:1652
+#, c-format
+msgid "number of parameters must be between 0 and %d"
+msgstr "[REVIEW: untranslated] number of parameters must be between 0 and %d"
+
+#: fe-exec.c:1548 fe-exec.c:1647
+#, c-format
+msgid "statement name is a null pointer"
+msgstr "[REVIEW: statement] statement नाम is a null pointer"
+
+#: fe-exec.c:1689 fe-exec.c:3379
+#, c-format
+msgid "no connection to the server"
+msgstr "[REVIEW: untranslated] no connection to the server"
+
+#: fe-exec.c:1697 fe-exec.c:3387
+#, c-format
+msgid "another command is already in progress"
+msgstr "[REVIEW: untranslated] another command is already in progress"
+
+#: fe-exec.c:1727
+#, c-format
+msgid "cannot queue commands during COPY"
+msgstr "गर्न सकिँदैन queue commands during COPY"
+
+#: fe-exec.c:1846
+#, c-format
+msgid "length must be given for binary parameter"
+msgstr "[REVIEW: untranslated] length must be given for binary parameter"
+
+#: fe-exec.c:2205
+#, c-format
+msgid "unexpected asyncStatus: %d"
+msgstr "unexpected asyncStatus: %d"
+
+#: fe-exec.c:2361
+#, c-format
+msgid "synchronous command execution functions are not allowed in pipeline mode"
+msgstr "synchronous command execution functions are not allowed in pipeलाइन mode"
+
+#: fe-exec.c:2378
+msgid "COPY terminated by new PQexec"
+msgstr "[REVIEW: untranslated] COPY terminated by new PQexec"
+
+#: fe-exec.c:2394
+#, c-format
+msgid "PQexec not allowed during COPY BOTH"
+msgstr "[REVIEW: untranslated] PQexec not allowed during COPY BOTH"
+
+#: fe-exec.c:2630
+#, c-format
+msgid "unrecognized message type \"%c\""
+msgstr "[REVIEW: untranslated] unrecognized message type \"%c\""
+
+#: fe-exec.c:2702 fe-exec.c:2756 fe-exec.c:2824 fe-protocol3.c:1998
+#, c-format
+msgid "no COPY in progress"
+msgstr "[REVIEW: untranslated] no COPY in progress"
+
+#: fe-exec.c:3010
+#, c-format
+msgid "connection in wrong state"
+msgstr "[REVIEW: untranslated] connection in wrong state"
+
+#: fe-exec.c:3053
+#, c-format
+msgid "cannot enter pipeline mode, connection not idle"
+msgstr "गर्न सकिँदैन enter pipeलाइन mode, connection not idle"
+
+#: fe-exec.c:3089 fe-exec.c:3110
+#, c-format
+msgid "cannot exit pipeline mode with uncollected results"
+msgstr "गर्न सकिँदैन exit pipeलाइन mode with uncollected results"
+
+#: fe-exec.c:3093
+#, c-format
+msgid "cannot exit pipeline mode while busy"
+msgstr "गर्न सकिँदैन exit pipeलाइन mode while busy"
+
+#: fe-exec.c:3104
+#, c-format
+msgid "cannot exit pipeline mode while in COPY"
+msgstr "गर्न सकिँदैन exit pipeलाइन mode while in COPY"
+
+#: fe-exec.c:3303
+#, c-format
+msgid "cannot send pipeline when not in pipeline mode"
+msgstr "गर्न सकिँदैन send pipeलाइन when not in pipeलाइन mode"
+
+#: fe-exec.c:3422
+msgid "invalid ExecStatusType code"
+msgstr "अमान्य ExecStatusType code"
+
+#: fe-exec.c:3449
+msgid ""
+"PGresult is not an error result\n"
+msgstr ""
+"PGresult is not an त्रुटि result\n"
+
+#: fe-exec.c:3517 fe-exec.c:3540
+#, c-format
+msgid "column number %d is out of range 0..%d"
+msgstr "[REVIEW: untranslated] column number %d is out of range 0..%d"
+
+#: fe-exec.c:3555
+#, c-format
+msgid "parameter number %d is out of range 0..%d"
+msgstr "[REVIEW: untranslated] parameter number %d is out of range 0..%d"
+
+#: fe-exec.c:3866
+#, c-format
+msgid "could not interpret result from server: %s"
+msgstr "गर्न सकिएन interpret result from server: %s"
+
+#: fe-exec.c:4140 fe-exec.c:4253
+#, c-format
+msgid "incomplete multibyte character"
+msgstr "[REVIEW: untranslated] incomplete multibyte character"
+
+#: fe-exec.c:4142 fe-exec.c:4272
+#, c-format
+msgid "invalid multibyte character"
+msgstr "अमान्य multibyte character"
+
+#: fe-gssapi-common.c:122
+msgid "GSSAPI name import error"
+msgstr "GSSAPI नाम import त्रुटि"
+
+#: fe-lobj.c:144 fe-lobj.c:207 fe-lobj.c:397 fe-lobj.c:487 fe-lobj.c:560
+#: fe-lobj.c:956 fe-lobj.c:963 fe-lobj.c:970 fe-lobj.c:977 fe-lobj.c:984
+#: fe-lobj.c:991 fe-lobj.c:998 fe-lobj.c:1005
+#, c-format
+msgid "cannot determine OID of function %s"
+msgstr "[REVIEW: OID] गर्न सकिँदैन determine OID of function %s"
+
+#: fe-lobj.c:160
+#, c-format
+msgid "argument of lo_truncate exceeds integer range"
+msgstr "[REVIEW: untranslated] argument of lo_truncate exceeds integer range"
+
+#: fe-lobj.c:262
+#, c-format
+msgid "argument of lo_read exceeds integer range"
+msgstr "[REVIEW: untranslated] argument of lo_read exceeds integer range"
+
+#: fe-lobj.c:313
+#, c-format
+msgid "argument of lo_write exceeds integer range"
+msgstr "[REVIEW: untranslated] argument of lo_write exceeds integer range"
+
+#: fe-lobj.c:669 fe-lobj.c:780
+#, c-format
+msgid "could not open file \"%s\": %s"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %s"
+
+#: fe-lobj.c:725
+#, c-format
+msgid "could not read from file \"%s\": %s"
+msgstr "गर्न सकिएन read from फाइल \"%s\": %s"
+
+#: fe-lobj.c:801 fe-lobj.c:824
+#, c-format
+msgid "could not write to file \"%s\": %s"
+msgstr "गर्न सकिएन write to फाइल \"%s\": %s"
+
+#: fe-lobj.c:908
+#, c-format
+msgid "query to initialize large object functions did not return data"
+msgstr "[REVIEW: query; untranslated] query to initialize large object functions did not return data"
+
+#: fe-misc.c:239
+#, c-format
+msgid "integer of size %lu not supported by pqGetInt"
+msgstr "[REVIEW: untranslated] integer of size %lu not supported by pqGetInt"
+
+#: fe-misc.c:272
+#, c-format
+msgid "integer of size %lu not supported by pqPutInt"
+msgstr "[REVIEW: untranslated] integer of size %lu not supported by pqPutInt"
+
+#: fe-misc.c:765 fe-secure-openssl.c:181 fe-secure-openssl.c:287
+#: fe-secure.c:222 fe-secure.c:389
+#, c-format
+msgid ""
+"server closed the connection unexpectedly\n"
+"\tThis probably means the server terminated abnormally\n"
+"\tbefore or while processing the request."
+msgstr ""
+"[REVIEW: untranslated] server closed the connection unexpectedly\n"
+"[REVIEW: untranslated] \tThis probably means the server terminated abnormally\n"
+"[REVIEW: untranslated] \tbefore or while processing the request."
+
+#: fe-misc.c:832
+msgid ""
+"connection not open\n"
+msgstr ""
+"[REVIEW: untranslated] connection not open\n"
+
+#: fe-misc.c:1020
+#, c-format
+msgid "timeout expired"
+msgstr "timeout expired"
+
+#: fe-misc.c:1072
+#, c-format
+msgid "invalid socket"
+msgstr "अमान्य socket"
+
+#: fe-misc.c:1095
+#, c-format
+msgid "%s() failed: %s"
+msgstr "%s() असफल भयो: %s"
+
+#: fe-protocol3.c:188
+#, c-format
+msgid "message type 0x%02x arrived from server while idle"
+msgstr "[REVIEW: untranslated] message type 0x%02x arrived from server while idle"
+
+#: fe-protocol3.c:401
+#, c-format
+msgid "server sent data (\"D\" message) without prior row description (\"T\" message)"
+msgstr "[REVIEW: untranslated] server sent data (\"D\" message) without prior row description (\"T\" message)"
+
+#: fe-protocol3.c:443
+#, c-format
+msgid "unexpected response from server; first received character was \"%c\""
+msgstr "[REVIEW: untranslated] unexpected response from server; first received character was \"%c\""
+
+#: fe-protocol3.c:462
+#, c-format
+msgid "message contents do not agree with length in message type \"%c\""
+msgstr "[REVIEW: untranslated] message contents do not agree with length in message type \"%c\""
+
+#: fe-protocol3.c:480
+#, c-format
+msgid "lost synchronization with server: got message type \"%c\", length %d"
+msgstr "[REVIEW: untranslated] lost synchronization with server: got message type \"%c\", length %d"
+
+#: fe-protocol3.c:532 fe-protocol3.c:572
+msgid "insufficient data in \"T\" message"
+msgstr "[REVIEW: untranslated] insufficient data in \"T\" message"
+
+#: fe-protocol3.c:643 fe-protocol3.c:849
+msgid "out of memory for query result"
+msgstr "[REVIEW: query; untranslated] out of memory for query result"
+
+#: fe-protocol3.c:712
+msgid "insufficient data in \"t\" message"
+msgstr "[REVIEW: untranslated] insufficient data in \"t\" message"
+
+#: fe-protocol3.c:771 fe-protocol3.c:803 fe-protocol3.c:821
+msgid "insufficient data in \"D\" message"
+msgstr "[REVIEW: untranslated] insufficient data in \"D\" message"
+
+#: fe-protocol3.c:777
+msgid "unexpected field count in \"D\" message"
+msgstr "[REVIEW: untranslated] unexpected field count in \"D\" message"
+
+#: fe-protocol3.c:1033
+msgid ""
+"no error message available\n"
+msgstr ""
+"no त्रुटि message available\n"
+
+#. translator: %s represents a digit string
+#: fe-protocol3.c:1081 fe-protocol3.c:1100
+#, c-format
+msgid " at character %s"
+msgstr " at character %s"
+
+#: fe-protocol3.c:1113
+#, c-format
+msgid ""
+"DETAIL:  %s\n"
+msgstr ""
+"DETAIL:  %s\n"
+
+#: fe-protocol3.c:1116
+#, c-format
+msgid ""
+"HINT:  %s\n"
+msgstr ""
+"HINT:  %s\n"
+
+#: fe-protocol3.c:1119
+#, c-format
+msgid ""
+"QUERY:  %s\n"
+msgstr ""
+"[REVIEW: query] QUERY:  %s\n"
+
+#: fe-protocol3.c:1126
+#, c-format
+msgid ""
+"CONTEXT:  %s\n"
+msgstr ""
+"CONTEXT:  %s\n"
+
+#: fe-protocol3.c:1135
+#, c-format
+msgid ""
+"SCHEMA NAME:  %s\n"
+msgstr ""
+"[REVIEW: schema] SCHEMA NAME:  %s\n"
+
+#: fe-protocol3.c:1139
+#, c-format
+msgid ""
+"TABLE NAME:  %s\n"
+msgstr ""
+"TABLE NAME:  %s\n"
+
+#: fe-protocol3.c:1143
+#, c-format
+msgid ""
+"COLUMN NAME:  %s\n"
+msgstr ""
+"COLUMN NAME:  %s\n"
+
+#: fe-protocol3.c:1147
+#, c-format
+msgid ""
+"DATATYPE NAME:  %s\n"
+msgstr ""
+"DATATYPE NAME:  %s\n"
+
+#: fe-protocol3.c:1151
+#, c-format
+msgid ""
+"CONSTRAINT NAME:  %s\n"
+msgstr ""
+"[REVIEW: constraint] CONSTRAINT NAME:  %s\n"
+
+#: fe-protocol3.c:1163
+msgid "LOCATION:  "
+msgstr "LOCATION:  "
+
+#: fe-protocol3.c:1165
+#, c-format
+msgid "%s, "
+msgstr "%s, "
+
+#: fe-protocol3.c:1167
+#, c-format
+msgid "%s:%s"
+msgstr "%s:%s"
+
+#: fe-protocol3.c:1362
+#, c-format
+msgid "LINE %d: "
+msgstr "LINE %d: "
+
+#: fe-protocol3.c:1424
+#, c-format
+msgid "received invalid protocol negotiation message: server requested downgrade to a higher-numbered version"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server requested downgrade to a higher-numbered version"
+
+#: fe-protocol3.c:1430
+#, c-format
+msgid "received invalid protocol negotiation message: server requested downgrade to pre-3.0 protocol version"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server requested downgrade to pre-3.0 protocol version"
+
+#: fe-protocol3.c:1437
+#, c-format
+msgid "received invalid protocol negotiation message: server requests downgrade to non-existent 3.1 protocol version"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server requests downgrade to non-existent 3.1 protocol version"
+
+#: fe-protocol3.c:1443
+#, c-format
+msgid "received invalid protocol negotiation message: server reported negative number of unsupported parameters"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server reported negative number of unsupported parameters"
+
+#: fe-protocol3.c:1449
+#, c-format
+msgid "received invalid protocol negotiation message: server negotiated but asks for no changes"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server negotiated but asks for no changes"
+
+#: fe-protocol3.c:1455
+#, c-format
+msgid "server only supports protocol version %d.%d, but min_protocol_version was set to %d.%d"
+msgstr "[REVIEW: untranslated] server only supports protocol version %d.%d, but min_protocol_version was set to %d.%d"
+
+#: fe-protocol3.c:1479
+#, c-format
+msgid "received invalid protocol negotiation message: server reported unsupported parameter name without a _pq_. prefix (\"%s\")"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server reported unsupported parameter नाम without a _pq_. prefix (\"%s\")"
+
+#: fe-protocol3.c:1482
+#, c-format
+msgid "received invalid protocol negotiation message: server reported an unsupported parameter that was not requested (\"%s\")"
+msgstr "[REVIEW: sentence] received अमान्य protocol negotiation message: server reported an unsupported parameter that was not requested (\"%s\")"
+
+#: fe-protocol3.c:1489
+#, c-format
+msgid "received invalid protocol negotiation message: message too short"
+msgstr "received अमान्य protocol negotiation message: message too short"
+
+#: fe-protocol3.c:1893
+#, c-format
+msgid "PQgetline: not doing text COPY OUT"
+msgstr "PQgetलाइन: not doing text COPY OUT"
+
+#: fe-protocol3.c:2268
+#, c-format
+msgid "protocol error: no function result"
+msgstr "protocol त्रुटि: no function result"
+
+#: fe-protocol3.c:2280
+#, c-format
+msgid "protocol error: id=0x%x"
+msgstr "protocol त्रुटि: id=0x%x"
+
+#: fe-secure-common.c:123
+#, c-format
+msgid "SSL certificate's name contains embedded null"
+msgstr "SSL certificate's नाम contains embedded null"
+
+#: fe-secure-common.c:228
+#, c-format
+msgid "certificate contains IP address with invalid length %zu"
+msgstr "certificate contains IP address with अमान्य length %zu"
+
+#: fe-secure-common.c:237
+#, c-format
+msgid "could not convert certificate's IP address to string: %s"
+msgstr "गर्न सकिएन convert certificate's IP address to string: %s"
+
+#: fe-secure-common.c:269
+#, c-format
+msgid "host name must be specified for a verified SSL connection"
+msgstr "host नाम must be specified for a verified SSL connection"
+
+#: fe-secure-common.c:286
+#, c-format
+msgid "server certificate for \"%s\" (and %d other name) does not match host name \"%s\""
+msgid_plural "server certificate for \"%s\" (and %d other names) does not match host name \"%s\""
+msgstr[0] "[REVIEW: sentence] server certificate for \"%s\" (and %d other नाम) does not match host नाम \"%s\""
+msgstr[1] "[REVIEW: sentence] server certificate for \"%s\" (and %d other नामs) does not match host नाम \"%s\""
+
+#: fe-secure-common.c:294
+#, c-format
+msgid "server certificate for \"%s\" does not match host name \"%s\""
+msgstr "server certificate for \"%s\" does not match host नाम \"%s\""
+
+#: fe-secure-common.c:299
+#, c-format
+msgid "could not get server's host name from server certificate"
+msgstr "गर्न सकिएन get server's host नाम from server certificate"
+
+#: fe-secure-gssapi.c:194
+msgid "GSSAPI wrap error"
+msgstr "GSSAPI wrap त्रुटि"
+
+#: fe-secure-gssapi.c:201
+#, c-format
+msgid "outgoing GSSAPI message would not use confidentiality"
+msgstr "[REVIEW: untranslated] outgoing GSSAPI message would not use confidentiality"
+
+#: fe-secure-gssapi.c:208
+#, c-format
+msgid "client tried to send oversize GSSAPI packet (%zu > %zu)"
+msgstr "[REVIEW: untranslated] client tried to send oversize GSSAPI packet (%zu > %zu)"
+
+#: fe-secure-gssapi.c:347 fe-secure-gssapi.c:589
+#, c-format
+msgid "oversize GSSAPI packet sent by the server (%zu > %zu)"
+msgstr "[REVIEW: untranslated] oversize GSSAPI packet sent by the server (%zu > %zu)"
+
+#: fe-secure-gssapi.c:386
+msgid "GSSAPI unwrap error"
+msgstr "GSSAPI unwrap त्रुटि"
+
+#: fe-secure-gssapi.c:395
+#, c-format
+msgid "incoming GSSAPI message did not use confidentiality"
+msgstr "[REVIEW: untranslated] incoming GSSAPI message did not use confidentiality"
+
+#: fe-secure-gssapi.c:652
+msgid "could not initiate GSSAPI security context"
+msgstr "गर्न सकिएन initiate GSSAPI security context"
+
+#: fe-secure-gssapi.c:681
+msgid "GSSAPI size check error"
+msgstr "GSSAPI size check त्रुटि"
+
+#: fe-secure-gssapi.c:692
+msgid "GSSAPI context establishment error"
+msgstr "GSSAPI context establishment त्रुटि"
+
+#: fe-secure-openssl.c:185 fe-secure-openssl.c:291 fe-secure-openssl.c:1378
+#, c-format
+msgid "SSL SYSCALL error: %s"
+msgstr "SSL SYSCALL त्रुटि: %s"
+
+#: fe-secure-openssl.c:191 fe-secure-openssl.c:297 fe-secure-openssl.c:1381
+#, c-format
+msgid "SSL SYSCALL error: EOF detected"
+msgstr "SSL SYSCALL त्रुटि: EOF detected"
+
+#: fe-secure-openssl.c:201 fe-secure-openssl.c:307 fe-secure-openssl.c:1389
+#, c-format
+msgid "SSL error: %s"
+msgstr "SSL त्रुटि: %s"
+
+#: fe-secure-openssl.c:215 fe-secure-openssl.c:321
+#, c-format
+msgid "SSL connection has been closed unexpectedly"
+msgstr "[REVIEW: untranslated] SSL connection has been closed unexpectedly"
+
+#: fe-secure-openssl.c:220 fe-secure-openssl.c:326 fe-secure-openssl.c:1436
+#, c-format
+msgid "unrecognized SSL error code: %d"
+msgstr "unrecognized SSL त्रुटि code: %d"
+
+#: fe-secure-openssl.c:368
+#, c-format
+msgid "could not determine server certificate signature algorithm"
+msgstr "गर्न सकिएन determine server certificate signature algorithm"
+
+#: fe-secure-openssl.c:388
+#, c-format
+msgid "could not find digest for NID %s"
+msgstr "गर्न सकिएन find digest for NID %s"
+
+#: fe-secure-openssl.c:397
+#, c-format
+msgid "could not generate peer certificate hash"
+msgstr "गर्न सकिएन generate peer certificate hash"
+
+#: fe-secure-openssl.c:479
+#, c-format
+msgid "SSL certificate's name entry is missing"
+msgstr "SSL certificate's नाम entry is हराइरहेको"
+
+#: fe-secure-openssl.c:509
+#, c-format
+msgid "SSL certificate's address entry is missing"
+msgstr "SSL certificate's address entry is हराइरहेको"
+
+#: fe-secure-openssl.c:714
+#, c-format
+msgid "could not open ssl keylog file \"%s\": %s"
+msgstr "गर्न सकिएन open ssl keylog फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:722
+#, c-format
+msgid "could not write to ssl keylog file \"%s\": %s"
+msgstr "गर्न सकिएन write to ssl keylog फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:775
+#, c-format
+msgid "could not create SSL context: %s"
+msgstr "गर्न सकिएन create SSL context: %s"
+
+#: fe-secure-openssl.c:817
+#, c-format
+msgid "invalid value \"%s\" for minimum SSL protocol version"
+msgstr "अमान्य value \"%s\" for minimum SSL protocol version"
+
+#: fe-secure-openssl.c:827
+#, c-format
+msgid "could not set minimum SSL protocol version: %s"
+msgstr "गर्न सकिएन set minimum SSL protocol version: %s"
+
+#: fe-secure-openssl.c:843
+#, c-format
+msgid "invalid value \"%s\" for maximum SSL protocol version"
+msgstr "अमान्य value \"%s\" for maximum SSL protocol version"
+
+#: fe-secure-openssl.c:853
+#, c-format
+msgid "could not set maximum SSL protocol version: %s"
+msgstr "गर्न सकिएन set maximum SSL protocol version: %s"
+
+#: fe-secure-openssl.c:891
+#, c-format
+msgid "could not load system root certificate paths: %s"
+msgstr "गर्न सकिएन load system root certificate paths: %s"
+
+#: fe-secure-openssl.c:908
+#, c-format
+msgid "could not read root certificate file \"%s\": %s"
+msgstr "गर्न सकिएन read root certificate फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:960
+#, c-format
+msgid ""
+"could not get home directory to locate root certificate file\n"
+"Either provide the file, use the system's trusted roots with sslrootcert=system, or change sslmode to disable server certificate verification."
+msgstr ""
+"गर्न सकिएन get home directory to locate root certificate फाइल\n"
+"[REVIEW: sentence] Either provide the फाइल, use the system's trusted roots with sslrootcert=system, or change sslmode to disable server certificate verification."
+
+#: fe-secure-openssl.c:963
+#, c-format
+msgid ""
+"root certificate file \"%s\" does not exist\n"
+"Either provide the file, use the system's trusted roots with sslrootcert=system, or change sslmode to disable server certificate verification."
+msgstr ""
+"root certificate फाइल \"%s\" अवस्थित छैन\n"
+"[REVIEW: sentence] Either provide the फाइल, use the system's trusted roots with sslrootcert=system, or change sslmode to disable server certificate verification."
+
+#: fe-secure-openssl.c:998
+#, c-format
+msgid "could not open certificate file \"%s\": %s"
+msgstr "गर्न सकिएन open certificate फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:1016
+#, c-format
+msgid "could not read certificate file \"%s\": %s"
+msgstr "गर्न सकिएन read certificate फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:1040
+#, c-format
+msgid "could not establish SSL connection: %s"
+msgstr "गर्न सकिएन establish SSL connection: %s"
+
+#: fe-secure-openssl.c:1053
+#, c-format
+msgid ""
+"WARNING: sslkeylogfile support requires OpenSSL\n"
+msgstr ""
+"WARNING: sslkeylogफाइल support requires OpenSSL\n"
+
+#: fe-secure-openssl.c:1055
+#, c-format
+msgid ""
+"WARNING: libpq was not built with sslkeylogfile support\n"
+msgstr ""
+"WARNING: libpq was not built with sslkeylogफाइल support\n"
+
+#: fe-secure-openssl.c:1086
+#, c-format
+msgid "could not set SSL Server Name Indication (SNI): %s"
+msgstr "गर्न सकिएन set SSL Server नाम Indication (SNI): %s"
+
+#: fe-secure-openssl.c:1103
+#, c-format
+msgid "could not set SSL ALPN extension: %s"
+msgstr "[REVIEW: extension] गर्न सकिएन set SSL ALPN extension: %s"
+
+#: fe-secure-openssl.c:1146
+#, c-format
+msgid "could not load SSL engine \"%s\": %s"
+msgstr "गर्न सकिएन load SSL engine \"%s\": %s"
+
+#: fe-secure-openssl.c:1157
+#, c-format
+msgid "could not initialize SSL engine \"%s\": %s"
+msgstr "गर्न सकिएन initialize SSL engine \"%s\": %s"
+
+#: fe-secure-openssl.c:1172
+#, c-format
+msgid "could not read private SSL key \"%s\" from engine \"%s\": %s"
+msgstr "गर्न सकिएन read private SSL key \"%s\" from engine \"%s\": %s"
+
+#: fe-secure-openssl.c:1185
+#, c-format
+msgid "could not load private SSL key \"%s\" from engine \"%s\": %s"
+msgstr "गर्न सकिएन load private SSL key \"%s\" from engine \"%s\": %s"
+
+#: fe-secure-openssl.c:1222
+#, c-format
+msgid "certificate present, but not private key file \"%s\""
+msgstr "certificate present, but not private key फाइल \"%s\""
+
+#: fe-secure-openssl.c:1225
+#, c-format
+msgid "could not stat private key file \"%s\": %m"
+msgstr "गर्न सकिएन stat private key फाइल \"%s\": %m"
+
+#: fe-secure-openssl.c:1233
+#, c-format
+msgid "private key file \"%s\" is not a regular file"
+msgstr "private key फाइल \"%s\" is not a regular फाइल"
+
+#: fe-secure-openssl.c:1266
+#, c-format
+msgid "private key file \"%s\" has group or world access; file must have permissions u=rw (0600) or less if owned by the current user, or permissions u=rw,g=r (0640) or less if owned by root"
+msgstr "[REVIEW: permission; sentence] private key फाइल \"%s\" has group or world access; फाइल must have permissions u=rw (0600) or less if owned by the current प्रयोगकर्ता, or permissions u=rw,g=r (0640) or less if owned by root"
+
+#: fe-secure-openssl.c:1290
+#, c-format
+msgid "could not load private key file \"%s\": %s"
+msgstr "गर्न सकिएन load private key फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:1306
+#, c-format
+msgid "certificate does not match private key file \"%s\": %s"
+msgstr "certificate does not match private key फाइल \"%s\": %s"
+
+#: fe-secure-openssl.c:1375
+#, c-format
+msgid "SSL error: certificate verify failed: %s"
+msgstr "SSL त्रुटि: certificate verify असफल भयो: %s"
+
+#: fe-secure-openssl.c:1420
+#, c-format
+msgid "This may indicate that the server does not support any SSL protocol version between %s and %s."
+msgstr "[REVIEW: untranslated] This may indicate that the server does not support any SSL protocol version between %s and %s."
+
+#: fe-secure-openssl.c:1452
+#, c-format
+msgid "direct SSL connection was established without ALPN protocol negotiation extension"
+msgstr "[REVIEW: extension; untranslated] direct SSL connection was established without ALPN protocol negotiation extension"
+
+#: fe-secure-openssl.c:1464
+#, c-format
+msgid "SSL connection was established with unexpected ALPN protocol"
+msgstr "[REVIEW: untranslated] SSL connection was established with unexpected ALPN protocol"
+
+#: fe-secure-openssl.c:1481
+#, c-format
+msgid "certificate could not be obtained: %s"
+msgstr "certificate गर्न सकिएन be obtained: %s"
+
+#: fe-secure-openssl.c:1560
+#, c-format
+msgid "no SSL error reported"
+msgstr "no SSL त्रुटि reported"
+
+#: fe-secure-openssl.c:1603
+#, c-format
+msgid "SSL error code %lu"
+msgstr "SSL त्रुटि code %lu"
+
+#: fe-secure-openssl.c:1905
+#, c-format
+msgid ""
+"WARNING: sslpassword truncated\n"
+msgstr ""
+"[REVIEW: untranslated] WARNING: sslpassword truncated\n"
+
+#: fe-secure.c:233
+#, c-format
+msgid "could not receive data from server: %s"
+msgstr "गर्न सकिएन receive data from server: %s"
+
+#: fe-secure.c:404
+#, c-format
+msgid "could not send data to server: %s"
+msgstr "गर्न सकिएन send data to server: %s"
+
+#: win32.c:310
+#, c-format
+msgid "unrecognized socket error: 0x%08X/%d"
+msgstr "unrecognized socket त्रुटि: 0x%08X/%d"

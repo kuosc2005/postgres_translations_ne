@@ -1,0 +1,3503 @@
+# Nepali translation draft for PostgreSQL pg_dump.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_dump\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/ja/pg_dump.po\\n"
+
+#: ../../../src/common/logging.c:279
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:286
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:297
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:304
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/compression.c:132 ../../common/compression.c:141
+#: ../../common/compression.c:150 compress_gzip.c:413 compress_gzip.c:420
+#: compress_io.c:108 compress_lz4.c:780 compress_lz4.c:787 compress_zstd.c:25
+#: compress_zstd.c:31
+#, c-format
+msgid "this build does not support compression with %s"
+msgstr "[REVIEW: untranslated] this build does not support compression with %s"
+
+#: ../../common/compression.c:205
+msgid "found empty string where a compression option was expected"
+msgstr "[REVIEW: untranslated] found empty string where a compression option was expected"
+
+#: ../../common/compression.c:244
+#, c-format
+msgid "unrecognized compression option: \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized compression option: \"%s\""
+
+#: ../../common/compression.c:283
+#, c-format
+msgid "compression option \"%s\" requires a value"
+msgstr "[REVIEW: untranslated] compression option \"%s\" requires a value"
+
+#: ../../common/compression.c:292
+#, c-format
+msgid "value for compression option \"%s\" must be an integer"
+msgstr "[REVIEW: untranslated] value for compression option \"%s\" must be an integer"
+
+#: ../../common/compression.c:331
+#, c-format
+msgid "value for compression option \"%s\" must be a Boolean value"
+msgstr "[REVIEW: untranslated] value for compression option \"%s\" must be a Boolean value"
+
+#: ../../common/compression.c:379
+#, c-format
+msgid "compression algorithm \"%s\" does not accept a compression level"
+msgstr "[REVIEW: untranslated] compression algorithm \"%s\" does not accept a compression level"
+
+#: ../../common/compression.c:386
+#, c-format
+msgid "compression algorithm \"%s\" expects a compression level between %d and %d (default at %d)"
+msgstr "[REVIEW: untranslated] compression algorithm \"%s\" expects a compression level between %d and %d (default at %d)"
+
+#: ../../common/compression.c:397
+#, c-format
+msgid "compression algorithm \"%s\" does not accept a worker count"
+msgstr "[REVIEW: untranslated] compression algorithm \"%s\" does not accept a worker count"
+
+#: ../../common/compression.c:408
+#, c-format
+msgid "compression algorithm \"%s\" does not support long-distance mode"
+msgstr "[REVIEW: untranslated] compression algorithm \"%s\" does not support long-distance mode"
+
+#: ../../common/exec.c:174
+#, c-format
+msgid "invalid binary \"%s\": %m"
+msgstr "अमान्य binary \"%s\": %m"
+
+#: ../../common/exec.c:217
+#, c-format
+msgid "could not read binary \"%s\": %m"
+msgstr "गर्न सकिएन read binary \"%s\": %m"
+
+#: ../../common/exec.c:225
+#, c-format
+msgid "could not find a \"%s\" to execute"
+msgstr "गर्न सकिएन find a \"%s\" to execute"
+
+#: ../../common/exec.c:252
+#, c-format
+msgid "could not resolve path \"%s\" to absolute form: %m"
+msgstr "गर्न सकिएन resolve path \"%s\" to absolute form: %m"
+
+#: ../../common/exec.c:363
+#, c-format
+msgid "could not execute command \"%s\": %m"
+msgstr "गर्न सकिएन execute command \"%s\": %m"
+
+#: ../../common/exec.c:375
+#, c-format
+msgid "could not read from command \"%s\": %m"
+msgstr "गर्न सकिएन read from command \"%s\": %m"
+
+#: ../../common/exec.c:378
+#, c-format
+msgid "no data was returned by command \"%s\""
+msgstr "[REVIEW: untranslated] no data was returned by command \"%s\""
+
+#: ../../common/exec.c:405 parallel.c:1621
+#, c-format
+msgid "%s() failed: %m"
+msgstr "%s() असफल भयो: %m"
+
+#: ../../common/exec.c:543 ../../common/exec.c:588 ../../common/exec.c:680
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/file_utils.c:69 ../../common/file_utils.c:370
+#: ../../common/file_utils.c:428 ../../common/file_utils.c:502
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/file_utils.c:75
+#, c-format
+msgid "could not synchronize file system for file \"%s\": %m"
+msgstr "गर्न सकिएन synchronize फाइल system for फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:123 ../../common/file_utils.c:588
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:133 ../../common/file_utils.c:243
+#: ../../fe_utils/option_utils.c:99
+#, c-format
+msgid "this build does not support sync method \"%s\""
+msgstr "[REVIEW: untranslated] this build does not support sync method \"%s\""
+
+#: ../../common/file_utils.c:156 ../../common/file_utils.c:304 dumputils.c:905
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: ../../common/file_utils.c:174 ../../common/file_utils.c:338
+#, c-format
+msgid "could not read directory \"%s\": %m"
+msgstr "गर्न सकिएन read directory \"%s\": %m"
+
+#: ../../common/file_utils.c:440 ../../common/file_utils.c:510
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:520
+#, c-format
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम फाइल \"%s\" to \"%s\": %m"
+
+#: ../../common/wait_error.c:55
+#, c-format
+msgid "command not executable"
+msgstr "[REVIEW: untranslated] command not executable"
+
+#: ../../common/wait_error.c:59
+#, c-format
+msgid "command not found"
+msgstr "command फेला परेन"
+
+#: ../../common/wait_error.c:64
+#, c-format
+msgid "child process exited with exit code %d"
+msgstr "[REVIEW: untranslated] child process exited with exit code %d"
+
+#: ../../common/wait_error.c:72
+#, c-format
+msgid "child process was terminated by exception 0x%X"
+msgstr "[REVIEW: untranslated] child process was terminated by exception 0x%X"
+
+#: ../../common/wait_error.c:76
+#, c-format
+msgid "child process was terminated by signal %d: %s"
+msgstr "[REVIEW: untranslated] child process was terminated by signal %d: %s"
+
+#: ../../common/wait_error.c:82
+#, c-format
+msgid "child process exited with unrecognized status %d"
+msgstr "[REVIEW: untranslated] child process exited with unrecognized status %d"
+
+#: ../../fe_utils/option_utils.c:69
+#, c-format
+msgid "invalid value \"%s\" for option %s"
+msgstr "अमान्य value \"%s\" for option %s"
+
+#: ../../fe_utils/option_utils.c:76
+#, c-format
+msgid "%s must be in range %d..%d"
+msgstr "[REVIEW: untranslated] %s must be in range %d..%d"
+
+#: ../../fe_utils/option_utils.c:106
+#, c-format
+msgid "unrecognized sync method: %s"
+msgstr "[REVIEW: untranslated] unrecognized sync method: %s"
+
+#: ../../fe_utils/string_utils.c:587
+#, c-format
+msgid ""
+"shell command argument contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+"shell command argument contains a newलाइन or carriage return: \"%s\"\n"
+
+#: ../../fe_utils/string_utils.c:760
+#, c-format
+msgid ""
+"database name contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+"database नाम contains a newलाइन or carriage return: \"%s\"\n"
+
+#: common.c:111
+#, c-format
+msgid "reading extensions"
+msgstr "[REVIEW: extension] reading extensions"
+
+#: common.c:114
+#, c-format
+msgid "identifying extension members"
+msgstr "[REVIEW: extension; untranslated] identifying extension members"
+
+#: common.c:117
+#, c-format
+msgid "reading schemas"
+msgstr "[REVIEW: schema] reading schemas"
+
+#: common.c:126
+#, c-format
+msgid "reading user-defined tables"
+msgstr "reading प्रयोगकर्ता-defined tables"
+
+#: common.c:131
+#, c-format
+msgid "reading user-defined functions"
+msgstr "reading प्रयोगकर्ता-defined functions"
+
+#: common.c:135
+#, c-format
+msgid "reading user-defined types"
+msgstr "reading प्रयोगकर्ता-defined types"
+
+#: common.c:139
+#, c-format
+msgid "reading procedural languages"
+msgstr "[REVIEW: untranslated] reading procedural languages"
+
+#: common.c:142
+#, c-format
+msgid "reading user-defined aggregate functions"
+msgstr "reading प्रयोगकर्ता-defined aggregate functions"
+
+#: common.c:145
+#, c-format
+msgid "reading user-defined operators"
+msgstr "reading प्रयोगकर्ता-defined operators"
+
+#: common.c:148
+#, c-format
+msgid "reading user-defined access methods"
+msgstr "[REVIEW: access method] reading प्रयोगकर्ता-defined access methods"
+
+#: common.c:151
+#, c-format
+msgid "reading user-defined operator classes"
+msgstr "[REVIEW: operator class] reading प्रयोगकर्ता-defined operator classes"
+
+#: common.c:154
+#, c-format
+msgid "reading user-defined operator families"
+msgstr "reading प्रयोगकर्ता-defined operator families"
+
+#: common.c:157
+#, c-format
+msgid "reading user-defined text search parsers"
+msgstr "reading प्रयोगकर्ता-defined text search parsers"
+
+#: common.c:160
+#, c-format
+msgid "reading user-defined text search templates"
+msgstr "reading प्रयोगकर्ता-defined text search templates"
+
+#: common.c:163
+#, c-format
+msgid "reading user-defined text search dictionaries"
+msgstr "reading प्रयोगकर्ता-defined text search dictionaries"
+
+#: common.c:166
+#, c-format
+msgid "reading user-defined text search configurations"
+msgstr "reading प्रयोगकर्ता-defined text search configurations"
+
+#: common.c:169
+#, c-format
+msgid "reading user-defined foreign-data wrappers"
+msgstr "[REVIEW: foreign-data wrapper] reading प्रयोगकर्ता-defined foreign-data wrappers"
+
+#: common.c:172
+#, c-format
+msgid "reading user-defined foreign servers"
+msgstr "reading प्रयोगकर्ता-defined foreign servers"
+
+#: common.c:175
+#, c-format
+msgid "reading default privileges"
+msgstr "[REVIEW: privilege; untranslated] reading default privileges"
+
+#: common.c:178
+#, c-format
+msgid "reading user-defined collations"
+msgstr "[REVIEW: collation] reading प्रयोगकर्ता-defined collations"
+
+#: common.c:181
+#, c-format
+msgid "reading user-defined conversions"
+msgstr "reading प्रयोगकर्ता-defined conversions"
+
+#: common.c:184
+#, c-format
+msgid "reading type casts"
+msgstr "[REVIEW: untranslated] reading type casts"
+
+#: common.c:187
+#, c-format
+msgid "reading transforms"
+msgstr "reading transforms"
+
+#: common.c:190
+#, c-format
+msgid "reading table inheritance information"
+msgstr "[REVIEW: untranslated] reading table inheritance information"
+
+#: common.c:193
+#, c-format
+msgid "reading event triggers"
+msgstr "[REVIEW: untranslated] reading event triggers"
+
+#: common.c:197
+#, c-format
+msgid "finding extension tables"
+msgstr "[REVIEW: extension; untranslated] finding extension tables"
+
+#: common.c:201
+#, c-format
+msgid "finding inheritance relationships"
+msgstr "[REVIEW: relation; untranslated] finding inheritance relationships"
+
+#: common.c:204
+#, c-format
+msgid "reading column info for interesting tables"
+msgstr "[REVIEW: untranslated] reading column info for interesting tables"
+
+#: common.c:207
+#, c-format
+msgid "flagging inherited columns in subtables"
+msgstr "[REVIEW: untranslated] flagging inherited columns in subtables"
+
+#: common.c:210
+#, c-format
+msgid "reading partitioning data"
+msgstr "[REVIEW: untranslated] reading partitioning data"
+
+#: common.c:213
+#, c-format
+msgid "reading indexes"
+msgstr "reading indexes"
+
+#: common.c:216
+#, c-format
+msgid "flagging indexes in partitioned tables"
+msgstr "[REVIEW: untranslated] flagging indexes in partitioned tables"
+
+#: common.c:219
+#, c-format
+msgid "reading extended statistics"
+msgstr "[REVIEW: untranslated] reading extended statistics"
+
+#: common.c:222
+#, c-format
+msgid "reading constraints"
+msgstr "[REVIEW: constraint] reading constraints"
+
+#: common.c:225
+#, c-format
+msgid "reading triggers"
+msgstr "reading triggers"
+
+#: common.c:228
+#, c-format
+msgid "reading rewrite rules"
+msgstr "[REVIEW: untranslated] reading rewrite rules"
+
+#: common.c:231
+#, c-format
+msgid "reading policies"
+msgstr "reading policies"
+
+#: common.c:234
+#, c-format
+msgid "reading publications"
+msgstr "[REVIEW: publication] reading publications"
+
+#: common.c:237
+#, c-format
+msgid "reading publication membership of tables"
+msgstr "[REVIEW: publication; untranslated] reading publication membership of tables"
+
+#: common.c:240
+#, c-format
+msgid "reading publication membership of schemas"
+msgstr "[REVIEW: publication, schema; untranslated] reading publication membership of schemas"
+
+#: common.c:243
+#, c-format
+msgid "reading subscriptions"
+msgstr "[REVIEW: subscription] reading subscriptions"
+
+#: common.c:246
+#, c-format
+msgid "reading subscription membership of tables"
+msgstr "[REVIEW: subscription; untranslated] reading subscription membership of tables"
+
+#: common.c:309
+#, c-format
+msgid "failed sanity check, parent OID %u of table \"%s\" (OID %u) not found"
+msgstr "[REVIEW: OID] असफल भयो sanity check, parent OID %u of table \"%s\" (OID %u) फेला परेन"
+
+#: common.c:351
+#, c-format
+msgid "invalid number of parents %d for table \"%s\""
+msgstr "अमान्य number of parents %d for table \"%s\""
+
+#: common.c:1087
+#, c-format
+msgid "could not parse numeric array \"%s\": too many numbers"
+msgstr "गर्न सकिएन parse numeric array \"%s\": too many numbers"
+
+#: common.c:1099
+#, c-format
+msgid "could not parse numeric array \"%s\": invalid character in number"
+msgstr "गर्न सकिएन parse numeric array \"%s\": अमान्य character in number"
+
+#: compress_gzip.c:69 compress_gzip.c:183
+#, c-format
+msgid "could not initialize compression library: %s"
+msgstr "गर्न सकिएन initialize compression library: %s"
+
+#: compress_gzip.c:93
+#, c-format
+msgid "could not close compression stream: %s"
+msgstr "गर्न सकिएन close compression stream: %s"
+
+#: compress_gzip.c:113 compress_lz4.c:227 compress_zstd.c:109
+#, c-format
+msgid "could not compress data: %s"
+msgstr "गर्न सकिएन compress data: %s"
+
+#: compress_gzip.c:199 compress_gzip.c:214
+#, c-format
+msgid "could not uncompress data: %s"
+msgstr "गर्न सकिएन uncompress data: %s"
+
+#: compress_gzip.c:221
+#, c-format
+msgid "could not close compression library: %s"
+msgstr "गर्न सकिएन close compression library: %s"
+
+#: compress_gzip.c:266 compress_lz4.c:608 compress_lz4.c:628 compress_lz4.c:647
+#, c-format
+msgid "could not read from input file: %s"
+msgstr "गर्न सकिएन read from input फाइल: %s"
+
+#: compress_gzip.c:295 compress_none.c:97 compress_none.c:139
+#: compress_zstd.c:374 pg_backup_custom.c:650
+#, c-format
+msgid "could not read from input file: %m"
+msgstr "गर्न सकिएन read from input फाइल: %m"
+
+#: compress_gzip.c:297 compress_lz4.c:630 compress_none.c:141
+#: compress_zstd.c:372 pg_backup_custom.c:648 pg_backup_directory.c:533
+#: pg_backup_tar.c:740 pg_backup_tar.c:763
+#, c-format
+msgid "could not read from input file: end of file"
+msgstr "गर्न सकिएन read from input फाइल: end of फाइल"
+
+#: compress_lz4.c:157
+#, c-format
+msgid "could not create LZ4 decompression context: %s"
+msgstr "गर्न सकिएन create LZ4 decompression context: %s"
+
+#: compress_lz4.c:180
+#, c-format
+msgid "could not decompress: %s"
+msgstr "गर्न सकिएन decompress: %s"
+
+#: compress_lz4.c:193
+#, c-format
+msgid "could not free LZ4 decompression context: %s"
+msgstr "गर्न सकिएन free LZ4 decompression context: %s"
+
+#: compress_lz4.c:259 compress_lz4.c:266 compress_lz4.c:680 compress_lz4.c:690
+#, c-format
+msgid "could not end compression: %s"
+msgstr "गर्न सकिएन end compression: %s"
+
+#: compress_lz4.c:301
+#, c-format
+msgid "could not initialize LZ4 compression: %s"
+msgstr "गर्न सकिएन initialize LZ4 compression: %s"
+
+#: compress_lz4.c:697
+#, c-format
+msgid "could not end decompression: %s"
+msgstr "गर्न सकिएन end decompression: %s"
+
+#: compress_zstd.c:66
+#, c-format
+msgid "could not set compression parameter \"%s\": %s"
+msgstr "गर्न सकिएन set compression parameter \"%s\": %s"
+
+#: compress_zstd.c:78 compress_zstd.c:232 compress_zstd.c:491
+#: compress_zstd.c:499
+#, c-format
+msgid "could not initialize compression library"
+msgstr "गर्न सकिएन initialize compression library"
+
+#: compress_zstd.c:195 compress_zstd.c:309
+#, c-format
+msgid "could not decompress data: %s"
+msgstr "गर्न सकिएन decompress data: %s"
+
+#: compress_zstd.c:502
+#, c-format
+msgid "unhandled mode \"%s\""
+msgstr "unhandled mode \"%s\""
+
+#: connectdb.c:56 connectdb.c:164 pg_backup_db.c:126
+msgid "Password: "
+msgstr "Password: "
+
+#: connectdb.c:83 connectdb.c:173 pg_backup_db.c:203 pg_dump.c:925
+#: pg_dump_sort.c:1251 pg_dump_sort.c:1271
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: connectdb.c:156 pg_dumpall.c:548 pg_restore.c:534
+#, c-format
+msgid "could not connect to database \"%s\""
+msgstr "गर्न सकिएन connect to database \"%s\""
+
+#: connectdb.c:200
+#, c-format
+msgid "could not get server version"
+msgstr "गर्न सकिएन get server version"
+
+#: connectdb.c:204
+#, c-format
+msgid "could not parse server version \"%s\""
+msgstr "गर्न सकिएन parse server version \"%s\""
+
+#: connectdb.c:221 pg_backup_db.c:52
+#, c-format
+msgid "aborting because of server version mismatch"
+msgstr "[REVIEW: untranslated] aborting because of server version mismatch"
+
+#: connectdb.c:222 pg_backup_db.c:53
+#, c-format
+msgid "server version: %s; %s version: %s"
+msgstr "[REVIEW: untranslated] server version: %s; %s version: %s"
+
+#: connectdb.c:281 pg_dumpall.c:1859
+#, c-format
+msgid "executing %s"
+msgstr "executing %s"
+
+#: connectdb.c:287 pg_backup_db.c:210 pg_dumpall.c:1865
+#, c-format
+msgid "query failed: %s"
+msgstr "[REVIEW: query] query असफल भयो: %s"
+
+#: connectdb.c:288 pg_backup_db.c:212 pg_dumpall.c:1866
+#, c-format
+msgid "Query was: %s"
+msgstr "[REVIEW: query] Query was: %s"
+
+#: dumputils.c:910
+#, c-format
+msgid "could not create directory \"%s\": %m"
+msgstr "गर्न सकिएन create directory \"%s\": %m"
+
+#: dumputils.c:915
+#, c-format
+msgid "could not change permissions of directory \"%s\": %m"
+msgstr "[REVIEW: permission] गर्न सकिएन change permissions of directory \"%s\": %m"
+
+#: dumputils.c:920
+#, c-format
+msgid "directory \"%s\" is not empty"
+msgstr "[REVIEW: untranslated] directory \"%s\" is not empty"
+
+#: filter.c:48
+#, c-format
+msgid "could not open filter file \"%s\": %m"
+msgstr "गर्न सकिएन open filter फाइल \"%s\": %m"
+
+#: filter.c:71
+#, c-format
+msgid "could not close filter file \"%s\": %m"
+msgstr "गर्न सकिएन close filter फाइल \"%s\": %m"
+
+#: filter.c:164
+#, c-format
+msgid "invalid format in filter read from standard input on line %d: %s"
+msgstr "अमान्य format in filter read from standard input on लाइन %d: %s"
+
+#: filter.c:167
+#, c-format
+msgid "invalid format in filter read from file \"%s\" on line %d: %s"
+msgstr "अमान्य format in filter read from फाइल \"%s\" on लाइन %d: %s"
+
+#: filter.c:240 filter.c:467
+#, c-format
+msgid "could not read from filter file \"%s\": %m"
+msgstr "गर्न सकिएन read from filter फाइल \"%s\": %m"
+
+#: filter.c:243
+msgid "unexpected end of file"
+msgstr "unexpected end of फाइल"
+
+#: filter.c:310
+msgid "missing object name pattern"
+msgstr "हराइरहेको object नाम pattern"
+
+#: filter.c:421
+msgid "no filter command found (expected \"include\" or \"exclude\")"
+msgstr "[REVIEW: untranslated] no filter command found (expected \"include\" or \"exclude\")"
+
+#: filter.c:432
+msgid "invalid filter command (expected \"include\" or \"exclude\")"
+msgstr "अमान्य filter command (expected \"include\" or \"exclude\")"
+
+#: filter.c:439
+msgid "missing filter object type"
+msgstr "हराइरहेको filter object type"
+
+#: filter.c:446
+#, c-format
+msgid "unsupported filter object type: \"%.*s\""
+msgstr "[REVIEW: untranslated] unsupported filter object type: \"%.*s\""
+
+#: parallel.c:253
+#, c-format
+msgid "%s() failed: error code %d"
+msgstr "%s() असफल भयो: त्रुटि code %d"
+
+#: parallel.c:971
+#, c-format
+msgid "could not create communication channels: %m"
+msgstr "गर्न सकिएन create communication channels: %m"
+
+#: parallel.c:1028
+#, c-format
+msgid "could not create worker process: %m"
+msgstr "गर्न सकिएन create worker process: %m"
+
+#: parallel.c:1158
+#, c-format
+msgid "unrecognized command received from leader: \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized command received from leader: \"%s\""
+
+#: parallel.c:1201 parallel.c:1439
+#, c-format
+msgid "invalid message received from worker: \"%s\""
+msgstr "अमान्य message received from worker: \"%s\""
+
+#: parallel.c:1333
+#, c-format
+msgid ""
+"could not obtain lock on relation \"%s\"\n"
+"This usually means that someone requested an ACCESS EXCLUSIVE lock on the table after the pg_dump parent process had gotten the initial ACCESS SHARE lock on the table."
+msgstr ""
+"[REVIEW: relation, lock] गर्न सकिएन obtain lock on relation \"%s\"\n"
+"[REVIEW: lock; untranslated] This usually means that someone requested an ACCESS EXCLUSIVE lock on the table after the pg_dump parent process had gotten the initial ACCESS SHARE lock on the table."
+
+#: parallel.c:1422
+#, c-format
+msgid "a worker process died unexpectedly"
+msgstr "[REVIEW: untranslated] a worker process died unexpectedly"
+
+#: parallel.c:1544 parallel.c:1662
+#, c-format
+msgid "could not write to the communication channel: %m"
+msgstr "गर्न सकिएन write to the communication channel: %m"
+
+#: parallel.c:1746
+#, c-format
+msgid "pgpipe: could not create socket: error code %d"
+msgstr "pgpipe: गर्न सकिएन create socket: त्रुटि code %d"
+
+#: parallel.c:1757
+#, c-format
+msgid "pgpipe: could not bind: error code %d"
+msgstr "pgpipe: गर्न सकिएन bind: त्रुटि code %d"
+
+#: parallel.c:1764
+#, c-format
+msgid "pgpipe: could not listen: error code %d"
+msgstr "pgpipe: गर्न सकिएन listen: त्रुटि code %d"
+
+#: parallel.c:1771
+#, c-format
+msgid "pgpipe: %s() failed: error code %d"
+msgstr "pgpipe: %s() असफल भयो: त्रुटि code %d"
+
+#: parallel.c:1782
+#, c-format
+msgid "pgpipe: could not create second socket: error code %d"
+msgstr "pgpipe: गर्न सकिएन create second socket: त्रुटि code %d"
+
+#: parallel.c:1791
+#, c-format
+msgid "pgpipe: could not connect socket: error code %d"
+msgstr "pgpipe: गर्न सकिएन connect socket: त्रुटि code %d"
+
+#: parallel.c:1800
+#, c-format
+msgid "pgpipe: could not accept connection: error code %d"
+msgstr "pgpipe: गर्न सकिएन accept connection: त्रुटि code %d"
+
+#: pg_backup_archiver.c:269 pg_backup_archiver.c:1732
+#, c-format
+msgid "could not close output file: %m"
+msgstr "गर्न सकिएन close output फाइल: %m"
+
+#: pg_backup_archiver.c:313 pg_backup_archiver.c:317
+#, c-format
+msgid "archive items not in correct section order"
+msgstr "[REVIEW: archive; untranslated] archive items not in correct section order"
+
+#: pg_backup_archiver.c:323
+#, c-format
+msgid "unexpected section code %d"
+msgstr "[REVIEW: untranslated] unexpected section code %d"
+
+#: pg_backup_archiver.c:365
+#, c-format
+msgid "parallel restore is not supported with this archive file format"
+msgstr "[REVIEW: restore, archive] parallel restore is not supported with this archive फाइल format"
+
+#: pg_backup_archiver.c:369
+#, c-format
+msgid "parallel restore is not supported with archives made by pre-8.0 pg_dump"
+msgstr "[REVIEW: restore, archive; untranslated] parallel restore is not supported with archives made by pre-8.0 pg_dump"
+
+#: pg_backup_archiver.c:390
+#, c-format
+msgid "cannot restore from compressed archive (%s)"
+msgstr "[REVIEW: restore, archive] गर्न सकिँदैन restore from compressed archive (%s)"
+
+#: pg_backup_archiver.c:410
+#, c-format
+msgid "connecting to database for restore"
+msgstr "[REVIEW: restore; untranslated] connecting to database for restore"
+
+#: pg_backup_archiver.c:412
+#, c-format
+msgid "direct database connections are not supported in pre-1.3 archives"
+msgstr "[REVIEW: archive; untranslated] direct database connections are not supported in pre-1.3 archives"
+
+#: pg_backup_archiver.c:455
+#, c-format
+msgid "implied no-schema restore"
+msgstr "[REVIEW: restore, schema; untranslated] implied no-schema restore"
+
+#: pg_backup_archiver.c:523
+#, c-format
+msgid "dropping %s %s"
+msgstr "dropping %s %s"
+
+#: pg_backup_archiver.c:655
+#, c-format
+msgid "could not find where to insert IF EXISTS in statement \"%s\""
+msgstr "[REVIEW: statement] गर्न सकिएन find where to insert IF EXISTS in statement \"%s\""
+
+#: pg_backup_archiver.c:841 pg_backup_archiver.c:843
+#, c-format
+msgid "warning from original dump file: %s"
+msgstr "चेतावनी from original dump फाइल: %s"
+
+#: pg_backup_archiver.c:877
+#, c-format
+msgid "creating %s \"%s.%s\""
+msgstr "creating %s \"%s.%s\""
+
+#: pg_backup_archiver.c:880
+#, c-format
+msgid "creating %s \"%s\""
+msgstr "creating %s \"%s\""
+
+#: pg_backup_archiver.c:930
+#, c-format
+msgid "connecting to new database \"%s\""
+msgstr "[REVIEW: untranslated] connecting to new database \"%s\""
+
+#: pg_backup_archiver.c:957
+#, c-format
+msgid "processing %s"
+msgstr "processing %s"
+
+#: pg_backup_archiver.c:979
+#, c-format
+msgid "processing data for table \"%s.%s\""
+msgstr "[REVIEW: untranslated] processing data for table \"%s.%s\""
+
+#: pg_backup_archiver.c:1049
+#, c-format
+msgid "executing %s %s"
+msgstr "executing %s %s"
+
+#: pg_backup_archiver.c:1118
+#, c-format
+msgid "disabling triggers for %s"
+msgstr "[REVIEW: untranslated] disabling triggers for %s"
+
+#: pg_backup_archiver.c:1144
+#, c-format
+msgid "enabling triggers for %s"
+msgstr "[REVIEW: untranslated] enabling triggers for %s"
+
+#: pg_backup_archiver.c:1209
+#, c-format
+msgid "internal error -- WriteData cannot be called outside the context of a DataDumper routine"
+msgstr "[REVIEW: sentence] internal त्रुटि -- WriteData गर्न सकिँदैन be called outside the context of a DataDumper routine"
+
+#: pg_backup_archiver.c:1404
+#, c-format
+msgid "large-object output not supported in chosen format"
+msgstr "[REVIEW: untranslated] large-object output not supported in chosen format"
+
+#: pg_backup_archiver.c:1467
+#, c-format
+msgid "restored %d large object"
+msgid_plural "restored %d large objects"
+msgstr[0] "[REVIEW: restore; untranslated] restored %d large object"
+msgstr[1] "[REVIEW: restore; untranslated] restored %d large objects"
+
+#: pg_backup_archiver.c:1494 pg_backup_tar.c:683
+#, c-format
+msgid "restoring large object with OID %u"
+msgstr "[REVIEW: OID; untranslated] restoring large object with OID %u"
+
+#: pg_backup_archiver.c:1506
+#, c-format
+msgid "could not create large object %u: %s"
+msgstr "गर्न सकिएन create large object %u: %s"
+
+#: pg_backup_archiver.c:1511 pg_dump.c:4063
+#, c-format
+msgid "could not open large object %u: %s"
+msgstr "गर्न सकिएन open large object %u: %s"
+
+#: pg_backup_archiver.c:1567
+#, c-format
+msgid "could not open TOC file \"%s\": %m"
+msgstr "गर्न सकिएन open TOC फाइल \"%s\": %m"
+
+#: pg_backup_archiver.c:1595
+#, c-format
+msgid "line ignored: %s"
+msgstr "लाइन ignored: %s"
+
+#: pg_backup_archiver.c:1602 pg_backup_db.c:548
+#, c-format
+msgid "could not find entry for ID %d"
+msgstr "गर्न सकिएन find entry for ID %d"
+
+#: pg_backup_archiver.c:1625 pg_backup_directory.c:187
+#: pg_backup_directory.c:581
+#, c-format
+msgid "could not close TOC file: %m"
+msgstr "गर्न सकिएन close TOC फाइल: %m"
+
+#: pg_backup_archiver.c:1713 pg_backup_custom.c:151 pg_backup_directory.c:301
+#: pg_backup_directory.c:568 pg_backup_directory.c:634
+#: pg_backup_directory.c:652 pg_dumpall.c:530
+#, c-format
+msgid "could not open output file \"%s\": %m"
+msgstr "गर्न सकिएन open output फाइल \"%s\": %m"
+
+#: pg_backup_archiver.c:1715 pg_backup_custom.c:157
+#, c-format
+msgid "could not open output file: %m"
+msgstr "गर्न सकिएन open output फाइल: %m"
+
+#: pg_backup_archiver.c:1798
+#, c-format
+msgid "wrote %zu byte of large object data (result = %d)"
+msgid_plural "wrote %zu bytes of large object data (result = %d)"
+msgstr[0] "[REVIEW: untranslated] wrote %zu byte of large object data (result = %d)"
+msgstr[1] "[REVIEW: untranslated] wrote %zu bytes of large object data (result = %d)"
+
+#: pg_backup_archiver.c:1804
+#, c-format
+msgid "could not write to large object: %s"
+msgstr "गर्न सकिएन write to large object: %s"
+
+#: pg_backup_archiver.c:1894
+#, c-format
+msgid "while INITIALIZING:"
+msgstr "while INITIALIZING:"
+
+#: pg_backup_archiver.c:1899
+#, c-format
+msgid "while PROCESSING TOC:"
+msgstr "[REVIEW: untranslated] while PROCESSING TOC:"
+
+#: pg_backup_archiver.c:1904
+#, c-format
+msgid "while FINALIZING:"
+msgstr "while FINALIZING:"
+
+#: pg_backup_archiver.c:1909
+#, c-format
+msgid "from TOC entry %d; %u %u %s %s %s"
+msgstr "[REVIEW: untranslated] from TOC entry %d; %u %u %s %s %s"
+
+#: pg_backup_archiver.c:1985
+#, c-format
+msgid "bad dumpId"
+msgstr "[REVIEW: PID] bad dumpId"
+
+#: pg_backup_archiver.c:2006
+#, c-format
+msgid "bad table dumpId for TABLE DATA item"
+msgstr "[REVIEW: PID; untranslated] bad table dumpId for TABLE DATA item"
+
+#: pg_backup_archiver.c:2098
+#, c-format
+msgid "unexpected data offset flag %d"
+msgstr "[REVIEW: untranslated] unexpected data offset flag %d"
+
+#: pg_backup_archiver.c:2111
+#, c-format
+msgid "file offset in dump file is too large"
+msgstr "फाइल offset in dump फाइल is too large"
+
+#: pg_backup_archiver.c:2222 pg_restore.c:838
+#, c-format
+msgid "directory name too long: \"%s\""
+msgstr "directory नाम too long: \"%s\""
+
+#: pg_backup_archiver.c:2272
+#, c-format
+msgid "directory \"%s\" does not appear to be a valid archive (\"toc.dat\" does not exist)"
+msgstr "[REVIEW: archive; sentence] directory \"%s\" does not appear to be a valid archive (\"toc.dat\" अवस्थित छैन)"
+
+#: pg_backup_archiver.c:2280 pg_backup_custom.c:168 pg_backup_custom.c:813
+#: pg_backup_directory.c:172 pg_backup_directory.c:364
+#, c-format
+msgid "could not open input file \"%s\": %m"
+msgstr "गर्न सकिएन open input फाइल \"%s\": %m"
+
+#: pg_backup_archiver.c:2287 pg_backup_custom.c:174
+#, c-format
+msgid "could not open input file: %m"
+msgstr "गर्न सकिएन open input फाइल: %m"
+
+#: pg_backup_archiver.c:2293
+#, c-format
+msgid "could not read input file: %m"
+msgstr "गर्न सकिएन read input फाइल: %m"
+
+#: pg_backup_archiver.c:2295
+#, c-format
+msgid "input file is too short (read %lu, expected 5)"
+msgstr "input फाइल is too short (read %lu, expected 5)"
+
+#: pg_backup_archiver.c:2327
+#, c-format
+msgid "input file appears to be a text format dump. Please use psql."
+msgstr "[REVIEW: sentence] input फाइल appears to be a text format dump. Please use psql."
+
+#: pg_backup_archiver.c:2333
+#, c-format
+msgid "input file does not appear to be a valid archive (too short?)"
+msgstr "[REVIEW: archive; sentence] input फाइल does not appear to be a valid archive (too short?)"
+
+#: pg_backup_archiver.c:2339
+#, c-format
+msgid "input file does not appear to be a valid archive"
+msgstr "[REVIEW: archive] input फाइल does not appear to be a valid archive"
+
+#: pg_backup_archiver.c:2348
+#, c-format
+msgid "could not close input file: %m"
+msgstr "गर्न सकिएन close input फाइल: %m"
+
+#: pg_backup_archiver.c:2427
+#, c-format
+msgid "could not open stdout for appending: %m"
+msgstr "गर्न सकिएन open stdout for appending: %m"
+
+#: pg_backup_archiver.c:2472
+#, c-format
+msgid "unrecognized file format \"%d\""
+msgstr "unrecognized फाइल format \"%d\""
+
+#: pg_backup_archiver.c:2553 pg_backup_archiver.c:4774
+#, c-format
+msgid "finished item %d %s %s"
+msgstr "finished item %d %s %s"
+
+#: pg_backup_archiver.c:2557 pg_backup_archiver.c:4787
+#, c-format
+msgid "worker process failed: exit code %d"
+msgstr "worker process असफल भयो: exit code %d"
+
+#: pg_backup_archiver.c:2655
+#, c-format
+msgid "unexpected TOC entry in WriteToc(): %d %s %s"
+msgstr "[REVIEW: untranslated] unexpected TOC entry in WriteToc(): %d %s %s"
+
+#: pg_backup_archiver.c:2659 pg_backup_custom.c:440 pg_backup_custom.c:506
+#: pg_backup_custom.c:635 pg_backup_custom.c:871 pg_backup_tar.c:1029
+#: pg_backup_tar.c:1034
+#, c-format
+msgid "error during file seek: %m"
+msgstr "त्रुटि during फाइल seek: %m"
+
+#: pg_backup_archiver.c:2717
+#, c-format
+msgid "entry ID %d out of range -- perhaps a corrupt TOC"
+msgstr "[REVIEW: untranslated] entry ID %d out of range -- perhaps a corrupt TOC"
+
+#: pg_backup_archiver.c:2800
+#, c-format
+msgid "restoring tables WITH OIDS is not supported anymore"
+msgstr "[REVIEW: OID; untranslated] restoring tables WITH OIDS is not supported anymore"
+
+#: pg_backup_archiver.c:2882
+#, c-format
+msgid "unrecognized encoding \"%s\""
+msgstr "[REVIEW: encoding] unrecognized encoding \"%s\""
+
+#: pg_backup_archiver.c:2888
+#, c-format
+msgid "invalid ENCODING item: %s"
+msgstr "[REVIEW: encoding] अमान्य ENCODING item: %s"
+
+#: pg_backup_archiver.c:2906
+#, c-format
+msgid "invalid STDSTRINGS item: %s"
+msgstr "अमान्य STDSTRINGS item: %s"
+
+#: pg_backup_archiver.c:2931
+#, c-format
+msgid "schema \"%s\" not found"
+msgstr "[REVIEW: schema] schema \"%s\" फेला परेन"
+
+#: pg_backup_archiver.c:2938
+#, c-format
+msgid "table \"%s\" not found"
+msgstr "table \"%s\" फेला परेन"
+
+#: pg_backup_archiver.c:2945
+#, c-format
+msgid "index \"%s\" not found"
+msgstr "index \"%s\" फेला परेन"
+
+#: pg_backup_archiver.c:2952
+#, c-format
+msgid "function \"%s\" not found"
+msgstr "function \"%s\" फेला परेन"
+
+#: pg_backup_archiver.c:2959
+#, c-format
+msgid "trigger \"%s\" not found"
+msgstr "trigger \"%s\" फेला परेन"
+
+#: pg_backup_archiver.c:3420
+#, c-format
+msgid "could not set session user to \"%s\": %s"
+msgstr "गर्न सकिएन set session प्रयोगकर्ता to \"%s\": %s"
+
+#: pg_backup_archiver.c:3552
+#, c-format
+msgid "could not set \"search_path\" to \"%s\": %s"
+msgstr "गर्न सकिएन set \"search_path\" to \"%s\": %s"
+
+#: pg_backup_archiver.c:3613
+#, c-format
+msgid "could not set \"default_tablespace\" to %s: %s"
+msgstr "[REVIEW: tablespace] गर्न सकिएन set \"default_tablespace\" to %s: %s"
+
+#: pg_backup_archiver.c:3662
+#, c-format
+msgid "could not set \"default_table_access_method\": %s"
+msgstr "गर्न सकिएन set \"default_table_access_method\": %s"
+
+#: pg_backup_archiver.c:3711
+#, c-format
+msgid "could not alter table access method: %s"
+msgstr "[REVIEW: access method] गर्न सकिएन alter table access method: %s"
+
+#: pg_backup_archiver.c:3812
+#, c-format
+msgid "don't know how to set owner for object type \"%s\""
+msgstr "[REVIEW: untranslated] don't know how to set owner for object type \"%s\""
+
+#: pg_backup_archiver.c:3947
+#, c-format
+msgid "unexpected TOC entry in _printTocEntry(): %d %s %s"
+msgstr "[REVIEW: untranslated] unexpected TOC entry in _printTocEntry(): %d %s %s"
+
+#: pg_backup_archiver.c:4131
+#, c-format
+msgid "did not find magic string in file header"
+msgstr "did not find magic string in फाइल header"
+
+#: pg_backup_archiver.c:4145
+#, c-format
+msgid "unsupported version (%d.%d) in file header"
+msgstr "unsupported version (%d.%d) in फाइल header"
+
+#: pg_backup_archiver.c:4150
+#, c-format
+msgid "sanity check on integer size (%lu) failed"
+msgstr "sanity check on integer size (%lu) असफल भयो"
+
+#: pg_backup_archiver.c:4154
+#, c-format
+msgid "archive was made on a machine with larger integers, some operations might fail"
+msgstr "[REVIEW: archive; untranslated] archive was made on a machine with larger integers, some operations might fail"
+
+#: pg_backup_archiver.c:4164
+#, c-format
+msgid "expected format (%d) differs from format found in file (%d)"
+msgstr "expected format (%d) differs from format found in फाइल (%d)"
+
+#: pg_backup_archiver.c:4186
+#, c-format
+msgid "archive is compressed, but this installation does not support compression (%s) -- no data will be available"
+msgstr "[REVIEW: archive; untranslated] archive is compressed, but this installation does not support compression (%s) -- no data will be available"
+
+#: pg_backup_archiver.c:4222
+#, c-format
+msgid "invalid creation date in header"
+msgstr "अमान्य creation date in header"
+
+#: pg_backup_archiver.c:4356
+#, c-format
+msgid "processing item %d %s %s"
+msgstr "processing item %d %s %s"
+
+#: pg_backup_archiver.c:4441
+#, c-format
+msgid "entering main parallel loop"
+msgstr "[REVIEW: untranslated] entering main parallel loop"
+
+#: pg_backup_archiver.c:4452
+#, c-format
+msgid "skipping item %d %s %s"
+msgstr "skipping item %d %s %s"
+
+#: pg_backup_archiver.c:4461
+#, c-format
+msgid "launching item %d %s %s"
+msgstr "launching item %d %s %s"
+
+#: pg_backup_archiver.c:4515
+#, c-format
+msgid "finished main parallel loop"
+msgstr "[REVIEW: untranslated] finished main parallel loop"
+
+#: pg_backup_archiver.c:4551
+#, c-format
+msgid "processing missed item %d %s %s"
+msgstr "[REVIEW: untranslated] processing missed item %d %s %s"
+
+#: pg_backup_archiver.c:5093
+#, c-format
+msgid "table \"%s\" could not be created, will not restore its data"
+msgstr "[REVIEW: restore] table \"%s\" गर्न सकिएन be created, will not restore its data"
+
+#: pg_backup_custom.c:375 pg_backup_null.c:143
+#, c-format
+msgid "invalid OID for large object"
+msgstr "[REVIEW: OID] अमान्य OID for large object"
+
+#: pg_backup_custom.c:479
+#, c-format
+msgid "data block %d has wrong seek position"
+msgstr "[REVIEW: lock; untranslated] data block %d has wrong seek position"
+
+#: pg_backup_custom.c:496
+#, c-format
+msgid "unrecognized data block type (%d) while searching archive"
+msgstr "[REVIEW: archive, lock; untranslated] unrecognized data block type (%d) while searching archive"
+
+#: pg_backup_custom.c:518
+#, c-format
+msgid "could not find block ID %d in archive -- possibly due to out-of-order restore request, which cannot be handled due to non-seekable input file"
+msgstr "[REVIEW: restore, archive, lock; sentence] गर्न सकिएन find block ID %d in archive -- possibly due to out-of-order restore request, which गर्न सकिँदैन be handled due to non-seekable input फाइल"
+
+#: pg_backup_custom.c:523
+#, c-format
+msgid "could not find block ID %d in archive -- possibly corrupt archive"
+msgstr "[REVIEW: archive, lock] गर्न सकिएन find block ID %d in archive -- possibly corrupt archive"
+
+#: pg_backup_custom.c:530
+#, c-format
+msgid "found unexpected block ID (%d) when reading data -- expected %d"
+msgstr "[REVIEW: lock; untranslated] found unexpected block ID (%d) when reading data -- expected %d"
+
+#: pg_backup_custom.c:544
+#, c-format
+msgid "unrecognized data block type %d while restoring archive"
+msgstr "[REVIEW: archive, lock; untranslated] unrecognized data block type %d while restoring archive"
+
+#: pg_backup_custom.c:750 pg_backup_custom.c:804 pg_backup_custom.c:946
+#: pg_backup_tar.c:1032
+#, c-format
+msgid "could not determine seek position in archive file: %m"
+msgstr "[REVIEW: archive] गर्न सकिएन determine seek position in archive फाइल: %m"
+
+#: pg_backup_custom.c:768 pg_backup_custom.c:808
+#, c-format
+msgid "could not close archive file: %m"
+msgstr "[REVIEW: archive] गर्न सकिएन close archive फाइल: %m"
+
+#: pg_backup_custom.c:791
+#, c-format
+msgid "can only reopen input archives"
+msgstr "[REVIEW: archive; untranslated] can only reopen input archives"
+
+#: pg_backup_custom.c:798
+#, c-format
+msgid "parallel restore from standard input is not supported"
+msgstr "[REVIEW: restore; untranslated] parallel restore from standard input is not supported"
+
+#: pg_backup_custom.c:800
+#, c-format
+msgid "parallel restore from non-seekable file is not supported"
+msgstr "[REVIEW: restore] parallel restore from non-seekable फाइल is not supported"
+
+#: pg_backup_custom.c:816
+#, c-format
+msgid "could not set seek position in archive file: %m"
+msgstr "[REVIEW: archive] गर्न सकिएन set seek position in archive फाइल: %m"
+
+#: pg_backup_custom.c:895
+#, c-format
+msgid "compressor active"
+msgstr "compressor active"
+
+#: pg_backup_db.c:41
+#, c-format
+msgid "could not get \"server_version\" from libpq"
+msgstr "गर्न सकिएन get \"server_version\" from libpq"
+
+#: pg_backup_db.c:118
+#, c-format
+msgid "already connected to a database"
+msgstr "[REVIEW: untranslated] already connected to a database"
+
+#: pg_backup_db.c:254
+#, c-format
+msgid "query returned %d row instead of one: %s"
+msgid_plural "query returned %d rows instead of one: %s"
+msgstr[0] "[REVIEW: query; untranslated] query returned %d row instead of one: %s"
+msgstr[1] "[REVIEW: query; untranslated] query returned %d rows instead of one: %s"
+
+#: pg_backup_db.c:290
+#, c-format
+msgid "%s: %sCommand was: %s"
+msgstr "%s: %sCommand was: %s"
+
+#: pg_backup_db.c:346 pg_backup_db.c:420 pg_backup_db.c:427
+msgid "could not execute query"
+msgstr "[REVIEW: query] गर्न सकिएन execute query"
+
+#: pg_backup_db.c:399
+#, c-format
+msgid "error returned by PQputCopyData: %s"
+msgstr "त्रुटि returned by PQputCopyData: %s"
+
+#: pg_backup_db.c:448
+#, c-format
+msgid "error returned by PQputCopyEnd: %s"
+msgstr "त्रुटि returned by PQputCopyEnd: %s"
+
+#: pg_backup_db.c:454
+#, c-format
+msgid "COPY failed for table \"%s\": %s"
+msgstr "COPY असफल भयो for table \"%s\": %s"
+
+#: pg_backup_db.c:460 pg_dump.c:2439
+#, c-format
+msgid "unexpected extra results during COPY of table \"%s\""
+msgstr "[REVIEW: untranslated] unexpected extra results during COPY of table \"%s\""
+
+#: pg_backup_db.c:472
+msgid "could not start database transaction"
+msgstr "[REVIEW: transaction] गर्न सकिएन start database transaction"
+
+#: pg_backup_db.c:480
+msgid "could not commit database transaction"
+msgstr "[REVIEW: transaction] गर्न सकिएन commit database transaction"
+
+#: pg_backup_directory.c:154
+#, c-format
+msgid "no output directory specified"
+msgstr "[REVIEW: untranslated] no output directory specified"
+
+#: pg_backup_directory.c:325 pg_backup_directory.c:474
+#: pg_backup_directory.c:512
+#, c-format
+msgid "could not write to output file: %s"
+msgstr "गर्न सकिएन write to output फाइल: %s"
+
+#: pg_backup_directory.c:343
+#, c-format
+msgid "could not close data file: %m"
+msgstr "गर्न सकिएन close data फाइल: %m"
+
+#: pg_backup_directory.c:376
+#, c-format
+msgid "could not close data file \"%s\": %m"
+msgstr "गर्न सकिएन close data फाइल \"%s\": %m"
+
+#: pg_backup_directory.c:423
+#, c-format
+msgid "could not open large object TOC file \"%s\" for input: %m"
+msgstr "गर्न सकिएन open large object TOC फाइल \"%s\" for input: %m"
+
+#: pg_backup_directory.c:434
+#, c-format
+msgid "invalid line in large object TOC file \"%s\": \"%s\""
+msgstr "अमान्य लाइन in large object TOC फाइल \"%s\": \"%s\""
+
+#: pg_backup_directory.c:443
+#, c-format
+msgid "error reading large object TOC file \"%s\""
+msgstr "त्रुटि reading large object TOC फाइल \"%s\""
+
+#: pg_backup_directory.c:447
+#, c-format
+msgid "could not close large object TOC file \"%s\": %m"
+msgstr "गर्न सकिएन close large object TOC फाइल \"%s\": %m"
+
+#: pg_backup_directory.c:670
+#, c-format
+msgid "could not close LO data file: %m"
+msgstr "गर्न सकिएन close LO data फाइल: %m"
+
+#: pg_backup_directory.c:680
+#, c-format
+msgid "could not write to LOs TOC file: %s"
+msgstr "गर्न सकिएन write to LOs TOC फाइल: %s"
+
+#: pg_backup_directory.c:696
+#, c-format
+msgid "could not close LOs TOC file: %m"
+msgstr "गर्न सकिएन close LOs TOC फाइल: %m"
+
+#: pg_backup_directory.c:715
+#, c-format
+msgid "file name too long: \"%s\""
+msgstr "फाइल नाम too long: \"%s\""
+
+#: pg_backup_null.c:70
+#, c-format
+msgid "this format cannot be read"
+msgstr "this format गर्न सकिँदैन be read"
+
+#: pg_backup_tar.c:168
+#, c-format
+msgid "could not open TOC file \"%s\" for output: %m"
+msgstr "गर्न सकिएन open TOC फाइल \"%s\" for output: %m"
+
+#: pg_backup_tar.c:175
+#, c-format
+msgid "could not open TOC file for output: %m"
+msgstr "गर्न सकिएन open TOC फाइल for output: %m"
+
+#: pg_backup_tar.c:194 pg_backup_tar.c:330 pg_backup_tar.c:385
+#: pg_backup_tar.c:401 pg_backup_tar.c:906
+#, c-format
+msgid "compression is not supported by tar archive format"
+msgstr "[REVIEW: archive; untranslated] compression is not supported by tar archive format"
+
+#: pg_backup_tar.c:202
+#, c-format
+msgid "could not open TOC file \"%s\" for input: %m"
+msgstr "गर्न सकिएन open TOC फाइल \"%s\" for input: %m"
+
+#: pg_backup_tar.c:209
+#, c-format
+msgid "could not open TOC file for input: %m"
+msgstr "गर्न सकिएन open TOC फाइल for input: %m"
+
+#: pg_backup_tar.c:318
+#, c-format
+msgid "could not find file \"%s\" in archive"
+msgstr "[REVIEW: archive] गर्न सकिएन find फाइल \"%s\" in archive"
+
+#: pg_backup_tar.c:378
+#, c-format
+msgid "could not generate temporary file name: %m"
+msgstr "गर्न सकिएन generate temporary फाइल नाम: %m"
+
+#: pg_backup_tar.c:619
+#, c-format
+msgid "unexpected COPY statement syntax: \"%s\""
+msgstr "[REVIEW: statement; untranslated] unexpected COPY statement syntax: \"%s\""
+
+#: pg_backup_tar.c:903
+#, c-format
+msgid "invalid OID for large object (%u)"
+msgstr "[REVIEW: OID] अमान्य OID for large object (%u)"
+
+#: pg_backup_tar.c:1048
+#, c-format
+msgid "could not close temporary file: %m"
+msgstr "गर्न सकिएन close temporary फाइल: %m"
+
+#: pg_backup_tar.c:1051
+#, c-format
+msgid "actual file length (%lld) does not match expected (%lld)"
+msgstr "actual फाइल length (%lld) does not match expected (%lld)"
+
+#: pg_backup_tar.c:1097 pg_backup_tar.c:1128
+#, c-format
+msgid "could not find header for file \"%s\" in tar archive"
+msgstr "[REVIEW: archive] गर्न सकिएन find header for फाइल \"%s\" in tar archive"
+
+#: pg_backup_tar.c:1115
+#, c-format
+msgid "restoring data out of order is not supported in this archive format: \"%s\" is required, but comes before \"%s\" in the archive file."
+msgstr "[REVIEW: archive; sentence] restoring data out of order is not supported in this archive format: \"%s\" is आवश्यक, but comes before \"%s\" in the archive फाइल."
+
+#: pg_backup_tar.c:1162
+#, c-format
+msgid "incomplete tar header found (%lu byte)"
+msgid_plural "incomplete tar header found (%lu bytes)"
+msgstr[0] "[REVIEW: untranslated] incomplete tar header found (%lu byte)"
+msgstr[1] "[REVIEW: untranslated] incomplete tar header found (%lu bytes)"
+
+#: pg_backup_tar.c:1201
+#, c-format
+msgid "corrupt tar header found in %s (expected %d, computed %d) file position %llu"
+msgstr "corrupt tar header found in %s (expected %d, computed %d) फाइल position %llu"
+
+#: pg_backup_utils.c:56
+#, c-format
+msgid "unrecognized section name: \"%s\""
+msgstr "unrecognized section नाम: \"%s\""
+
+#: pg_backup_utils.c:57 pg_dump.c:803 pg_dump.c:820 pg_dumpall.c:385
+#: pg_dumpall.c:395 pg_dumpall.c:403 pg_dumpall.c:411 pg_dumpall.c:418
+#: pg_dumpall.c:428 pg_dumpall.c:443 pg_dumpall.c:564 pg_restore.c:351
+#: pg_restore.c:367 pg_restore.c:378 pg_restore.c:388 pg_restore.c:517
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_backup_utils.c:68
+#, c-format
+msgid "out of on_exit_nicely slots"
+msgstr "[REVIEW: slot; untranslated] out of on_exit_nicely slots"
+
+#: pg_dump.c:818 pg_dumpall.c:393 pg_restore.c:365
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: pg_dump.c:830 pg_restore.c:396
+#, c-format
+msgid "options -s/--schema-only and -a/--data-only cannot be used together"
+msgstr "[REVIEW: schema] options -s/--schema-only and -a/--data-only गर्न सकिँदैन be used together"
+
+#: pg_dump.c:832 pg_restore.c:398
+#, c-format
+msgid "options -s/--schema-only and --statistics-only cannot be used together"
+msgstr "[REVIEW: schema] options -s/--schema-only and --statistics-only गर्न सकिँदैन be used together"
+
+#: pg_dump.c:834 pg_restore.c:400
+#, c-format
+msgid "options -a/--data-only and --statistics-only cannot be used together"
+msgstr "options -a/--data-only and --statistics-only गर्न सकिँदैन be used together"
+
+#: pg_dump.c:838 pg_restore.c:404
+#, c-format
+msgid "options -a/--data-only and --no-data cannot be used together"
+msgstr "options -a/--data-only and --no-data गर्न सकिँदैन be used together"
+
+#: pg_dump.c:840 pg_restore.c:406
+#, c-format
+msgid "options -s/--schema-only and --no-schema cannot be used together"
+msgstr "[REVIEW: schema] options -s/--schema-only and --no-schema गर्न सकिँदैन be used together"
+
+#: pg_dump.c:842 pg_restore.c:408
+#, c-format
+msgid "options --statistics-only and --no-statistics cannot be used together"
+msgstr "options --statistics-only and --no-statistics गर्न सकिँदैन be used together"
+
+#: pg_dump.c:846 pg_restore.c:412
+#, c-format
+msgid "options --with-data and --no-data cannot be used together"
+msgstr "options --with-data and --no-data गर्न सकिँदैन be used together"
+
+#: pg_dump.c:848 pg_restore.c:414
+#, c-format
+msgid "options --with-schema and --no-schema cannot be used together"
+msgstr "[REVIEW: schema] options --with-schema and --no-schema गर्न सकिँदैन be used together"
+
+#: pg_dump.c:850 pg_restore.c:416
+#, c-format
+msgid "options --with-statistics and --no-statistics cannot be used together"
+msgstr "options --with-statistics and --no-statistics गर्न सकिँदैन be used together"
+
+#: pg_dump.c:853
+#, c-format
+msgid "options -s/--schema-only and --include-foreign-data cannot be used together"
+msgstr "[REVIEW: schema] options -s/--schema-only and --include-foreign-data गर्न सकिँदैन be used together"
+
+#: pg_dump.c:856
+#, c-format
+msgid "option --include-foreign-data is not supported with parallel backup"
+msgstr "[REVIEW: backup; untranslated] option --include-foreign-data is not supported with parallel backup"
+
+#: pg_dump.c:859 pg_restore.c:419
+#, c-format
+msgid "options -c/--clean and -a/--data-only cannot be used together"
+msgstr "options -c/--clean and -a/--data-only गर्न सकिँदैन be used together"
+
+#: pg_dump.c:862 pg_dumpall.c:423 pg_restore.c:462
+#, c-format
+msgid "option --if-exists requires option -c/--clean"
+msgstr "[REVIEW: untranslated] option --if-exists requires option -c/--clean"
+
+#: pg_dump.c:884
+#, c-format
+msgid "option --on-conflict-do-nothing requires option --inserts, --rows-per-insert, or --column-inserts"
+msgstr "[REVIEW: untranslated] option --on-conflict-do-nothing requires option --inserts, --rows-per-insert, or --column-inserts"
+
+#: pg_dump.c:913
+#, c-format
+msgid "unrecognized compression algorithm: \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized compression algorithm: \"%s\""
+
+#: pg_dump.c:920
+#, c-format
+msgid "invalid compression specification: %s"
+msgstr "अमान्य compression specification: %s"
+
+#: pg_dump.c:933
+#, c-format
+msgid "compression option \"%s\" is not currently supported by pg_dump"
+msgstr "[REVIEW: untranslated] compression option \"%s\" is not currently supported by pg_dump"
+
+#: pg_dump.c:945
+#, c-format
+msgid "parallel backup only supported by the directory format"
+msgstr "[REVIEW: backup; untranslated] parallel backup only supported by the directory format"
+
+#: pg_dump.c:991
+#, c-format
+msgid "last built-in OID is %u"
+msgstr "[REVIEW: OID; untranslated] last built-in OID is %u"
+
+#: pg_dump.c:1000
+#, c-format
+msgid "no matching schemas were found"
+msgstr "[REVIEW: schema; untranslated] no matching schemas were found"
+
+#: pg_dump.c:1017
+#, c-format
+msgid "no matching tables were found"
+msgstr "[REVIEW: untranslated] no matching tables were found"
+
+#: pg_dump.c:1045
+#, c-format
+msgid "no matching extensions were found"
+msgstr "[REVIEW: extension; untranslated] no matching extensions were found"
+
+#: pg_dump.c:1238
+#, c-format
+msgid ""
+"%s dumps a database as a text file or to other formats.\n"
+"\n"
+msgstr ""
+"%s dumps a database as a text फाइल or to other formats.\n"
+"\n"
+
+#: pg_dump.c:1239 pg_dumpall.c:699 pg_restore.c:648
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_dump.c:1240
+#, c-format
+msgid ""
+"  %s [OPTION]... [DBNAME]\n"
+msgstr ""
+"  %s [OPTION]... [DBNAME]\n"
+
+#: pg_dump.c:1242 pg_dumpall.c:702 pg_restore.c:651
+#, c-format
+msgid ""
+"\n"
+"General options:\n"
+msgstr ""
+"\n"
+"General options:\n"
+
+#: pg_dump.c:1243
+#, c-format
+msgid ""
+"  -f, --file=FILENAME          output file or directory name\n"
+msgstr ""
+"  -f, --file=FILENAME          output फाइल or directory नाम\n"
+
+#: pg_dump.c:1244 pg_dumpall.c:704
+#, c-format
+msgid ""
+"  -F, --format=c|d|t|p         output file format (custom, directory, tar,\n"
+"                               plain text (default))\n"
+msgstr ""
+"  -F, --format=c|d|t|p         output फाइल format (custom, directory, tar,\n"
+"[REVIEW: untranslated]                                plain text (default))\n"
+
+#: pg_dump.c:1246
+#, c-format
+msgid ""
+"  -j, --jobs=NUM               use this many parallel jobs to dump\n"
+msgstr ""
+"[REVIEW: untranslated]   -j, --jobs=NUM               use this many parallel jobs to dump\n"
+
+#: pg_dump.c:1247 pg_dumpall.c:706
+#, c-format
+msgid ""
+"  -v, --verbose                verbose mode\n"
+msgstr ""
+"[REVIEW: untranslated]   -v, --verbose                verbose mode\n"
+
+#: pg_dump.c:1248 pg_dumpall.c:707
+#, c-format
+msgid ""
+"  -V, --version                output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version                output version information, then exit\n"
+
+#: pg_dump.c:1249
+#, c-format
+msgid ""
+"  -Z, --compress=METHOD[:DETAIL]\n"
+"                               compress as specified\n"
+msgstr ""
+"[REVIEW: untranslated]   -Z, --compress=METHOD[:DETAIL]\n"
+"[REVIEW: untranslated]                                compress as specified\n"
+
+#: pg_dump.c:1251 pg_dumpall.c:708
+#, c-format
+msgid ""
+"  --lock-wait-timeout=TIMEOUT  fail after waiting TIMEOUT for a table lock\n"
+msgstr ""
+"[REVIEW: lock; untranslated]   --lock-wait-timeout=TIMEOUT  fail after waiting TIMEOUT for a table lock\n"
+
+#: pg_dump.c:1252 pg_dumpall.c:740
+#, c-format
+msgid ""
+"  --no-sync                    do not wait for changes to be written safely to disk\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-sync                    do not wait for changes to be written safely to disk\n"
+
+#: pg_dump.c:1253
+#, c-format
+msgid ""
+"  --sync-method=METHOD         set method for syncing files to disk\n"
+msgstr ""
+"  --sync-method=METHOD         set method for syncing फाइलs to disk\n"
+
+#: pg_dump.c:1254 pg_dumpall.c:709
+#, c-format
+msgid ""
+"  -?, --help                   show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                   show this help, then exit\n"
+
+#: pg_dump.c:1256 pg_dumpall.c:710
+#, c-format
+msgid ""
+"\n"
+"Options controlling the output content:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Options controlling the output content:\n"
+
+#: pg_dump.c:1257 pg_dumpall.c:711
+#, c-format
+msgid ""
+"  -a, --data-only              dump only the data, not the schema or statistics\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   -a, --data-only              dump only the data, not the schema or statistics\n"
+
+#: pg_dump.c:1258
+#, c-format
+msgid ""
+"  -b, --large-objects          include large objects in dump\n"
+msgstr ""
+"[REVIEW: untranslated]   -b, --large-objects          include large objects in dump\n"
+
+#: pg_dump.c:1259
+#, c-format
+msgid ""
+"  --blobs                      (same as --large-objects, deprecated)\n"
+msgstr ""
+"[REVIEW: untranslated]   --blobs                      (same as --large-objects, deprecated)\n"
+
+#: pg_dump.c:1260
+#, c-format
+msgid ""
+"  -B, --no-large-objects       exclude large objects in dump\n"
+msgstr ""
+"[REVIEW: untranslated]   -B, --no-large-objects       exclude large objects in dump\n"
+
+#: pg_dump.c:1261
+#, c-format
+msgid ""
+"  --no-blobs                   (same as --no-large-objects, deprecated)\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-blobs                   (same as --no-large-objects, deprecated)\n"
+
+#: pg_dump.c:1262 pg_restore.c:662
+#, c-format
+msgid ""
+"  -c, --clean                  clean (drop) database objects before recreating\n"
+msgstr ""
+"[REVIEW: untranslated]   -c, --clean                  clean (drop) database objects before recreating\n"
+
+#: pg_dump.c:1263
+#, c-format
+msgid ""
+"  -C, --create                 include commands to create database in dump\n"
+msgstr ""
+"[REVIEW: untranslated]   -C, --create                 include commands to create database in dump\n"
+
+#: pg_dump.c:1264
+#, c-format
+msgid ""
+"  -e, --extension=PATTERN      dump the specified extension(s) only\n"
+msgstr ""
+"[REVIEW: extension; untranslated]   -e, --extension=PATTERN      dump the specified extension(s) only\n"
+
+#: pg_dump.c:1265 pg_dumpall.c:713
+#, c-format
+msgid ""
+"  -E, --encoding=ENCODING      dump the data in encoding ENCODING\n"
+msgstr ""
+"[REVIEW: encoding; untranslated]   -E, --encoding=ENCODING      dump the data in encoding ENCODING\n"
+
+#: pg_dump.c:1266
+#, c-format
+msgid ""
+"  -n, --schema=PATTERN         dump the specified schema(s) only\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   -n, --schema=PATTERN         dump the specified schema(s) only\n"
+
+#: pg_dump.c:1267
+#, c-format
+msgid ""
+"  -N, --exclude-schema=PATTERN do NOT dump the specified schema(s)\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   -N, --exclude-schema=PATTERN do NOT dump the specified schema(s)\n"
+
+#: pg_dump.c:1268
+#, c-format
+msgid ""
+"  -O, --no-owner               skip restoration of object ownership in\n"
+"                               plain-text format\n"
+msgstr ""
+"[REVIEW: untranslated]   -O, --no-owner               skip restoration of object ownership in\n"
+"                               plain-text format\n"
+
+#: pg_dump.c:1270 pg_dumpall.c:717
+#, c-format
+msgid ""
+"  -s, --schema-only            dump only the schema, no data or statistics\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   -s, --schema-only            dump only the schema, no data or statistics\n"
+
+#: pg_dump.c:1271
+#, c-format
+msgid ""
+"  -S, --superuser=NAME         superuser user name to use in plain-text format\n"
+msgstr ""
+"  -S, --superuser=NAME         superप्रयोगकर्ता प्रयोगकर्ता नाम to use in plain-text format\n"
+
+#: pg_dump.c:1272
+#, c-format
+msgid ""
+"  -t, --table=PATTERN          dump only the specified table(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   -t, --table=PATTERN          dump only the specified table(s)\n"
+
+#: pg_dump.c:1273
+#, c-format
+msgid ""
+"  -T, --exclude-table=PATTERN  do NOT dump the specified table(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   -T, --exclude-table=PATTERN  do NOT dump the specified table(s)\n"
+
+#: pg_dump.c:1274 pg_dumpall.c:720
+#, c-format
+msgid ""
+"  -x, --no-privileges          do not dump privileges (grant/revoke)\n"
+msgstr ""
+"[REVIEW: privilege; untranslated]   -x, --no-privileges          do not dump privileges (grant/revoke)\n"
+
+#: pg_dump.c:1275 pg_dumpall.c:721
+#, c-format
+msgid ""
+"  --binary-upgrade             for use by upgrade utilities only\n"
+msgstr ""
+"[REVIEW: untranslated]   --binary-upgrade             for use by upgrade utilities only\n"
+
+#: pg_dump.c:1276 pg_dumpall.c:722
+#, c-format
+msgid ""
+"  --column-inserts             dump data as INSERT commands with column names\n"
+msgstr ""
+"  --column-inserts             dump data as INSERT commands with column नामs\n"
+
+#: pg_dump.c:1277 pg_dumpall.c:723
+#, c-format
+msgid ""
+"  --disable-dollar-quoting     disable dollar quoting, use SQL standard quoting\n"
+msgstr ""
+"[REVIEW: untranslated]   --disable-dollar-quoting     disable dollar quoting, use SQL standard quoting\n"
+
+#: pg_dump.c:1278 pg_dumpall.c:724 pg_restore.c:681
+#, c-format
+msgid ""
+"  --disable-triggers           disable triggers during data-only restore\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --disable-triggers           disable triggers during data-only restore\n"
+
+#: pg_dump.c:1279
+#, c-format
+msgid ""
+"  --enable-row-security        enable row security (dump only content user has\n"
+"                               access to)\n"
+msgstr ""
+"  --enable-row-security        enable row security (dump only content प्रयोगकर्ता has\n"
+"                               access to)\n"
+
+#: pg_dump.c:1281
+#, c-format
+msgid ""
+"  --exclude-extension=PATTERN  do NOT dump the specified extension(s)\n"
+msgstr ""
+"[REVIEW: extension; untranslated]   --exclude-extension=PATTERN  do NOT dump the specified extension(s)\n"
+
+#: pg_dump.c:1282
+#, c-format
+msgid ""
+"  --exclude-table-and-children=PATTERN\n"
+"                               do NOT dump the specified table(s), including\n"
+"                               child and partition tables\n"
+msgstr ""
+"  --exclude-table-and-children=PATTERN\n"
+"[REVIEW: untranslated]                                do NOT dump the specified table(s), including\n"
+"[REVIEW: untranslated]                                child and partition tables\n"
+
+#: pg_dump.c:1285
+#, c-format
+msgid ""
+"  --exclude-table-data=PATTERN do NOT dump data for the specified table(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   --exclude-table-data=PATTERN do NOT dump data for the specified table(s)\n"
+
+#: pg_dump.c:1286
+#, c-format
+msgid ""
+"  --exclude-table-data-and-children=PATTERN\n"
+"                               do NOT dump data for the specified table(s),\n"
+"                               including child and partition tables\n"
+msgstr ""
+"  --exclude-table-data-and-children=PATTERN\n"
+"[REVIEW: untranslated]                                do NOT dump data for the specified table(s),\n"
+"[REVIEW: untranslated]                                including child and partition tables\n"
+
+#: pg_dump.c:1289 pg_dumpall.c:726
+#, c-format
+msgid ""
+"  --extra-float-digits=NUM     override default setting for extra_float_digits\n"
+msgstr ""
+"[REVIEW: untranslated]   --extra-float-digits=NUM     override default setting for extra_float_digits\n"
+
+#: pg_dump.c:1290
+#, c-format
+msgid ""
+"  --filter=FILENAME            include or exclude objects and data from dump\n"
+"                               based on expressions in FILENAME\n"
+msgstr ""
+"[REVIEW: untranslated]   --filter=FILENAME            include or exclude objects and data from dump\n"
+"[REVIEW: untranslated]                                based on expressions in FILENAME\n"
+
+#: pg_dump.c:1292 pg_dumpall.c:728 pg_restore.c:685
+#, c-format
+msgid ""
+"  --if-exists                  use IF EXISTS when dropping objects\n"
+msgstr ""
+"[REVIEW: untranslated]   --if-exists                  use IF EXISTS when dropping objects\n"
+
+#: pg_dump.c:1293
+#, c-format
+msgid ""
+"  --include-foreign-data=PATTERN\n"
+"                               include data of foreign tables on foreign\n"
+"                               servers matching PATTERN\n"
+msgstr ""
+"  --include-foreign-data=PATTERN\n"
+"[REVIEW: untranslated]                                include data of foreign tables on foreign\n"
+"[REVIEW: untranslated]                                servers matching PATTERN\n"
+
+#: pg_dump.c:1296 pg_dumpall.c:729
+#, c-format
+msgid ""
+"  --inserts                    dump data as INSERT commands, rather than COPY\n"
+msgstr ""
+"[REVIEW: untranslated]   --inserts                    dump data as INSERT commands, rather than COPY\n"
+
+#: pg_dump.c:1297 pg_dumpall.c:730
+#, c-format
+msgid ""
+"  --load-via-partition-root    load partitions via the root table\n"
+msgstr ""
+"[REVIEW: untranslated]   --load-via-partition-root    load partitions via the root table\n"
+
+#: pg_dump.c:1298 pg_dumpall.c:731
+#, c-format
+msgid ""
+"  --no-comments                do not dump comment commands\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-comments                do not dump comment commands\n"
+
+#: pg_dump.c:1299 pg_dumpall.c:732
+#, c-format
+msgid ""
+"  --no-data                    do not dump data\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-data                    do not dump data\n"
+
+#: pg_dump.c:1300 pg_dumpall.c:733
+#, c-format
+msgid ""
+"  --no-policies                do not dump row security policies\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-policies                do not dump row security policies\n"
+
+#: pg_dump.c:1301 pg_dumpall.c:734
+#, c-format
+msgid ""
+"  --no-publications            do not dump publications\n"
+msgstr ""
+"[REVIEW: publication; untranslated]   --no-publications            do not dump publications\n"
+
+#: pg_dump.c:1302 pg_dumpall.c:736
+#, c-format
+msgid ""
+"  --no-schema                  do not dump schema\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   --no-schema                  do not dump schema\n"
+
+#: pg_dump.c:1303 pg_dumpall.c:737
+#, c-format
+msgid ""
+"  --no-security-labels         do not dump security label assignments\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-security-labels         do not dump security label assignments\n"
+
+#: pg_dump.c:1304 pg_dumpall.c:738
+#, c-format
+msgid ""
+"  --no-statistics              do not dump statistics\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-statistics              do not dump statistics\n"
+
+#: pg_dump.c:1305 pg_dumpall.c:739
+#, c-format
+msgid ""
+"  --no-subscriptions           do not dump subscriptions\n"
+msgstr ""
+"[REVIEW: subscription; untranslated]   --no-subscriptions           do not dump subscriptions\n"
+
+#: pg_dump.c:1306 pg_dumpall.c:741
+#, c-format
+msgid ""
+"  --no-table-access-method     do not dump table access methods\n"
+msgstr ""
+"[REVIEW: access method; untranslated]   --no-table-access-method     do not dump table access methods\n"
+
+#: pg_dump.c:1307 pg_dumpall.c:742
+#, c-format
+msgid ""
+"  --no-tablespaces             do not dump tablespace assignments\n"
+msgstr ""
+"[REVIEW: tablespace; untranslated]   --no-tablespaces             do not dump tablespace assignments\n"
+
+#: pg_dump.c:1308 pg_dumpall.c:743
+#, c-format
+msgid ""
+"  --no-toast-compression       do not dump TOAST compression methods\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-toast-compression       do not dump TOAST compression methods\n"
+
+#: pg_dump.c:1309 pg_dumpall.c:744
+#, c-format
+msgid ""
+"  --no-unlogged-table-data     do not dump unlogged table data\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-unlogged-table-data     do not dump unlogged table data\n"
+
+#: pg_dump.c:1310 pg_dumpall.c:745
+#, c-format
+msgid ""
+"  --on-conflict-do-nothing     add ON CONFLICT DO NOTHING to INSERT commands\n"
+msgstr ""
+"[REVIEW: untranslated]   --on-conflict-do-nothing     add ON CONFLICT DO NOTHING to INSERT commands\n"
+
+#: pg_dump.c:1311 pg_dumpall.c:746
+#, c-format
+msgid ""
+"  --quote-all-identifiers      quote all identifiers, even if not key words\n"
+msgstr ""
+"[REVIEW: untranslated]   --quote-all-identifiers      quote all identifiers, even if not key words\n"
+
+#: pg_dump.c:1312 pg_dumpall.c:747
+#, c-format
+msgid ""
+"  --rows-per-insert=NROWS      number of rows per INSERT; implies --inserts\n"
+msgstr ""
+"[REVIEW: untranslated]   --rows-per-insert=NROWS      number of rows per INSERT; implies --inserts\n"
+
+#: pg_dump.c:1313
+#, c-format
+msgid ""
+"  --section=SECTION            dump named section (pre-data, data, or post-data)\n"
+msgstr ""
+"  --section=SECTION            dump नामd section (pre-data, data, or post-data)\n"
+
+#: pg_dump.c:1314
+#, c-format
+msgid ""
+"  --sequence-data              include sequence data in dump\n"
+msgstr ""
+"[REVIEW: untranslated]   --sequence-data              include sequence data in dump\n"
+
+#: pg_dump.c:1315
+#, c-format
+msgid ""
+"  --serializable-deferrable    wait until the dump can run without anomalies\n"
+msgstr ""
+"[REVIEW: serializable; untranslated]   --serializable-deferrable    wait until the dump can run without anomalies\n"
+
+#: pg_dump.c:1316
+#, c-format
+msgid ""
+"  --snapshot=SNAPSHOT          use given snapshot for the dump\n"
+msgstr ""
+"[REVIEW: snapshot; untranslated]   --snapshot=SNAPSHOT          use given snapshot for the dump\n"
+
+#: pg_dump.c:1317 pg_dumpall.c:748
+#, c-format
+msgid ""
+"  --statistics-only            dump only the statistics, not schema or data\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   --statistics-only            dump only the statistics, not schema or data\n"
+
+#: pg_dump.c:1318 pg_restore.c:700
+#, c-format
+msgid ""
+"  --strict-names               require table and/or schema include patterns to\n"
+"                               match at least one entity each\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   --strict-names               require table and/or schema include patterns to\n"
+"[REVIEW: untranslated]                                match at least one entity each\n"
+
+#: pg_dump.c:1320
+#, c-format
+msgid ""
+"  --table-and-children=PATTERN dump only the specified table(s), including\n"
+"                               child and partition tables\n"
+msgstr ""
+"[REVIEW: untranslated]   --table-and-children=PATTERN dump only the specified table(s), including\n"
+"[REVIEW: untranslated]                                child and partition tables\n"
+
+#: pg_dump.c:1322 pg_dumpall.c:749 pg_restore.c:703
+#, c-format
+msgid ""
+"  --use-set-session-authorization\n"
+"                               use SET SESSION AUTHORIZATION commands instead of\n"
+"                               ALTER OWNER commands to set ownership\n"
+msgstr ""
+"[REVIEW: authorization]   --use-set-session-authorization\n"
+"[REVIEW: authorization; untranslated]                                use SET SESSION AUTHORIZATION commands instead of\n"
+"[REVIEW: untranslated]                                ALTER OWNER commands to set ownership\n"
+
+#: pg_dump.c:1325 pg_dumpall.c:752 pg_restore.c:706
+#, c-format
+msgid ""
+"  --with-data                  dump the data\n"
+msgstr ""
+"[REVIEW: untranslated]   --with-data                  dump the data\n"
+
+#: pg_dump.c:1326 pg_dumpall.c:753 pg_restore.c:707
+#, c-format
+msgid ""
+"  --with-schema                dump the schema\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   --with-schema                dump the schema\n"
+
+#: pg_dump.c:1327 pg_dumpall.c:754 pg_restore.c:708
+#, c-format
+msgid ""
+"  --with-statistics            dump the statistics\n"
+msgstr ""
+"[REVIEW: untranslated]   --with-statistics            dump the statistics\n"
+
+#: pg_dump.c:1329 pg_dumpall.c:756 pg_restore.c:710
+#, c-format
+msgid ""
+"\n"
+"Connection options:\n"
+msgstr ""
+"\n"
+"Connection options:\n"
+
+#: pg_dump.c:1330
+#, c-format
+msgid ""
+"  -d, --dbname=DBNAME      database to dump\n"
+msgstr ""
+"[REVIEW: untranslated]   -d, --dbname=DBNAME      database to dump\n"
+
+#: pg_dump.c:1331 pg_dumpall.c:758 pg_restore.c:711
+#, c-format
+msgid ""
+"  -h, --host=HOSTNAME      database server host or socket directory\n"
+msgstr ""
+"[REVIEW: untranslated]   -h, --host=HOSTNAME      database server host or socket directory\n"
+
+#: pg_dump.c:1332 pg_dumpall.c:760 pg_restore.c:712
+#, c-format
+msgid ""
+"  -p, --port=PORT          database server port number\n"
+msgstr ""
+"[REVIEW: untranslated]   -p, --port=PORT          database server port number\n"
+
+#: pg_dump.c:1333 pg_dumpall.c:761 pg_restore.c:713
+#, c-format
+msgid ""
+"  -U, --username=NAME      connect as specified database user\n"
+msgstr ""
+"  -U, --username=NAME      connect as specified database प्रयोगकर्ता\n"
+
+#: pg_dump.c:1334 pg_dumpall.c:762 pg_restore.c:714
+#, c-format
+msgid ""
+"  -w, --no-password        never prompt for password\n"
+msgstr ""
+"[REVIEW: untranslated]   -w, --no-password        never prompt for password\n"
+
+#: pg_dump.c:1335 pg_dumpall.c:763 pg_restore.c:715
+#, c-format
+msgid ""
+"  -W, --password           force password prompt (should happen automatically)\n"
+msgstr ""
+"[REVIEW: untranslated]   -W, --password           force password prompt (should happen automatically)\n"
+
+#: pg_dump.c:1336 pg_dumpall.c:764
+#, c-format
+msgid ""
+"  --role=ROLENAME          do SET ROLE before dump\n"
+msgstr ""
+"[REVIEW: role; untranslated]   --role=ROLENAME          do SET ROLE before dump\n"
+
+#: pg_dump.c:1338
+#, c-format
+msgid ""
+"\n"
+"If no database name is supplied, then the PGDATABASE environment\n"
+"variable value is used.\n"
+"\n"
+msgstr ""
+"\n"
+"If no database नाम is supplied, then the PGDATABASE environment\n"
+"[REVIEW: untranslated] variable value is used.\n"
+"\n"
+
+#: pg_dump.c:1340 pg_dumpall.c:768 pg_restore.c:722
+#, c-format
+msgid ""
+"Report bugs to <%s>.\n"
+msgstr ""
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_dump.c:1341 pg_dumpall.c:769 pg_restore.c:723
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_dump.c:1360 pg_dumpall.c:581
+#, c-format
+msgid "invalid client encoding \"%s\" specified"
+msgstr "[REVIEW: encoding] अमान्य client encoding \"%s\" specified"
+
+#: pg_dump.c:1508
+#, c-format
+msgid "parallel dumps from standby servers are not supported by this server version"
+msgstr "[REVIEW: standby; untranslated] parallel dumps from standby servers are not supported by this server version"
+
+#: pg_dump.c:1573
+#, c-format
+msgid "invalid output format \"%s\" specified"
+msgstr "अमान्य output format \"%s\" specified"
+
+#: pg_dump.c:1614 pg_dump.c:1670 pg_dump.c:1723 pg_dumpall.c:1593
+#: pg_restore.c:974
+#, c-format
+msgid "improper qualified name (too many dotted names): %s"
+msgstr "improper qualified नाम (too many dotted नामs): %s"
+
+#: pg_dump.c:1622
+#, c-format
+msgid "no matching schemas were found for pattern \"%s\""
+msgstr "[REVIEW: schema; untranslated] no matching schemas were found for pattern \"%s\""
+
+#: pg_dump.c:1675
+#, c-format
+msgid "no matching extensions were found for pattern \"%s\""
+msgstr "[REVIEW: extension; untranslated] no matching extensions were found for pattern \"%s\""
+
+#: pg_dump.c:1728
+#, c-format
+msgid "no matching foreign servers were found for pattern \"%s\""
+msgstr "[REVIEW: untranslated] no matching foreign servers were found for pattern \"%s\""
+
+#: pg_dump.c:1799
+#, c-format
+msgid "improper relation name (too many dotted names): %s"
+msgstr "[REVIEW: relation] improper relation नाम (too many dotted नामs): %s"
+
+#: pg_dump.c:1821
+#, c-format
+msgid "no matching tables were found for pattern \"%s\""
+msgstr "[REVIEW: untranslated] no matching tables were found for pattern \"%s\""
+
+#: pg_dump.c:1848
+#, c-format
+msgid "You are currently not connected to a database."
+msgstr "[REVIEW: untranslated] You are currently not connected to a database."
+
+#: pg_dump.c:1851
+#, c-format
+msgid "cross-database references are not implemented: %s"
+msgstr "[REVIEW: untranslated] cross-database references are not implemented: %s"
+
+#: pg_dump.c:2310
+#, c-format
+msgid "dumping contents of table \"%s.%s\""
+msgstr "[REVIEW: untranslated] dumping contents of table \"%s.%s\""
+
+#: pg_dump.c:2420
+#, c-format
+msgid "Dumping the contents of table \"%s\" failed: PQgetCopyData() failed."
+msgstr "Dumping the contents of table \"%s\" असफल भयो: PQgetCopyData() असफल भयो."
+
+#: pg_dump.c:2421 pg_dump.c:2431
+#, c-format
+msgid "Error message from server: %s"
+msgstr "त्रुटि message from server: %s"
+
+#: pg_dump.c:2422 pg_dump.c:2432
+#, c-format
+msgid "Command was: %s"
+msgstr "Command was: %s"
+
+#: pg_dump.c:2430
+#, c-format
+msgid "Dumping the contents of table \"%s\" failed: PQgetResult() failed."
+msgstr "Dumping the contents of table \"%s\" असफल भयो: PQgetResult() असफल भयो."
+
+#: pg_dump.c:2521
+#, c-format
+msgid "wrong number of fields retrieved from table \"%s\""
+msgstr "[REVIEW: untranslated] wrong number of fields retrieved from table \"%s\""
+
+#: pg_dump.c:3236
+#, c-format
+msgid "saving database definition"
+msgstr "[REVIEW: untranslated] saving database definition"
+
+#: pg_dump.c:3351
+#, c-format
+msgid "unrecognized locale provider: %s"
+msgstr "[REVIEW: locale; untranslated] unrecognized locale provider: %s"
+
+#: pg_dump.c:3712
+#, c-format
+msgid "saving encoding = %s"
+msgstr "[REVIEW: encoding] saving encoding = %s"
+
+#: pg_dump.c:3737
+#, c-format
+msgid "saving \"standard_conforming_strings = %s\""
+msgstr "saving \"standard_conforming_strings = %s\""
+
+#: pg_dump.c:3776
+#, c-format
+msgid "could not parse result of current_schemas()"
+msgstr "[REVIEW: schema] गर्न सकिएन parse result of current_schemas()"
+
+#: pg_dump.c:3795
+#, c-format
+msgid "saving \"search_path = %s\""
+msgstr "saving \"search_path = %s\""
+
+#: pg_dump.c:3831
+#, c-format
+msgid "reading large objects"
+msgstr "[REVIEW: untranslated] reading large objects"
+
+#: pg_dump.c:4052
+#, c-format
+msgid "saving large objects \"%s\""
+msgstr "[REVIEW: untranslated] saving large objects \"%s\""
+
+#: pg_dump.c:4073
+#, c-format
+msgid "error reading large object %u: %s"
+msgstr "त्रुटि reading large object %u: %s"
+
+#: pg_dump.c:4181
+#, c-format
+msgid "reading row-level security policies"
+msgstr "[REVIEW: row-level security; untranslated] reading row-level security policies"
+
+#: pg_dump.c:4322
+#, c-format
+msgid "unexpected policy command type: %c"
+msgstr "[REVIEW: policy; untranslated] unexpected policy command type: %c"
+
+#: pg_dump.c:4764 pg_dump.c:5321 pg_dump.c:7917 pg_dump.c:13277 pg_dump.c:19381
+#: pg_dump.c:19383 pg_dump.c:20015
+#, c-format
+msgid "could not parse %s array"
+msgstr "गर्न सकिएन parse %s array"
+
+#: pg_dump.c:4980
+#, c-format
+msgid "subscriptions not dumped because current user is not a superuser"
+msgstr "[REVIEW: subscription] subscriptions not dumped because current प्रयोगकर्ता is not a superप्रयोगकर्ता"
+
+#: pg_dump.c:5184
+#, c-format
+msgid "subscription with OID %u does not exist"
+msgstr "[REVIEW: subscription, OID] subscription with OID %u अवस्थित छैन"
+
+#: pg_dump.c:5191
+#, c-format
+msgid "failed sanity check, table with OID %u not found"
+msgstr "[REVIEW: OID] असफल भयो sanity check, table with OID %u फेला परेन"
+
+#: pg_dump.c:5777
+#, c-format
+msgid "could not find parent extension for %s %s"
+msgstr "[REVIEW: extension] गर्न सकिएन find parent extension for %s %s"
+
+#: pg_dump.c:5915
+#, c-format
+msgid "schema with OID %u does not exist"
+msgstr "[REVIEW: schema, OID] schema with OID %u अवस्थित छैन"
+
+#: pg_dump.c:6939
+#, c-format
+msgid "cannot dump statistics for relation kind '%c'"
+msgstr "[REVIEW: relation] गर्न सकिँदैन dump statistics for relation kind '%c'"
+
+#: pg_dump.c:7451 pg_dump.c:18725
+#, c-format
+msgid "failed sanity check, parent table with OID %u of sequence with OID %u not found"
+msgstr "[REVIEW: OID; sentence] असफल भयो sanity check, parent table with OID %u of sequence with OID %u फेला परेन"
+
+#: pg_dump.c:7596
+#, c-format
+msgid "failed sanity check, table OID %u appearing in pg_partitioned_table not found"
+msgstr "[REVIEW: OID] असफल भयो sanity check, table OID %u appearing in pg_partitioned_table फेला परेन"
+
+#: pg_dump.c:7861 pg_dump.c:8154 pg_dump.c:8595 pg_dump.c:9232 pg_dump.c:9366
+#: pg_dump.c:9511 pg_dump.c:9611
+#, c-format
+msgid "unrecognized table OID %u"
+msgstr "[REVIEW: OID; untranslated] unrecognized table OID %u"
+
+#: pg_dump.c:7865
+#, c-format
+msgid "unexpected index data for table \"%s\""
+msgstr "[REVIEW: untranslated] unexpected index data for table \"%s\""
+
+#: pg_dump.c:8382
+#, c-format
+msgid "failed sanity check, parent table with OID %u of pg_rewrite entry with OID %u not found"
+msgstr "[REVIEW: OID; sentence] असफल भयो sanity check, parent table with OID %u of pg_rewrite entry with OID %u फेला परेन"
+
+#: pg_dump.c:9236
+#, c-format
+msgid "unexpected column data for table \"%s\""
+msgstr "[REVIEW: untranslated] unexpected column data for table \"%s\""
+
+#: pg_dump.c:9266
+#, c-format
+msgid "invalid column numbering in table \"%s\""
+msgstr "अमान्य column numbering in table \"%s\""
+
+#: pg_dump.c:9328
+#, c-format
+msgid "finding table default expressions"
+msgstr "[REVIEW: untranslated] finding table default expressions"
+
+#: pg_dump.c:9370
+#, c-format
+msgid "invalid adnum value %d for table \"%s\""
+msgstr "अमान्य adnum value %d for table \"%s\""
+
+#: pg_dump.c:9463
+#, c-format
+msgid "finding invalid not null constraints"
+msgstr "[REVIEW: constraint] finding अमान्य not null constraints"
+
+#: pg_dump.c:9561
+#, c-format
+msgid "finding table check constraints"
+msgstr "[REVIEW: constraint; untranslated] finding table check constraints"
+
+#: pg_dump.c:9615
+#, c-format
+msgid "expected %d check constraint on table \"%s\" but found %d"
+msgid_plural "expected %d check constraints on table \"%s\" but found %d"
+msgstr[0] "[REVIEW: constraint; untranslated] expected %d check constraint on table \"%s\" but found %d"
+msgstr[1] "[REVIEW: constraint; untranslated] expected %d check constraints on table \"%s\" but found %d"
+
+#: pg_dump.c:9619
+#, c-format
+msgid "The system catalogs might be corrupted."
+msgstr "[REVIEW: catalog; untranslated] The system catalogs might be corrupted."
+
+#: pg_dump.c:10411
+#, c-format
+msgid "role with OID %u does not exist"
+msgstr "[REVIEW: role, OID] role with OID %u अवस्थित छैन"
+
+#: pg_dump.c:10523 pg_dump.c:10552
+#, c-format
+msgid "unsupported pg_init_privs entry: %u %u %d"
+msgstr "[REVIEW: untranslated] unsupported pg_init_privs entry: %u %u %d"
+
+#: pg_dump.c:10843
+#, c-format
+msgid "stats dumped out of order (current: %d %s %s) (expected: %d %s %s)"
+msgstr "[REVIEW: untranslated] stats dumped out of order (current: %d %s %s) (expected: %d %s %s)"
+
+#: pg_dump.c:10971
+#, c-format
+msgid "attname cannot be NULL"
+msgstr "attनाम गर्न सकिँदैन be NULL"
+
+#: pg_dump.c:11000
+#, c-format
+msgid "could not find index attname \"%s\""
+msgstr "गर्न सकिएन find index attनाम \"%s\""
+
+#: pg_dump.c:11486
+#, c-format
+msgid "missing metadata for large objects \"%s\""
+msgstr "हराइरहेको metadata for large objects \"%s\""
+
+#: pg_dump.c:11772
+#, c-format
+msgid "typtype of data type \"%s\" appears to be invalid"
+msgstr "typtype of data type \"%s\" appears to be अमान्य"
+
+#: pg_dump.c:13348
+#, c-format
+msgid "unrecognized provolatile value for function \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized provolatile value for function \"%s\""
+
+#: pg_dump.c:13398 pg_dump.c:15294
+#, c-format
+msgid "unrecognized proparallel value for function \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized proparallel value for function \"%s\""
+
+#: pg_dump.c:13528 pg_dump.c:13634 pg_dump.c:13641
+#, c-format
+msgid "could not find function definition for function with OID %u"
+msgstr "[REVIEW: OID] गर्न सकिएन find function definition for function with OID %u"
+
+#: pg_dump.c:13567
+#, c-format
+msgid "bogus value in pg_cast.castfunc or pg_cast.castmethod field"
+msgstr "[REVIEW: untranslated] bogus value in pg_cast.castfunc or pg_cast.castmethod field"
+
+#: pg_dump.c:13570
+#, c-format
+msgid "bogus value in pg_cast.castmethod field"
+msgstr "[REVIEW: untranslated] bogus value in pg_cast.castmethod field"
+
+#: pg_dump.c:13660
+#, c-format
+msgid "bogus transform definition, at least one of trffromsql and trftosql should be nonzero"
+msgstr "[REVIEW: untranslated] bogus transform definition, at least one of trffromsql and trftosql should be nonzero"
+
+#: pg_dump.c:13677
+#, c-format
+msgid "bogus value in pg_transform.trffromsql field"
+msgstr "[REVIEW: untranslated] bogus value in pg_transform.trffromsql field"
+
+#: pg_dump.c:13698
+#, c-format
+msgid "bogus value in pg_transform.trftosql field"
+msgstr "[REVIEW: untranslated] bogus value in pg_transform.trftosql field"
+
+#: pg_dump.c:13843
+#, c-format
+msgid "postfix operators are not supported anymore (operator \"%s\")"
+msgstr "[REVIEW: untranslated] postfix operators are not supported anymore (operator \"%s\")"
+
+#: pg_dump.c:14013
+#, c-format
+msgid "could not find operator with OID %s"
+msgstr "[REVIEW: OID] गर्न सकिएन find operator with OID %s"
+
+#: pg_dump.c:14081
+#, c-format
+msgid "invalid type \"%c\" of access method \"%s\""
+msgstr "[REVIEW: access method] अमान्य type \"%c\" of access method \"%s\""
+
+#: pg_dump.c:14755 pg_dump.c:14823
+#, c-format
+msgid "unrecognized collation provider: %s"
+msgstr "[REVIEW: collation; untranslated] unrecognized collation provider: %s"
+
+#: pg_dump.c:14764 pg_dump.c:14771 pg_dump.c:14782 pg_dump.c:14792
+#: pg_dump.c:14807
+#, c-format
+msgid "invalid collation \"%s\""
+msgstr "[REVIEW: collation] अमान्य collation \"%s\""
+
+#: pg_dump.c:15213
+#, c-format
+msgid "unrecognized aggfinalmodify value for aggregate \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized aggfinalmodify value for aggregate \"%s\""
+
+#: pg_dump.c:15269
+#, c-format
+msgid "unrecognized aggmfinalmodify value for aggregate \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized aggmfinalmodify value for aggregate \"%s\""
+
+#: pg_dump.c:15989
+#, c-format
+msgid "unrecognized object type in default privileges: %d"
+msgstr "[REVIEW: privilege; untranslated] unrecognized object type in default privileges: %d"
+
+#: pg_dump.c:16005
+#, c-format
+msgid "could not parse default ACL list (%s)"
+msgstr "गर्न सकिएन parse default ACL list (%s)"
+
+#: pg_dump.c:16089
+#, c-format
+msgid "could not parse initial ACL list (%s) or default (%s) for object \"%s\" (%s)"
+msgstr "गर्न सकिएन parse initial ACL list (%s) or default (%s) for object \"%s\" (%s)"
+
+#: pg_dump.c:16114
+#, c-format
+msgid "could not parse ACL list (%s) or default (%s) for object \"%s\" (%s)"
+msgstr "गर्न सकिएन parse ACL list (%s) or default (%s) for object \"%s\" (%s)"
+
+#: pg_dump.c:16657
+#, c-format
+msgid "query to obtain definition of view \"%s\" returned no data"
+msgstr "[REVIEW: query; untranslated] query to obtain definition of view \"%s\" returned no data"
+
+#: pg_dump.c:16660
+#, c-format
+msgid "query to obtain definition of view \"%s\" returned more than one definition"
+msgstr "[REVIEW: query; untranslated] query to obtain definition of view \"%s\" returned more than one definition"
+
+#: pg_dump.c:16667
+#, c-format
+msgid "definition of view \"%s\" appears to be empty (length zero)"
+msgstr "[REVIEW: untranslated] definition of view \"%s\" appears to be empty (length zero)"
+
+#: pg_dump.c:16752
+#, c-format
+msgid "WITH OIDS is not supported anymore (table \"%s\")"
+msgstr "[REVIEW: OID; untranslated] WITH OIDS is not supported anymore (table \"%s\")"
+
+#: pg_dump.c:17842
+#, c-format
+msgid "invalid column number %d for table \"%s\""
+msgstr "अमान्य column number %d for table \"%s\""
+
+#: pg_dump.c:17920
+#, c-format
+msgid "could not parse index statistic columns"
+msgstr "गर्न सकिएन parse index statistic columns"
+
+#: pg_dump.c:17922
+#, c-format
+msgid "could not parse index statistic values"
+msgstr "गर्न सकिएन parse index statistic values"
+
+#: pg_dump.c:17924
+#, c-format
+msgid "mismatched number of columns and values for index statistics"
+msgstr "[REVIEW: untranslated] mismatched number of columns and values for index statistics"
+
+#: pg_dump.c:18139
+#, c-format
+msgid "missing index for constraint \"%s\""
+msgstr "[REVIEW: constraint] हराइरहेको index for constraint \"%s\""
+
+#: pg_dump.c:18383
+#, c-format
+msgid "unrecognized constraint type: %c"
+msgstr "[REVIEW: constraint; untranslated] unrecognized constraint type: %c"
+
+#: pg_dump.c:18436
+#, c-format
+msgid "unrecognized sequence type: %s"
+msgstr "[REVIEW: untranslated] unrecognized sequence type: %s"
+
+#: pg_dump.c:18568 pg_dump.c:18800
+#, c-format
+msgid "query to get data of sequence \"%s\" returned %d row (expected 1)"
+msgid_plural "query to get data of sequence \"%s\" returned %d rows (expected 1)"
+msgstr[0] "[REVIEW: query; untranslated] query to get data of sequence \"%s\" returned %d row (expected 1)"
+msgstr[1] "[REVIEW: query; untranslated] query to get data of sequence \"%s\" returned %d rows (expected 1)"
+
+#: pg_dump.c:18604
+#, c-format
+msgid "unrecognized sequence type: %d"
+msgstr "[REVIEW: untranslated] unrecognized sequence type: %d"
+
+#: pg_dump.c:19133
+#, c-format
+msgid "query to get rule \"%s\" for table \"%s\" failed: wrong number of rows returned"
+msgstr "[REVIEW: query; sentence] query to get rule \"%s\" for table \"%s\" असफल भयो: wrong number of rows returned"
+
+#: pg_dump.c:19286
+#, c-format
+msgid "could not find referenced extension %u"
+msgstr "[REVIEW: extension] गर्न सकिएन find referenced extension %u"
+
+#: pg_dump.c:19385
+#, c-format
+msgid "mismatched number of configurations and conditions for extension"
+msgstr "[REVIEW: extension; untranslated] mismatched number of configurations and conditions for extension"
+
+#: pg_dump.c:19517
+#, c-format
+msgid "reading dependency data"
+msgstr "[REVIEW: untranslated] reading dependency data"
+
+#: pg_dump.c:19603
+#, c-format
+msgid "no referencing object %u %u"
+msgstr "[REVIEW: untranslated] no referencing object %u %u"
+
+#: pg_dump.c:19614
+#, c-format
+msgid "no referenced object %u %u"
+msgstr "[REVIEW: untranslated] no referenced object %u %u"
+
+#: pg_dump.c:20049 pg_dump.c:20087 pg_dumpall.c:1911 pg_restore.c:757
+#: pg_restore.c:803
+#, c-format
+msgid "%s filter for \"%s\" is not allowed"
+msgstr "[REVIEW: untranslated] %s filter for \"%s\" is not allowed"
+
+#: pg_dump_sort.c:436
+#, c-format
+msgid "invalid dumpId %d"
+msgstr "[REVIEW: PID] अमान्य dumpId %d"
+
+#: pg_dump_sort.c:442
+#, c-format
+msgid "invalid dependency %d"
+msgstr "अमान्य dependency %d"
+
+#: pg_dump_sort.c:606
+#, c-format
+msgid "could not identify dependency loop"
+msgstr "गर्न सकिएन identify dependency loop"
+
+#: pg_dump_sort.c:1247
+#, c-format
+msgid "there are circular foreign-key constraints on this table:"
+msgid_plural "there are circular foreign-key constraints among these tables:"
+msgstr[0] "[REVIEW: constraint; untranslated] there are circular foreign-key constraints on this table:"
+msgstr[1] "[REVIEW: constraint; untranslated] there are circular foreign-key constraints among these tables:"
+
+#: pg_dump_sort.c:1252
+#, c-format
+msgid "You might not be able to restore the dump without using --disable-triggers or temporarily dropping the constraints."
+msgstr "[REVIEW: constraint, restore; untranslated] You might not be able to restore the dump without using --disable-triggers or temporarily dropping the constraints."
+
+#: pg_dump_sort.c:1253
+#, c-format
+msgid "Consider using a full dump instead of a --data-only dump to avoid this problem."
+msgstr "[REVIEW: OID; untranslated] Consider using a full dump instead of a --data-only dump to avoid this problem."
+
+#: pg_dump_sort.c:1265
+#, c-format
+msgid "could not resolve dependency loop among these items:"
+msgstr "गर्न सकिएन resolve dependency loop among these items:"
+
+#: pg_dumpall.c:244
+#, c-format
+msgid "program \"%s\" is needed by %s but was not found in the same directory as \"%s\""
+msgstr "[REVIEW: sentence] program \"%s\" is needed by %s but was फेला परेन in the same directory as \"%s\""
+
+#: pg_dumpall.c:247
+#, c-format
+msgid "program \"%s\" was found by \"%s\" but was not the same version as %s"
+msgstr "[REVIEW: untranslated] program \"%s\" was found by \"%s\" but was not the same version as %s"
+
+#: pg_dumpall.c:402
+#, c-format
+msgid "option --exclude-database cannot be used together with -g/--globals-only, -r/--roles-only, or -t/--tablespaces-only"
+msgstr "[REVIEW: tablespace, role; sentence] option --exclude-database गर्न सकिँदैन be used together with -g/--globals-only, -r/--roles-only, or -t/--tablespaces-only"
+
+#: pg_dumpall.c:410
+#, c-format
+msgid "options -g/--globals-only and -r/--roles-only cannot be used together"
+msgstr "[REVIEW: role] options -g/--globals-only and -r/--roles-only गर्न सकिँदैन be used together"
+
+#: pg_dumpall.c:417
+#, c-format
+msgid "options -g/--globals-only and -t/--tablespaces-only cannot be used together"
+msgstr "[REVIEW: tablespace] options -g/--globals-only and -t/--tablespaces-only गर्न सकिँदैन be used together"
+
+#: pg_dumpall.c:427
+#, c-format
+msgid "options -r/--roles-only and -t/--tablespaces-only cannot be used together"
+msgstr "[REVIEW: tablespace, role] options -r/--roles-only and -t/--tablespaces-only गर्न सकिँदैन be used together"
+
+#: pg_dumpall.c:442
+#, c-format
+msgid "option -F/--format=d|c|t requires option -f/--file"
+msgstr "[REVIEW: untranslated] option -F/--format=d|c|t requires option -f/--file"
+
+#: pg_dumpall.c:524 pg_restore.c:1050 pg_restore.c:1295
+#, c-format
+msgid "could not open \"%s\": %m"
+msgstr "गर्न सकिएन open \"%s\": %m"
+
+#: pg_dumpall.c:562
+#, c-format
+msgid ""
+"could not connect to databases \"postgres\" or \"template1\"\n"
+"Please specify an alternative database."
+msgstr ""
+"गर्न सकिएन connect to databases \"postgres\" or \"template1\"\n"
+"[REVIEW: untranslated] Please specify an alternative database."
+
+#: pg_dumpall.c:698
+#, c-format
+msgid ""
+"%s extracts a PostgreSQL database cluster based on specified dump format.\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] %s extracts a PostgreSQL database cluster based on specified dump format.\n"
+"\n"
+
+#: pg_dumpall.c:700
+#, c-format
+msgid ""
+"  %s [OPTION]...\n"
+msgstr ""
+"  %s [OPTION]...\n"
+
+#: pg_dumpall.c:703
+#, c-format
+msgid ""
+"  -f, --file=FILENAME          output file name\n"
+msgstr ""
+"  -f, --file=FILENAME          output फाइल नाम\n"
+
+#: pg_dumpall.c:712
+#, c-format
+msgid ""
+"  -c, --clean                  clean (drop) databases before recreating\n"
+msgstr ""
+"[REVIEW: untranslated]   -c, --clean                  clean (drop) databases before recreating\n"
+
+#: pg_dumpall.c:714
+#, c-format
+msgid ""
+"  -g, --globals-only           dump only global objects, no databases\n"
+msgstr ""
+"[REVIEW: untranslated]   -g, --globals-only           dump only global objects, no databases\n"
+
+#: pg_dumpall.c:715 pg_restore.c:672
+#, c-format
+msgid ""
+"  -O, --no-owner               skip restoration of object ownership\n"
+msgstr ""
+"[REVIEW: untranslated]   -O, --no-owner               skip restoration of object ownership\n"
+
+#: pg_dumpall.c:716
+#, c-format
+msgid ""
+"  -r, --roles-only             dump only roles, no databases or tablespaces\n"
+msgstr ""
+"[REVIEW: tablespace, role; untranslated]   -r, --roles-only             dump only roles, no databases or tablespaces\n"
+
+#: pg_dumpall.c:718
+#, c-format
+msgid ""
+"  -S, --superuser=NAME         superuser user name to use in the dump\n"
+msgstr ""
+"  -S, --superuser=NAME         superप्रयोगकर्ता प्रयोगकर्ता नाम to use in the dump\n"
+
+#: pg_dumpall.c:719
+#, c-format
+msgid ""
+"  -t, --tablespaces-only       dump only tablespaces, no databases or roles\n"
+msgstr ""
+"[REVIEW: tablespace, role; untranslated]   -t, --tablespaces-only       dump only tablespaces, no databases or roles\n"
+
+#: pg_dumpall.c:725
+#, c-format
+msgid ""
+"  --exclude-database=PATTERN   exclude databases whose name matches PATTERN\n"
+msgstr ""
+"  --exclude-database=PATTERN   exclude databases whose नाम matches PATTERN\n"
+
+#: pg_dumpall.c:727
+#, c-format
+msgid ""
+"  --filter=FILENAME            exclude databases based on expressions in FILENAME\n"
+msgstr ""
+"[REVIEW: untranslated]   --filter=FILENAME            exclude databases based on expressions in FILENAME\n"
+
+#: pg_dumpall.c:735
+#, c-format
+msgid ""
+"  --no-role-passwords          do not dump passwords for roles\n"
+msgstr ""
+"[REVIEW: role; untranslated]   --no-role-passwords          do not dump passwords for roles\n"
+
+#: pg_dumpall.c:757
+#, c-format
+msgid ""
+"  -d, --dbname=CONNSTR     connect using connection string\n"
+msgstr ""
+"[REVIEW: untranslated]   -d, --dbname=CONNSTR     connect using connection string\n"
+
+#: pg_dumpall.c:759
+#, c-format
+msgid ""
+"  -l, --database=DBNAME    alternative default database\n"
+msgstr ""
+"[REVIEW: untranslated]   -l, --database=DBNAME    alternative default database\n"
+
+#: pg_dumpall.c:766
+#, c-format
+msgid ""
+"\n"
+"If -f/--file is not used, then the SQL script will be written to the standard\n"
+"output.\n"
+"\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] If -f/--file is not used, then the SQL script will be written to the standard\n"
+"output.\n"
+"\n"
+
+#: pg_dumpall.c:911
+#, c-format
+msgid "role name starting with \"pg_\" skipped (%s)"
+msgstr "[REVIEW: role] role नाम starting with \"pg_\" skipped (%s)"
+
+#. translator: %s represents a numeric role OID
+#: pg_dumpall.c:1125 pg_dumpall.c:1183 pg_dumpall.c:1192
+#, c-format
+msgid "found orphaned pg_auth_members entry for role %s"
+msgstr "[REVIEW: role; untranslated] found orphaned pg_auth_members entry for role %s"
+
+#: pg_dumpall.c:1158
+#, c-format
+msgid "could not find a legal dump ordering for memberships in role \"%s\""
+msgstr "[REVIEW: role] गर्न सकिएन find a legal dump ordering for memberships in role \"%s\""
+
+#: pg_dumpall.c:1313
+#, c-format
+msgid "could not parse ACL list (%s) for parameter \"%s\""
+msgstr "गर्न सकिएन parse ACL list (%s) for parameter \"%s\""
+
+#: pg_dumpall.c:1440
+#, c-format
+msgid "could not parse ACL list (%s) for tablespace \"%s\""
+msgstr "[REVIEW: tablespace] गर्न सकिएन parse ACL list (%s) for tablespace \"%s\""
+
+#: pg_dumpall.c:1657
+#, c-format
+msgid "could not create subdirectory \"%s\": %m"
+msgstr "गर्न सकिएन create subdirectory \"%s\": %m"
+
+#: pg_dumpall.c:1664
+#, c-format
+msgid "could not open map file: %s"
+msgstr "गर्न सकिएन open map फाइल: %s"
+
+#: pg_dumpall.c:1681 pg_restore.c:1004
+#, c-format
+msgid "excluding database \"%s\""
+msgstr "excluding database \"%s\""
+
+#: pg_dumpall.c:1702
+#, c-format
+msgid "dumping database \"%s\""
+msgstr "dumping database \"%s\""
+
+#: pg_dumpall.c:1731
+#, c-format
+msgid "pg_dump failed on database \"%s\", exiting"
+msgstr "pg_dump असफल भयो on database \"%s\", exiting"
+
+#: pg_dumpall.c:1744
+#, c-format
+msgid "could not re-open the output file \"%s\": %m"
+msgstr "गर्न सकिएन re-open the output फाइल \"%s\": %m"
+
+#: pg_dumpall.c:1812
+#, c-format
+msgid "running \"%s\""
+msgstr "running \"%s\""
+
+#: pg_dumpall.c:1931
+msgid "unsupported filter object"
+msgstr "[REVIEW: untranslated] unsupported filter object"
+
+#: pg_dumpall.c:1974
+#, c-format
+msgid "unrecognized archive format \"%s\"; please specify \"c\", \"d\", \"p\", or \"t\""
+msgstr "[REVIEW: archive; untranslated] unrecognized archive format \"%s\"; please specify \"c\", \"d\", \"p\", or \"t\""
+
+#: pg_restore.c:373
+#, c-format
+msgid "one of -d/--dbname and -f/--file must be specified"
+msgstr "[REVIEW: untranslated] one of -d/--dbname and -f/--file must be specified"
+
+#: pg_restore.c:377
+#, c-format
+msgid "option --exclude-database cannot be used together with -g/--globals-only"
+msgstr "option --exclude-database गर्न सकिँदैन be used together with -g/--globals-only"
+
+#: pg_restore.c:387
+#, c-format
+msgid "options -d/--dbname and -f/--file cannot be used together"
+msgstr "options -d/--dbname and -f/--file गर्न सकिँदैन be used together"
+
+#: pg_restore.c:422
+#, c-format
+msgid "options -1/--single-transaction and --transaction-size cannot be used together"
+msgstr "[REVIEW: transaction] options -1/--single-transaction and --transaction-size गर्न सकिँदैन be used together"
+
+#: pg_restore.c:429
+#, c-format
+msgid "options -C/--create and -1/--single-transaction cannot be used together"
+msgstr "[REVIEW: transaction] options -C/--create and -1/--single-transaction गर्न सकिँदैन be used together"
+
+#: pg_restore.c:433
+#, c-format
+msgid "cannot specify both --single-transaction and multiple jobs"
+msgstr "[REVIEW: transaction] गर्न सकिँदैन specify both --single-transaction and multiple jobs"
+
+#: pg_restore.c:481
+#, c-format
+msgid "archive format \"%s\" is not supported; please use psql"
+msgstr "[REVIEW: archive; untranslated] archive format \"%s\" is not supported; please use psql"
+
+#: pg_restore.c:485
+#, c-format
+msgid "unrecognized archive format \"%s\"; please specify \"c\", \"d\", or \"t\""
+msgstr "[REVIEW: archive; untranslated] unrecognized archive format \"%s\"; please specify \"c\", \"d\", or \"t\""
+
+#: pg_restore.c:506
+#, c-format
+msgid "option -l/--list cannot be used when restoring an archive created by pg_dumpall"
+msgstr "[REVIEW: archive; sentence] option -l/--list गर्न सकिँदैन be used when restoring an archive created by pg_dumpall"
+
+#: pg_restore.c:508
+#, c-format
+msgid "option -L/--use-list cannot be used when restoring an archive created by pg_dumpall"
+msgstr "[REVIEW: archive; sentence] option -L/--use-list गर्न सकिँदैन be used when restoring an archive created by pg_dumpall"
+
+#: pg_restore.c:516
+#, c-format
+msgid "-C/--create option should be specified when restoring an archive created by pg_dumpall"
+msgstr "[REVIEW: archive; untranslated] -C/--create option should be specified when restoring an archive created by pg_dumpall"
+
+#: pg_restore.c:518
+#, c-format
+msgid "Individual databases can be restored using their specific archives."
+msgstr "[REVIEW: restore, archive; untranslated] Individual databases can be restored using their specific archives."
+
+#: pg_restore.c:550
+#, c-format
+msgid "database restoring skipped as -g/--globals-only option was specified"
+msgstr "[REVIEW: untranslated] database restoring skipped as -g/--globals-only option was specified"
+
+#: pg_restore.c:565
+#, c-format
+msgid "option --exclude-database can be used only when restoring an archive created by pg_dumpall"
+msgstr "[REVIEW: archive; untranslated] option --exclude-database can be used only when restoring an archive created by pg_dumpall"
+
+#: pg_restore.c:568
+#, c-format
+msgid "option -g/--globals-only can be used only when restoring an archive created by pg_dumpall"
+msgstr "[REVIEW: archive; untranslated] option -g/--globals-only can be used only when restoring an archive created by pg_dumpall"
+
+#: pg_restore.c:576
+#, c-format
+msgid "errors ignored on restore: %d"
+msgstr "[REVIEW: restore] त्रुटिs ignored on restore: %d"
+
+#: pg_restore.c:646
+#, c-format
+msgid ""
+"%s restores a PostgreSQL database from an archive created by pg_dump or pg_dumpall.\n"
+"If the archive is created by pg_dumpall, then restores multiple databases also.\n"
+"\n"
+msgstr ""
+"[REVIEW: restore, archive; untranslated] %s restores a PostgreSQL database from an archive created by pg_dump or pg_dumpall.\n"
+"[REVIEW: restore, archive; untranslated] If the archive is created by pg_dumpall, then restores multiple databases also.\n"
+"\n"
+
+#: pg_restore.c:649
+#, c-format
+msgid ""
+"  %s [OPTION]... [FILE]\n"
+msgstr ""
+"  %s [OPTION]... [FILE]\n"
+
+#: pg_restore.c:652
+#, c-format
+msgid ""
+"  -d, --dbname=NAME        connect to database name\n"
+msgstr ""
+"  -d, --dbname=NAME        connect to database नाम\n"
+
+#: pg_restore.c:653
+#, c-format
+msgid ""
+"  -f, --file=FILENAME      output file name (- for stdout)\n"
+msgstr ""
+"  -f, --file=FILENAME      output फाइल नाम (- for stdout)\n"
+
+#: pg_restore.c:654
+#, c-format
+msgid ""
+"  -F, --format=c|d|t       backup file format (should be automatic)\n"
+msgstr ""
+"[REVIEW: backup]   -F, --format=c|d|t       backup फाइल format (should be automatic)\n"
+
+#: pg_restore.c:655
+#, c-format
+msgid ""
+"  -l, --list               print summarized TOC of the archive\n"
+msgstr ""
+"[REVIEW: archive; untranslated]   -l, --list               print summarized TOC of the archive\n"
+
+#: pg_restore.c:656
+#, c-format
+msgid ""
+"  -v, --verbose            verbose mode\n"
+msgstr ""
+"[REVIEW: untranslated]   -v, --verbose            verbose mode\n"
+
+#: pg_restore.c:657
+#, c-format
+msgid ""
+"  -V, --version            output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version            output version information, then exit\n"
+
+#: pg_restore.c:658
+#, c-format
+msgid ""
+"  -?, --help               show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help               show this help, then exit\n"
+
+#: pg_restore.c:660
+#, c-format
+msgid ""
+"\n"
+"Options controlling the restore:\n"
+msgstr ""
+"\n"
+"[REVIEW: restore; untranslated] Options controlling the restore:\n"
+
+#: pg_restore.c:661
+#, c-format
+msgid ""
+"  -a, --data-only              restore only the data, no schema\n"
+msgstr ""
+"[REVIEW: restore, schema; untranslated]   -a, --data-only              restore only the data, no schema\n"
+
+#: pg_restore.c:663
+#, c-format
+msgid ""
+"  -C, --create                 create the target database\n"
+msgstr ""
+"[REVIEW: untranslated]   -C, --create                 create the target database\n"
+
+#: pg_restore.c:664
+#, c-format
+msgid ""
+"  -e, --exit-on-error          exit on error, default is to continue\n"
+msgstr ""
+"  -e, --exit-on-error          exit on त्रुटि, default is to continue\n"
+
+#: pg_restore.c:665
+#, c-format
+msgid ""
+"  -g, --globals-only           restore only global objects, no databases\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   -g, --globals-only           restore only global objects, no databases\n"
+
+#: pg_restore.c:666
+#, c-format
+msgid ""
+"  -I, --index=NAME             restore named index\n"
+msgstr ""
+"[REVIEW: restore]   -I, --index=NAME             restore नामd index\n"
+
+#: pg_restore.c:667
+#, c-format
+msgid ""
+"  -j, --jobs=NUM               use this many parallel jobs to restore\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   -j, --jobs=NUM               use this many parallel jobs to restore\n"
+
+#: pg_restore.c:668
+#, c-format
+msgid ""
+"  -L, --use-list=FILENAME      use table of contents from this file for\n"
+"                               selecting/ordering output\n"
+msgstr ""
+"  -L, --use-list=FILENAME      use table of contents from this फाइल for\n"
+"[REVIEW: untranslated]                                selecting/ordering output\n"
+
+#: pg_restore.c:670
+#, c-format
+msgid ""
+"  -n, --schema=NAME            restore only objects in this schema\n"
+msgstr ""
+"[REVIEW: restore, schema; untranslated]   -n, --schema=NAME            restore only objects in this schema\n"
+
+#: pg_restore.c:671
+#, c-format
+msgid ""
+"  -N, --exclude-schema=NAME    do not restore objects in this schema\n"
+msgstr ""
+"[REVIEW: restore, schema; untranslated]   -N, --exclude-schema=NAME    do not restore objects in this schema\n"
+
+#: pg_restore.c:673
+#, c-format
+msgid ""
+"  -P, --function=NAME(args)    restore named function\n"
+msgstr ""
+"[REVIEW: restore]   -P, --function=NAME(args)    restore नामd function\n"
+
+#: pg_restore.c:674
+#, c-format
+msgid ""
+"  -s, --schema-only            restore only the schema, no data\n"
+msgstr ""
+"[REVIEW: restore, schema; untranslated]   -s, --schema-only            restore only the schema, no data\n"
+
+#: pg_restore.c:675
+#, c-format
+msgid ""
+"  -S, --superuser=NAME         superuser user name to use for disabling triggers\n"
+msgstr ""
+"  -S, --superuser=NAME         superप्रयोगकर्ता प्रयोगकर्ता नाम to use for disabling triggers\n"
+
+#: pg_restore.c:676
+#, c-format
+msgid ""
+"  -t, --table=NAME             restore named relation (table, view, etc.)\n"
+msgstr ""
+"[REVIEW: relation, restore]   -t, --table=NAME             restore नामd relation (table, view, etc.)\n"
+
+#: pg_restore.c:677
+#, c-format
+msgid ""
+"  -T, --trigger=NAME           restore named trigger\n"
+msgstr ""
+"[REVIEW: restore]   -T, --trigger=NAME           restore नामd trigger\n"
+
+#: pg_restore.c:678
+#, c-format
+msgid ""
+"  --exclude-database=PATTERN   exclude databases whose name matches with pattern\n"
+msgstr ""
+"  --exclude-database=PATTERN   exclude databases whose नाम matches with pattern\n"
+
+#: pg_restore.c:679
+#, c-format
+msgid ""
+"  -x, --no-privileges          skip restoration of access privileges (grant/revoke)\n"
+msgstr ""
+"[REVIEW: privilege; untranslated]   -x, --no-privileges          skip restoration of access privileges (grant/revoke)\n"
+
+#: pg_restore.c:680
+#, c-format
+msgid ""
+"  -1, --single-transaction     restore as a single transaction\n"
+msgstr ""
+"[REVIEW: transaction, restore; untranslated]   -1, --single-transaction     restore as a single transaction\n"
+
+#: pg_restore.c:682
+#, c-format
+msgid ""
+"  --enable-row-security        enable row security\n"
+msgstr ""
+"[REVIEW: untranslated]   --enable-row-security        enable row security\n"
+
+#: pg_restore.c:683
+#, c-format
+msgid ""
+"  --filter=FILENAME            restore or skip objects based on expressions\n"
+"                               in FILENAME\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --filter=FILENAME            restore or skip objects based on expressions\n"
+"                               in FILENAME\n"
+
+#: pg_restore.c:686
+#, c-format
+msgid ""
+"  --no-comments                do not restore comment commands\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --no-comments                do not restore comment commands\n"
+
+#: pg_restore.c:687
+#, c-format
+msgid ""
+"  --no-data                    do not restore data\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --no-data                    do not restore data\n"
+
+#: pg_restore.c:688
+#, c-format
+msgid ""
+"  --no-data-for-failed-tables  do not restore data of tables that could not be\n"
+"                               created\n"
+msgstr ""
+"[REVIEW: restore; sentence]   --no-data-for-failed-tables  do not restore data of tables that गर्न सकिएन be\n"
+"                               created\n"
+
+#: pg_restore.c:690
+#, c-format
+msgid ""
+"  --no-policies                do not restore row security policies\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --no-policies                do not restore row security policies\n"
+
+#: pg_restore.c:691
+#, c-format
+msgid ""
+"  --no-publications            do not restore publications\n"
+msgstr ""
+"[REVIEW: publication, restore; untranslated]   --no-publications            do not restore publications\n"
+
+#: pg_restore.c:692
+#, c-format
+msgid ""
+"  --no-schema                  do not restore schema\n"
+msgstr ""
+"[REVIEW: restore, schema; untranslated]   --no-schema                  do not restore schema\n"
+
+#: pg_restore.c:693
+#, c-format
+msgid ""
+"  --no-security-labels         do not restore security labels\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --no-security-labels         do not restore security labels\n"
+
+#: pg_restore.c:694
+#, c-format
+msgid ""
+"  --no-statistics              do not restore statistics\n"
+msgstr ""
+"[REVIEW: restore; untranslated]   --no-statistics              do not restore statistics\n"
+
+#: pg_restore.c:695
+#, c-format
+msgid ""
+"  --no-subscriptions           do not restore subscriptions\n"
+msgstr ""
+"[REVIEW: subscription, restore; untranslated]   --no-subscriptions           do not restore subscriptions\n"
+
+#: pg_restore.c:696
+#, c-format
+msgid ""
+"  --no-table-access-method     do not restore table access methods\n"
+msgstr ""
+"[REVIEW: access method, restore; untranslated]   --no-table-access-method     do not restore table access methods\n"
+
+#: pg_restore.c:697
+#, c-format
+msgid ""
+"  --no-tablespaces             do not restore tablespace assignments\n"
+msgstr ""
+"[REVIEW: tablespace, restore; untranslated]   --no-tablespaces             do not restore tablespace assignments\n"
+
+#: pg_restore.c:698
+#, c-format
+msgid ""
+"  --section=SECTION            restore named section (pre-data, data, or post-data)\n"
+msgstr ""
+"[REVIEW: restore]   --section=SECTION            restore नामd section (pre-data, data, or post-data)\n"
+
+#: pg_restore.c:699
+#, c-format
+msgid ""
+"  --statistics-only            restore only the statistics, not schema or data\n"
+msgstr ""
+"[REVIEW: restore, schema; untranslated]   --statistics-only            restore only the statistics, not schema or data\n"
+
+#: pg_restore.c:702
+#, c-format
+msgid ""
+"  --transaction-size=N         commit after every N objects\n"
+msgstr ""
+"[REVIEW: transaction; untranslated]   --transaction-size=N         commit after every N objects\n"
+
+#: pg_restore.c:716
+#, c-format
+msgid ""
+"  --role=ROLENAME          do SET ROLE before restore\n"
+msgstr ""
+"[REVIEW: restore, role; untranslated]   --role=ROLENAME          do SET ROLE before restore\n"
+
+#: pg_restore.c:718
+#, c-format
+msgid ""
+"\n"
+"The options -I, -n, -N, -P, -t, -T, --section, and --exclude-database can be combined\n"
+"and specified multiple times to select multiple objects.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] The options -I, -n, -N, -P, -t, -T, --section, and --exclude-database can be combined\n"
+"[REVIEW: untranslated] and specified multiple times to select multiple objects.\n"
+
+#: pg_restore.c:721
+#, c-format
+msgid ""
+"\n"
+"If no input file name is supplied, then standard input is used.\n"
+"\n"
+msgstr ""
+"\n"
+"[REVIEW: sentence] If no input फाइल नाम is supplied, then standard input is used.\n"
+"\n"
+
+#: pg_restore.c:940
+#, c-format
+msgid "considering PATTERN as NAME for --exclude-database option as no db connection while doing pg_restore."
+msgstr "[REVIEW: restore; untranslated] considering PATTERN as NAME for --exclude-database option as no db connection while doing pg_restore."
+
+#: pg_restore.c:985
+#, c-format
+msgid "database \"%s\" matches exclude pattern: \"%s\""
+msgstr "[REVIEW: untranslated] database \"%s\" matches exclude pattern: \"%s\""
+
+#: pg_restore.c:1040
+#, c-format
+msgid "database restoring is skipped as \"map.dat\" is not present in \"%s\""
+msgstr "[REVIEW: untranslated] database restoring is skipped as \"map.dat\" is not present in \"%s\""
+
+#: pg_restore.c:1069
+#, c-format
+msgid "found database \"%s\" (OID: %u) in \"%s\""
+msgstr "[REVIEW: OID; untranslated] found database \"%s\" (OID: %u) in \"%s\""
+
+#: pg_restore.c:1074
+#, c-format
+msgid "invalid entry in \"%s\" at line : %d"
+msgstr "अमान्य entry in \"%s\" at लाइन : %d"
+
+#: pg_restore.c:1123
+#, c-format
+msgid "found %d database names in \"map.dat\""
+msgstr "found %d database नामs in \"map.dat\""
+
+#: pg_restore.c:1127
+#, c-format
+msgid "trying to connect database \"postgres\""
+msgstr "[REVIEW: untranslated] trying to connect database \"postgres\""
+
+#: pg_restore.c:1136
+#, c-format
+msgid "trying to connect database \"template1\""
+msgstr "[REVIEW: untranslated] trying to connect database \"template1\""
+
+#: pg_restore.c:1160
+#, c-format
+msgid "no database needs to restore out of %d databases"
+msgstr "[REVIEW: restore; untranslated] no database needs to restore out of %d databases"
+
+#: pg_restore.c:1164
+#, c-format
+msgid "need to restore %d databases out of %d databases"
+msgstr "[REVIEW: restore; untranslated] need to restore %d databases out of %d databases"
+
+#: pg_restore.c:1213
+#, c-format
+msgid "restoring database \"%s\""
+msgstr "restoring database \"%s\""
+
+#: pg_restore.c:1254
+#, c-format
+msgid "errors ignored on database \"%s\" restore: %d"
+msgstr "[REVIEW: restore] त्रुटिs ignored on database \"%s\" restore: %d"
+
+#: pg_restore.c:1261
+#, c-format
+msgid "number of restored databases is %d"
+msgstr "[REVIEW: restore; untranslated] number of restored databases is %d"
+
+#: pg_restore.c:1324
+#, c-format
+msgid "executing query: %s"
+msgstr "[REVIEW: query] executing query: %s"
+
+#: pg_restore.c:1335
+#, c-format
+msgid ""
+"could not execute query: \"%s\" \n"
+"Command was: \"%s\""
+msgstr ""
+"[REVIEW: query] गर्न सकिएन execute query: \"%s\" \n"
+"Command was: \"%s\""
+
+#: pg_restore.c:1342
+#, c-format
+msgid "ignored %d errors in \"%s\""
+msgstr "ignored %d त्रुटिs in \"%s\""
+
+#: pg_restore.c:1373
+#, c-format
+msgid "could not open file: \"%s\""
+msgstr "गर्न सकिएन open फाइल: \"%s\""

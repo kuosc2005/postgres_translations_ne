@@ -1,0 +1,879 @@
+# Nepali translation draft for PostgreSQL pg_resetwal.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_resetwal\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/ja/pg_resetwal.po\\n"
+
+#: ../../../src/common/logging.c:279
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:286
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:297
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:304
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/controldata_utils.c:97 pg_resetwal.c:389 pg_resetwal.c:547
+#: pg_resetwal.c:595
+#, c-format
+msgid "could not open file \"%s\" for reading: %m"
+msgstr "गर्न सकिएन open फाइल \"%s\" for reading: %m"
+
+#: ../../common/controldata_utils.c:110 pg_resetwal.c:556 pg_resetwal.c:610
+#, c-format
+msgid "could not read file \"%s\": %m"
+msgstr "फाइल \"%s\" पढ्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:119
+#, c-format
+msgid "could not read file \"%s\": read %d of %zu"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %zu"
+
+#: ../../common/controldata_utils.c:132 ../../common/controldata_utils.c:280
+#, c-format
+msgid "could not close file \"%s\": %m"
+msgstr "गर्न सकिएन close फाइल \"%s\": %m"
+
+#: ../../common/controldata_utils.c:168
+msgid "byte ordering mismatch"
+msgstr "[REVIEW: untranslated] byte ordering mismatch"
+
+#: ../../common/controldata_utils.c:170
+#, c-format
+msgid ""
+"possible byte ordering mismatch\n"
+"The byte ordering used to store the pg_control file might not match the one\n"
+"used by this program.  In that case the results below would be incorrect, and\n"
+"the PostgreSQL installation would be incompatible with this data directory."
+msgstr ""
+"[REVIEW: untranslated] possible byte ordering mismatch\n"
+"[REVIEW: sentence] The byte ordering used to store the pg_control फाइल might not match the one\n"
+"[REVIEW: untranslated] used by this program.  In that case the results below would be incorrect, and\n"
+"[REVIEW: untranslated] the PostgreSQL installation would be incompatible with this data directory."
+
+#: ../../common/controldata_utils.c:230 ../../common/file_utils.c:69
+#: ../../common/file_utils.c:370 ../../common/file_utils.c:428
+#: ../../common/file_utils.c:502 pg_resetwal.c:1158
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:249 pg_resetwal.c:1166 pg_resetwal.c:1178
+#, c-format
+msgid "could not write file \"%s\": %m"
+msgstr "फाइल \"%s\" लेख्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:268 ../../common/file_utils.c:440
+#: ../../common/file_utils.c:510
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/file_utils.c:75
+#, c-format
+msgid "could not synchronize file system for file \"%s\": %m"
+msgstr "गर्न सकिएन synchronize फाइल system for फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:123 ../../common/file_utils.c:588
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:133 ../../common/file_utils.c:243
+#: ../../fe_utils/option_utils.c:99
+#, c-format
+msgid "this build does not support sync method \"%s\""
+msgstr "[REVIEW: untranslated] this build does not support sync method \"%s\""
+
+#: ../../common/file_utils.c:156 ../../common/file_utils.c:304
+#: pg_resetwal.c:952 pg_resetwal.c:1005 pg_resetwal.c:1040 pg_resetwal.c:1078
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: ../../common/file_utils.c:174 ../../common/file_utils.c:338
+#: pg_resetwal.c:978 pg_resetwal.c:1019 pg_resetwal.c:1057 pg_resetwal.c:1092
+#, c-format
+msgid "could not read directory \"%s\": %m"
+msgstr "गर्न सकिएन read directory \"%s\": %m"
+
+#: ../../common/file_utils.c:520
+#, c-format
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम फाइल \"%s\" to \"%s\": %m"
+
+#: ../../common/restricted_token.c:60
+#, c-format
+msgid "could not open process token: error code %lu"
+msgstr "गर्न सकिएन open process token: त्रुटि code %lu"
+
+#: ../../common/restricted_token.c:74
+#, c-format
+msgid "could not allocate SIDs: error code %lu"
+msgstr "गर्न सकिएन allocate SIDs: त्रुटि code %lu"
+
+#: ../../common/restricted_token.c:94
+#, c-format
+msgid "could not create restricted token: error code %lu"
+msgstr "गर्न सकिएन create restricted token: त्रुटि code %lu"
+
+#: ../../common/restricted_token.c:115
+#, c-format
+msgid "could not start process for command \"%s\": error code %lu"
+msgstr "गर्न सकिएन start process for command \"%s\": त्रुटि code %lu"
+
+#: ../../common/restricted_token.c:153
+#, c-format
+msgid "could not re-execute with restricted token: error code %lu"
+msgstr "गर्न सकिएन re-execute with restricted token: त्रुटि code %lu"
+
+#: ../../common/restricted_token.c:168
+#, c-format
+msgid "could not get exit code from subprocess: error code %lu"
+msgstr "गर्न सकिएन get exit code from subprocess: त्रुटि code %lu"
+
+#: ../../fe_utils/option_utils.c:69
+#, c-format
+msgid "invalid value \"%s\" for option %s"
+msgstr "अमान्य value \"%s\" for option %s"
+
+#: ../../fe_utils/option_utils.c:76
+#, c-format
+msgid "%s must be in range %d..%d"
+msgstr "[REVIEW: untranslated] %s must be in range %d..%d"
+
+#: ../../fe_utils/option_utils.c:106
+#, c-format
+msgid "unrecognized sync method: %s"
+msgstr "[REVIEW: untranslated] unrecognized sync method: %s"
+
+#. translator: the second %s is a command line argument (-e, etc)
+#: pg_resetwal.c:166 pg_resetwal.c:179 pg_resetwal.c:192 pg_resetwal.c:205
+#: pg_resetwal.c:212 pg_resetwal.c:231 pg_resetwal.c:244 pg_resetwal.c:252
+#: pg_resetwal.c:272 pg_resetwal.c:283 pg_resetwal.c:317
+#, c-format
+msgid "invalid argument for option %s"
+msgstr "अमान्य argument for option %s"
+
+#: pg_resetwal.c:167 pg_resetwal.c:180 pg_resetwal.c:193 pg_resetwal.c:206
+#: pg_resetwal.c:213 pg_resetwal.c:232 pg_resetwal.c:245 pg_resetwal.c:253
+#: pg_resetwal.c:273 pg_resetwal.c:284 pg_resetwal.c:318 pg_resetwal.c:326
+#: pg_resetwal.c:339 pg_resetwal.c:346
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_resetwal.c:171
+#, c-format
+msgid "transaction ID epoch (-e) must not be -1"
+msgstr "[REVIEW: transaction; untranslated] transaction ID epoch (-e) must not be -1"
+
+#: pg_resetwal.c:184
+#, c-format
+msgid "oldest transaction ID (-u) must be greater than or equal to %u"
+msgstr "[REVIEW: transaction; untranslated] oldest transaction ID (-u) must be greater than or equal to %u"
+
+#: pg_resetwal.c:197
+#, c-format
+msgid "transaction ID (-x) must be greater than or equal to %u"
+msgstr "[REVIEW: transaction; untranslated] transaction ID (-x) must be greater than or equal to %u"
+
+#: pg_resetwal.c:219 pg_resetwal.c:223
+#, c-format
+msgid "transaction ID (-c) must be either %u or greater than or equal to %u"
+msgstr "[REVIEW: transaction; untranslated] transaction ID (-c) must be either %u or greater than or equal to %u"
+
+#: pg_resetwal.c:236
+#, c-format
+msgid "OID (-o) must not be 0"
+msgstr "[REVIEW: OID; untranslated] OID (-o) must not be 0"
+
+#: pg_resetwal.c:257
+#, c-format
+msgid "multitransaction ID (-m) must not be 0"
+msgstr "[REVIEW: transaction; untranslated] multitransaction ID (-m) must not be 0"
+
+#: pg_resetwal.c:264
+#, c-format
+msgid "oldest multitransaction ID (-m) must not be 0"
+msgstr "[REVIEW: transaction; untranslated] oldest multitransaction ID (-m) must not be 0"
+
+#: pg_resetwal.c:277
+#, c-format
+msgid "multitransaction offset (-O) must not be -1"
+msgstr "[REVIEW: transaction; untranslated] multitransaction offset (-O) must not be -1"
+
+#: pg_resetwal.c:303
+#, c-format
+msgid "argument of %s must be a power of two between 1 and 1024"
+msgstr "[REVIEW: untranslated] argument of %s must be a power of two between 1 and 1024"
+
+#: pg_resetwal.c:337
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: pg_resetwal.c:345
+#, c-format
+msgid "no data directory specified"
+msgstr "[REVIEW: untranslated] no data directory specified"
+
+#: pg_resetwal.c:359
+#, c-format
+msgid "cannot be executed by \"root\""
+msgstr "गर्न सकिँदैन be executed by \"root\""
+
+#: pg_resetwal.c:360
+#, c-format
+msgid "You must run %s as the PostgreSQL superuser."
+msgstr "You must run %s as the PostgreSQL superप्रयोगकर्ता."
+
+#: pg_resetwal.c:370
+#, c-format
+msgid "could not read permissions of directory \"%s\": %m"
+msgstr "[REVIEW: permission] गर्न सकिएन read permissions of directory \"%s\": %m"
+
+#: pg_resetwal.c:376
+#, c-format
+msgid "could not change directory to \"%s\": %m"
+msgstr "गर्न सकिएन change directory to \"%s\": %m"
+
+#: pg_resetwal.c:394
+#, c-format
+msgid "lock file \"%s\" exists"
+msgstr "[REVIEW: lock] lock फाइल \"%s\" exists"
+
+#: pg_resetwal.c:395
+#, c-format
+msgid "Is a server running?  If not, delete the lock file and try again."
+msgstr "[REVIEW: lock; sentence] Is a server running?  If not, delete the lock फाइल and try again."
+
+#: pg_resetwal.c:497
+#, c-format
+msgid "not proceeding because control file values were guessed"
+msgstr "not proceeding because control फाइल values were guessed"
+
+#: pg_resetwal.c:498
+#, c-format
+msgid "If these values seem acceptable, use -f to force reset."
+msgstr "[REVIEW: untranslated] If these values seem acceptable, use -f to force reset."
+
+#: pg_resetwal.c:507
+#, c-format
+msgid "database server was not shut down cleanly"
+msgstr "[REVIEW: untranslated] database server was not shut down cleanly"
+
+#: pg_resetwal.c:508
+#, c-format
+msgid "Resetting the write-ahead log might cause data to be lost."
+msgstr "[REVIEW: write-ahead log; untranslated] Resetting the write-ahead log might cause data to be lost."
+
+#: pg_resetwal.c:509
+#, c-format
+msgid "If you want to proceed anyway, use -f to force reset."
+msgstr "[REVIEW: untranslated] If you want to proceed anyway, use -f to force reset."
+
+#: pg_resetwal.c:522
+#, c-format
+msgid ""
+"Write-ahead log reset\n"
+msgstr ""
+"[REVIEW: write-ahead log; untranslated] Write-ahead log reset\n"
+
+#: pg_resetwal.c:554
+#, c-format
+msgid "unexpected empty file \"%s\""
+msgstr "unexpected empty फाइल \"%s\""
+
+#: pg_resetwal.c:564
+#, c-format
+msgid "data directory is of wrong version"
+msgstr "[REVIEW: untranslated] data directory is of wrong version"
+
+#: pg_resetwal.c:565
+#, c-format
+msgid "File \"%s\" contains \"%s\", which is not compatible with this program's version \"%s\"."
+msgstr "फाइल \"%s\" contains \"%s\", which is not compatible with this program's version \"%s\"."
+
+#: pg_resetwal.c:598
+#, c-format
+msgid ""
+"If you are sure the data directory path is correct, execute\n"
+"  touch %s\n"
+"and try again."
+msgstr ""
+"[REVIEW: untranslated] If you are sure the data directory path is correct, execute\n"
+"  touch %s\n"
+"[REVIEW: untranslated] and try again."
+
+#: pg_resetwal.c:626
+#, c-format
+msgid "pg_control exists but has invalid CRC; proceed with caution"
+msgstr "pg_control exists but has अमान्य CRC; proceed with caution"
+
+#: pg_resetwal.c:635
+#, c-format
+msgid "pg_control specifies invalid WAL segment size (%d byte); proceed with caution"
+msgid_plural "pg_control specifies invalid WAL segment size (%d bytes); proceed with caution"
+msgstr[0] "[REVIEW: WAL] pg_control specifies अमान्य WAL segment size (%d byte); proceed with caution"
+msgstr[1] "[REVIEW: WAL] pg_control specifies अमान्य WAL segment size (%d bytes); proceed with caution"
+
+#: pg_resetwal.c:646
+#, c-format
+msgid "pg_control exists but is broken or wrong version; ignoring it"
+msgstr "[REVIEW: untranslated] pg_control exists but is broken or wrong version; ignoring it"
+
+#: pg_resetwal.c:741
+#, c-format
+msgid ""
+"Guessed pg_control values:\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] Guessed pg_control values:\n"
+"\n"
+
+#: pg_resetwal.c:743
+#, c-format
+msgid ""
+"Current pg_control values:\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] Current pg_control values:\n"
+"\n"
+
+#: pg_resetwal.c:745
+#, c-format
+msgid ""
+"pg_control version number:            %u\n"
+msgstr ""
+"[REVIEW: untranslated] pg_control version number:            %u\n"
+
+#: pg_resetwal.c:747
+#, c-format
+msgid ""
+"Catalog version number:               %u\n"
+msgstr ""
+"[REVIEW: catalog; untranslated] Catalog version number:               %u\n"
+
+#: pg_resetwal.c:749
+#, c-format
+msgid ""
+"Database system identifier:           %<PRIu64>\n"
+msgstr ""
+"[REVIEW: untranslated] Database system identifier:           %<PRIu64>\n"
+
+#: pg_resetwal.c:751
+#, c-format
+msgid ""
+"Latest checkpoint's TimeLineID:       %u\n"
+msgstr ""
+"[REVIEW: checkpoint, timeline] Latest checkpoint's TimeलाइनID:       %u\n"
+
+#: pg_resetwal.c:753
+#, c-format
+msgid ""
+"Latest checkpoint's full_page_writes: %s\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's full_page_writes: %s\n"
+
+#: pg_resetwal.c:754
+msgid "off"
+msgstr "off"
+
+#: pg_resetwal.c:754
+msgid "on"
+msgstr "on"
+
+#: pg_resetwal.c:755
+#, c-format
+msgid ""
+"Latest checkpoint's NextXID:          %u:%u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's NextXID:          %u:%u\n"
+
+#: pg_resetwal.c:758
+#, c-format
+msgid ""
+"Latest checkpoint's NextOID:          %u\n"
+msgstr ""
+"[REVIEW: checkpoint, OID; untranslated] Latest checkpoint's NextOID:          %u\n"
+
+#: pg_resetwal.c:760
+#, c-format
+msgid ""
+"Latest checkpoint's NextMultiXactId:  %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's NextMultiXactId:  %u\n"
+
+#: pg_resetwal.c:762
+#, c-format
+msgid ""
+"Latest checkpoint's NextMultiOffset:  %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's NextMultiOffset:  %u\n"
+
+#: pg_resetwal.c:764
+#, c-format
+msgid ""
+"Latest checkpoint's oldestXID:        %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestXID:        %u\n"
+
+#: pg_resetwal.c:766
+#, c-format
+msgid ""
+"Latest checkpoint's oldestXID's DB:   %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestXID's DB:   %u\n"
+
+#: pg_resetwal.c:768
+#, c-format
+msgid ""
+"Latest checkpoint's oldestActiveXID:  %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestActiveXID:  %u\n"
+
+#: pg_resetwal.c:770
+#, c-format
+msgid ""
+"Latest checkpoint's oldestMultiXid:   %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestMultiXid:   %u\n"
+
+#: pg_resetwal.c:772
+#, c-format
+msgid ""
+"Latest checkpoint's oldestMulti's DB: %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestMulti's DB: %u\n"
+
+#: pg_resetwal.c:774
+#, c-format
+msgid ""
+"Latest checkpoint's oldestCommitTsXid:%u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestCommitTsXid:%u\n"
+
+#: pg_resetwal.c:776
+#, c-format
+msgid ""
+"Latest checkpoint's newestCommitTsXid:%u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's newestCommitTsXid:%u\n"
+
+#: pg_resetwal.c:778
+#, c-format
+msgid ""
+"Maximum data alignment:               %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum data alignment:               %u\n"
+
+#: pg_resetwal.c:781
+#, c-format
+msgid ""
+"Database block size:                  %u\n"
+msgstr ""
+"[REVIEW: lock; untranslated] Database block size:                  %u\n"
+
+#: pg_resetwal.c:783
+#, c-format
+msgid ""
+"Blocks per segment of large relation: %u\n"
+msgstr ""
+"[REVIEW: relation, lock; untranslated] Blocks per segment of large relation: %u\n"
+
+#: pg_resetwal.c:785
+#, c-format
+msgid ""
+"WAL block size:                       %u\n"
+msgstr ""
+"[REVIEW: lock, WAL; untranslated] WAL block size:                       %u\n"
+
+#: pg_resetwal.c:787 pg_resetwal.c:875
+#, c-format
+msgid ""
+"Bytes per WAL segment:                %u\n"
+msgstr ""
+"[REVIEW: WAL; untranslated] Bytes per WAL segment:                %u\n"
+
+#: pg_resetwal.c:789
+#, c-format
+msgid ""
+"Maximum length of identifiers:        %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum length of identifiers:        %u\n"
+
+#: pg_resetwal.c:791
+#, c-format
+msgid ""
+"Maximum columns in an index:          %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum columns in an index:          %u\n"
+
+#: pg_resetwal.c:793
+#, c-format
+msgid ""
+"Maximum size of a TOAST chunk:        %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum size of a TOAST chunk:        %u\n"
+
+#: pg_resetwal.c:795
+#, c-format
+msgid ""
+"Size of a large-object chunk:         %u\n"
+msgstr ""
+"[REVIEW: untranslated] Size of a large-object chunk:         %u\n"
+
+#: pg_resetwal.c:798
+#, c-format
+msgid ""
+"Date/time type storage:               %s\n"
+msgstr ""
+"[REVIEW: untranslated] Date/time type storage:               %s\n"
+
+#: pg_resetwal.c:799
+msgid "64-bit integers"
+msgstr "64-bit integers"
+
+#: pg_resetwal.c:800
+#, c-format
+msgid ""
+"Float8 argument passing:              %s\n"
+msgstr ""
+"[REVIEW: untranslated] Float8 argument passing:              %s\n"
+
+#: pg_resetwal.c:801
+msgid "by reference"
+msgstr "by reference"
+
+#: pg_resetwal.c:801
+msgid "by value"
+msgstr "by value"
+
+#: pg_resetwal.c:802
+#, c-format
+msgid ""
+"Data page checksum version:           %u\n"
+msgstr ""
+"[REVIEW: untranslated] Data page checksum version:           %u\n"
+
+#: pg_resetwal.c:804
+#, c-format
+msgid ""
+"Default char data signedness:         %s\n"
+msgstr ""
+"[REVIEW: untranslated] Default char data signedness:         %s\n"
+
+#: pg_resetwal.c:805
+msgid "signed"
+msgstr "signed"
+
+#: pg_resetwal.c:805
+msgid "unsigned"
+msgstr "unsigned"
+
+#: pg_resetwal.c:818
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Values to be changed:\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"[REVIEW: untranslated] Values to be changed:\n"
+"\n"
+
+#: pg_resetwal.c:822
+#, c-format
+msgid ""
+"First log segment after reset:        %s\n"
+msgstr ""
+"[REVIEW: untranslated] First log segment after reset:        %s\n"
+
+#: pg_resetwal.c:826
+#, c-format
+msgid ""
+"NextMultiXactId:                      %u\n"
+msgstr ""
+"NextMultiXactId:                      %u\n"
+
+#: pg_resetwal.c:828
+#, c-format
+msgid ""
+"OldestMultiXid:                       %u\n"
+msgstr ""
+"OldestMultiXid:                       %u\n"
+
+#: pg_resetwal.c:830
+#, c-format
+msgid ""
+"OldestMulti's DB:                     %u\n"
+msgstr ""
+"OldestMulti's DB:                     %u\n"
+
+#: pg_resetwal.c:836
+#, c-format
+msgid ""
+"NextMultiOffset:                      %u\n"
+msgstr ""
+"NextMultiOffset:                      %u\n"
+
+#: pg_resetwal.c:842
+#, c-format
+msgid ""
+"NextOID:                              %u\n"
+msgstr ""
+"[REVIEW: OID] NextOID:                              %u\n"
+
+#: pg_resetwal.c:848
+#, c-format
+msgid ""
+"NextXID:                              %u\n"
+msgstr ""
+"NextXID:                              %u\n"
+
+#: pg_resetwal.c:850
+#, c-format
+msgid ""
+"OldestXID:                            %u\n"
+msgstr ""
+"OldestXID:                            %u\n"
+
+#: pg_resetwal.c:852
+#, c-format
+msgid ""
+"OldestXID's DB:                       %u\n"
+msgstr ""
+"OldestXID's DB:                       %u\n"
+
+#: pg_resetwal.c:858
+#, c-format
+msgid ""
+"NextXID epoch:                        %u\n"
+msgstr ""
+"NextXID epoch:                        %u\n"
+
+#: pg_resetwal.c:864
+#, c-format
+msgid ""
+"oldestCommitTsXid:                    %u\n"
+msgstr ""
+"oldestCommitTsXid:                    %u\n"
+
+#: pg_resetwal.c:869
+#, c-format
+msgid ""
+"newestCommitTsXid:                    %u\n"
+msgstr ""
+"newestCommitTsXid:                    %u\n"
+
+#: pg_resetwal.c:981 pg_resetwal.c:1022 pg_resetwal.c:1060 pg_resetwal.c:1095
+#, c-format
+msgid "could not close directory \"%s\": %m"
+msgstr "गर्न सकिएन close directory \"%s\": %m"
+
+#: pg_resetwal.c:1014 pg_resetwal.c:1052 pg_resetwal.c:1087
+#, c-format
+msgid "could not delete file \"%s\": %m"
+msgstr "गर्न सकिएन delete फाइल \"%s\": %m"
+
+#: pg_resetwal.c:1183
+#, c-format
+msgid "fsync error: %m"
+msgstr "fsync त्रुटि: %m"
+
+#: pg_resetwal.c:1192
+#, c-format
+msgid ""
+"%s resets the PostgreSQL write-ahead log.\n"
+"\n"
+msgstr ""
+"[REVIEW: write-ahead log; untranslated] %s resets the PostgreSQL write-ahead log.\n"
+"\n"
+
+#: pg_resetwal.c:1193
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_resetwal.c:1194
+#, c-format
+msgid ""
+"  %s [OPTION]... DATADIR\n"
+msgstr ""
+"  %s [OPTION]... DATADIR\n"
+
+#: pg_resetwal.c:1196
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Options:\n"
+
+#: pg_resetwal.c:1197
+#, c-format
+msgid ""
+" [-D, --pgdata=]DATADIR  data directory\n"
+msgstr ""
+"[REVIEW: untranslated]  [-D, --pgdata=]DATADIR  data directory\n"
+
+#: pg_resetwal.c:1198
+#, c-format
+msgid ""
+"  -f, --force            force update to be done even after unclean shutdown or\n"
+"                         if pg_control values had to be guessed\n"
+msgstr ""
+"[REVIEW: untranslated]   -f, --force            force update to be done even after unclean shutdown or\n"
+"[REVIEW: untranslated]                          if pg_control values had to be guessed\n"
+
+#: pg_resetwal.c:1200
+#, c-format
+msgid ""
+"  -n, --dry-run          no update, just show what would be done\n"
+msgstr ""
+"[REVIEW: untranslated]   -n, --dry-run          no update, just show what would be done\n"
+
+#: pg_resetwal.c:1201
+#, c-format
+msgid ""
+"  -V, --version          output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version          output version information, then exit\n"
+
+#: pg_resetwal.c:1202
+#, c-format
+msgid ""
+"  -?, --help             show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help             show this help, then exit\n"
+
+#: pg_resetwal.c:1204
+#, c-format
+msgid ""
+"\n"
+"Options to override control file values:\n"
+msgstr ""
+"\n"
+"Options to override control फाइल values:\n"
+
+#: pg_resetwal.c:1205
+#, c-format
+msgid ""
+"  -c, --commit-timestamp-ids=XID,XID\n"
+"                                   set oldest and newest transactions bearing\n"
+"                                   commit timestamp (zero means no change)\n"
+msgstr ""
+"[REVIEW: untranslated]   -c, --commit-timestamp-ids=XID,XID\n"
+"[REVIEW: transaction; untranslated]                                    set oldest and newest transactions bearing\n"
+"[REVIEW: untranslated]                                    commit timestamp (zero means no change)\n"
+
+#: pg_resetwal.c:1208
+#, c-format
+msgid ""
+"  -e, --epoch=XIDEPOCH             set next transaction ID epoch\n"
+msgstr ""
+"[REVIEW: transaction; untranslated]   -e, --epoch=XIDEPOCH             set next transaction ID epoch\n"
+
+#: pg_resetwal.c:1209
+#, c-format
+msgid ""
+"  -l, --next-wal-file=WALFILE      set minimum starting location for new WAL\n"
+msgstr ""
+"[REVIEW: WAL; untranslated]   -l, --next-wal-file=WALFILE      set minimum starting location for new WAL\n"
+
+#: pg_resetwal.c:1210
+#, c-format
+msgid ""
+"  -m, --multixact-ids=MXID,MXID    set next and oldest multitransaction ID\n"
+msgstr ""
+"[REVIEW: transaction; untranslated]   -m, --multixact-ids=MXID,MXID    set next and oldest multitransaction ID\n"
+
+#: pg_resetwal.c:1211
+#, c-format
+msgid ""
+"  -o, --next-oid=OID               set next OID\n"
+msgstr ""
+"[REVIEW: OID; untranslated]   -o, --next-oid=OID               set next OID\n"
+
+#: pg_resetwal.c:1212
+#, c-format
+msgid ""
+"  -O, --multixact-offset=OFFSET    set next multitransaction offset\n"
+msgstr ""
+"[REVIEW: transaction; untranslated]   -O, --multixact-offset=OFFSET    set next multitransaction offset\n"
+
+#: pg_resetwal.c:1213
+#, c-format
+msgid ""
+"  -u, --oldest-transaction-id=XID  set oldest transaction ID\n"
+msgstr ""
+"[REVIEW: transaction; untranslated]   -u, --oldest-transaction-id=XID  set oldest transaction ID\n"
+
+#: pg_resetwal.c:1214
+#, c-format
+msgid ""
+"  -x, --next-transaction-id=XID    set next transaction ID\n"
+msgstr ""
+"[REVIEW: transaction; untranslated]   -x, --next-transaction-id=XID    set next transaction ID\n"
+
+#: pg_resetwal.c:1215
+#, c-format
+msgid ""
+"      --char-signedness=OPTION     set char signedness to \"signed\"  or \"unsigned\"\n"
+msgstr ""
+"[REVIEW: untranslated]       --char-signedness=OPTION     set char signedness to \"signed\"  or \"unsigned\"\n"
+
+#: pg_resetwal.c:1216
+#, c-format
+msgid ""
+"      --wal-segsize=SIZE           size of WAL segments, in megabytes\n"
+msgstr ""
+"[REVIEW: WAL; untranslated]       --wal-segsize=SIZE           size of WAL segments, in megabytes\n"
+
+#: pg_resetwal.c:1218
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_resetwal.c:1219
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"

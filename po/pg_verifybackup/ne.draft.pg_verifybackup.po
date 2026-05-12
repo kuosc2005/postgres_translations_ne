@@ -1,0 +1,833 @@
+# Nepali translation draft for PostgreSQL pg_verifybackup.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_verifybackup\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_verifybackup.po\\n"
+
+#: ../../../src/common/logging.c:279
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:286
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:297
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:304
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/controldata_utils.c:97
+#, c-format
+msgid "could not open file \"%s\" for reading: %m"
+msgstr "गर्न सकिएन open फाइल \"%s\" for reading: %m"
+
+#: ../../common/controldata_utils.c:110 pg_verifybackup.c:440
+#: pg_verifybackup.c:478 pg_verifybackup.c:1025 pg_verifybackup.c:1144
+#, c-format
+msgid "could not read file \"%s\": %m"
+msgstr "फाइल \"%s\" पढ्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:119
+#, c-format
+msgid "could not read file \"%s\": read %d of %zu"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %zu"
+
+#: ../../common/controldata_utils.c:132 ../../common/controldata_utils.c:280
+#: pg_verifybackup.c:1030 pg_verifybackup.c:1150
+#, c-format
+msgid "could not close file \"%s\": %m"
+msgstr "गर्न सकिएन close फाइल \"%s\": %m"
+
+#: ../../common/controldata_utils.c:168
+msgid "byte ordering mismatch"
+msgstr "[REVIEW: untranslated] byte ordering mismatch"
+
+#: ../../common/controldata_utils.c:170
+#, c-format
+msgid ""
+"possible byte ordering mismatch\n"
+"The byte ordering used to store the pg_control file might not match the one\n"
+"used by this program.  In that case the results below would be incorrect, and\n"
+"the PostgreSQL installation would be incompatible with this data directory."
+msgstr ""
+"[REVIEW: untranslated] possible byte ordering mismatch\n"
+"[REVIEW: sentence] The byte ordering used to store the pg_control फाइल might not match the one\n"
+"[REVIEW: untranslated] used by this program.  In that case the results below would be incorrect, and\n"
+"[REVIEW: untranslated] the PostgreSQL installation would be incompatible with this data directory."
+
+#: ../../common/controldata_utils.c:230 pg_verifybackup.c:408
+#: pg_verifybackup.c:1005 pg_verifybackup.c:1113
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:249
+#, c-format
+msgid "could not write file \"%s\": %m"
+msgstr "फाइल \"%s\" लेख्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:268
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/cryptohash.c:261 ../../common/cryptohash_openssl.c:356
+#: ../../common/jsonapi.c:2407 ../../common/parse_manifest.c:157
+#: ../../common/parse_manifest.c:852
+#, c-format
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: ../../common/cryptohash.c:266 ../../common/cryptohash.c:272
+#: ../../common/cryptohash_openssl.c:368 ../../common/cryptohash_openssl.c:376
+msgid "success"
+msgstr "success"
+
+#: ../../common/cryptohash.c:268 ../../common/cryptohash_openssl.c:370
+msgid "destination buffer too small"
+msgstr "[REVIEW: buffer; untranslated] destination buffer too small"
+
+#: ../../common/cryptohash_openssl.c:372
+msgid "OpenSSL failure"
+msgstr "OpenSSL failure"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/jsonapi.c:2432
+msgid "Recursive descent parser cannot use incremental lexer."
+msgstr "Recursive descent parser गर्न सकिँदैन use incremental lexer."
+
+#: ../../common/jsonapi.c:2434
+msgid "Incremental parser requires incremental lexer."
+msgstr "[REVIEW: untranslated] Incremental parser requires incremental lexer."
+
+#: ../../common/jsonapi.c:2436
+msgid "JSON nested too deep, maximum permitted depth is 6400."
+msgstr "[REVIEW: untranslated] JSON nested too deep, maximum permitted depth is 6400."
+
+#: ../../common/jsonapi.c:2438
+#, c-format
+msgid "Escape sequence \"\\%.*s\" is invalid."
+msgstr "Escape sequence \"\\%.*s\" is अमान्य."
+
+#: ../../common/jsonapi.c:2442
+#, c-format
+msgid "Character with value 0x%02x must be escaped."
+msgstr "[REVIEW: untranslated] Character with value 0x%02x must be escaped."
+
+#: ../../common/jsonapi.c:2446
+#, c-format
+msgid "Expected end of input, but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected end of input, but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2449
+#, c-format
+msgid "Expected array element or \"]\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected array element or \"]\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2452
+#, c-format
+msgid "Expected \",\" or \"]\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected \",\" or \"]\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2455
+#, c-format
+msgid "Expected \":\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected \":\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2458
+#, c-format
+msgid "Expected JSON value, but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected JSON value, but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2461
+msgid "The input string ended unexpectedly."
+msgstr "[REVIEW: untranslated] The input string ended unexpectedly."
+
+#: ../../common/jsonapi.c:2463
+#, c-format
+msgid "Expected string or \"}\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected string or \"}\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2466
+#, c-format
+msgid "Expected \",\" or \"}\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected \",\" or \"}\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2469
+#, c-format
+msgid "Expected string, but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected string, but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2472
+#, c-format
+msgid "Token \"%.*s\" is invalid."
+msgstr "Token \"%.*s\" is अमान्य."
+
+#: ../../common/jsonapi.c:2478
+msgid "\\u0000 cannot be converted to text."
+msgstr "\\u0000 गर्न सकिँदैन be converted to text."
+
+#: ../../common/jsonapi.c:2480
+msgid "\"\\u\" must be followed by four hexadecimal digits."
+msgstr "[REVIEW: untranslated] \"\\u\" must be followed by four hexadecimal digits."
+
+#: ../../common/jsonapi.c:2483
+msgid "Unicode escape values cannot be used for code point values above 007F when the encoding is not UTF8."
+msgstr "[REVIEW: encoding; sentence] Unicode escape values गर्न सकिँदैन be used for code point values above 007F when the encoding is not UTF8."
+
+#: ../../common/jsonapi.c:2492
+#, c-format
+msgid "Unicode escape value could not be translated to the server's encoding %s."
+msgstr "[REVIEW: encoding; sentence] Unicode escape value गर्न सकिएन be translated to the server's encoding %s."
+
+#: ../../common/jsonapi.c:2499
+msgid "Unicode high surrogate must not follow a high surrogate."
+msgstr "[REVIEW: untranslated] Unicode high surrogate must not follow a high surrogate."
+
+#: ../../common/jsonapi.c:2501
+msgid "Unicode low surrogate must follow a high surrogate."
+msgstr "[REVIEW: untranslated] Unicode low surrogate must follow a high surrogate."
+
+#: ../../common/jsonapi.c:2523
+msgid "out of memory while constructing error description"
+msgstr "out of memory while constructing त्रुटि description"
+
+#: ../../common/parse_manifest.c:159 ../../common/parse_manifest.c:854
+#, c-format
+msgid "could not initialize checksum of manifest"
+msgstr "[REVIEW: manifest] गर्न सकिएन initialize checksum of manifest"
+
+#: ../../common/parse_manifest.c:203 ../../common/parse_manifest.c:260
+msgid "manifest ended unexpectedly"
+msgstr "[REVIEW: manifest; untranslated] manifest ended unexpectedly"
+
+#: ../../common/parse_manifest.c:209 ../../common/parse_manifest.c:861
+#, c-format
+msgid "could not update checksum of manifest"
+msgstr "[REVIEW: manifest] गर्न सकिएन update checksum of manifest"
+
+#: ../../common/parse_manifest.c:301
+msgid "unexpected object start"
+msgstr "[REVIEW: untranslated] unexpected object start"
+
+#: ../../common/parse_manifest.c:336
+msgid "unexpected object end"
+msgstr "[REVIEW: untranslated] unexpected object end"
+
+#: ../../common/parse_manifest.c:365
+msgid "unexpected array start"
+msgstr "[REVIEW: untranslated] unexpected array start"
+
+#: ../../common/parse_manifest.c:390
+msgid "unexpected array end"
+msgstr "[REVIEW: untranslated] unexpected array end"
+
+#: ../../common/parse_manifest.c:417
+msgid "expected version indicator"
+msgstr "[REVIEW: untranslated] expected version indicator"
+
+#: ../../common/parse_manifest.c:453
+msgid "unrecognized top-level field"
+msgstr "[REVIEW: untranslated] unrecognized top-level field"
+
+#: ../../common/parse_manifest.c:472
+msgid "unexpected file field"
+msgstr "unexpected फाइल field"
+
+#: ../../common/parse_manifest.c:486
+msgid "unexpected WAL range field"
+msgstr "[REVIEW: WAL; untranslated] unexpected WAL range field"
+
+#: ../../common/parse_manifest.c:492
+msgid "unexpected object field"
+msgstr "[REVIEW: untranslated] unexpected object field"
+
+#: ../../common/parse_manifest.c:582
+msgid "unexpected scalar"
+msgstr "unexpected scalar"
+
+#: ../../common/parse_manifest.c:608
+msgid "manifest version not an integer"
+msgstr "[REVIEW: manifest; untranslated] manifest version not an integer"
+
+#: ../../common/parse_manifest.c:612
+msgid "unexpected manifest version"
+msgstr "[REVIEW: manifest; untranslated] unexpected manifest version"
+
+#: ../../common/parse_manifest.c:636
+msgid "system identifier in manifest not an integer"
+msgstr "[REVIEW: manifest; untranslated] system identifier in manifest not an integer"
+
+#: ../../common/parse_manifest.c:661
+msgid "missing path name"
+msgstr "हराइरहेको path नाम"
+
+#: ../../common/parse_manifest.c:664
+msgid "both path name and encoded path name"
+msgstr "both path नाम and encoded path नाम"
+
+#: ../../common/parse_manifest.c:666
+msgid "missing size"
+msgstr "हराइरहेको size"
+
+#: ../../common/parse_manifest.c:669
+msgid "checksum without algorithm"
+msgstr "[REVIEW: untranslated] checksum without algorithm"
+
+#: ../../common/parse_manifest.c:683
+msgid "could not decode file name"
+msgstr "गर्न सकिएन decode फाइल नाम"
+
+#: ../../common/parse_manifest.c:693
+msgid "file size is not an integer"
+msgstr "फाइल size is not an integer"
+
+#: ../../common/parse_manifest.c:699
+#, c-format
+msgid "unrecognized checksum algorithm: \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized checksum algorithm: \"%s\""
+
+#: ../../common/parse_manifest.c:718
+#, c-format
+msgid "invalid checksum for file \"%s\": \"%s\""
+msgstr "अमान्य checksum for फाइल \"%s\": \"%s\""
+
+#: ../../common/parse_manifest.c:761
+msgid "missing timeline"
+msgstr "[REVIEW: timeline] हराइरहेको timeलाइन"
+
+#: ../../common/parse_manifest.c:763
+msgid "missing start LSN"
+msgstr "[REVIEW: LSN] हराइरहेको start LSN"
+
+#: ../../common/parse_manifest.c:765
+msgid "missing end LSN"
+msgstr "[REVIEW: LSN] हराइरहेको end LSN"
+
+#: ../../common/parse_manifest.c:771
+msgid "timeline is not an integer"
+msgstr "[REVIEW: timeline] timeलाइन is not an integer"
+
+#: ../../common/parse_manifest.c:774
+msgid "could not parse start LSN"
+msgstr "[REVIEW: LSN] गर्न सकिएन parse start LSN"
+
+#: ../../common/parse_manifest.c:777
+msgid "could not parse end LSN"
+msgstr "[REVIEW: LSN] गर्न सकिएन parse end LSN"
+
+#: ../../common/parse_manifest.c:842
+msgid "expected at least 2 lines"
+msgstr "expected at least 2 लाइनs"
+
+#: ../../common/parse_manifest.c:845
+msgid "last line not newline-terminated"
+msgstr "last लाइन not newलाइन-terminated"
+
+#: ../../common/parse_manifest.c:864
+#, c-format
+msgid "could not finalize checksum of manifest"
+msgstr "[REVIEW: manifest] गर्न सकिएन finalize checksum of manifest"
+
+#: ../../common/parse_manifest.c:868
+#, c-format
+msgid "manifest has no checksum"
+msgstr "[REVIEW: manifest; untranslated] manifest has no checksum"
+
+#: ../../common/parse_manifest.c:872
+#, c-format
+msgid "invalid manifest checksum: \"%s\""
+msgstr "[REVIEW: manifest] अमान्य manifest checksum: \"%s\""
+
+#: ../../common/parse_manifest.c:876
+#, c-format
+msgid "manifest checksum mismatch"
+msgstr "[REVIEW: manifest; untranslated] manifest checksum mismatch"
+
+#: ../../common/parse_manifest.c:891
+#, c-format
+msgid "could not parse backup manifest: %s"
+msgstr "[REVIEW: manifest, backup] गर्न सकिएन parse backup manifest: %s"
+
+#: ../../fe_utils/astreamer_gzip.c:115
+#, c-format
+msgid "could not create compressed file \"%s\": %m"
+msgstr "गर्न सकिएन create compressed फाइल \"%s\": %m"
+
+#: ../../fe_utils/astreamer_gzip.c:127
+#, c-format
+msgid "could not duplicate stdout: %m"
+msgstr "गर्न सकिएन duplicate stdout: %m"
+
+#: ../../fe_utils/astreamer_gzip.c:131
+#, c-format
+msgid "could not open output file: %m"
+msgstr "गर्न सकिएन open output फाइल: %m"
+
+#: ../../fe_utils/astreamer_gzip.c:135
+#, c-format
+msgid "could not set compression level %d: %s"
+msgstr "गर्न सकिएन set compression level %d: %s"
+
+#: ../../fe_utils/astreamer_gzip.c:140 ../../fe_utils/astreamer_gzip.c:273
+#: ../../fe_utils/astreamer_lz4.c:102 ../../fe_utils/astreamer_lz4.c:300
+#: ../../fe_utils/astreamer_zstd.c:133 ../../fe_utils/astreamer_zstd.c:288
+#, c-format
+msgid "this build does not support compression with %s"
+msgstr "[REVIEW: untranslated] this build does not support compression with %s"
+
+#: ../../fe_utils/astreamer_gzip.c:167
+#, c-format
+msgid "could not write to compressed file \"%s\": %s"
+msgstr "गर्न सकिएन write to compressed फाइल \"%s\": %s"
+
+#: ../../fe_utils/astreamer_gzip.c:191
+#, c-format
+msgid "could not close compressed file \"%s\": %m"
+msgstr "गर्न सकिएन close compressed फाइल \"%s\": %m"
+
+#: ../../fe_utils/astreamer_gzip.c:269
+#, c-format
+msgid "could not initialize compression library"
+msgstr "गर्न सकिएन initialize compression library"
+
+#: ../../fe_utils/astreamer_gzip.c:320 ../../fe_utils/astreamer_lz4.c:356
+#: ../../fe_utils/astreamer_zstd.c:333
+#, c-format
+msgid "could not decompress data: %s"
+msgstr "गर्न सकिएन decompress data: %s"
+
+#: ../../fe_utils/astreamer_lz4.c:97
+#, c-format
+msgid "could not create lz4 compression context: %s"
+msgstr "गर्न सकिएन create lz4 compression context: %s"
+
+#: ../../fe_utils/astreamer_lz4.c:142
+#, c-format
+msgid "could not write lz4 header: %s"
+msgstr "गर्न सकिएन write lz4 header: %s"
+
+#: ../../fe_utils/astreamer_lz4.c:191 ../../fe_utils/astreamer_zstd.c:185
+#: ../../fe_utils/astreamer_zstd.c:227
+#, c-format
+msgid "could not compress data: %s"
+msgstr "गर्न सकिएन compress data: %s"
+
+#: ../../fe_utils/astreamer_lz4.c:243
+#, c-format
+msgid "could not end lz4 compression: %s"
+msgstr "गर्न सकिएन end lz4 compression: %s"
+
+#: ../../fe_utils/astreamer_lz4.c:295
+#, c-format
+msgid "could not initialize compression library: %s"
+msgstr "गर्न सकिएन initialize compression library: %s"
+
+#: ../../fe_utils/astreamer_tar.c:244
+#, c-format
+msgid "tar file trailer exceeds 2 blocks"
+msgstr "[REVIEW: lock] tar फाइल trailer exceeds 2 blocks"
+
+#: ../../fe_utils/astreamer_tar.c:249 astreamer_verify.c:130
+#, c-format
+msgid "unexpected state while parsing tar archive"
+msgstr "[REVIEW: archive; untranslated] unexpected state while parsing tar archive"
+
+#: ../../fe_utils/astreamer_tar.c:292
+#, c-format
+msgid "tar member has empty name"
+msgstr "tar member has empty नाम"
+
+#: ../../fe_utils/astreamer_tar.c:326
+#, c-format
+msgid "COPY stream ended before last file was finished"
+msgstr "COPY stream ended before last फाइल was finished"
+
+#: ../../fe_utils/astreamer_zstd.c:89
+#, c-format
+msgid "could not create zstd compression context"
+msgstr "गर्न सकिएन create zstd compression context"
+
+#: ../../fe_utils/astreamer_zstd.c:95
+#, c-format
+msgid "could not set zstd compression level to %d: %s"
+msgstr "गर्न सकिएन set zstd compression level to %d: %s"
+
+#: ../../fe_utils/astreamer_zstd.c:109
+#, c-format
+msgid "could not set compression worker count to %d: %s"
+msgstr "गर्न सकिएन set compression worker count to %d: %s"
+
+#: ../../fe_utils/astreamer_zstd.c:120
+#, c-format
+msgid "could not enable long-distance mode: %s"
+msgstr "गर्न सकिएन enable long-distance mode: %s"
+
+#: ../../fe_utils/astreamer_zstd.c:279
+#, c-format
+msgid "could not create zstd decompression context"
+msgstr "गर्न सकिएन create zstd decompression context"
+
+#: astreamer_verify.c:198
+#, c-format
+msgid "file \"%s\" is present in archive \"%s\" but not in the manifest"
+msgstr "[REVIEW: manifest, archive] फाइल \"%s\" is present in archive \"%s\" but not in the manifest"
+
+#: astreamer_verify.c:211
+#, c-format
+msgid "file \"%s\" has size %llu in archive \"%s\" but size %<PRIu64> in the manifest"
+msgstr "[REVIEW: manifest, archive; sentence] फाइल \"%s\" has size %llu in archive \"%s\" but size %<PRIu64> in the manifest"
+
+#: astreamer_verify.c:236
+#, c-format
+msgid "%s: could not initialize checksum of file \"%s\""
+msgstr "%s: गर्न सकिएन initialize checksum of फाइल \"%s\""
+
+#: astreamer_verify.c:274 pg_verifybackup.c:1133
+#, c-format
+msgid "could not update checksum of file \"%s\""
+msgstr "गर्न सकिएन update checksum of फाइल \"%s\""
+
+#: astreamer_verify.c:300
+#, c-format
+msgid "file \"%s\" in archive \"%s\" should contain %<PRIu64> bytes, but %<PRIu64> bytes were read"
+msgstr "[REVIEW: archive; sentence] फाइल \"%s\" in archive \"%s\" should contain %<PRIu64> bytes, but %<PRIu64> bytes were read"
+
+#: astreamer_verify.c:312 pg_verifybackup.c:1179
+#, c-format
+msgid "could not finalize checksum of file \"%s\""
+msgstr "गर्न सकिएन finalize checksum of फाइल \"%s\""
+
+#: astreamer_verify.c:320
+#, c-format
+msgid "file \"%s\" in archive \"%s\" has checksum of length %d, but expected %d"
+msgstr "[REVIEW: archive] फाइल \"%s\" in archive \"%s\" has checksum of length %d, but expected %d"
+
+#: astreamer_verify.c:325
+#, c-format
+msgid "checksum mismatch for file \"%s\" in archive \"%s\""
+msgstr "[REVIEW: archive] checksum mismatch for फाइल \"%s\" in archive \"%s\""
+
+#: astreamer_verify.c:387
+#, c-format
+msgid "unexpected control file size %d, expected %d"
+msgstr "unexpected control फाइल size %d, expected %d"
+
+#: astreamer_verify.c:399
+#, c-format
+msgid "%s: %s: CRC is incorrect"
+msgstr "[REVIEW: untranslated] %s: %s: CRC is incorrect"
+
+#: astreamer_verify.c:405
+#, c-format
+msgid "%s: %s: unexpected control file version"
+msgstr "%s: %s: unexpected control फाइल version"
+
+#: astreamer_verify.c:412
+#, c-format
+msgid "%s: %s: manifest system identifier is %<PRIu64>, but control file has %<PRIu64>"
+msgstr "[REVIEW: manifest] %s: %s: manifest system identifier is %<PRIu64>, but control फाइल has %<PRIu64>"
+
+#: pg_verifybackup.c:208
+#, c-format
+msgid "invalid backup format \"%s\", must be \"plain\" or \"tar\""
+msgstr "[REVIEW: backup] अमान्य backup format \"%s\", must be \"plain\" or \"tar\""
+
+#: pg_verifybackup.c:229 pg_verifybackup.c:238 pg_verifybackup.c:249
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_verifybackup.c:237
+#, c-format
+msgid "no backup directory specified"
+msgstr "[REVIEW: backup; untranslated] no backup directory specified"
+
+#: pg_verifybackup.c:247
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: pg_verifybackup.c:255
+#, c-format
+msgid "cannot specify both %s and %s"
+msgstr "गर्न सकिँदैन specify both %s and %s"
+
+#: pg_verifybackup.c:275
+#, c-format
+msgid "program \"%s\" is needed by %s but was not found in the same directory as \"%s\""
+msgstr "[REVIEW: sentence] program \"%s\" is needed by %s but was फेला परेन in the same directory as \"%s\""
+
+#: pg_verifybackup.c:278
+#, c-format
+msgid "program \"%s\" was found by \"%s\" but was not the same version as %s"
+msgstr "[REVIEW: untranslated] program \"%s\" was found by \"%s\" but was not the same version as %s"
+
+#: pg_verifybackup.c:304 pg_verifybackup.c:625
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: pg_verifybackup.c:323 pg_verifybackup.c:412
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: pg_verifybackup.c:340
+#, c-format
+msgid "pg_waldump cannot read tar files"
+msgstr "[REVIEW: WAL] pg_waldump गर्न सकिँदैन read tar फाइलs"
+
+#: pg_verifybackup.c:341
+#, c-format
+msgid "You must use -n/--no-parse-wal when verifying a tar-format backup."
+msgstr "[REVIEW: backup, WAL; untranslated] You must use -n/--no-parse-wal when verifying a tar-format backup."
+
+#: pg_verifybackup.c:383
+#, c-format
+msgid ""
+"backup successfully verified\n"
+msgstr ""
+"[REVIEW: backup; untranslated] backup successfully verified\n"
+
+#: pg_verifybackup.c:442
+#, c-format
+msgid "could not read file \"%s\": read %d of %lld"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %lld"
+
+#: pg_verifybackup.c:480
+#, c-format
+msgid "could not read file \"%s\": read %lld of %lld"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %lld of %lld"
+
+#: pg_verifybackup.c:563
+#, c-format
+msgid "duplicate path name in backup manifest: \"%s\""
+msgstr "[REVIEW: manifest, backup] duplicate path नाम in backup manifest: \"%s\""
+
+#: pg_verifybackup.c:657 pg_verifybackup.c:827
+#, c-format
+msgid "could not close directory \"%s\": %m"
+msgstr "गर्न सकिएन close directory \"%s\": %m"
+
+#: pg_verifybackup.c:678 pg_verifybackup.c:897
+#, c-format
+msgid "could not stat file or directory \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल or directory \"%s\": %m"
+
+#: pg_verifybackup.c:701
+#, c-format
+msgid "\"%s\" is not a regular file or directory"
+msgstr "\"%s\" is not a regular फाइल or directory"
+
+#: pg_verifybackup.c:711
+#, c-format
+msgid "\"%s\" is present on disk but not in the manifest"
+msgstr "[REVIEW: manifest; untranslated] \"%s\" is present on disk but not in the manifest"
+
+#: pg_verifybackup.c:723
+#, c-format
+msgid "\"%s\" has size %llu on disk but size %llu in the manifest"
+msgstr "[REVIEW: manifest; untranslated] \"%s\" has size %llu on disk but size %llu in the manifest"
+
+#: pg_verifybackup.c:765
+#, c-format
+msgid "%s: CRC is incorrect"
+msgstr "[REVIEW: untranslated] %s: CRC is incorrect"
+
+#: pg_verifybackup.c:769
+#, c-format
+msgid "%s: unexpected control file version"
+msgstr "%s: unexpected control फाइल version"
+
+#: pg_verifybackup.c:774
+#, c-format
+msgid "%s: manifest system identifier is %<PRIu64>, but control file has %<PRIu64>"
+msgstr "[REVIEW: manifest] %s: manifest system identifier is %<PRIu64>, but control फाइल has %<PRIu64>"
+
+#: pg_verifybackup.c:906
+#, c-format
+msgid "file \"%s\" is not a regular file"
+msgstr "फाइल \"%s\" is not a regular फाइल"
+
+#: pg_verifybackup.c:936 pg_verifybackup.c:957
+#, c-format
+msgid "file \"%s\" is not expected in a tar format backup"
+msgstr "[REVIEW: backup] फाइल \"%s\" is not expected in a tar format backup"
+
+#: pg_verifybackup.c:1049
+#, c-format
+msgid "\"%s\" is present in the manifest but not on disk"
+msgstr "[REVIEW: manifest; untranslated] \"%s\" is present in the manifest but not on disk"
+
+#: pg_verifybackup.c:1121
+#, c-format
+msgid "could not initialize checksum of file \"%s\""
+msgstr "गर्न सकिएन initialize checksum of फाइल \"%s\""
+
+#: pg_verifybackup.c:1169
+#, c-format
+msgid "file \"%s\" should contain %<PRIu64> bytes, but read %<PRIu64>"
+msgstr "फाइल \"%s\" should contain %<PRIu64> bytes, but read %<PRIu64>"
+
+#: pg_verifybackup.c:1187
+#, c-format
+msgid "file \"%s\" has checksum of length %d, but expected %d"
+msgstr "फाइल \"%s\" has checksum of length %d, but expected %d"
+
+#: pg_verifybackup.c:1191
+#, c-format
+msgid "checksum mismatch for file \"%s\""
+msgstr "checksum mismatch for फाइल \"%s\""
+
+#: pg_verifybackup.c:1217
+#, c-format
+msgid "WAL parsing failed for timeline %u"
+msgstr "[REVIEW: timeline, WAL] WAL parsing असफल भयो for timeलाइन %u"
+
+#: pg_verifybackup.c:1351
+#, c-format
+msgid "%*s/%s kB (%d%%) verified"
+msgstr "%*s/%s kB (%d%%) verified"
+
+#: pg_verifybackup.c:1368
+#, c-format
+msgid ""
+"%s verifies a backup against the backup manifest.\n"
+"\n"
+msgstr ""
+"[REVIEW: manifest, backup; untranslated] %s verifies a backup against the backup manifest.\n"
+"\n"
+
+#: pg_verifybackup.c:1369
+#, c-format
+msgid ""
+"Usage:\n"
+"  %s [OPTION]... BACKUPDIR\n"
+"\n"
+msgstr ""
+"Usage:\n"
+"[REVIEW: backup]   %s [OPTION]... BACKUPDIR\n"
+"\n"
+
+#: pg_verifybackup.c:1370
+#, c-format
+msgid ""
+"Options:\n"
+msgstr ""
+"Options:\n"
+
+#: pg_verifybackup.c:1371
+#, c-format
+msgid ""
+"  -e, --exit-on-error         exit immediately on error\n"
+msgstr ""
+"  -e, --exit-on-error         exit immediately on त्रुटि\n"
+
+#: pg_verifybackup.c:1372
+#, c-format
+msgid ""
+"  -F, --format=p|t            backup format (plain, tar)\n"
+msgstr ""
+"[REVIEW: backup; untranslated]   -F, --format=p|t            backup format (plain, tar)\n"
+
+#: pg_verifybackup.c:1373
+#, c-format
+msgid ""
+"  -i, --ignore=RELATIVE_PATH  ignore indicated path\n"
+msgstr ""
+"[REVIEW: untranslated]   -i, --ignore=RELATIVE_PATH  ignore indicated path\n"
+
+#: pg_verifybackup.c:1374
+#, c-format
+msgid ""
+"  -m, --manifest-path=PATH    use specified path for manifest\n"
+msgstr ""
+"[REVIEW: manifest; untranslated]   -m, --manifest-path=PATH    use specified path for manifest\n"
+
+#: pg_verifybackup.c:1375
+#, c-format
+msgid ""
+"  -n, --no-parse-wal          do not try to parse WAL files\n"
+msgstr ""
+"[REVIEW: WAL]   -n, --no-parse-wal          do not try to parse WAL फाइलs\n"
+
+#: pg_verifybackup.c:1376
+#, c-format
+msgid ""
+"  -P, --progress              show progress information\n"
+msgstr ""
+"[REVIEW: untranslated]   -P, --progress              show progress information\n"
+
+#: pg_verifybackup.c:1377
+#, c-format
+msgid ""
+"  -q, --quiet                 do not print any output, except for errors\n"
+msgstr ""
+"  -q, --quiet                 do not print any output, except for त्रुटिs\n"
+
+#: pg_verifybackup.c:1378
+#, c-format
+msgid ""
+"  -s, --skip-checksums        skip checksum verification\n"
+msgstr ""
+"[REVIEW: untranslated]   -s, --skip-checksums        skip checksum verification\n"
+
+#: pg_verifybackup.c:1379
+#, c-format
+msgid ""
+"  -w, --wal-directory=PATH    use specified path for WAL files\n"
+msgstr ""
+"[REVIEW: WAL]   -w, --wal-directory=PATH    use specified path for WAL फाइलs\n"
+
+#: pg_verifybackup.c:1380
+#, c-format
+msgid ""
+"  -V, --version               output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version               output version information, then exit\n"
+
+#: pg_verifybackup.c:1381
+#, c-format
+msgid ""
+"  -?, --help                  show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                  show this help, then exit\n"
+
+#: pg_verifybackup.c:1382
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_verifybackup.c:1383
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"

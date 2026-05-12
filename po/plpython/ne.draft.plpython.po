@@ -1,0 +1,446 @@
+# Nepali translation draft for PostgreSQL plpython.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL plpython\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/pl/plpython.po\\n"
+
+#: plpy_cursorobject.c:100
+#, c-format
+msgid "plpy.cursor expected a query or a plan"
+msgstr "[REVIEW: cursor, query; untranslated] plpy.cursor expected a query or a plan"
+
+#: plpy_cursorobject.c:176
+#, c-format
+msgid "plpy.cursor takes a sequence as its second argument"
+msgstr "[REVIEW: cursor; untranslated] plpy.cursor takes a sequence as its second argument"
+
+#: plpy_cursorobject.c:192 plpy_spi.c:226
+#, c-format
+msgid "could not execute plan"
+msgstr "गर्न सकिएन execute plan"
+
+#: plpy_cursorobject.c:195 plpy_spi.c:229
+#, c-format
+msgid "Expected sequence of %d argument, got %d: %s"
+msgid_plural "Expected sequence of %d arguments, got %d: %s"
+msgstr[0] "[REVIEW: untranslated] Expected sequence of %d argument, got %d: %s"
+msgstr[1] "[REVIEW: untranslated] Expected sequence of %d arguments, got %d: %s"
+
+#: plpy_cursorobject.c:350
+#, c-format
+msgid "iterating a closed cursor"
+msgstr "[REVIEW: cursor; untranslated] iterating a closed cursor"
+
+#: plpy_cursorobject.c:358 plpy_cursorobject.c:423
+#, c-format
+msgid "iterating a cursor in an aborted subtransaction"
+msgstr "[REVIEW: transaction, cursor; untranslated] iterating a cursor in an aborted subtransaction"
+
+#: plpy_cursorobject.c:415
+#, c-format
+msgid "fetch from a closed cursor"
+msgstr "[REVIEW: cursor; untranslated] fetch from a closed cursor"
+
+#: plpy_cursorobject.c:463 plpy_spi.c:434
+#, c-format
+msgid "query result has too many rows to fit in a Python list"
+msgstr "[REVIEW: query; untranslated] query result has too many rows to fit in a Python list"
+
+#: plpy_cursorobject.c:504
+#, c-format
+msgid "closing a cursor in an aborted subtransaction"
+msgstr "[REVIEW: transaction, cursor; untranslated] closing a cursor in an aborted subtransaction"
+
+#: plpy_elog.c:127 plpy_elog.c:128 plpy_plpymodule.c:548
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: plpy_exec.c:140
+#, c-format
+msgid "unsupported set function return mode"
+msgstr "[REVIEW: untranslated] unsupported set function return mode"
+
+#: plpy_exec.c:141
+#, c-format
+msgid "PL/Python set-returning functions only support returning one value per call."
+msgstr "[REVIEW: untranslated] PL/Python set-returning functions only support returning one value per call."
+
+#: plpy_exec.c:154
+#, c-format
+msgid "returned object cannot be iterated"
+msgstr "returned object गर्न सकिँदैन be iterated"
+
+#: plpy_exec.c:155
+#, c-format
+msgid "PL/Python set-returning functions must return an iterable object."
+msgstr "[REVIEW: untranslated] PL/Python set-returning functions must return an iterable object."
+
+#: plpy_exec.c:169
+#, c-format
+msgid "error fetching next item from iterator"
+msgstr "त्रुटि fetching next item from iterator"
+
+#: plpy_exec.c:210
+#, c-format
+msgid "PL/Python function with return type \"void\" did not return None"
+msgstr "[REVIEW: OID; untranslated] PL/Python function with return type \"void\" did not return None"
+
+#: plpy_exec.c:379 plpy_exec.c:405
+#, c-format
+msgid "unexpected return value from trigger procedure"
+msgstr "[REVIEW: untranslated] unexpected return value from trigger procedure"
+
+#: plpy_exec.c:380
+#, c-format
+msgid "Expected None or a string."
+msgstr "[REVIEW: untranslated] Expected None or a string."
+
+#: plpy_exec.c:395
+#, c-format
+msgid "PL/Python trigger function returned \"MODIFY\" in a DELETE trigger -- ignored"
+msgstr "[REVIEW: untranslated] PL/Python trigger function returned \"MODIFY\" in a DELETE trigger -- ignored"
+
+#: plpy_exec.c:406
+#, c-format
+msgid "Expected None, \"OK\", \"SKIP\", or \"MODIFY\"."
+msgstr "[REVIEW: untranslated] Expected None, \"OK\", \"SKIP\", or \"MODIFY\"."
+
+#: plpy_exec.c:487
+#, c-format
+msgid "PyList_SetItem() failed, while setting up arguments"
+msgstr "PyList_SetItem() असफल भयो, while setting up arguments"
+
+#: plpy_exec.c:491
+#, c-format
+msgid "PyDict_SetItemString() failed, while setting up arguments"
+msgstr "PyDict_SetItemString() असफल भयो, while setting up arguments"
+
+#: plpy_exec.c:503
+#, c-format
+msgid "function returning record called in context that cannot accept type record"
+msgstr "[REVIEW: sentence] function returning record called in context that गर्न सकिँदैन accept type record"
+
+#: plpy_exec.c:719
+#, c-format
+msgid "while creating return value"
+msgstr "[REVIEW: untranslated] while creating return value"
+
+#: plpy_exec.c:743
+#, c-format
+msgid "could not create new dictionary while building trigger arguments"
+msgstr "गर्न सकिएन create new dictionary while building trigger arguments"
+
+#: plpy_exec.c:931
+#, c-format
+msgid "TD[\"new\"] deleted, cannot modify row"
+msgstr "TD[\"new\"] deleted, गर्न सकिँदैन modify row"
+
+#: plpy_exec.c:936
+#, c-format
+msgid "TD[\"new\"] is not a dictionary"
+msgstr "[REVIEW: untranslated] TD[\"new\"] is not a dictionary"
+
+#: plpy_exec.c:963
+#, c-format
+msgid "TD[\"new\"] dictionary key at ordinal position %d is not a string"
+msgstr "[REVIEW: untranslated] TD[\"new\"] dictionary key at ordinal position %d is not a string"
+
+#: plpy_exec.c:970
+#, c-format
+msgid "key \"%s\" found in TD[\"new\"] does not exist as a column in the triggering row"
+msgstr "[REVIEW: sentence] key \"%s\" found in TD[\"new\"] अवस्थित छैन as a column in the triggering row"
+
+#: plpy_exec.c:975
+#, c-format
+msgid "cannot set system attribute \"%s\""
+msgstr "गर्न सकिँदैन set system attribute \"%s\""
+
+#: plpy_exec.c:1046
+#, c-format
+msgid "while modifying trigger row"
+msgstr "[REVIEW: untranslated] while modifying trigger row"
+
+#: plpy_exec.c:1107
+#, c-format
+msgid "forcibly aborting a subtransaction that has not been exited"
+msgstr "[REVIEW: transaction; untranslated] forcibly aborting a subtransaction that has not been exited"
+
+#: plpy_main.c:125
+#, c-format
+msgid "multiple Python libraries are present in session"
+msgstr "[REVIEW: untranslated] multiple Python libraries are present in session"
+
+#: plpy_main.c:126
+#, c-format
+msgid "Only one Python major version can be used in one session."
+msgstr "[REVIEW: untranslated] Only one Python major version can be used in one session."
+
+#: plpy_main.c:142
+#, c-format
+msgid "untrapped error in initialization"
+msgstr "untrapped त्रुटि in initialization"
+
+#: plpy_main.c:165
+#, c-format
+msgid "could not import \"__main__\" module"
+msgstr "गर्न सकिएन import \"__main__\" module"
+
+#: plpy_main.c:170
+#, c-format
+msgid "could not create globals"
+msgstr "गर्न सकिएन create globals"
+
+#: plpy_main.c:174
+#, c-format
+msgid "could not initialize globals"
+msgstr "गर्न सकिएन initialize globals"
+
+#: plpy_main.c:387
+#, c-format
+msgid "PL/Python function \"%s\""
+msgstr "[REVIEW: untranslated] PL/Python function \"%s\""
+
+#: plpy_main.c:394
+#, c-format
+msgid "PL/Python anonymous code block"
+msgstr "[REVIEW: lock; untranslated] PL/Python anonymous code block"
+
+#: plpy_plpymodule.c:181 plpy_plpymodule.c:184
+#, c-format
+msgid "could not import \"plpy\" module"
+msgstr "गर्न सकिएन import \"plpy\" module"
+
+#: plpy_plpymodule.c:199
+#, c-format
+msgid "could not create the spiexceptions module"
+msgstr "गर्न सकिएन create the spiexceptions module"
+
+#: plpy_plpymodule.c:207
+#, c-format
+msgid "could not add the spiexceptions module"
+msgstr "गर्न सकिएन add the spiexceptions module"
+
+#: plpy_plpymodule.c:236
+#, c-format
+msgid "could not create exception \"%s\""
+msgstr "गर्न सकिएन create exception \"%s\""
+
+#: plpy_plpymodule.c:271 plpy_plpymodule.c:275
+#, c-format
+msgid "could not generate SPI exceptions"
+msgstr "गर्न सकिएन generate SPI exceptions"
+
+#: plpy_plpymodule.c:443
+#, c-format
+msgid "could not unpack arguments in plpy.elog"
+msgstr "गर्न सकिएन unpack arguments in plpy.elog"
+
+#: plpy_plpymodule.c:452
+msgid "could not parse error message in plpy.elog"
+msgstr "गर्न सकिएन parse त्रुटि message in plpy.elog"
+
+#: plpy_plpymodule.c:469
+#, c-format
+msgid "Argument 'message' given by name and position"
+msgstr "Argument 'message' given by नाम and position"
+
+#: plpy_plpymodule.c:496
+#, c-format
+msgid "'%s' is an invalid keyword argument for this function"
+msgstr "'%s' is an अमान्य keyword argument for this function"
+
+#: plpy_plpymodule.c:507 plpy_plpymodule.c:513
+#, c-format
+msgid "invalid SQLSTATE code"
+msgstr "अमान्य SQLSTATE code"
+
+#: plpy_procedure.c:230
+#, c-format
+msgid "trigger functions can only be called as triggers"
+msgstr "[REVIEW: untranslated] trigger functions can only be called as triggers"
+
+#: plpy_procedure.c:235
+#, c-format
+msgid "PL/Python functions cannot return type %s"
+msgstr "PL/Python functions गर्न सकिँदैन return type %s"
+
+#: plpy_procedure.c:316
+#, c-format
+msgid "PL/Python functions cannot accept type %s"
+msgstr "PL/Python functions गर्न सकिँदैन accept type %s"
+
+#: plpy_procedure.c:412
+#, c-format
+msgid "could not compile PL/Python function \"%s\""
+msgstr "गर्न सकिएन compile PL/Python function \"%s\""
+
+#: plpy_procedure.c:415
+#, c-format
+msgid "could not compile anonymous PL/Python code block"
+msgstr "[REVIEW: lock] गर्न सकिएन compile anonymous PL/Python code block"
+
+#: plpy_resultobject.c:145 plpy_resultobject.c:165 plpy_resultobject.c:185
+#, c-format
+msgid "command did not produce a result set"
+msgstr "[REVIEW: untranslated] command did not produce a result set"
+
+#: plpy_spi.c:59
+#, c-format
+msgid "second argument of plpy.prepare must be a sequence"
+msgstr "[REVIEW: untranslated] second argument of plpy.prepare must be a sequence"
+
+#: plpy_spi.c:115
+#, c-format
+msgid "plpy.prepare: type name at ordinal position %d is not a string"
+msgstr "plpy.prepare: type नाम at ordinal position %d is not a string"
+
+#: plpy_spi.c:191
+#, c-format
+msgid "plpy.execute expected a query or a plan"
+msgstr "[REVIEW: query; untranslated] plpy.execute expected a query or a plan"
+
+#: plpy_spi.c:210
+#, c-format
+msgid "plpy.execute takes a sequence as its second argument"
+msgstr "[REVIEW: untranslated] plpy.execute takes a sequence as its second argument"
+
+#: plpy_spi.c:335
+#, c-format
+msgid "SPI_execute_plan failed: %s"
+msgstr "SPI_execute_plan असफल भयो: %s"
+
+#: plpy_spi.c:377
+#, c-format
+msgid "SPI_execute failed: %s"
+msgstr "SPI_execute असफल भयो: %s"
+
+#: plpy_subxactobject.c:122
+#, c-format
+msgid "this subtransaction has already been entered"
+msgstr "[REVIEW: transaction; untranslated] this subtransaction has already been entered"
+
+#: plpy_subxactobject.c:128 plpy_subxactobject.c:186
+#, c-format
+msgid "this subtransaction has already been exited"
+msgstr "[REVIEW: transaction; untranslated] this subtransaction has already been exited"
+
+#: plpy_subxactobject.c:180
+#, c-format
+msgid "this subtransaction has not been entered"
+msgstr "[REVIEW: transaction; untranslated] this subtransaction has not been entered"
+
+#: plpy_subxactobject.c:192
+#, c-format
+msgid "there is no subtransaction to exit from"
+msgstr "[REVIEW: transaction; untranslated] there is no subtransaction to exit from"
+
+#: plpy_typeio.c:292
+#, c-format
+msgid "could not create new dictionary"
+msgstr "गर्न सकिएन create new dictionary"
+
+#: plpy_typeio.c:560
+#, c-format
+msgid "could not import a module for Decimal constructor"
+msgstr "गर्न सकिएन import a module for Decimal constructor"
+
+#: plpy_typeio.c:564
+#, c-format
+msgid "no Decimal attribute in module"
+msgstr "[REVIEW: untranslated] no Decimal attribute in module"
+
+#: plpy_typeio.c:570
+#, c-format
+msgid "conversion from numeric to Decimal failed"
+msgstr "conversion from numeric to Decimal असफल भयो"
+
+#: plpy_typeio.c:772
+#, c-format
+msgid "could not create bytes representation of Python object"
+msgstr "गर्न सकिएन create bytes representation of Python object"
+
+#: plpy_typeio.c:881
+#, c-format
+msgid "could not create string representation of Python object"
+msgstr "गर्न सकिएन create string representation of Python object"
+
+#: plpy_typeio.c:892
+#, c-format
+msgid "could not convert Python object into cstring: Python string representation appears to contain null bytes"
+msgstr "[REVIEW: sentence] गर्न सकिएन convert Python object into cstring: Python string representation appears to contain null bytes"
+
+#: plpy_typeio.c:949
+#, c-format
+msgid "malformed record literal: \"%s\""
+msgstr "[REVIEW: untranslated] malformed record literal: \"%s\""
+
+#: plpy_typeio.c:950
+#, c-format
+msgid "Missing left parenthesis."
+msgstr "हराइरहेको left parenthesis."
+
+#: plpy_typeio.c:951 plpy_typeio.c:1389
+#, c-format
+msgid "To return a composite type in an array, return the composite type as a Python tuple, e.g. \"[('foo')]\""
+msgstr "[REVIEW: tuple; untranslated] To return a composite type in an array, return the composite type as a Python tuple, e.g. \"[('foo')]\""
+
+#: plpy_typeio.c:1000
+#, c-format
+msgid "number of array dimensions exceeds the maximum allowed (%d)"
+msgstr "[REVIEW: untranslated] number of array dimensions exceeds the maximum allowed (%d)"
+
+#: plpy_typeio.c:1004
+#, c-format
+msgid "cannot determine sequence length for function return value"
+msgstr "गर्न सकिँदैन determine sequence length for function return value"
+
+#: plpy_typeio.c:1007 plpy_typeio.c:1011
+#, c-format
+msgid "array size exceeds the maximum allowed"
+msgstr "[REVIEW: untranslated] array size exceeds the maximum allowed"
+
+#: plpy_typeio.c:1037
+#, c-format
+msgid "return value of function with array return type is not a Python sequence"
+msgstr "[REVIEW: untranslated] return value of function with array return type is not a Python sequence"
+
+#: plpy_typeio.c:1090
+#, c-format
+msgid "multidimensional arrays must have array expressions with matching dimensions. PL/Python function return value has sequence length %d while expected %d"
+msgstr "[REVIEW: untranslated] multidimensional arrays must have array expressions with matching dimensions. PL/Python function return value has sequence length %d while expected %d"
+
+#: plpy_typeio.c:1212
+#, c-format
+msgid "key \"%s\" not found in mapping"
+msgstr "key \"%s\" फेला परेन in mapping"
+
+#: plpy_typeio.c:1213
+#, c-format
+msgid "To return null in a column, add the value None to the mapping with the key named after the column."
+msgstr "[REVIEW: sentence] To return null in a column, add the value None to the mapping with the key नामd after the column."
+
+#: plpy_typeio.c:1264
+#, c-format
+msgid "length of returned sequence did not match number of columns in row"
+msgstr "[REVIEW: untranslated] length of returned sequence did not match number of columns in row"
+
+#: plpy_typeio.c:1387
+#, c-format
+msgid "attribute \"%s\" does not exist in Python object"
+msgstr "attribute \"%s\" अवस्थित छैन in Python object"
+
+#: plpy_typeio.c:1390
+#, c-format
+msgid "To return null in a column, let the returned object have an attribute named after column with value None."
+msgstr "[REVIEW: sentence] To return null in a column, let the returned object have an attribute नामd after column with value None."
+
+#: plpy_util.c:36
+#, c-format
+msgid "could not convert Python Unicode object to bytes"
+msgstr "गर्न सकिएन convert Python Unicode object to bytes"
+
+#: plpy_util.c:42
+#, c-format
+msgid "could not extract bytes from encoded string"
+msgstr "गर्न सकिएन extract bytes from encoded string"

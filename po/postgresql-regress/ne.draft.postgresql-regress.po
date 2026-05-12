@@ -1,0 +1,145 @@
+# Nepali translation draft for PostgreSQL postgresql-regress.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL postgresql-regress\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/es/postgresql-regress.po\\n"
+
+#: regress.c:202
+#, c-format
+msgid "invalid input syntax for type %s: \"%s\""
+msgstr "अमान्य input syntax for type %s: \"%s\""
+
+#: regress.c:839
+#, c-format
+msgid "test_inline_in_from_support_func called with %d args but expected 3"
+msgstr "test_inलाइन_in_from_support_func called with %d args but expected 3"
+
+#: regress.c:847 regress.c:863
+#, c-format
+msgid "test_inline_in_from_support_func called with non-Const parameters"
+msgstr "test_inलाइन_in_from_support_func called with non-Const parameters"
+
+#: regress.c:854 regress.c:870
+#, c-format
+msgid "test_inline_in_from_support_func called with non-TEXT parameters"
+msgstr "test_inलाइन_in_from_support_func called with non-TEXT parameters"
+
+#: regress.c:903
+#, c-format
+msgid "test_inline_in_from_support_func parsed to more than one node"
+msgstr "test_inलाइन_in_from_support_func parsed to more than one node"
+
+#: regress.c:914
+#, c-format
+msgid "test_inline_in_from_support_func rewrote to more than one node"
+msgstr "test_inलाइन_in_from_support_func rewrote to more than one node"
+
+#: regress.c:921
+#, c-format
+msgid "test_inline_in_from_support_func didn't parse to a Query"
+msgstr "[REVIEW: query] test_inलाइन_in_from_support_func didn't parse to a Query"
+
+#: regress.c:1028
+#, c-format
+msgid "invalid source encoding name \"%s\""
+msgstr "[REVIEW: encoding] अमान्य source encoding नाम \"%s\""
+
+#: regress.c:1033
+#, c-format
+msgid "invalid destination encoding name \"%s\""
+msgstr "[REVIEW: encoding] अमान्य destination encoding नाम \"%s\""
+
+#: regress.c:1078
+#, c-format
+msgid "default conversion function for encoding \"%s\" to \"%s\" does not exist"
+msgstr "[REVIEW: encoding] default conversion function for encoding \"%s\" to \"%s\" अवस्थित छैन"
+
+#: regress.c:1085
+#, c-format
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: regress.c:1086
+#, c-format
+msgid "String of %d bytes is too long for encoding conversion."
+msgstr "[REVIEW: encoding; untranslated] String of %d bytes is too long for encoding conversion."
+
+#: regress.c:1175
+#, c-format
+msgid "translated PRId64 = %<PRId64>"
+msgstr "[REVIEW: untranslated] translated PRId64 = %<PRId64>"
+
+#: regress.c:1177
+#, c-format
+msgid "translated PRId32 = %<PRId32>"
+msgstr "[REVIEW: untranslated] translated PRId32 = %<PRId32>"
+
+#: regress.c:1179
+#, c-format
+msgid "translated PRIdMAX = %<PRIdMAX>"
+msgstr "[REVIEW: untranslated] translated PRIdMAX = %<PRIdMAX>"
+
+#: regress.c:1181
+#, c-format
+msgid "translated PRIdPTR = %<PRIdPTR>"
+msgstr "[REVIEW: untranslated] translated PRIdPTR = %<PRIdPTR>"
+
+#: regress.c:1184
+#, c-format
+msgid "translated PRIu64 = %<PRIu64>"
+msgstr "[REVIEW: untranslated] translated PRIu64 = %<PRIu64>"
+
+#: regress.c:1186
+#, c-format
+msgid "translated PRIu32 = %<PRIu32>"
+msgstr "[REVIEW: untranslated] translated PRIu32 = %<PRIu32>"
+
+#: regress.c:1188
+#, c-format
+msgid "translated PRIuMAX = %<PRIuMAX>"
+msgstr "[REVIEW: untranslated] translated PRIuMAX = %<PRIuMAX>"
+
+#: regress.c:1190
+#, c-format
+msgid "translated PRIuPTR = %<PRIuPTR>"
+msgstr "[REVIEW: untranslated] translated PRIuPTR = %<PRIuPTR>"
+
+#: regress.c:1193
+#, c-format
+msgid "translated PRIx64 = %<PRIx64>"
+msgstr "[REVIEW: untranslated] translated PRIx64 = %<PRIx64>"
+
+#: regress.c:1195
+#, c-format
+msgid "translated PRIx32 = %<PRIx32>"
+msgstr "[REVIEW: untranslated] translated PRIx32 = %<PRIx32>"
+
+#: regress.c:1197
+#, c-format
+msgid "translated PRIxMAX = %<PRIxMAX>"
+msgstr "[REVIEW: untranslated] translated PRIxMAX = %<PRIxMAX>"
+
+#: regress.c:1199
+#, c-format
+msgid "translated PRIxPTR = %<PRIxPTR>"
+msgstr "[REVIEW: untranslated] translated PRIxPTR = %<PRIxPTR>"
+
+#: regress.c:1202
+#, c-format
+msgid "translated PRIX64 = %<PRIX64>"
+msgstr "[REVIEW: untranslated] translated PRIX64 = %<PRIX64>"
+
+#: regress.c:1204
+#, c-format
+msgid "translated PRIX32 = %<PRIX32>"
+msgstr "[REVIEW: untranslated] translated PRIX32 = %<PRIX32>"
+
+#: regress.c:1206
+#, c-format
+msgid "translated PRIXMAX = %<PRIXMAX>"
+msgstr "[REVIEW: untranslated] translated PRIXMAX = %<PRIXMAX>"
+
+#: regress.c:1208
+#, c-format
+msgid "translated PRIXPTR = %<PRIXPTR>"
+msgstr "[REVIEW: untranslated] translated PRIXPTR = %<PRIXPTR>"

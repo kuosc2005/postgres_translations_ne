@@ -1,0 +1,2227 @@
+# Nepali translation draft for PostgreSQL pg_upgrade.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_upgrade\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/ja/pg_upgrade.po\\n"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/restricted_token.c:168
+#, c-format
+msgid "could not get exit code from subprocess: error code %lu"
+msgstr "गर्न सकिएन get exit code from subprocess: त्रुटि code %lu"
+
+#: ../../common/username.c:43
+#, c-format
+msgid "could not look up effective user ID %ld: %s"
+msgstr "गर्न सकिएन look up effective प्रयोगकर्ता ID %ld: %s"
+
+#: ../../common/username.c:45
+msgid "user does not exist"
+msgstr "प्रयोगकर्ता अवस्थित छैन"
+
+#: ../../common/username.c:60
+#, c-format
+msgid "user name lookup failure: error code %lu"
+msgstr "प्रयोगकर्ता नाम lookup failure: त्रुटि code %lu"
+
+#: ../../fe_utils/string_utils.c:587
+#, c-format
+msgid ""
+"shell command argument contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+"shell command argument contains a newलाइन or carriage return: \"%s\"\n"
+
+#: ../../fe_utils/string_utils.c:760
+#, c-format
+msgid ""
+"database name contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+"database नाम contains a newलाइन or carriage return: \"%s\"\n"
+
+#: check.c:111
+msgid "Checking for system-defined composite types in user tables"
+msgstr "Checking for system-defined composite types in प्रयोगकर्ता tables"
+
+#: check.c:118
+msgid ""
+"Your installation contains system-defined composite types in user tables.\n"
+"These type OIDs are not stable across PostgreSQL versions,\n"
+"so this cluster cannot currently be upgraded.  You can drop the\n"
+"problem columns and restart the upgrade.\n"
+msgstr ""
+"Your installation contains system-defined composite types in प्रयोगकर्ता tables.\n"
+"[REVIEW: OID; untranslated] These type OIDs are not stable across PostgreSQL versions,\n"
+"[REVIEW: sentence] so this cluster गर्न सकिँदैन currently be upgraded.  You can drop the\n"
+"[REVIEW: untranslated] problem columns and restart the upgrade.\n"
+
+#: check.c:132
+msgid "Checking for incompatible \"line\" data type"
+msgstr "[REVIEW: untranslated] Checking for incompatible \"line\" data type"
+
+#: check.c:137
+msgid ""
+"Your installation contains the \"line\" data type in user tables.\n"
+"This data type changed its internal and input/output format\n"
+"between your old and new versions so this\n"
+"cluster cannot currently be upgraded.  You can\n"
+"drop the problem columns and restart the upgrade.\n"
+msgstr ""
+"Your installation contains the \"line\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] This data type changed its internal and input/output format\n"
+"[REVIEW: untranslated] between your old and new versions so this\n"
+"cluster गर्न सकिँदैन currently be upgraded.  You can\n"
+"[REVIEW: untranslated] drop the problem columns and restart the upgrade.\n"
+
+#: check.c:154
+msgid "Checking for reg* data types in user tables"
+msgstr "Checking for reg* data types in प्रयोगकर्ता tables"
+
+#: check.c:181
+msgid ""
+"Your installation contains one of the reg* data types in user tables.\n"
+"These data types reference system OIDs that are not preserved by\n"
+"pg_upgrade, so this cluster cannot currently be upgraded.  You can\n"
+"drop the problem columns and restart the upgrade.\n"
+msgstr ""
+"[REVIEW: sentence] Your installation contains one of the reg* data types in प्रयोगकर्ता tables.\n"
+"[REVIEW: OID; untranslated] These data types reference system OIDs that are not preserved by\n"
+"pg_upgrade, so this cluster गर्न सकिँदैन currently be upgraded.  You can\n"
+"[REVIEW: untranslated] drop the problem columns and restart the upgrade.\n"
+
+#: check.c:193
+msgid "Checking for incompatible \"aclitem\" data type"
+msgstr "[REVIEW: untranslated] Checking for incompatible \"aclitem\" data type"
+
+#: check.c:198
+msgid ""
+"Your installation contains the \"aclitem\" data type in user tables.\n"
+"The internal format of \"aclitem\" changed in PostgreSQL version 16\n"
+"so this cluster cannot currently be upgraded.  You can drop the\n"
+"problem columns and restart the upgrade.\n"
+msgstr ""
+"Your installation contains the \"aclitem\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] The internal format of \"aclitem\" changed in PostgreSQL version 16\n"
+"[REVIEW: sentence] so this cluster गर्न सकिँदैन currently be upgraded.  You can drop the\n"
+"[REVIEW: untranslated] problem columns and restart the upgrade.\n"
+
+#: check.c:217
+msgid "Checking for invalid \"unknown\" user columns"
+msgstr "Checking for अमान्य \"unknown\" प्रयोगकर्ता columns"
+
+#: check.c:222
+msgid ""
+"Your installation contains the \"unknown\" data type in user tables.\n"
+"This data type is no longer allowed in tables, so this cluster\n"
+"cannot currently be upgraded.  You can drop the problem columns\n"
+"and restart the upgrade.\n"
+msgstr ""
+"Your installation contains the \"unknown\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] This data type is no longer allowed in tables, so this cluster\n"
+"गर्न सकिँदैन currently be upgraded.  You can drop the problem columns\n"
+"[REVIEW: untranslated] and restart the upgrade.\n"
+
+#: check.c:239
+msgid "Checking for invalid \"sql_identifier\" user columns"
+msgstr "Checking for अमान्य \"sql_identifier\" प्रयोगकर्ता columns"
+
+#: check.c:244
+msgid ""
+"Your installation contains the \"sql_identifier\" data type in user tables.\n"
+"The on-disk format for this data type has changed, so this\n"
+"cluster cannot currently be upgraded.  You can drop the problem\n"
+"columns and restart the upgrade.\n"
+msgstr ""
+"Your installation contains the \"sql_identifier\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] The on-disk format for this data type has changed, so this\n"
+"cluster गर्न सकिँदैन currently be upgraded.  You can drop the problem\n"
+"[REVIEW: untranslated] columns and restart the upgrade.\n"
+
+#: check.c:255
+msgid "Checking for incompatible \"jsonb\" data type in user tables"
+msgstr "Checking for incompatible \"jsonb\" data type in प्रयोगकर्ता tables"
+
+#: check.c:260
+msgid ""
+"Your installation contains the \"jsonb\" data type in user tables.\n"
+"The internal format of \"jsonb\" changed during 9.4 beta so this\n"
+"cluster cannot currently be upgraded.  You can drop the problem \n"
+"columns and restart the upgrade.\n"
+msgstr ""
+"Your installation contains the \"jsonb\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] The internal format of \"jsonb\" changed during 9.4 beta so this\n"
+"cluster गर्न सकिँदैन currently be upgraded.  You can drop the problem \n"
+"[REVIEW: untranslated] columns and restart the upgrade.\n"
+
+#: check.c:272
+msgid "Checking for removed \"abstime\" data type in user tables"
+msgstr "Checking for removed \"abstime\" data type in प्रयोगकर्ता tables"
+
+#: check.c:277
+msgid ""
+"Your installation contains the \"abstime\" data type in user tables.\n"
+"The \"abstime\" type has been removed in PostgreSQL version 12,\n"
+"so this cluster cannot currently be upgraded.  You can drop the\n"
+"problem columns, or change them to another data type, and restart\n"
+"the upgrade.\n"
+msgstr ""
+"Your installation contains the \"abstime\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] The \"abstime\" type has been removed in PostgreSQL version 12,\n"
+"[REVIEW: sentence] so this cluster गर्न सकिँदैन currently be upgraded.  You can drop the\n"
+"[REVIEW: untranslated] problem columns, or change them to another data type, and restart\n"
+"the upgrade.\n"
+
+#: check.c:285
+msgid "Checking for removed \"reltime\" data type in user tables"
+msgstr "Checking for removed \"reltime\" data type in प्रयोगकर्ता tables"
+
+#: check.c:290
+msgid ""
+"Your installation contains the \"reltime\" data type in user tables.\n"
+"The \"reltime\" type has been removed in PostgreSQL version 12,\n"
+"so this cluster cannot currently be upgraded.  You can drop the\n"
+"problem columns, or change them to another data type, and restart\n"
+"the upgrade.\n"
+msgstr ""
+"Your installation contains the \"reltime\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] The \"reltime\" type has been removed in PostgreSQL version 12,\n"
+"[REVIEW: sentence] so this cluster गर्न सकिँदैन currently be upgraded.  You can drop the\n"
+"[REVIEW: untranslated] problem columns, or change them to another data type, and restart\n"
+"the upgrade.\n"
+
+#: check.c:298
+msgid "Checking for removed \"tinterval\" data type in user tables"
+msgstr "Checking for removed \"tinterval\" data type in प्रयोगकर्ता tables"
+
+#: check.c:303
+msgid ""
+"Your installation contains the \"tinterval\" data type in user tables.\n"
+"The \"tinterval\" type has been removed in PostgreSQL version 12,\n"
+"so this cluster cannot currently be upgraded.  You can drop the\n"
+"problem columns, or change them to another data type, and restart\n"
+"the upgrade.\n"
+msgstr ""
+"Your installation contains the \"tinterval\" data type in प्रयोगकर्ता tables.\n"
+"[REVIEW: untranslated] The \"tinterval\" type has been removed in PostgreSQL version 12,\n"
+"[REVIEW: sentence] so this cluster गर्न सकिँदैन currently be upgraded.  You can drop the\n"
+"[REVIEW: untranslated] problem columns, or change them to another data type, and restart\n"
+"the upgrade.\n"
+
+#: check.c:421
+#, c-format
+msgid "failed check: %s"
+msgstr "असफल भयो check: %s"
+
+#: check.c:424
+msgid "A list of the problem columns is in the file:"
+msgstr "A list of the problem columns is in the फाइल:"
+
+#: check.c:430 check.c:1026 check.c:1177 check.c:1260 check.c:1349 check.c:1440
+#: check.c:1572 check.c:1657 check.c:1704 check.c:1784 check.c:2089
+#: check.c:2108 check.c:2154 check.c:2207 file.c:378 file.c:415 function.c:208
+#: option.c:519 version.c:79 version.c:162
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: check.c:472
+#, c-format
+msgid "Checking data type usage"
+msgstr "[REVIEW: untranslated] Checking data type usage"
+
+#: check.c:526
+#, c-format
+msgid "Data type checks failed: %s"
+msgstr "Data type checks असफल भयो: %s"
+
+#: check.c:575
+#, c-format
+msgid ""
+"Performing Consistency Checks on Old Live Server\n"
+"------------------------------------------------"
+msgstr ""
+"[REVIEW: untranslated] Performing Consistency Checks on Old Live Server\n"
+"------------------------------------------------"
+
+#: check.c:581
+#, c-format
+msgid ""
+"Performing Consistency Checks\n"
+"-----------------------------"
+msgstr ""
+"[REVIEW: untranslated] Performing Consistency Checks\n"
+"-----------------------------"
+
+#: check.c:745
+#, c-format
+msgid "Swap mode can only upgrade clusters from PostgreSQL version %s and later."
+msgstr "[REVIEW: untranslated] Swap mode can only upgrade clusters from PostgreSQL version %s and later."
+
+#: check.c:768
+#, c-format
+msgid ""
+"\n"
+"*Clusters are compatible*"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] *Clusters are compatible*"
+
+#: check.c:776
+#, c-format
+msgid ""
+"\n"
+"If pg_upgrade fails after this point, you must re-initdb the\n"
+"new cluster before continuing."
+msgstr ""
+"\n"
+"[REVIEW: untranslated] If pg_upgrade fails after this point, you must re-initdb the\n"
+"[REVIEW: untranslated] new cluster before continuing."
+
+#: check.c:817
+#, c-format
+msgid ""
+"Some optimizer statistics may not have been transferred by pg_upgrade.\n"
+"Once you start the new server, consider running:\n"
+"    %s/vacuumdb %s--all --analyze-in-stages --missing-stats-only"
+msgstr ""
+"[REVIEW: untranslated] Some optimizer statistics may not have been transferred by pg_upgrade.\n"
+"[REVIEW: untranslated] Once you start the new server, consider running:\n"
+"[REVIEW: untranslated]     %s/vacuumdb %s--all --analyze-in-stages --missing-stats-only"
+
+#: check.c:823
+#, c-format
+msgid ""
+"Running this script will delete the old cluster's data files:\n"
+"    %s"
+msgstr ""
+"Running this script will delete the old cluster's data फाइलs:\n"
+"    %s"
+
+#: check.c:828
+#, c-format
+msgid ""
+"Could not create a script to delete the old cluster's data files\n"
+"because user-defined tablespaces or the new cluster's data directory\n"
+"exist in the old cluster directory.  The old cluster's contents must\n"
+"be deleted manually."
+msgstr ""
+"[REVIEW: sentence] गर्न सकिएन create a script to delete the old cluster's data फाइलs\n"
+"[REVIEW: tablespace] because प्रयोगकर्ता-defined tablespaces or the new cluster's data directory\n"
+"[REVIEW: untranslated] exist in the old cluster directory.  The old cluster's contents must\n"
+"[REVIEW: untranslated] be deleted manually."
+
+#: check.c:840
+#, c-format
+msgid "Checking cluster versions"
+msgstr "[REVIEW: untranslated] Checking cluster versions"
+
+#: check.c:852
+#, c-format
+msgid "This utility can only upgrade from PostgreSQL version %s and later."
+msgstr "[REVIEW: untranslated] This utility can only upgrade from PostgreSQL version %s and later."
+
+#: check.c:857
+#, c-format
+msgid "This utility can only upgrade to PostgreSQL version %s."
+msgstr "[REVIEW: untranslated] This utility can only upgrade to PostgreSQL version %s."
+
+#: check.c:866
+#, c-format
+msgid "This utility cannot be used to downgrade to older major PostgreSQL versions."
+msgstr "[REVIEW: sentence] This utility गर्न सकिँदैन be used to downgrade to older major PostgreSQL versions."
+
+#: check.c:871
+#, c-format
+msgid "Old cluster data and binary directories are from different major versions."
+msgstr "[REVIEW: untranslated] Old cluster data and binary directories are from different major versions."
+
+#: check.c:874
+#, c-format
+msgid "New cluster data and binary directories are from different major versions."
+msgstr "[REVIEW: untranslated] New cluster data and binary directories are from different major versions."
+
+#: check.c:885
+#, c-format
+msgid "%s option cannot be used to upgrade from PostgreSQL %s and later."
+msgstr "%s option गर्न सकिँदैन be used to upgrade from PostgreSQL %s and later."
+
+#: check.c:901
+#, c-format
+msgid "When checking a live server, the old and new port numbers must be different."
+msgstr "[REVIEW: untranslated] When checking a live server, the old and new port numbers must be different."
+
+#: check.c:921
+#, c-format
+msgid "New cluster database \"%s\" is not empty: found relation \"%s.%s\""
+msgstr "[REVIEW: relation; untranslated] New cluster database \"%s\" is not empty: found relation \"%s.%s\""
+
+#: check.c:944
+#, c-format
+msgid "Checking for new cluster tablespace directories"
+msgstr "[REVIEW: tablespace; untranslated] Checking for new cluster tablespace directories"
+
+#: check.c:955
+#, c-format
+msgid "new cluster tablespace directory already exists: \"%s\""
+msgstr "[REVIEW: tablespace] new cluster tablespace directory पहिले नै अवस्थित छ: \"%s\""
+
+#: check.c:989
+#, c-format
+msgid ""
+"\n"
+"WARNING:  new data directory should not be inside the old data directory, i.e. %s"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] WARNING:  new data directory should not be inside the old data directory, i.e. %s"
+
+#: check.c:1013
+#, c-format
+msgid ""
+"\n"
+"WARNING:  user-defined tablespace locations should not be inside the data directory, i.e. %s"
+msgstr ""
+"\n"
+"[REVIEW: tablespace; sentence] WARNING:  प्रयोगकर्ता-defined tablespace locations should not be inside the data directory, i.e. %s"
+
+#: check.c:1023
+#, c-format
+msgid "Creating script to delete old cluster"
+msgstr "[REVIEW: untranslated] Creating script to delete old cluster"
+
+#: check.c:1051
+#, c-format
+msgid "could not add execute permission to file \"%s\": %m"
+msgstr "[REVIEW: permission] गर्न सकिएन add execute permission to फाइल \"%s\": %m"
+
+#: check.c:1071
+#, c-format
+msgid "Checking database user is the install user"
+msgstr "Checking database प्रयोगकर्ता is the install प्रयोगकर्ता"
+
+#: check.c:1087
+#, c-format
+msgid "database user \"%s\" is not the install user"
+msgstr "database प्रयोगकर्ता \"%s\" is not the install प्रयोगकर्ता"
+
+#: check.c:1098
+#, c-format
+msgid "could not determine the number of users"
+msgstr "गर्न सकिएन determine the number of प्रयोगकर्ताs"
+
+#: check.c:1106
+#, c-format
+msgid "Only the install user can be defined in the new cluster."
+msgstr "[REVIEW: sentence] Only the install प्रयोगकर्ता can be defined in the new cluster."
+
+#: check.c:1136
+#, c-format
+msgid "Checking database connection settings"
+msgstr "[REVIEW: untranslated] Checking database connection settings"
+
+#: check.c:1164
+#, c-format
+msgid "template0 must not allow connections, i.e. its pg_database.datallowconn must be false"
+msgstr "[REVIEW: untranslated] template0 must not allow connections, i.e. its pg_database.datallowconn must be false"
+
+#: check.c:1191 check.c:1312 check.c:1408 check.c:1536 check.c:1612
+#: check.c:1670 check.c:1753 check.c:2121 check.c:2263 function.c:229
+#, c-format
+msgid "fatal"
+msgstr "fatal"
+
+#: check.c:1192
+#, c-format
+msgid ""
+"All non-template0 databases must allow connections, i.e. their\n"
+"pg_database.datallowconn must be true and pg_database.datconnlimit\n"
+"must not be -2.  Your installation contains non-template0 databases\n"
+"which cannot be connected to.  Consider allowing connection for all\n"
+"non-template0 databases or drop the databases which do not allow\n"
+"connections.  A list of databases with the problem is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: untranslated] All non-template0 databases must allow connections, i.e. their\n"
+"[REVIEW: untranslated] pg_database.datallowconn must be true and pg_database.datconnlimit\n"
+"[REVIEW: untranslated] must not be -2.  Your installation contains non-template0 databases\n"
+"which गर्न सकिँदैन be connected to.  Consider allowing connection for all\n"
+"[REVIEW: untranslated] non-template0 databases or drop the databases which do not allow\n"
+"[REVIEW: sentence] connections.  A list of databases with the problem is in the फाइल:\n"
+"    %s"
+
+#: check.c:1217
+#, c-format
+msgid "Checking for prepared transactions"
+msgstr "[REVIEW: transaction; untranslated] Checking for prepared transactions"
+
+#: check.c:1226
+#, c-format
+msgid "The source cluster contains prepared transactions"
+msgstr "[REVIEW: transaction; untranslated] The source cluster contains prepared transactions"
+
+#: check.c:1228
+#, c-format
+msgid "The target cluster contains prepared transactions"
+msgstr "[REVIEW: transaction; untranslated] The target cluster contains prepared transactions"
+
+#: check.c:1288
+#, c-format
+msgid "Checking for contrib/isn with bigint-passing mismatch"
+msgstr "[REVIEW: untranslated] Checking for contrib/isn with bigint-passing mismatch"
+
+#: check.c:1313
+#, c-format
+msgid ""
+"Your installation contains \"contrib/isn\" functions which rely on the\n"
+"bigint data type.  Your old and new clusters pass bigint values\n"
+"differently so this cluster cannot currently be upgraded.  You can\n"
+"manually dump databases in the old cluster that use \"contrib/isn\"\n"
+"facilities, drop them, perform the upgrade, and then restore them.  A\n"
+"list of the problem functions is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: untranslated] Your installation contains \"contrib/isn\" functions which rely on the\n"
+"[REVIEW: untranslated] bigint data type.  Your old and new clusters pass bigint values\n"
+"differently so this cluster गर्न सकिँदैन currently be upgraded.  You can\n"
+"[REVIEW: untranslated] manually dump databases in the old cluster that use \"contrib/isn\"\n"
+"[REVIEW: restore; untranslated] facilities, drop them, perform the upgrade, and then restore them.  A\n"
+"list of the problem functions is in the फाइल:\n"
+"    %s"
+
+#: check.c:1393
+#, c-format
+msgid "Checking for user-defined postfix operators"
+msgstr "Checking for प्रयोगकर्ता-defined postfix operators"
+
+#: check.c:1409
+#, c-format
+msgid ""
+"Your installation contains user-defined postfix operators, which are not\n"
+"supported anymore.  Consider dropping the postfix operators and replacing\n"
+"them with prefix operators or function calls.\n"
+"A list of user-defined postfix operators is in the file:\n"
+"    %s"
+msgstr ""
+"Your installation contains प्रयोगकर्ता-defined postfix operators, which are not\n"
+"[REVIEW: untranslated] supported anymore.  Consider dropping the postfix operators and replacing\n"
+"[REVIEW: untranslated] them with prefix operators or function calls.\n"
+"A list of प्रयोगकर्ता-defined postfix operators is in the फाइल:\n"
+"    %s"
+
+#: check.c:1464
+#, c-format
+msgid "Checking for incompatible polymorphic functions"
+msgstr "[REVIEW: untranslated] Checking for incompatible polymorphic functions"
+
+#: check.c:1537
+#, c-format
+msgid ""
+"Your installation contains user-defined objects that refer to internal\n"
+"polymorphic functions with arguments of type \"anyarray\" or \"anyelement\".\n"
+"These user-defined objects must be dropped before upgrading and restored\n"
+"afterwards, changing them to refer to the new corresponding functions with\n"
+"arguments of type \"anycompatiblearray\" and \"anycompatible\".\n"
+"A list of the problematic objects is in the file:\n"
+"    %s"
+msgstr ""
+"Your installation contains प्रयोगकर्ता-defined objects that refer to internal\n"
+"[REVIEW: untranslated] polymorphic functions with arguments of type \"anyarray\" or \"anyelement\".\n"
+"[REVIEW: restore] These प्रयोगकर्ता-defined objects must be dropped before upgrading and restored\n"
+"[REVIEW: untranslated] afterwards, changing them to refer to the new corresponding functions with\n"
+"[REVIEW: untranslated] arguments of type \"anycompatiblearray\" and \"anycompatible\".\n"
+"A list of the problematic objects is in the फाइल:\n"
+"    %s"
+
+#: check.c:1597
+#, c-format
+msgid "Checking for tables WITH OIDS"
+msgstr "[REVIEW: OID; untranslated] Checking for tables WITH OIDS"
+
+#: check.c:1613
+#, c-format
+msgid ""
+"Your installation contains tables declared WITH OIDS, which is not\n"
+"supported anymore.  Consider removing the oid column using\n"
+"    ALTER TABLE ... SET WITHOUT OIDS;\n"
+"A list of tables with the problem is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: OID; untranslated] Your installation contains tables declared WITH OIDS, which is not\n"
+"[REVIEW: OID; untranslated] supported anymore.  Consider removing the oid column using\n"
+"[REVIEW: OID; untranslated]     ALTER TABLE ... SET WITHOUT OIDS;\n"
+"A list of tables with the problem is in the फाइल:\n"
+"    %s"
+
+#: check.c:1640
+#, c-format
+msgid "Checking for roles starting with \"pg_\""
+msgstr "[REVIEW: role; untranslated] Checking for roles starting with \"pg_\""
+
+#: check.c:1671
+#, c-format
+msgid ""
+"Your installation contains roles starting with \"pg_\".\n"
+"\"pg_\" is a reserved prefix for system roles.  The cluster\n"
+"cannot be upgraded until these roles are renamed.\n"
+"A list of roles starting with \"pg_\" is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: role; untranslated] Your installation contains roles starting with \"pg_\".\n"
+"[REVIEW: role; untranslated] \"pg_\" is a reserved prefix for system roles.  The cluster\n"
+"[REVIEW: role] गर्न सकिँदैन be upgraded until these roles are reनामd.\n"
+"[REVIEW: role] A list of roles starting with \"pg_\" is in the फाइल:\n"
+"    %s"
+
+#: check.c:1725
+#, c-format
+msgid "Checking for user-defined encoding conversions"
+msgstr "[REVIEW: encoding] Checking for प्रयोगकर्ता-defined encoding conversions"
+
+#: check.c:1754
+#, c-format
+msgid ""
+"Your installation contains user-defined encoding conversions.\n"
+"The conversion function parameters changed in PostgreSQL version 14\n"
+"so this cluster cannot currently be upgraded.  You can remove the\n"
+"encoding conversions in the old cluster and restart the upgrade.\n"
+"A list of user-defined encoding conversions is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: encoding] Your installation contains प्रयोगकर्ता-defined encoding conversions.\n"
+"[REVIEW: untranslated] The conversion function parameters changed in PostgreSQL version 14\n"
+"[REVIEW: sentence] so this cluster गर्न सकिँदैन currently be upgraded.  You can remove the\n"
+"[REVIEW: encoding; untranslated] encoding conversions in the old cluster and restart the upgrade.\n"
+"[REVIEW: encoding] A list of प्रयोगकर्ता-defined encoding conversions is in the फाइल:\n"
+"    %s"
+
+#: check.c:1839
+#, c-format
+msgid "Checking for objects affected by Unicode update"
+msgstr "[REVIEW: untranslated] Checking for objects affected by Unicode update"
+
+#: check.c:1933 version.c:121
+#, c-format
+msgid "warning"
+msgstr "चेतावनी"
+
+#: check.c:1934
+#, c-format
+msgid ""
+"Your installation contains relations that may be affected by a new version of Unicode.\n"
+"A list of potentially-affected relations is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: relation; untranslated] Your installation contains relations that may be affected by a new version of Unicode.\n"
+"[REVIEW: relation] A list of potentially-affected relations is in the फाइल:\n"
+"    %s"
+
+#: check.c:1970
+#, c-format
+msgid "Checking for new cluster logical replication slots"
+msgstr "[REVIEW: logical replication, replication, replica, slot; untranslated] Checking for new cluster logical replication slots"
+
+#: check.c:1978
+#, c-format
+msgid "could not count the number of logical replication slots"
+msgstr "[REVIEW: logical replication, replication, replica, slot] गर्न सकिएन count the number of logical replication slots"
+
+#: check.c:1983
+#, c-format
+msgid "expected 0 logical replication slots but found %d"
+msgstr "[REVIEW: logical replication, replication, replica, slot; untranslated] expected 0 logical replication slots but found %d"
+
+#: check.c:1993 check.c:2044
+#, c-format
+msgid "could not determine parameter settings on new cluster"
+msgstr "गर्न सकिएन determine parameter settings on new cluster"
+
+#: check.c:1998
+#, c-format
+msgid "\"wal_level\" must be \"logical\" but is set to \"%s\""
+msgstr "[REVIEW: WAL; untranslated] \"wal_level\" must be \"logical\" but is set to \"%s\""
+
+#: check.c:2004
+#, c-format
+msgid "\"max_replication_slots\" (%d) must be greater than or equal to the number of logical replication slots (%d) on the old cluster"
+msgstr "[REVIEW: logical replication, replication, replica, slot; untranslated] \"max_replication_slots\" (%d) must be greater than or equal to the number of logical replication slots (%d) on the old cluster"
+
+#: check.c:2036
+#, c-format
+msgid "Checking for new cluster configuration for subscriptions"
+msgstr "[REVIEW: subscription; untranslated] Checking for new cluster configuration for subscriptions"
+
+#: check.c:2048
+#, c-format
+msgid "\"max_active_replication_origins\" (%d) must be greater than or equal to the number of subscriptions (%d) on the old cluster"
+msgstr "[REVIEW: subscription, replication, replica; untranslated] \"max_active_replication_origins\" (%d) must be greater than or equal to the number of subscriptions (%d) on the old cluster"
+
+#: check.c:2070
+#, c-format
+msgid "Checking for valid logical replication slots"
+msgstr "[REVIEW: logical replication, replication, replica, slot; untranslated] Checking for valid logical replication slots"
+
+#: check.c:2122
+#, c-format
+msgid ""
+"Your installation contains logical replication slots that cannot be upgraded.\n"
+"You can remove invalid slots and/or consume the pending WAL for other slots,\n"
+"and then restart the upgrade.\n"
+"A list of the problematic slots is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: logical replication, replication, replica, slot] Your installation contains logical replication slots that गर्न सकिँदैन be upgraded.\n"
+"[REVIEW: slot, WAL; sentence] You can remove अमान्य slots and/or consume the pending WAL for other slots,\n"
+"[REVIEW: untranslated] and then restart the upgrade.\n"
+"[REVIEW: slot] A list of the problematic slots is in the फाइल:\n"
+"    %s"
+
+#: check.c:2182
+#, c-format
+msgid "Checking for subscription state"
+msgstr "[REVIEW: subscription; untranslated] Checking for subscription state"
+
+#: check.c:2264
+#, c-format
+msgid ""
+"Your installation contains subscriptions without origin or having relations not in i (initialize) or r (ready) state.\n"
+"You can allow the initial sync to finish for all relations and then restart the upgrade.\n"
+"A list of the problematic subscriptions is in the file:\n"
+"    %s"
+msgstr ""
+"[REVIEW: subscription, relation; untranslated] Your installation contains subscriptions without origin or having relations not in i (initialize) or r (ready) state.\n"
+"[REVIEW: relation; untranslated] You can allow the initial sync to finish for all relations and then restart the upgrade.\n"
+"[REVIEW: subscription] A list of the problematic subscriptions is in the फाइल:\n"
+"    %s"
+
+#: controldata.c:133 controldata.c:203
+#, c-format
+msgid "could not get control data using %s: %m"
+msgstr "गर्न सकिएन get control data using %s: %m"
+
+#: controldata.c:143
+#, c-format
+msgid "%d: database cluster state problem"
+msgstr "[REVIEW: untranslated] %d: database cluster state problem"
+
+#: controldata.c:162
+#, c-format
+msgid "The source cluster was shut down while in recovery mode.  To upgrade, use \"rsync\" as documented or shut it down as a primary."
+msgstr "[REVIEW: recovery, primary; untranslated] The source cluster was shut down while in recovery mode.  To upgrade, use \"rsync\" as documented or shut it down as a primary."
+
+#: controldata.c:164
+#, c-format
+msgid "The target cluster was shut down while in recovery mode.  To upgrade, use \"rsync\" as documented or shut it down as a primary."
+msgstr "[REVIEW: recovery, primary; untranslated] The target cluster was shut down while in recovery mode.  To upgrade, use \"rsync\" as documented or shut it down as a primary."
+
+#: controldata.c:169
+#, c-format
+msgid "The source cluster was not shut down cleanly, state reported as: \"%s\""
+msgstr "[REVIEW: untranslated] The source cluster was not shut down cleanly, state reported as: \"%s\""
+
+#: controldata.c:171
+#, c-format
+msgid "The target cluster was not shut down cleanly, state reported as: \"%s\""
+msgstr "[REVIEW: untranslated] The target cluster was not shut down cleanly, state reported as: \"%s\""
+
+#: controldata.c:179 controldata.c:530
+#, c-format
+msgid "could not get control data using %s: %s"
+msgstr "गर्न सकिएन get control data using %s: %s"
+
+#: controldata.c:185
+#, c-format
+msgid "The source cluster lacks cluster state information:"
+msgstr "[REVIEW: untranslated] The source cluster lacks cluster state information:"
+
+#: controldata.c:187
+#, c-format
+msgid "The target cluster lacks cluster state information:"
+msgstr "[REVIEW: untranslated] The target cluster lacks cluster state information:"
+
+#: controldata.c:217 dump.c:50 exec.c:118 pg_upgrade.c:606 pg_upgrade.c:646
+#: pg_upgrade.c:995 relfilenumber.c:610 server.c:34 util.c:337
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: controldata.c:224
+#, c-format
+msgid "%d: pg_resetwal problem"
+msgstr "[REVIEW: WAL] %d: pg_resetwal problem"
+
+#: controldata.c:234 controldata.c:244 controldata.c:255 controldata.c:266
+#: controldata.c:277 controldata.c:296 controldata.c:307 controldata.c:318
+#: controldata.c:329 controldata.c:340 controldata.c:351 controldata.c:362
+#: controldata.c:365 controldata.c:369 controldata.c:379 controldata.c:391
+#: controldata.c:402 controldata.c:413 controldata.c:424 controldata.c:435
+#: controldata.c:446 controldata.c:457 controldata.c:468 controldata.c:479
+#: controldata.c:490 controldata.c:501 controldata.c:512 controldata.c:521
+#, c-format
+msgid "%d: controldata retrieval problem"
+msgstr "[REVIEW: untranslated] %d: controldata retrieval problem"
+
+#: controldata.c:618
+#, c-format
+msgid "The source cluster lacks some required control information:"
+msgstr "The source cluster lacks some आवश्यक control information:"
+
+#: controldata.c:621
+#, c-format
+msgid "The target cluster lacks some required control information:"
+msgstr "The target cluster lacks some आवश्यक control information:"
+
+#: controldata.c:624
+#, c-format
+msgid "  checkpoint next XID"
+msgstr "[REVIEW: checkpoint; untranslated]   checkpoint next XID"
+
+#: controldata.c:627
+#, c-format
+msgid "  latest checkpoint next OID"
+msgstr "[REVIEW: checkpoint, OID; untranslated]   latest checkpoint next OID"
+
+#: controldata.c:630
+#, c-format
+msgid "  latest checkpoint next MultiXactId"
+msgstr "[REVIEW: checkpoint; untranslated]   latest checkpoint next MultiXactId"
+
+#: controldata.c:634
+#, c-format
+msgid "  latest checkpoint oldest MultiXactId"
+msgstr "[REVIEW: checkpoint; untranslated]   latest checkpoint oldest MultiXactId"
+
+#: controldata.c:637
+#, c-format
+msgid "  latest checkpoint oldestXID"
+msgstr "[REVIEW: checkpoint; untranslated]   latest checkpoint oldestXID"
+
+#: controldata.c:640
+#, c-format
+msgid "  latest checkpoint next MultiXactOffset"
+msgstr "[REVIEW: checkpoint; untranslated]   latest checkpoint next MultiXactOffset"
+
+#: controldata.c:643
+#, c-format
+msgid "  first WAL segment after reset"
+msgstr "[REVIEW: WAL; untranslated]   first WAL segment after reset"
+
+#: controldata.c:646
+#, c-format
+msgid "  float8 argument passing method"
+msgstr "[REVIEW: untranslated]   float8 argument passing method"
+
+#: controldata.c:649
+#, c-format
+msgid "  maximum alignment"
+msgstr "  maximum alignment"
+
+#: controldata.c:652
+#, c-format
+msgid "  block size"
+msgstr "[REVIEW: lock]   block size"
+
+#: controldata.c:655
+#, c-format
+msgid "  large relation segment size"
+msgstr "[REVIEW: relation; untranslated]   large relation segment size"
+
+#: controldata.c:658
+#, c-format
+msgid "  WAL block size"
+msgstr "[REVIEW: lock, WAL; untranslated]   WAL block size"
+
+#: controldata.c:661
+#, c-format
+msgid "  WAL segment size"
+msgstr "[REVIEW: WAL; untranslated]   WAL segment size"
+
+#: controldata.c:664
+#, c-format
+msgid "  maximum identifier length"
+msgstr "[REVIEW: untranslated]   maximum identifier length"
+
+#: controldata.c:667
+#, c-format
+msgid "  maximum number of indexed columns"
+msgstr "[REVIEW: untranslated]   maximum number of indexed columns"
+
+#: controldata.c:670
+#, c-format
+msgid "  maximum TOAST chunk size"
+msgstr "[REVIEW: untranslated]   maximum TOAST chunk size"
+
+#: controldata.c:674
+#, c-format
+msgid "  large-object chunk size"
+msgstr "[REVIEW: untranslated]   large-object chunk size"
+
+#: controldata.c:677
+#, c-format
+msgid "  dates/times are integers?"
+msgstr "[REVIEW: untranslated]   dates/times are integers?"
+
+#: controldata.c:681
+#, c-format
+msgid "  data checksum version"
+msgstr "[REVIEW: untranslated]   data checksum version"
+
+#: controldata.c:685
+#, c-format
+msgid "  default char signedness"
+msgstr "[REVIEW: untranslated]   default char signedness"
+
+#: controldata.c:687
+#, c-format
+msgid "Cannot continue without required control information, terminating"
+msgstr "गर्न सकिँदैन continue without आवश्यक control information, terminating"
+
+#: controldata.c:702
+#, c-format
+msgid ""
+"old and new pg_controldata alignments are invalid or do not match.\n"
+"Likely one cluster is a 32-bit install, the other 64-bit"
+msgstr ""
+"[REVIEW: sentence] old and new pg_controldata alignments are अमान्य or do not match.\n"
+"[REVIEW: untranslated] Likely one cluster is a 32-bit install, the other 64-bit"
+
+#: controldata.c:706
+#, c-format
+msgid "old and new pg_controldata block sizes are invalid or do not match"
+msgstr "[REVIEW: lock; sentence] old and new pg_controldata block sizes are अमान्य or do not match"
+
+#: controldata.c:709
+#, c-format
+msgid "old and new pg_controldata maximum relation segment sizes are invalid or do not match"
+msgstr "[REVIEW: relation; sentence] old and new pg_controldata maximum relation segment sizes are अमान्य or do not match"
+
+#: controldata.c:712
+#, c-format
+msgid "old and new pg_controldata WAL block sizes are invalid or do not match"
+msgstr "[REVIEW: lock, WAL; sentence] old and new pg_controldata WAL block sizes are अमान्य or do not match"
+
+#: controldata.c:715
+#, c-format
+msgid "old and new pg_controldata WAL segment sizes are invalid or do not match"
+msgstr "[REVIEW: WAL; sentence] old and new pg_controldata WAL segment sizes are अमान्य or do not match"
+
+#: controldata.c:718
+#, c-format
+msgid "old and new pg_controldata maximum identifier lengths are invalid or do not match"
+msgstr "[REVIEW: sentence] old and new pg_controldata maximum identifier lengths are अमान्य or do not match"
+
+#: controldata.c:721
+#, c-format
+msgid "old and new pg_controldata maximum indexed columns are invalid or do not match"
+msgstr "[REVIEW: sentence] old and new pg_controldata maximum indexed columns are अमान्य or do not match"
+
+#: controldata.c:724
+#, c-format
+msgid "old and new pg_controldata maximum TOAST chunk sizes are invalid or do not match"
+msgstr "[REVIEW: sentence] old and new pg_controldata maximum TOAST chunk sizes are अमान्य or do not match"
+
+#: controldata.c:729
+#, c-format
+msgid "old and new pg_controldata large-object chunk sizes are invalid or do not match"
+msgstr "[REVIEW: sentence] old and new pg_controldata large-object chunk sizes are अमान्य or do not match"
+
+#: controldata.c:732
+#, c-format
+msgid "old and new pg_controldata date/time storage types do not match"
+msgstr "[REVIEW: untranslated] old and new pg_controldata date/time storage types do not match"
+
+#: controldata.c:745
+#, c-format
+msgid "old cluster does not use data checksums but the new one does"
+msgstr "[REVIEW: untranslated] old cluster does not use data checksums but the new one does"
+
+#: controldata.c:748
+#, c-format
+msgid "old cluster uses data checksums but the new one does not"
+msgstr "[REVIEW: untranslated] old cluster uses data checksums but the new one does not"
+
+#: controldata.c:750
+#, c-format
+msgid "old and new cluster pg_controldata checksum versions do not match"
+msgstr "[REVIEW: untranslated] old and new cluster pg_controldata checksum versions do not match"
+
+#: controldata.c:761
+#, c-format
+msgid "Adding \".old\" suffix to old "
+msgstr "[REVIEW: untranslated] Adding \".old\" suffix to old "
+
+#: controldata.c:766
+#, c-format
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम फाइल \"%s\" to \"%s\": %m"
+
+#: controldata.c:771
+#, c-format
+msgid ""
+"\n"
+"If you want to start the old cluster, you will need to remove\n"
+"the \".old\" suffix from %s/%s.old.\n"
+"Because \"link\" mode was used, the old cluster cannot be safely\n"
+"started once the new cluster has been started."
+msgstr ""
+"\n"
+"[REVIEW: untranslated] If you want to start the old cluster, you will need to remove\n"
+"[REVIEW: untranslated] the \".old\" suffix from %s/%s.old.\n"
+"[REVIEW: sentence] Because \"link\" mode was used, the old cluster गर्न सकिँदैन be safely\n"
+"[REVIEW: untranslated] started once the new cluster has been started."
+
+#: controldata.c:778
+#, c-format
+msgid ""
+"\n"
+"Because \"swap\" mode was used, the old cluster can no longer be\n"
+"safely started."
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Because \"swap\" mode was used, the old cluster can no longer be\n"
+"safely started."
+
+#: controldata.c:782 file.c:455
+#, c-format
+msgid "unrecognized transfer mode"
+msgstr "[REVIEW: untranslated] unrecognized transfer mode"
+
+#: dump.c:20
+#, c-format
+msgid "Creating dump of global objects"
+msgstr "[REVIEW: untranslated] Creating dump of global objects"
+
+#: dump.c:32
+#, c-format
+msgid "Creating dump of database schemas"
+msgstr "[REVIEW: schema; untranslated] Creating dump of database schemas"
+
+#: exec.c:47
+#, c-format
+msgid "could not get pg_ctl version data using %s: %m"
+msgstr "गर्न सकिएन get pg_ctl version data using %s: %m"
+
+#: exec.c:51
+#, c-format
+msgid "could not get pg_ctl version data using %s: %s"
+msgstr "गर्न सकिएन get pg_ctl version data using %s: %s"
+
+#: exec.c:55
+#, c-format
+msgid "could not get pg_ctl version output from %s"
+msgstr "गर्न सकिएन get pg_ctl version output from %s"
+
+#: exec.c:112 exec.c:116
+#, c-format
+msgid "command too long"
+msgstr "[REVIEW: untranslated] command too long"
+
+#: exec.c:160 pg_upgrade.c:315
+#, c-format
+msgid "could not open log file \"%s\": %m"
+msgstr "गर्न सकिएन open log फाइल \"%s\": %m"
+
+#: exec.c:192
+#, c-format
+msgid ""
+"\n"
+"*failure*"
+msgstr ""
+"\n"
+"*failure*"
+
+#: exec.c:195
+#, c-format
+msgid "There were problems executing \"%s\""
+msgstr "[REVIEW: untranslated] There were problems executing \"%s\""
+
+#: exec.c:198
+#, c-format
+msgid ""
+"Consult the last few lines of \"%s\" or \"%s\" for\n"
+"the probable cause of the failure."
+msgstr ""
+"Consult the last few लाइनs of \"%s\" or \"%s\" for\n"
+"[REVIEW: untranslated] the probable cause of the failure."
+
+#: exec.c:203
+#, c-format
+msgid ""
+"Consult the last few lines of \"%s\" for\n"
+"the probable cause of the failure."
+msgstr ""
+"Consult the last few लाइनs of \"%s\" for\n"
+"[REVIEW: untranslated] the probable cause of the failure."
+
+#: exec.c:218 pg_upgrade.c:325
+#, c-format
+msgid "could not write to log file \"%s\": %m"
+msgstr "गर्न सकिएन write to log फाइल \"%s\": %m"
+
+#: exec.c:244
+#, c-format
+msgid "could not open file \"%s\" for reading: %m"
+msgstr "गर्न सकिएन open फाइल \"%s\" for reading: %m"
+
+#: exec.c:270
+#, c-format
+msgid "You must have read and write access in the current directory."
+msgstr "[REVIEW: untranslated] You must have read and write access in the current directory."
+
+#: exec.c:323 exec.c:389 exec.c:439
+#, c-format
+msgid "check for \"%s\" failed: %m"
+msgstr "check for \"%s\" असफल भयो: %m"
+
+#: exec.c:326 exec.c:392
+#, c-format
+msgid "\"%s\" is not a directory"
+msgstr "[REVIEW: untranslated] \"%s\" is not a directory"
+
+#: exec.c:444
+#, c-format
+msgid "check for \"%s\" failed: cannot execute"
+msgstr "check for \"%s\" असफल भयो: गर्न सकिँदैन execute"
+
+#: exec.c:454
+#, c-format
+msgid "check for \"%s\" failed: incorrect version: found \"%s\", expected \"%s\""
+msgstr "check for \"%s\" असफल भयो: incorrect version: found \"%s\", expected \"%s\""
+
+#: file.c:44
+#, c-format
+msgid "error while cloning relation \"%s.%s\" (\"%s\" to \"%s\"): %m"
+msgstr "[REVIEW: relation] त्रुटि while cloning relation \"%s.%s\" (\"%s\" to \"%s\"): %m"
+
+#: file.c:51
+#, c-format
+msgid "error while cloning relation \"%s.%s\": could not open file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while cloning relation \"%s.%s\": गर्न सकिएन open फाइल \"%s\": %m"
+
+#: file.c:56
+#, c-format
+msgid "error while cloning relation \"%s.%s\": could not create file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while cloning relation \"%s.%s\": गर्न सकिएन create फाइल \"%s\": %m"
+
+#: file.c:65
+#, c-format
+msgid "error while cloning relation \"%s.%s\" (\"%s\" to \"%s\"): %s"
+msgstr "[REVIEW: relation] त्रुटि while cloning relation \"%s.%s\" (\"%s\" to \"%s\"): %s"
+
+#: file.c:91 file.c:160 file.c:233
+#, c-format
+msgid "error while copying relation \"%s.%s\": could not open file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": गर्न सकिएन open फाइल \"%s\": %m"
+
+#: file.c:96 file.c:165 file.c:242
+#, c-format
+msgid "error while copying relation \"%s.%s\": could not create file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": गर्न सकिएन create फाइल \"%s\": %m"
+
+#: file.c:110 file.c:266
+#, c-format
+msgid "error while copying relation \"%s.%s\": could not read file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": गर्न सकिएन read फाइल \"%s\": %m"
+
+#: file.c:122 file.c:344
+#, c-format
+msgid "error while copying relation \"%s.%s\": could not write file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": गर्न सकिएन write फाइल \"%s\": %m"
+
+#: file.c:136
+#, c-format
+msgid "error while copying relation \"%s.%s\" (\"%s\" to \"%s\"): %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\" (\"%s\" to \"%s\"): %m"
+
+#: file.c:172
+#, c-format
+msgid "error while copying relation \"%s.%s\": could not copy file range from \"%s\" to \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": गर्न सकिएन copy फाइल range from \"%s\" to \"%s\": %m"
+
+#: file.c:194
+#, c-format
+msgid "error while creating link for relation \"%s.%s\" (\"%s\" to \"%s\"): %m"
+msgstr "[REVIEW: relation] त्रुटि while creating link for relation \"%s.%s\" (\"%s\" to \"%s\"): %m"
+
+#: file.c:237
+#, c-format
+msgid "error while copying relation \"%s.%s\": could not stat file \"%s\": %m"
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: file.c:269
+#, c-format
+msgid "error while copying relation \"%s.%s\": partial page found in file \"%s\""
+msgstr "[REVIEW: relation] त्रुटि while copying relation \"%s.%s\": partial page found in फाइल \"%s\""
+
+#: file.c:371 file.c:387
+#, c-format
+msgid "could not clone file between old and new data directories: %m"
+msgstr "गर्न सकिएन clone फाइल between old and new data directories: %m"
+
+#: file.c:383 file.c:420
+#, c-format
+msgid "could not create file \"%s\": %m"
+msgstr "फाइल \"%s\" बनाउन सकिएन: %m"
+
+#: file.c:393
+#, c-format
+msgid "file cloning not supported on this platform"
+msgstr "फाइल cloning not supported on this platform"
+
+#: file.c:424
+#, c-format
+msgid "could not copy file range between old and new data directories: %m"
+msgstr "[REVIEW: sentence] गर्न सकिएन copy फाइल range between old and new data directories: %m"
+
+#: file.c:430
+#, c-format
+msgid "copy_file_range not supported on this platform"
+msgstr "copy_फाइल_range not supported on this platform"
+
+#: file.c:449
+#, c-format
+msgid ""
+"could not create hard link between old and new data directories: %m\n"
+"In link mode the old and new data directories must be on the same file system."
+msgstr ""
+"[REVIEW: sentence] गर्न सकिएन create hard link between old and new data directories: %m\n"
+"[REVIEW: sentence] In link mode the old and new data directories must be on the same फाइल system."
+
+#: file.c:452
+#, c-format
+msgid ""
+"could not create hard link between old and new data directories: %m\n"
+"In swap mode the old and new data directories must be on the same file system."
+msgstr ""
+"[REVIEW: sentence] गर्न सकिएन create hard link between old and new data directories: %m\n"
+"[REVIEW: sentence] In swap mode the old and new data directories must be on the same फाइल system."
+
+#: function.c:173
+#, c-format
+msgid "Checking for presence of required libraries"
+msgstr "Checking for presence of आवश्यक libraries"
+
+#: function.c:209
+#, c-format
+msgid "could not load library \"%s\": %s"
+msgstr "गर्न सकिएन load library \"%s\": %s"
+
+#: function.c:220
+#, c-format
+msgid ""
+"In database: %s\n"
+msgstr ""
+"In database: %s\n"
+
+#: function.c:230
+#, c-format
+msgid ""
+"Your installation references loadable libraries that are missing from the\n"
+"new installation.  You can add these libraries to the new installation,\n"
+"or remove the functions using them from the old installation.  A list of\n"
+"problem libraries is in the file:\n"
+"    %s"
+msgstr ""
+"Your installation references loadable libraries that are हराइरहेको from the\n"
+"[REVIEW: untranslated] new installation.  You can add these libraries to the new installation,\n"
+"[REVIEW: untranslated] or remove the functions using them from the old installation.  A list of\n"
+"problem libraries is in the फाइल:\n"
+"    %s"
+
+#: info.c:131
+#, c-format
+msgid "Relation names for OID %u in database \"%s\" do not match: old name \"%s.%s\", new name \"%s.%s\""
+msgstr "[REVIEW: relation, OID; sentence] Relation नामs for OID %u in database \"%s\" do not match: old नाम \"%s.%s\", new नाम \"%s.%s\""
+
+#: info.c:151
+#, c-format
+msgid "Failed to match up old and new tables in database \"%s\""
+msgstr "असफल भयो to match up old and new tables in database \"%s\""
+
+#: info.c:232
+#, c-format
+msgid " which is an index on \"%s.%s\""
+msgstr "[REVIEW: untranslated]  which is an index on \"%s.%s\""
+
+#: info.c:242
+#, c-format
+msgid " which is an index on OID %u"
+msgstr "[REVIEW: OID; untranslated]  which is an index on OID %u"
+
+#: info.c:254
+#, c-format
+msgid " which is the TOAST table for \"%s.%s\""
+msgstr "[REVIEW: untranslated]  which is the TOAST table for \"%s.%s\""
+
+#: info.c:262
+#, c-format
+msgid " which is the TOAST table for OID %u"
+msgstr "[REVIEW: OID; untranslated]  which is the TOAST table for OID %u"
+
+#: info.c:266
+#, c-format
+msgid "No match found in old cluster for new relation with OID %u in database \"%s\": %s"
+msgstr "[REVIEW: relation, OID; untranslated] No match found in old cluster for new relation with OID %u in database \"%s\": %s"
+
+#: info.c:269
+#, c-format
+msgid "No match found in new cluster for old relation with OID %u in database \"%s\": %s"
+msgstr "[REVIEW: relation, OID; untranslated] No match found in new cluster for old relation with OID %u in database \"%s\": %s"
+
+#: info.c:325
+#, c-format
+msgid ""
+"\n"
+"source databases:"
+msgstr ""
+"\n"
+"source databases:"
+
+#: info.c:327
+#, c-format
+msgid ""
+"\n"
+"target databases:"
+msgstr ""
+"\n"
+"target databases:"
+
+#: info.c:371
+#, c-format
+msgid "template0 not found"
+msgstr "template0 फेला परेन"
+
+#: info.c:817
+#, c-format
+msgid "Database: \"%s\""
+msgstr "Database: \"%s\""
+
+#: info.c:830
+#, c-format
+msgid "relname: \"%s.%s\", reloid: %u, reltblspace: \"%s\""
+msgstr "[REVIEW: OID] relनाम: \"%s.%s\", reloid: %u, reltblspace: \"%s\""
+
+#: info.c:844
+#, c-format
+msgid "Logical replication slots in the database:"
+msgstr "[REVIEW: logical replication, replication, replica, slot; untranslated] Logical replication slots in the database:"
+
+#: info.c:850
+#, c-format
+msgid "slot name: \"%s\", output plugin: \"%s\", two_phase: %s"
+msgstr "[REVIEW: slot] slot नाम: \"%s\", output plugin: \"%s\", two_phase: %s"
+
+#: option.c:110
+#, c-format
+msgid "%s: cannot be run as root"
+msgstr "%s: गर्न सकिँदैन be run as root"
+
+#: option.c:177
+#, c-format
+msgid "invalid old port number"
+msgstr "अमान्य old port number"
+
+#: option.c:182
+#, c-format
+msgid "invalid new port number"
+msgstr "अमान्य new port number"
+
+#: option.c:230
+#, c-format
+msgid "invalid argument for option %s"
+msgstr "अमान्य argument for option %s"
+
+#: option.c:238
+#, c-format
+msgid ""
+"Try \"%s --help\" for more information.\n"
+msgstr ""
+"थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।\n"
+
+#: option.c:245
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: option.c:251
+#, c-format
+msgid "Running in verbose mode"
+msgstr "[REVIEW: untranslated] Running in verbose mode"
+
+#: option.c:269
+msgid "old cluster binaries reside"
+msgstr "[REVIEW: untranslated] old cluster binaries reside"
+
+#: option.c:271
+msgid "new cluster binaries reside"
+msgstr "[REVIEW: untranslated] new cluster binaries reside"
+
+#: option.c:273
+msgid "old cluster data resides"
+msgstr "[REVIEW: untranslated] old cluster data resides"
+
+#: option.c:275
+msgid "new cluster data resides"
+msgstr "[REVIEW: untranslated] new cluster data resides"
+
+#: option.c:277
+msgid "sockets will be created"
+msgstr "[REVIEW: untranslated] sockets will be created"
+
+#: option.c:294 option.c:400
+#, c-format
+msgid "could not determine current directory"
+msgstr "गर्न सकिएन determine current directory"
+
+#: option.c:297
+#, c-format
+msgid "cannot run pg_upgrade from inside the new cluster data directory on Windows"
+msgstr "[REVIEW: sentence] गर्न सकिँदैन run pg_upgrade from inside the new cluster data directory on Windows"
+
+#: option.c:306
+#, c-format
+msgid ""
+"pg_upgrade upgrades a PostgreSQL cluster to a different major version.\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] pg_upgrade upgrades a PostgreSQL cluster to a different major version.\n"
+"\n"
+
+#: option.c:307
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: option.c:308
+#, c-format
+msgid ""
+"  pg_upgrade [OPTION]...\n"
+"\n"
+msgstr ""
+"  pg_upgrade [OPTION]...\n"
+"\n"
+
+#: option.c:309
+#, c-format
+msgid ""
+"Options:\n"
+msgstr ""
+"Options:\n"
+
+#: option.c:310
+#, c-format
+msgid ""
+"  -b, --old-bindir=BINDIR       old cluster executable directory\n"
+msgstr ""
+"[REVIEW: untranslated]   -b, --old-bindir=BINDIR       old cluster executable directory\n"
+
+#: option.c:311
+#, c-format
+msgid ""
+"  -B, --new-bindir=BINDIR       new cluster executable directory (default\n"
+"                                same directory as pg_upgrade)\n"
+msgstr ""
+"[REVIEW: untranslated]   -B, --new-bindir=BINDIR       new cluster executable directory (default\n"
+"[REVIEW: untranslated]                                 same directory as pg_upgrade)\n"
+
+#: option.c:313
+#, c-format
+msgid ""
+"  -c, --check                   check clusters only, don't change any data\n"
+msgstr ""
+"[REVIEW: untranslated]   -c, --check                   check clusters only, don't change any data\n"
+
+#: option.c:314
+#, c-format
+msgid ""
+"  -d, --old-datadir=DATADIR     old cluster data directory\n"
+msgstr ""
+"[REVIEW: untranslated]   -d, --old-datadir=DATADIR     old cluster data directory\n"
+
+#: option.c:315
+#, c-format
+msgid ""
+"  -D, --new-datadir=DATADIR     new cluster data directory\n"
+msgstr ""
+"[REVIEW: untranslated]   -D, --new-datadir=DATADIR     new cluster data directory\n"
+
+#: option.c:316
+#, c-format
+msgid ""
+"  -j, --jobs=NUM                number of simultaneous processes or threads to use\n"
+msgstr ""
+"[REVIEW: untranslated]   -j, --jobs=NUM                number of simultaneous processes or threads to use\n"
+
+#: option.c:317
+#, c-format
+msgid ""
+"  -k, --link                    link instead of copying files to new cluster\n"
+msgstr ""
+"  -k, --link                    link instead of copying फाइलs to new cluster\n"
+
+#: option.c:318
+#, c-format
+msgid ""
+"  -N, --no-sync                 do not wait for changes to be written safely to disk\n"
+msgstr ""
+"[REVIEW: untranslated]   -N, --no-sync                 do not wait for changes to be written safely to disk\n"
+
+#: option.c:319
+#, c-format
+msgid ""
+"  -o, --old-options=OPTIONS     old cluster options to pass to the server\n"
+msgstr ""
+"[REVIEW: untranslated]   -o, --old-options=OPTIONS     old cluster options to pass to the server\n"
+
+#: option.c:320
+#, c-format
+msgid ""
+"  -O, --new-options=OPTIONS     new cluster options to pass to the server\n"
+msgstr ""
+"[REVIEW: untranslated]   -O, --new-options=OPTIONS     new cluster options to pass to the server\n"
+
+#: option.c:321
+#, c-format
+msgid ""
+"  -p, --old-port=PORT           old cluster port number (default %d)\n"
+msgstr ""
+"[REVIEW: untranslated]   -p, --old-port=PORT           old cluster port number (default %d)\n"
+
+#: option.c:322
+#, c-format
+msgid ""
+"  -P, --new-port=PORT           new cluster port number (default %d)\n"
+msgstr ""
+"[REVIEW: untranslated]   -P, --new-port=PORT           new cluster port number (default %d)\n"
+
+#: option.c:323
+#, c-format
+msgid ""
+"  -r, --retain                  retain SQL and log files after success\n"
+msgstr ""
+"  -r, --retain                  retain SQL and log फाइलs after success\n"
+
+#: option.c:324
+#, c-format
+msgid ""
+"  -s, --socketdir=DIR           socket directory to use (default current dir.)\n"
+msgstr ""
+"[REVIEW: untranslated]   -s, --socketdir=DIR           socket directory to use (default current dir.)\n"
+
+#: option.c:325
+#, c-format
+msgid ""
+"  -U, --username=NAME           cluster superuser (default \"%s\")\n"
+msgstr ""
+"  -U, --username=NAME           cluster superप्रयोगकर्ता (default \"%s\")\n"
+
+#: option.c:326
+#, c-format
+msgid ""
+"  -v, --verbose                 enable verbose internal logging\n"
+msgstr ""
+"[REVIEW: untranslated]   -v, --verbose                 enable verbose internal logging\n"
+
+#: option.c:327
+#, c-format
+msgid ""
+"  -V, --version                 display version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version                 display version information, then exit\n"
+
+#: option.c:328
+#, c-format
+msgid ""
+"  --clone                       clone instead of copying files to new cluster\n"
+msgstr ""
+"  --clone                       clone instead of copying फाइलs to new cluster\n"
+
+#: option.c:329
+#, c-format
+msgid ""
+"  --copy                        copy files to new cluster (default)\n"
+msgstr ""
+"  --copy                        copy फाइलs to new cluster (default)\n"
+
+#: option.c:330
+#, c-format
+msgid ""
+"  --copy-file-range             copy files to new cluster with copy_file_range\n"
+msgstr ""
+"  --copy-file-range             copy फाइलs to new cluster with copy_फाइल_range\n"
+
+#: option.c:331
+#, c-format
+msgid ""
+"  --no-statistics               do not import statistics from old cluster\n"
+msgstr ""
+"[REVIEW: untranslated]   --no-statistics               do not import statistics from old cluster\n"
+
+#: option.c:332
+#, c-format
+msgid ""
+"  --set-char-signedness=OPTION  set new cluster char signedness to \"signed\" or\n"
+"                                \"unsigned\"\n"
+msgstr ""
+"[REVIEW: untranslated]   --set-char-signedness=OPTION  set new cluster char signedness to \"signed\" or\n"
+"                                \"unsigned\"\n"
+
+#: option.c:334
+#, c-format
+msgid ""
+"  --swap                        move data directories to new cluster\n"
+msgstr ""
+"[REVIEW: untranslated]   --swap                        move data directories to new cluster\n"
+
+#: option.c:335
+#, c-format
+msgid ""
+"  --sync-method=METHOD          set method for syncing files to disk\n"
+msgstr ""
+"  --sync-method=METHOD          set method for syncing फाइलs to disk\n"
+
+#: option.c:336
+#, c-format
+msgid ""
+"  -?, --help                    show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                    show this help, then exit\n"
+
+#: option.c:337
+#, c-format
+msgid ""
+"\n"
+"Before running pg_upgrade you must:\n"
+"  create a new database cluster (using the new version of initdb)\n"
+"  shutdown the postmaster servicing the old cluster\n"
+"  shutdown the postmaster servicing the new cluster\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Before running pg_upgrade you must:\n"
+"[REVIEW: untranslated]   create a new database cluster (using the new version of initdb)\n"
+"[REVIEW: untranslated]   shutdown the postmaster servicing the old cluster\n"
+"[REVIEW: untranslated]   shutdown the postmaster servicing the new cluster\n"
+
+#: option.c:342
+#, c-format
+msgid ""
+"\n"
+"When you run pg_upgrade, you must provide the following information:\n"
+"  the data directory for the old cluster  (-d DATADIR)\n"
+"  the data directory for the new cluster  (-D DATADIR)\n"
+"  the \"bin\" directory for the old version (-b BINDIR)\n"
+"  the \"bin\" directory for the new version (-B BINDIR)\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] When you run pg_upgrade, you must provide the following information:\n"
+"[REVIEW: untranslated]   the data directory for the old cluster  (-d DATADIR)\n"
+"[REVIEW: untranslated]   the data directory for the new cluster  (-D DATADIR)\n"
+"[REVIEW: untranslated]   the \"bin\" directory for the old version (-b BINDIR)\n"
+"[REVIEW: untranslated]   the \"bin\" directory for the new version (-B BINDIR)\n"
+
+#: option.c:348
+#, c-format
+msgid ""
+"\n"
+"For example:\n"
+"  pg_upgrade -d oldCluster/data -D newCluster/data -b oldCluster/bin -B newCluster/bin\n"
+"or\n"
+msgstr ""
+"\n"
+"For example:\n"
+"[REVIEW: untranslated]   pg_upgrade -d oldCluster/data -D newCluster/data -b oldCluster/bin -B newCluster/bin\n"
+"or\n"
+
+#: option.c:353
+#, c-format
+msgid ""
+"  $ export PGDATAOLD=oldCluster/data\n"
+"  $ export PGDATANEW=newCluster/data\n"
+"  $ export PGBINOLD=oldCluster/bin\n"
+"  $ export PGBINNEW=newCluster/bin\n"
+"  $ pg_upgrade\n"
+msgstr ""
+"[REVIEW: untranslated]   $ export PGDATAOLD=oldCluster/data\n"
+"[REVIEW: untranslated]   $ export PGDATANEW=newCluster/data\n"
+"[REVIEW: untranslated]   $ export PGBINOLD=oldCluster/bin\n"
+"[REVIEW: untranslated]   $ export PGBINNEW=newCluster/bin\n"
+"  $ pg_upgrade\n"
+
+#: option.c:359
+#, c-format
+msgid ""
+"  C:\\> set PGDATAOLD=oldCluster/data\n"
+"  C:\\> set PGDATANEW=newCluster/data\n"
+"  C:\\> set PGBINOLD=oldCluster/bin\n"
+"  C:\\> set PGBINNEW=newCluster/bin\n"
+"  C:\\> pg_upgrade\n"
+msgstr ""
+"[REVIEW: untranslated]   C:\\> set PGDATAOLD=oldCluster/data\n"
+"[REVIEW: untranslated]   C:\\> set PGDATANEW=newCluster/data\n"
+"[REVIEW: untranslated]   C:\\> set PGBINOLD=oldCluster/bin\n"
+"[REVIEW: untranslated]   C:\\> set PGBINNEW=newCluster/bin\n"
+"  C:\\> pg_upgrade\n"
+
+#: option.c:365
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: option.c:366
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: option.c:406
+#, c-format
+msgid ""
+"You must identify the directory where the %s.\n"
+"Please use the %s command-line option or the %s environment variable."
+msgstr ""
+"[REVIEW: untranslated] You must identify the directory where the %s.\n"
+"Please use the %s command-लाइन option or the %s environment variable."
+
+#: option.c:459
+#, c-format
+msgid "Finding the real data directory for the source cluster"
+msgstr "[REVIEW: untranslated] Finding the real data directory for the source cluster"
+
+#: option.c:461
+#, c-format
+msgid "Finding the real data directory for the target cluster"
+msgstr "[REVIEW: untranslated] Finding the real data directory for the target cluster"
+
+#: option.c:474
+#, c-format
+msgid "could not get data directory using %s: %m"
+msgstr "गर्न सकिएन get data directory using %s: %m"
+
+#: option.c:478
+#, c-format
+msgid "could not get data directory using %s: %s"
+msgstr "गर्न सकिएन get data directory using %s: %s"
+
+#: option.c:526
+#, c-format
+msgid "could not read line %d from file \"%s\": %m"
+msgstr "गर्न सकिएन read लाइन %d from फाइल \"%s\": %m"
+
+#: option.c:543
+#, c-format
+msgid "user-supplied old port number %hu corrected to %hu"
+msgstr "प्रयोगकर्ता-supplied old port number %hu corrected to %hu"
+
+#: parallel.c:127 parallel.c:235
+#, c-format
+msgid "could not create worker process: %m"
+msgstr "गर्न सकिएन create worker process: %m"
+
+#: parallel.c:143 parallel.c:253
+#, c-format
+msgid "could not create worker thread: %m"
+msgstr "गर्न सकिएन create worker thread: %m"
+
+#: parallel.c:294
+#, c-format
+msgid "%s() failed: %m"
+msgstr "%s() असफल भयो: %m"
+
+#: parallel.c:298
+#, c-format
+msgid "child process exited abnormally: status %d"
+msgstr "[REVIEW: untranslated] child process exited abnormally: status %d"
+
+#: parallel.c:313
+#, c-format
+msgid "child worker exited abnormally: %m"
+msgstr "[REVIEW: untranslated] child worker exited abnormally: %m"
+
+#: pg_upgrade.c:114
+#, c-format
+msgid "could not read permissions of directory \"%s\": %m"
+msgstr "[REVIEW: permission] गर्न सकिएन read permissions of directory \"%s\": %m"
+
+#: pg_upgrade.c:146
+#, c-format
+msgid ""
+"\n"
+"Performing Upgrade\n"
+"------------------"
+msgstr ""
+"\n"
+"Performing Upgrade\n"
+"------------------"
+
+#: pg_upgrade.c:194
+#, c-format
+msgid "Setting next OID for new cluster"
+msgstr "[REVIEW: OID; untranslated] Setting next OID for new cluster"
+
+#: pg_upgrade.c:218
+#, c-format
+msgid "Sync data directory to disk"
+msgstr "[REVIEW: untranslated] Sync data directory to disk"
+
+#: pg_upgrade.c:234
+#, c-format
+msgid ""
+"\n"
+"Upgrade Complete\n"
+"----------------"
+msgstr ""
+"\n"
+"Upgrade Complete\n"
+"----------------"
+
+#: pg_upgrade.c:267 pg_upgrade.c:280 pg_upgrade.c:287 pg_upgrade.c:294
+#: pg_upgrade.c:312 pg_upgrade.c:323
+#, c-format
+msgid "directory path for new cluster is too long"
+msgstr "[REVIEW: untranslated] directory path for new cluster is too long"
+
+#: pg_upgrade.c:301 pg_upgrade.c:303 pg_upgrade.c:305 pg_upgrade.c:307
+#, c-format
+msgid "could not create directory \"%s\": %m"
+msgstr "गर्न सकिएन create directory \"%s\": %m"
+
+#: pg_upgrade.c:356
+#, c-format
+msgid "%s: could not find own program executable"
+msgstr "%s: गर्न सकिएन find own program executable"
+
+#: pg_upgrade.c:382
+#, c-format
+msgid ""
+"There seems to be a postmaster servicing the old cluster.\n"
+"Please shutdown that postmaster and try again."
+msgstr ""
+"[REVIEW: untranslated] There seems to be a postmaster servicing the old cluster.\n"
+"[REVIEW: untranslated] Please shutdown that postmaster and try again."
+
+#: pg_upgrade.c:395
+#, c-format
+msgid ""
+"There seems to be a postmaster servicing the new cluster.\n"
+"Please shutdown that postmaster and try again."
+msgstr ""
+"[REVIEW: untranslated] There seems to be a postmaster servicing the new cluster.\n"
+"[REVIEW: untranslated] Please shutdown that postmaster and try again."
+
+#: pg_upgrade.c:421
+#, c-format
+msgid "Setting the default char signedness for new cluster"
+msgstr "[REVIEW: untranslated] Setting the default char signedness for new cluster"
+
+#: pg_upgrade.c:449
+#, c-format
+msgid "Setting locale and encoding for new cluster"
+msgstr "[REVIEW: encoding, locale; untranslated] Setting locale and encoding for new cluster"
+
+#: pg_upgrade.c:527
+#, c-format
+msgid "Analyzing all rows in the new cluster"
+msgstr "[REVIEW: untranslated] Analyzing all rows in the new cluster"
+
+#: pg_upgrade.c:540
+#, c-format
+msgid "Freezing all rows in the new cluster"
+msgstr "[REVIEW: untranslated] Freezing all rows in the new cluster"
+
+#: pg_upgrade.c:560
+#, c-format
+msgid "Restoring global objects in the new cluster"
+msgstr "[REVIEW: untranslated] Restoring global objects in the new cluster"
+
+#: pg_upgrade.c:577
+#, c-format
+msgid "Restoring database schemas in the new cluster"
+msgstr "[REVIEW: schema; untranslated] Restoring database schemas in the new cluster"
+
+#: pg_upgrade.c:712
+#, c-format
+msgid "Deleting files from new %s"
+msgstr "Deleting फाइलs from new %s"
+
+#: pg_upgrade.c:716
+#, c-format
+msgid "could not delete directory \"%s\""
+msgstr "गर्न सकिएन delete directory \"%s\""
+
+#: pg_upgrade.c:735
+#, c-format
+msgid "Copying old %s to new server"
+msgstr "[REVIEW: untranslated] Copying old %s to new server"
+
+#: pg_upgrade.c:761
+#, c-format
+msgid "Setting oldest XID for new cluster"
+msgstr "[REVIEW: untranslated] Setting oldest XID for new cluster"
+
+#: pg_upgrade.c:769
+#, c-format
+msgid "Setting next transaction ID and epoch for new cluster"
+msgstr "[REVIEW: transaction; untranslated] Setting next transaction ID and epoch for new cluster"
+
+#: pg_upgrade.c:799
+#, c-format
+msgid "Setting next multixact ID and offset for new cluster"
+msgstr "[REVIEW: untranslated] Setting next multixact ID and offset for new cluster"
+
+#: pg_upgrade.c:823
+#, c-format
+msgid "Setting oldest multixact ID in new cluster"
+msgstr "[REVIEW: untranslated] Setting oldest multixact ID in new cluster"
+
+#: pg_upgrade.c:843
+#, c-format
+msgid "Resetting WAL archives"
+msgstr "[REVIEW: archive, WAL; untranslated] Resetting WAL archives"
+
+#: pg_upgrade.c:886
+#, c-format
+msgid "Setting frozenxid and minmxid counters in new cluster"
+msgstr "[REVIEW: untranslated] Setting frozenxid and minmxid counters in new cluster"
+
+#: pg_upgrade.c:888
+#, c-format
+msgid "Setting minmxid counter in new cluster"
+msgstr "[REVIEW: untranslated] Setting minmxid counter in new cluster"
+
+#: pg_upgrade.c:979
+#, c-format
+msgid "Restoring logical replication slots in the new cluster"
+msgstr "[REVIEW: logical replication, replication, replica, slot; untranslated] Restoring logical replication slots in the new cluster"
+
+#: relfilenumber.c:68
+#, c-format
+msgid "could not synchronize file \"%s\": %m"
+msgstr "गर्न सकिएन synchronize फाइल \"%s\": %m"
+
+#: relfilenumber.c:114
+#, c-format
+msgid "Cloning user relation files"
+msgstr "[REVIEW: relation] Cloning प्रयोगकर्ता relation फाइलs"
+
+#: relfilenumber.c:117
+#, c-format
+msgid "Copying user relation files"
+msgstr "[REVIEW: relation] Copying प्रयोगकर्ता relation फाइलs"
+
+#: relfilenumber.c:120
+#, c-format
+msgid "Copying user relation files with copy_file_range"
+msgstr "[REVIEW: relation] Copying प्रयोगकर्ता relation फाइलs with copy_फाइल_range"
+
+#: relfilenumber.c:123
+#, c-format
+msgid "Linking user relation files"
+msgstr "[REVIEW: relation] Linking प्रयोगकर्ता relation फाइलs"
+
+#: relfilenumber.c:126
+#, c-format
+msgid "Swapping data directories"
+msgstr "[REVIEW: untranslated] Swapping data directories"
+
+#: relfilenumber.c:200
+#, c-format
+msgid "old database \"%s\" not found in the new cluster"
+msgstr "old database \"%s\" फेला परेन in the new cluster"
+
+#: relfilenumber.c:287
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: relfilenumber.c:293 relfilenumber.c:297
+#, c-format
+msgid "could not create directory \"%s\""
+msgstr "गर्न सकिएन create directory \"%s\""
+
+#: relfilenumber.c:301 relfilenumber.c:305
+#, c-format
+msgid "could not rename \"%s\" to \"%s\""
+msgstr "गर्न सकिएन reनाम \"%s\" to \"%s\""
+
+#: relfilenumber.c:375 relfilenumber.c:402
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: relfilenumber.c:393 relfilenumber.c:420
+#, c-format
+msgid "could not rename \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम \"%s\" to \"%s\": %m"
+
+#: relfilenumber.c:396 relfilenumber.c:434
+#, c-format
+msgid "could not read directory \"%s\": %m"
+msgstr "गर्न सकिएन read directory \"%s\": %m"
+
+#: relfilenumber.c:439
+#, c-format
+msgid "could not synchronize directory \"%s\": %m"
+msgstr "गर्न सकिएन synchronize directory \"%s\": %m"
+
+#: relfilenumber.c:441
+#, c-format
+msgid "could not synchronize parent directory of \"%s\": %m"
+msgstr "गर्न सकिएन synchronize parent directory of \"%s\": %m"
+
+#: relfilenumber.c:598
+#, c-format
+msgid "error while checking for file existence \"%s.%s\" (\"%s\" to \"%s\"): %m"
+msgstr "त्रुटि while checking for फाइल existence \"%s.%s\" (\"%s\" to \"%s\"): %m"
+
+#: relfilenumber.c:615
+#, c-format
+msgid "rewriting \"%s\" to \"%s\""
+msgstr "rewriting \"%s\" to \"%s\""
+
+#: relfilenumber.c:623
+#, c-format
+msgid "cloning \"%s\" to \"%s\""
+msgstr "cloning \"%s\" to \"%s\""
+
+#: relfilenumber.c:628
+#, c-format
+msgid "copying \"%s\" to \"%s\""
+msgstr "copying \"%s\" to \"%s\""
+
+#: relfilenumber.c:633
+#, c-format
+msgid "copying \"%s\" to \"%s\" with copy_file_range"
+msgstr "copying \"%s\" to \"%s\" with copy_फाइल_range"
+
+#: relfilenumber.c:638
+#, c-format
+msgid "linking \"%s\" to \"%s\""
+msgstr "linking \"%s\" to \"%s\""
+
+#: relfilenumber.c:644
+#, c-format
+msgid "should never happen"
+msgstr "[REVIEW: untranslated] should never happen"
+
+#: server.c:39 server.c:143 util.c:248 util.c:278
+#, c-format
+msgid ""
+"Failure, exiting\n"
+msgstr ""
+"Failure, exiting\n"
+
+#: server.c:133
+#, c-format
+msgid "executing: %s"
+msgstr "executing: %s"
+
+#: server.c:139
+#, c-format
+msgid ""
+"SQL command failed\n"
+"%s\n"
+"%s"
+msgstr ""
+"SQL command असफल भयो\n"
+"%s\n"
+"%s"
+
+#: server.c:169
+#, c-format
+msgid "could not open version file \"%s\": %m"
+msgstr "गर्न सकिएन open version फाइल \"%s\": %m"
+
+#: server.c:173
+#, c-format
+msgid "could not parse version file \"%s\""
+msgstr "गर्न सकिएन parse version फाइल \"%s\""
+
+#: server.c:317
+#, c-format
+msgid ""
+"\n"
+"%s"
+msgstr ""
+"\n"
+"%s"
+
+#: server.c:321
+#, c-format
+msgid ""
+"could not connect to source postmaster started with the command:\n"
+"%s"
+msgstr ""
+"गर्न सकिएन connect to source postmaster started with the command:\n"
+"%s"
+
+#: server.c:325
+#, c-format
+msgid ""
+"could not connect to target postmaster started with the command:\n"
+"%s"
+msgstr ""
+"गर्न सकिएन connect to target postmaster started with the command:\n"
+"%s"
+
+#: server.c:339
+#, c-format
+msgid "pg_ctl failed to start the source server, or connection failed"
+msgstr "pg_ctl असफल भयो to start the source server, or connection असफल भयो"
+
+#: server.c:341
+#, c-format
+msgid "pg_ctl failed to start the target server, or connection failed"
+msgstr "pg_ctl असफल भयो to start the target server, or connection असफल भयो"
+
+#: server.c:386
+#, c-format
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: server.c:399
+#, c-format
+msgid "libpq environment variable %s has a non-local server value: %s"
+msgstr "[REVIEW: untranslated] libpq environment variable %s has a non-local server value: %s"
+
+#: tablespace.c:28
+#, c-format
+msgid ""
+"Cannot upgrade to/from the same system catalog version when\n"
+"using tablespaces."
+msgstr ""
+"[REVIEW: catalog] गर्न सकिँदैन upgrade to/from the same system catalog version when\n"
+"[REVIEW: tablespace] using tablespaces."
+
+#: tablespace.c:83
+#, c-format
+msgid "tablespace directory \"%s\" does not exist"
+msgstr "[REVIEW: tablespace] tablespace directory \"%s\" अवस्थित छैन"
+
+#: tablespace.c:87
+#, c-format
+msgid "could not stat tablespace directory \"%s\": %m"
+msgstr "[REVIEW: tablespace] गर्न सकिएन stat tablespace directory \"%s\": %m"
+
+#: tablespace.c:92
+#, c-format
+msgid "tablespace path \"%s\" is not a directory"
+msgstr "[REVIEW: tablespace; untranslated] tablespace path \"%s\" is not a directory"
+
+#: task.c:195
+#, c-format
+msgid "failed to create connection with connection string: \"%s\""
+msgstr "असफल भयो to create connection with connection string: \"%s\""
+
+#: task.c:217 task.c:268 task.c:283 task.c:294
+#, c-format
+msgid "connection failure: %s"
+msgstr "connection failure: %s"
+
+#: task.c:396
+#, c-format
+msgid "invalid socket"
+msgstr "अमान्य socket"
+
+#: task.c:405
+#, c-format
+msgid "select() failed: %m"
+msgstr "select() असफल भयो: %m"
+
+#: util.c:53 util.c:56 util.c:139 util.c:170 util.c:172
+#, c-format
+msgid "%-*s"
+msgstr "%-*s"
+
+#: util.c:107
+#, c-format
+msgid "could not access directory \"%s\": %m"
+msgstr "गर्न सकिएन access directory \"%s\": %m"
+
+#: util.c:287
+#, c-format
+msgid "ok"
+msgstr "ok"
+
+#: version.c:44
+#, c-format
+msgid "Checking for hash indexes"
+msgstr "[REVIEW: untranslated] Checking for hash indexes"
+
+#: version.c:123
+#, c-format
+msgid ""
+"\n"
+"Your installation contains hash indexes.  These indexes have different\n"
+"internal formats between your old and new clusters, so they must be\n"
+"reindexed with the REINDEX command.  After upgrading, you will be given\n"
+"REINDEX instructions."
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Your installation contains hash indexes.  These indexes have different\n"
+"[REVIEW: untranslated] internal formats between your old and new clusters, so they must be\n"
+"[REVIEW: untranslated] reindexed with the REINDEX command.  After upgrading, you will be given\n"
+"REINDEX instructions."
+
+#: version.c:129
+#, c-format
+msgid ""
+"\n"
+"Your installation contains hash indexes.  These indexes have different\n"
+"internal formats between your old and new clusters, so they must be\n"
+"reindexed with the REINDEX command.  The file\n"
+"    %s\n"
+"when executed by psql by the database superuser will recreate all invalid\n"
+"indexes; until then, none of these indexes will be used."
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Your installation contains hash indexes.  These indexes have different\n"
+"[REVIEW: untranslated] internal formats between your old and new clusters, so they must be\n"
+"reindexed with the REINDEX command.  The फाइल\n"
+"    %s\n"
+"[REVIEW: sentence] when executed by psql by the database superप्रयोगकर्ता will recreate all अमान्य\n"
+"[REVIEW: untranslated] indexes; until then, none of these indexes will be used."
+
+#: version.c:187
+#, c-format
+msgid "Checking for extension updates"
+msgstr "[REVIEW: extension; untranslated] Checking for extension updates"
+
+#: version.c:201
+#, c-format
+msgid "notice"
+msgstr "सूचना"
+
+#: version.c:202
+#, c-format
+msgid ""
+"\n"
+"Your installation contains extensions that should be updated\n"
+"with the ALTER EXTENSION command.  The file\n"
+"    %s\n"
+"when executed by psql by the database superuser will update\n"
+"these extensions."
+msgstr ""
+"\n"
+"[REVIEW: extension; untranslated] Your installation contains extensions that should be updated\n"
+"[REVIEW: extension] with the ALTER EXTENSION command.  The फाइल\n"
+"    %s\n"
+"when executed by psql by the database superप्रयोगकर्ता will update\n"
+"[REVIEW: extension] these extensions."

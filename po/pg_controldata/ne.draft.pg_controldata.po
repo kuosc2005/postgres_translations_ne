@@ -1,0 +1,628 @@
+# Nepali translation draft for PostgreSQL pg_controldata.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_controldata\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/ja/pg_controldata.po\\n"
+
+#: ../../common/controldata_utils.c:97
+#, c-format
+msgid "could not open file \"%s\" for reading: %m"
+msgstr "गर्न सकिएन open फाइल \"%s\" for reading: %m"
+
+#: ../../common/controldata_utils.c:110
+#, c-format
+msgid "could not read file \"%s\": %m"
+msgstr "फाइल \"%s\" पढ्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:119
+#, c-format
+msgid "could not read file \"%s\": read %d of %zu"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %zu"
+
+#: ../../common/controldata_utils.c:132 ../../common/controldata_utils.c:280
+#, c-format
+msgid "could not close file \"%s\": %m"
+msgstr "गर्न सकिएन close फाइल \"%s\": %m"
+
+#: ../../common/controldata_utils.c:168
+msgid "byte ordering mismatch"
+msgstr "[REVIEW: untranslated] byte ordering mismatch"
+
+#: ../../common/controldata_utils.c:170
+#, c-format
+msgid ""
+"possible byte ordering mismatch\n"
+"The byte ordering used to store the pg_control file might not match the one\n"
+"used by this program.  In that case the results below would be incorrect, and\n"
+"the PostgreSQL installation would be incompatible with this data directory."
+msgstr ""
+"[REVIEW: untranslated] possible byte ordering mismatch\n"
+"[REVIEW: sentence] The byte ordering used to store the pg_control फाइल might not match the one\n"
+"[REVIEW: untranslated] used by this program.  In that case the results below would be incorrect, and\n"
+"[REVIEW: untranslated] the PostgreSQL installation would be incompatible with this data directory."
+
+#: ../../common/controldata_utils.c:230
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:249
+#, c-format
+msgid "could not write file \"%s\": %m"
+msgstr "फाइल \"%s\" लेख्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:268
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: pg_controldata.c:35
+#, c-format
+msgid ""
+"%s displays control information of a PostgreSQL database cluster.\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] %s displays control information of a PostgreSQL database cluster.\n"
+"\n"
+
+#: pg_controldata.c:36
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_controldata.c:37
+#, c-format
+msgid ""
+"  %s [OPTION] [DATADIR]\n"
+msgstr ""
+"  %s [OPTION] [DATADIR]\n"
+
+#: pg_controldata.c:38
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Options:\n"
+
+#: pg_controldata.c:39
+#, c-format
+msgid ""
+" [-D, --pgdata=]DATADIR  data directory\n"
+msgstr ""
+"[REVIEW: untranslated]  [-D, --pgdata=]DATADIR  data directory\n"
+
+#: pg_controldata.c:40
+#, c-format
+msgid ""
+"  -V, --version          output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version          output version information, then exit\n"
+
+#: pg_controldata.c:41
+#, c-format
+msgid ""
+"  -?, --help             show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help             show this help, then exit\n"
+
+#: pg_controldata.c:42
+#, c-format
+msgid ""
+"\n"
+"If no data directory (DATADIR) is specified, the environment variable PGDATA\n"
+"is used.\n"
+"\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] If no data directory (DATADIR) is specified, the environment variable PGDATA\n"
+"is used.\n"
+"\n"
+
+#: pg_controldata.c:44
+#, c-format
+msgid ""
+"Report bugs to <%s>.\n"
+msgstr ""
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_controldata.c:45
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_controldata.c:55
+msgid "starting up"
+msgstr "starting up"
+
+#: pg_controldata.c:57
+msgid "shut down"
+msgstr "shut down"
+
+#: pg_controldata.c:59
+msgid "shut down in recovery"
+msgstr "[REVIEW: recovery; untranslated] shut down in recovery"
+
+#: pg_controldata.c:61
+msgid "shutting down"
+msgstr "shutting down"
+
+#: pg_controldata.c:63
+msgid "in crash recovery"
+msgstr "[REVIEW: recovery; untranslated] in crash recovery"
+
+#: pg_controldata.c:65
+msgid "in archive recovery"
+msgstr "[REVIEW: recovery, archive; untranslated] in archive recovery"
+
+#: pg_controldata.c:67
+msgid "in production"
+msgstr "in production"
+
+#: pg_controldata.c:69
+msgid "unrecognized status code"
+msgstr "[REVIEW: untranslated] unrecognized status code"
+
+#: pg_controldata.c:84
+msgid "unrecognized \"wal_level\""
+msgstr "[REVIEW: WAL] unrecognized \"wal_level\""
+
+#: pg_controldata.c:139 pg_controldata.c:157 pg_controldata.c:164
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_controldata.c:155
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: pg_controldata.c:163
+#, c-format
+msgid "no data directory specified"
+msgstr "[REVIEW: untranslated] no data directory specified"
+
+#: pg_controldata.c:172
+#, c-format
+msgid "calculated CRC checksum does not match value stored in control file"
+msgstr "[REVIEW: sentence] calculated CRC checksum does not match value stored in control फाइल"
+
+#: pg_controldata.c:173
+#, c-format
+msgid "Either the control file is corrupt, or it has a different layout than this program is expecting.  The results below are untrustworthy."
+msgstr "[REVIEW: sentence] Either the control फाइल is corrupt, or it has a different layout than this program is expecting.  The results below are untrustworthy."
+
+#: pg_controldata.c:182
+#, c-format
+msgid "invalid WAL segment size in control file (%d byte)"
+msgid_plural "invalid WAL segment size in control file (%d bytes)"
+msgstr[0] "[REVIEW: WAL] अमान्य WAL segment size in control फाइल (%d byte)"
+msgstr[1] "[REVIEW: WAL] अमान्य WAL segment size in control फाइल (%d bytes)"
+
+#: pg_controldata.c:186
+#, c-format
+msgid "The WAL segment size must be a power of two between 1 MB and 1 GB."
+msgstr "[REVIEW: WAL; untranslated] The WAL segment size must be a power of two between 1 MB and 1 GB."
+
+#: pg_controldata.c:187
+#, c-format
+msgid "The file is corrupt and the results below are untrustworthy."
+msgstr "The फाइल is corrupt and the results below are untrustworthy."
+
+#: pg_controldata.c:205 pg_controldata.c:213 pg_controldata.c:232
+#, c-format
+msgid "???"
+msgstr "???"
+
+#: pg_controldata.c:238
+#, c-format
+msgid ""
+"pg_control version number:            %u\n"
+msgstr ""
+"[REVIEW: untranslated] pg_control version number:            %u\n"
+
+#: pg_controldata.c:240
+#, c-format
+msgid ""
+"Catalog version number:               %u\n"
+msgstr ""
+"[REVIEW: catalog; untranslated] Catalog version number:               %u\n"
+
+#: pg_controldata.c:242
+#, c-format
+msgid ""
+"Database system identifier:           %<PRIu64>\n"
+msgstr ""
+"[REVIEW: untranslated] Database system identifier:           %<PRIu64>\n"
+
+#: pg_controldata.c:244
+#, c-format
+msgid ""
+"Database cluster state:               %s\n"
+msgstr ""
+"[REVIEW: untranslated] Database cluster state:               %s\n"
+
+#: pg_controldata.c:246
+#, c-format
+msgid ""
+"pg_control last modified:             %s\n"
+msgstr ""
+"[REVIEW: untranslated] pg_control last modified:             %s\n"
+
+#: pg_controldata.c:248
+#, c-format
+msgid ""
+"Latest checkpoint location:           %X/%X\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint location:           %X/%X\n"
+
+#: pg_controldata.c:250
+#, c-format
+msgid ""
+"Latest checkpoint's REDO location:    %X/%X\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's REDO location:    %X/%X\n"
+
+#: pg_controldata.c:252
+#, c-format
+msgid ""
+"Latest checkpoint's REDO WAL file:    %s\n"
+msgstr ""
+"[REVIEW: checkpoint, WAL] Latest checkpoint's REDO WAL फाइल:    %s\n"
+
+#: pg_controldata.c:254
+#, c-format
+msgid ""
+"Latest checkpoint's TimeLineID:       %u\n"
+msgstr ""
+"[REVIEW: checkpoint, timeline] Latest checkpoint's TimeलाइनID:       %u\n"
+
+#: pg_controldata.c:256
+#, c-format
+msgid ""
+"Latest checkpoint's PrevTimeLineID:   %u\n"
+msgstr ""
+"[REVIEW: checkpoint, timeline] Latest checkpoint's PrevTimeलाइनID:   %u\n"
+
+#: pg_controldata.c:258
+#, c-format
+msgid ""
+"Latest checkpoint's full_page_writes: %s\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's full_page_writes: %s\n"
+
+#: pg_controldata.c:259 pg_controldata.c:300 pg_controldata.c:312
+msgid "off"
+msgstr "off"
+
+#: pg_controldata.c:259 pg_controldata.c:300 pg_controldata.c:312
+msgid "on"
+msgstr "on"
+
+#: pg_controldata.c:260
+#, c-format
+msgid ""
+"Latest checkpoint's NextXID:          %u:%u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's NextXID:          %u:%u\n"
+
+#: pg_controldata.c:263
+#, c-format
+msgid ""
+"Latest checkpoint's NextOID:          %u\n"
+msgstr ""
+"[REVIEW: checkpoint, OID; untranslated] Latest checkpoint's NextOID:          %u\n"
+
+#: pg_controldata.c:265
+#, c-format
+msgid ""
+"Latest checkpoint's NextMultiXactId:  %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's NextMultiXactId:  %u\n"
+
+#: pg_controldata.c:267
+#, c-format
+msgid ""
+"Latest checkpoint's NextMultiOffset:  %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's NextMultiOffset:  %u\n"
+
+#: pg_controldata.c:269
+#, c-format
+msgid ""
+"Latest checkpoint's oldestXID:        %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestXID:        %u\n"
+
+#: pg_controldata.c:271
+#, c-format
+msgid ""
+"Latest checkpoint's oldestXID's DB:   %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestXID's DB:   %u\n"
+
+#: pg_controldata.c:273
+#, c-format
+msgid ""
+"Latest checkpoint's oldestActiveXID:  %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestActiveXID:  %u\n"
+
+#: pg_controldata.c:275
+#, c-format
+msgid ""
+"Latest checkpoint's oldestMultiXid:   %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestMultiXid:   %u\n"
+
+#: pg_controldata.c:277
+#, c-format
+msgid ""
+"Latest checkpoint's oldestMulti's DB: %u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestMulti's DB: %u\n"
+
+#: pg_controldata.c:279
+#, c-format
+msgid ""
+"Latest checkpoint's oldestCommitTsXid:%u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's oldestCommitTsXid:%u\n"
+
+#: pg_controldata.c:281
+#, c-format
+msgid ""
+"Latest checkpoint's newestCommitTsXid:%u\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Latest checkpoint's newestCommitTsXid:%u\n"
+
+#: pg_controldata.c:283
+#, c-format
+msgid ""
+"Time of latest checkpoint:            %s\n"
+msgstr ""
+"[REVIEW: checkpoint; untranslated] Time of latest checkpoint:            %s\n"
+
+#: pg_controldata.c:285
+#, c-format
+msgid ""
+"Fake LSN counter for unlogged rels:   %X/%X\n"
+msgstr ""
+"[REVIEW: LSN; untranslated] Fake LSN counter for unlogged rels:   %X/%X\n"
+
+#: pg_controldata.c:287
+#, c-format
+msgid ""
+"Minimum recovery ending location:     %X/%X\n"
+msgstr ""
+"[REVIEW: recovery; untranslated] Minimum recovery ending location:     %X/%X\n"
+
+#: pg_controldata.c:289
+#, c-format
+msgid ""
+"Min recovery ending loc's timeline:   %u\n"
+msgstr ""
+"[REVIEW: recovery, timeline] Min recovery ending loc's timeलाइन:   %u\n"
+
+#: pg_controldata.c:291
+#, c-format
+msgid ""
+"Backup start location:                %X/%X\n"
+msgstr ""
+"[REVIEW: backup; untranslated] Backup start location:                %X/%X\n"
+
+#: pg_controldata.c:293
+#, c-format
+msgid ""
+"Backup end location:                  %X/%X\n"
+msgstr ""
+"[REVIEW: backup; untranslated] Backup end location:                  %X/%X\n"
+
+#: pg_controldata.c:295
+#, c-format
+msgid ""
+"End-of-backup record required:        %s\n"
+msgstr ""
+"[REVIEW: backup] End-of-backup record आवश्यक:        %s\n"
+
+#: pg_controldata.c:296
+msgid "no"
+msgstr "no"
+
+#: pg_controldata.c:296
+msgid "yes"
+msgstr "yes"
+
+#: pg_controldata.c:297
+#, c-format
+msgid ""
+"wal_level setting:                    %s\n"
+msgstr ""
+"[REVIEW: WAL] wal_level setting:                    %s\n"
+
+#: pg_controldata.c:299
+#, c-format
+msgid ""
+"wal_log_hints setting:                %s\n"
+msgstr ""
+"[REVIEW: WAL] wal_log_सुझावs setting:                %s\n"
+
+#: pg_controldata.c:301
+#, c-format
+msgid ""
+"max_connections setting:              %d\n"
+msgstr ""
+"max_connections setting:              %d\n"
+
+#: pg_controldata.c:303
+#, c-format
+msgid ""
+"max_worker_processes setting:         %d\n"
+msgstr ""
+"max_worker_processes setting:         %d\n"
+
+#: pg_controldata.c:305
+#, c-format
+msgid ""
+"max_wal_senders setting:              %d\n"
+msgstr ""
+"[REVIEW: WAL] max_wal_senders setting:              %d\n"
+
+#: pg_controldata.c:307
+#, c-format
+msgid ""
+"max_prepared_xacts setting:           %d\n"
+msgstr ""
+"max_prepared_xacts setting:           %d\n"
+
+#: pg_controldata.c:309
+#, c-format
+msgid ""
+"max_locks_per_xact setting:           %d\n"
+msgstr ""
+"[REVIEW: lock] max_locks_per_xact setting:           %d\n"
+
+#: pg_controldata.c:311
+#, c-format
+msgid ""
+"track_commit_timestamp setting:       %s\n"
+msgstr ""
+"track_commit_timestamp setting:       %s\n"
+
+#: pg_controldata.c:313
+#, c-format
+msgid ""
+"Maximum data alignment:               %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum data alignment:               %u\n"
+
+#: pg_controldata.c:316
+#, c-format
+msgid ""
+"Database block size:                  %u\n"
+msgstr ""
+"[REVIEW: lock; untranslated] Database block size:                  %u\n"
+
+#: pg_controldata.c:318
+#, c-format
+msgid ""
+"Blocks per segment of large relation: %u\n"
+msgstr ""
+"[REVIEW: relation, lock; untranslated] Blocks per segment of large relation: %u\n"
+
+#: pg_controldata.c:320
+#, c-format
+msgid ""
+"WAL block size:                       %u\n"
+msgstr ""
+"[REVIEW: lock, WAL; untranslated] WAL block size:                       %u\n"
+
+#: pg_controldata.c:322
+#, c-format
+msgid ""
+"Bytes per WAL segment:                %u\n"
+msgstr ""
+"[REVIEW: WAL; untranslated] Bytes per WAL segment:                %u\n"
+
+#: pg_controldata.c:324
+#, c-format
+msgid ""
+"Maximum length of identifiers:        %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum length of identifiers:        %u\n"
+
+#: pg_controldata.c:326
+#, c-format
+msgid ""
+"Maximum columns in an index:          %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum columns in an index:          %u\n"
+
+#: pg_controldata.c:328
+#, c-format
+msgid ""
+"Maximum size of a TOAST chunk:        %u\n"
+msgstr ""
+"[REVIEW: untranslated] Maximum size of a TOAST chunk:        %u\n"
+
+#: pg_controldata.c:330
+#, c-format
+msgid ""
+"Size of a large-object chunk:         %u\n"
+msgstr ""
+"[REVIEW: untranslated] Size of a large-object chunk:         %u\n"
+
+#: pg_controldata.c:333
+#, c-format
+msgid ""
+"Date/time type storage:               %s\n"
+msgstr ""
+"[REVIEW: untranslated] Date/time type storage:               %s\n"
+
+#: pg_controldata.c:334
+msgid "64-bit integers"
+msgstr "64-bit integers"
+
+#: pg_controldata.c:335
+#, c-format
+msgid ""
+"Float8 argument passing:              %s\n"
+msgstr ""
+"[REVIEW: untranslated] Float8 argument passing:              %s\n"
+
+#: pg_controldata.c:336
+msgid "by reference"
+msgstr "by reference"
+
+#: pg_controldata.c:336
+msgid "by value"
+msgstr "by value"
+
+#: pg_controldata.c:337
+#, c-format
+msgid ""
+"Data page checksum version:           %u\n"
+msgstr ""
+"[REVIEW: untranslated] Data page checksum version:           %u\n"
+
+#: pg_controldata.c:339
+#, c-format
+msgid ""
+"Default char data signedness:         %s\n"
+msgstr ""
+"[REVIEW: untranslated] Default char data signedness:         %s\n"
+
+#: pg_controldata.c:340
+msgid "signed"
+msgstr "signed"
+
+#: pg_controldata.c:340
+msgid "unsigned"
+msgstr "unsigned"
+
+#: pg_controldata.c:341
+#, c-format
+msgid ""
+"Mock authentication nonce:            %s\n"
+msgstr ""
+"[REVIEW: authentication; untranslated] Mock authentication nonce:            %s\n"

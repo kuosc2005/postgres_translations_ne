@@ -1,0 +1,730 @@
+# Nepali translation draft for PostgreSQL pg_amcheck.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_amcheck\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_amcheck.po\\n"
+
+#: ../../../src/common/logging.c:276
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:283
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:294
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:301
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/file_utils.c:70 ../../common/file_utils.c:347
+#: ../../common/file_utils.c:406 ../../common/file_utils.c:480
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/file_utils.c:76
+#, c-format
+msgid "could not synchronize file system for file \"%s\": %m"
+msgstr "गर्न सकिएन synchronize फाइल system for फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:120 ../../common/file_utils.c:566
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:130 ../../common/file_utils.c:227
+#: ../../fe_utils/option_utils.c:99
+#, c-format
+msgid "this build does not support sync method \"%s\""
+msgstr "[REVIEW: untranslated] this build does not support sync method \"%s\""
+
+#: ../../common/file_utils.c:151 ../../common/file_utils.c:281
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: ../../common/file_utils.c:169 ../../common/file_utils.c:315
+#, c-format
+msgid "could not read directory \"%s\": %m"
+msgstr "गर्न सकिएन read directory \"%s\": %m"
+
+#: ../../common/file_utils.c:418 ../../common/file_utils.c:488
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:498
+#, c-format
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम फाइल \"%s\" to \"%s\": %m"
+
+#: ../../common/username.c:43
+#, c-format
+msgid "could not look up effective user ID %ld: %s"
+msgstr "गर्न सकिएन look up effective प्रयोगकर्ता ID %ld: %s"
+
+#: ../../common/username.c:45
+msgid "user does not exist"
+msgstr "प्रयोगकर्ता अवस्थित छैन"
+
+#: ../../common/username.c:60
+#, c-format
+msgid "user name lookup failure: error code %lu"
+msgstr "प्रयोगकर्ता नाम lookup failure: त्रुटि code %lu"
+
+#: ../../fe_utils/cancel.c:186 ../../fe_utils/cancel.c:235
+msgid ""
+"Cancel request sent\n"
+msgstr ""
+"[REVIEW: untranslated] Cancel request sent\n"
+
+#: ../../fe_utils/cancel.c:187 ../../fe_utils/cancel.c:236
+msgid "Could not send cancel request: "
+msgstr "गर्न सकिएन send cancel request: "
+
+#: ../../fe_utils/connect_utils.c:91
+#, c-format
+msgid "could not connect to database %s: out of memory"
+msgstr "गर्न सकिएन connect to database %s: out of memory"
+
+#: ../../fe_utils/connect_utils.c:116
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../../fe_utils/option_utils.c:69
+#, c-format
+msgid "invalid value \"%s\" for option %s"
+msgstr "अमान्य value \"%s\" for option %s"
+
+#: ../../fe_utils/option_utils.c:76
+#, c-format
+msgid "%s must be in range %d..%d"
+msgstr "[REVIEW: untranslated] %s must be in range %d..%d"
+
+#: ../../fe_utils/option_utils.c:106
+#, c-format
+msgid "unrecognized sync method: %s"
+msgstr "[REVIEW: untranslated] unrecognized sync method: %s"
+
+#: ../../fe_utils/parallel_slot.c:317
+#, c-format
+msgid "too many jobs for this platform: %d"
+msgstr "[REVIEW: untranslated] too many jobs for this platform: %d"
+
+#: ../../fe_utils/parallel_slot.c:326
+#, c-format
+msgid "socket file descriptor out of range for select(): %d"
+msgstr "socket फाइल descriptor out of range for select(): %d"
+
+#: ../../fe_utils/parallel_slot.c:328
+#, c-format
+msgid "Try fewer jobs."
+msgstr "[REVIEW: untranslated] Try fewer jobs."
+
+#: ../../fe_utils/parallel_slot.c:553
+#, c-format
+msgid "processing of database \"%s\" failed: %s"
+msgstr "processing of database \"%s\" असफल भयो: %s"
+
+#: ../../fe_utils/query_utils.c:33 ../../fe_utils/query_utils.c:58
+#: pg_amcheck.c:1693 pg_amcheck.c:2138
+#, c-format
+msgid "query failed: %s"
+msgstr "[REVIEW: query] query असफल भयो: %s"
+
+#: ../../fe_utils/query_utils.c:34 ../../fe_utils/query_utils.c:59
+#: pg_amcheck.c:578 pg_amcheck.c:1147 pg_amcheck.c:1694 pg_amcheck.c:2139
+#, c-format
+msgid "Query was: %s"
+msgstr "[REVIEW: query] Query was: %s"
+
+#: ../../fe_utils/string_utils.c:434
+#, c-format
+msgid ""
+"shell command argument contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+"shell command argument contains a newलाइन or carriage return: \"%s\"\n"
+
+#: ../../fe_utils/string_utils.c:607
+#, c-format
+msgid ""
+"database name contains a newline or carriage return: \"%s\"\n"
+msgstr ""
+"database नाम contains a newलाइन or carriage return: \"%s\"\n"
+
+#: pg_amcheck.c:403
+#, c-format
+msgid "invalid argument for option %s"
+msgstr "अमान्य argument for option %s"
+
+#: pg_amcheck.c:409
+#, c-format
+msgid "invalid start block"
+msgstr "[REVIEW: lock] अमान्य start block"
+
+#: pg_amcheck.c:411
+#, c-format
+msgid "start block out of bounds"
+msgstr "[REVIEW: lock; untranslated] start block out of bounds"
+
+#: pg_amcheck.c:418
+#, c-format
+msgid "invalid end block"
+msgstr "[REVIEW: lock] अमान्य end block"
+
+#: pg_amcheck.c:420
+#, c-format
+msgid "end block out of bounds"
+msgstr "[REVIEW: lock; untranslated] end block out of bounds"
+
+#: pg_amcheck.c:446 pg_amcheck.c:468
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_amcheck.c:452
+#, c-format
+msgid "end block precedes start block"
+msgstr "[REVIEW: lock; untranslated] end block precedes start block"
+
+#: pg_amcheck.c:466
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: pg_amcheck.c:486
+#, c-format
+msgid "cannot specify a database name with --all"
+msgstr "गर्न सकिँदैन specify a database नाम with --all"
+
+#: pg_amcheck.c:492
+#, c-format
+msgid "cannot specify both a database name and database patterns"
+msgstr "गर्न सकिँदैन specify both a database नाम and database patterns"
+
+#: pg_amcheck.c:520
+#, c-format
+msgid "no databases to check"
+msgstr "[REVIEW: untranslated] no databases to check"
+
+#: pg_amcheck.c:576
+#, c-format
+msgid "database \"%s\": %s"
+msgstr "database \"%s\": %s"
+
+#: pg_amcheck.c:587
+#, c-format
+msgid "skipping database \"%s\": amcheck is not installed"
+msgstr "[REVIEW: untranslated] skipping database \"%s\": amcheck is not installed"
+
+#: pg_amcheck.c:595
+#, c-format
+msgid "in database \"%s\": using amcheck version \"%s\" in schema \"%s\""
+msgstr "[REVIEW: schema; untranslated] in database \"%s\": using amcheck version \"%s\" in schema \"%s\""
+
+#: pg_amcheck.c:624
+#, c-format
+msgid "option %s is not supported by amcheck version %s"
+msgstr "[REVIEW: untranslated] option %s is not supported by amcheck version %s"
+
+#: pg_amcheck.c:650
+#, c-format
+msgid "no heap tables to check matching \"%s\""
+msgstr "[REVIEW: untranslated] no heap tables to check matching \"%s\""
+
+#: pg_amcheck.c:653
+#, c-format
+msgid "no btree indexes to check matching \"%s\""
+msgstr "[REVIEW: untranslated] no btree indexes to check matching \"%s\""
+
+#: pg_amcheck.c:656
+#, c-format
+msgid "no relations to check in schemas matching \"%s\""
+msgstr "[REVIEW: relation, schema; untranslated] no relations to check in schemas matching \"%s\""
+
+#: pg_amcheck.c:659
+#, c-format
+msgid "no relations to check matching \"%s\""
+msgstr "[REVIEW: relation; untranslated] no relations to check matching \"%s\""
+
+#: pg_amcheck.c:687
+#, c-format
+msgid "no relations to check"
+msgstr "[REVIEW: relation; untranslated] no relations to check"
+
+#: pg_amcheck.c:770
+#, c-format
+msgid "checking heap table \"%s.%s.%s\""
+msgstr "[REVIEW: untranslated] checking heap table \"%s.%s.%s\""
+
+#: pg_amcheck.c:786
+#, c-format
+msgid "checking btree index \"%s.%s.%s\""
+msgstr "[REVIEW: untranslated] checking btree index \"%s.%s.%s\""
+
+#: pg_amcheck.c:937
+#, c-format
+msgid "error sending command to database \"%s\": %s"
+msgstr "त्रुटि sending command to database \"%s\": %s"
+
+#: pg_amcheck.c:940
+#, c-format
+msgid "Command was: %s"
+msgstr "Command was: %s"
+
+#: pg_amcheck.c:1060
+#, c-format
+msgid ""
+"heap table \"%s.%s.%s\", block %s, offset %s, attribute %s:\n"
+msgstr ""
+"[REVIEW: lock; untranslated] heap table \"%s.%s.%s\", block %s, offset %s, attribute %s:\n"
+
+#: pg_amcheck.c:1067
+#, c-format
+msgid ""
+"heap table \"%s.%s.%s\", block %s, offset %s:\n"
+msgstr ""
+"[REVIEW: lock; untranslated] heap table \"%s.%s.%s\", block %s, offset %s:\n"
+
+#: pg_amcheck.c:1073
+#, c-format
+msgid ""
+"heap table \"%s.%s.%s\", block %s:\n"
+msgstr ""
+"[REVIEW: lock; untranslated] heap table \"%s.%s.%s\", block %s:\n"
+
+#: pg_amcheck.c:1078 pg_amcheck.c:1089
+#, c-format
+msgid ""
+"heap table \"%s.%s.%s\":\n"
+msgstr ""
+"heap table \"%s.%s.%s\":\n"
+
+#: pg_amcheck.c:1093 pg_amcheck.c:1162
+#, c-format
+msgid ""
+"query was: %s\n"
+msgstr ""
+"[REVIEW: query] query was: %s\n"
+
+#: pg_amcheck.c:1144
+#, c-format
+msgid "btree index \"%s.%s.%s\": btree checking function returned unexpected number of rows: %d"
+msgstr "[REVIEW: untranslated] btree index \"%s.%s.%s\": btree checking function returned unexpected number of rows: %d"
+
+#: pg_amcheck.c:1148
+#, c-format
+msgid "Are %s's and amcheck's versions compatible?"
+msgstr "[REVIEW: untranslated] Are %s's and amcheck's versions compatible?"
+
+#: pg_amcheck.c:1158
+#, c-format
+msgid ""
+"btree index \"%s.%s.%s\":\n"
+msgstr ""
+"btree index \"%s.%s.%s\":\n"
+
+#: pg_amcheck.c:1183
+#, c-format
+msgid ""
+"%s checks objects in a PostgreSQL database for corruption.\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] %s checks objects in a PostgreSQL database for corruption.\n"
+"\n"
+
+#: pg_amcheck.c:1184
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_amcheck.c:1185
+#, c-format
+msgid ""
+"  %s [OPTION]... [DBNAME]\n"
+msgstr ""
+"  %s [OPTION]... [DBNAME]\n"
+
+#: pg_amcheck.c:1186
+#, c-format
+msgid ""
+"\n"
+"Target options:\n"
+msgstr ""
+"\n"
+"Target options:\n"
+
+#: pg_amcheck.c:1187
+#, c-format
+msgid ""
+"  -a, --all                       check all databases\n"
+msgstr ""
+"[REVIEW: untranslated]   -a, --all                       check all databases\n"
+
+#: pg_amcheck.c:1188
+#, c-format
+msgid ""
+"  -d, --database=PATTERN          check matching database(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   -d, --database=PATTERN          check matching database(s)\n"
+
+#: pg_amcheck.c:1189
+#, c-format
+msgid ""
+"  -D, --exclude-database=PATTERN  do NOT check matching database(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   -D, --exclude-database=PATTERN  do NOT check matching database(s)\n"
+
+#: pg_amcheck.c:1190
+#, c-format
+msgid ""
+"  -i, --index=PATTERN             check matching index(es)\n"
+msgstr ""
+"[REVIEW: untranslated]   -i, --index=PATTERN             check matching index(es)\n"
+
+#: pg_amcheck.c:1191
+#, c-format
+msgid ""
+"  -I, --exclude-index=PATTERN     do NOT check matching index(es)\n"
+msgstr ""
+"[REVIEW: untranslated]   -I, --exclude-index=PATTERN     do NOT check matching index(es)\n"
+
+#: pg_amcheck.c:1192
+#, c-format
+msgid ""
+"  -r, --relation=PATTERN          check matching relation(s)\n"
+msgstr ""
+"[REVIEW: relation; untranslated]   -r, --relation=PATTERN          check matching relation(s)\n"
+
+#: pg_amcheck.c:1193
+#, c-format
+msgid ""
+"  -R, --exclude-relation=PATTERN  do NOT check matching relation(s)\n"
+msgstr ""
+"[REVIEW: relation; untranslated]   -R, --exclude-relation=PATTERN  do NOT check matching relation(s)\n"
+
+#: pg_amcheck.c:1194
+#, c-format
+msgid ""
+"  -s, --schema=PATTERN            check matching schema(s)\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   -s, --schema=PATTERN            check matching schema(s)\n"
+
+#: pg_amcheck.c:1195
+#, c-format
+msgid ""
+"  -S, --exclude-schema=PATTERN    do NOT check matching schema(s)\n"
+msgstr ""
+"[REVIEW: schema; untranslated]   -S, --exclude-schema=PATTERN    do NOT check matching schema(s)\n"
+
+#: pg_amcheck.c:1196
+#, c-format
+msgid ""
+"  -t, --table=PATTERN             check matching table(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   -t, --table=PATTERN             check matching table(s)\n"
+
+#: pg_amcheck.c:1197
+#, c-format
+msgid ""
+"  -T, --exclude-table=PATTERN     do NOT check matching table(s)\n"
+msgstr ""
+"[REVIEW: untranslated]   -T, --exclude-table=PATTERN     do NOT check matching table(s)\n"
+
+#: pg_amcheck.c:1198
+#, c-format
+msgid ""
+"      --no-dependent-indexes      do NOT expand list of relations to include indexes\n"
+msgstr ""
+"[REVIEW: relation; untranslated]       --no-dependent-indexes      do NOT expand list of relations to include indexes\n"
+
+#: pg_amcheck.c:1199
+#, c-format
+msgid ""
+"      --no-dependent-toast        do NOT expand list of relations to include TOAST tables\n"
+msgstr ""
+"[REVIEW: relation; untranslated]       --no-dependent-toast        do NOT expand list of relations to include TOAST tables\n"
+
+#: pg_amcheck.c:1200
+#, c-format
+msgid ""
+"      --no-strict-names           do NOT require patterns to match objects\n"
+msgstr ""
+"[REVIEW: untranslated]       --no-strict-names           do NOT require patterns to match objects\n"
+
+#: pg_amcheck.c:1201
+#, c-format
+msgid ""
+"\n"
+"Table checking options:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Table checking options:\n"
+
+#: pg_amcheck.c:1202
+#, c-format
+msgid ""
+"      --exclude-toast-pointers    do NOT follow relation TOAST pointers\n"
+msgstr ""
+"[REVIEW: relation; untranslated]       --exclude-toast-pointers    do NOT follow relation TOAST pointers\n"
+
+#: pg_amcheck.c:1203
+#, c-format
+msgid ""
+"      --on-error-stop             stop checking at end of first corrupt page\n"
+msgstr ""
+"[REVIEW: untranslated]       --on-error-stop             stop checking at end of first corrupt page\n"
+
+#: pg_amcheck.c:1204
+#, c-format
+msgid ""
+"      --skip=OPTION               do NOT check \"all-frozen\" or \"all-visible\" blocks\n"
+msgstr ""
+"[REVIEW: lock; untranslated]       --skip=OPTION               do NOT check \"all-frozen\" or \"all-visible\" blocks\n"
+
+#: pg_amcheck.c:1205
+#, c-format
+msgid ""
+"      --startblock=BLOCK          begin checking table(s) at the given block number\n"
+msgstr ""
+"[REVIEW: lock; untranslated]       --startblock=BLOCK          begin checking table(s) at the given block number\n"
+
+#: pg_amcheck.c:1206
+#, c-format
+msgid ""
+"      --endblock=BLOCK            check table(s) only up to the given block number\n"
+msgstr ""
+"[REVIEW: lock; untranslated]       --endblock=BLOCK            check table(s) only up to the given block number\n"
+
+#: pg_amcheck.c:1207
+#, c-format
+msgid ""
+"\n"
+"B-tree index checking options:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] B-tree index checking options:\n"
+
+#: pg_amcheck.c:1208
+#, c-format
+msgid ""
+"      --checkunique               check unique constraint if index is unique\n"
+msgstr ""
+"[REVIEW: constraint; untranslated]       --checkunique               check unique constraint if index is unique\n"
+
+#: pg_amcheck.c:1209
+#, c-format
+msgid ""
+"      --heapallindexed            check that all heap tuples are found within indexes\n"
+msgstr ""
+"[REVIEW: tuple; untranslated]       --heapallindexed            check that all heap tuples are found within indexes\n"
+
+#: pg_amcheck.c:1210
+#, c-format
+msgid ""
+"      --parent-check              check index parent/child relationships\n"
+msgstr ""
+"[REVIEW: relation; untranslated]       --parent-check              check index parent/child relationships\n"
+
+#: pg_amcheck.c:1211
+#, c-format
+msgid ""
+"      --rootdescend               search from root page to refind tuples\n"
+msgstr ""
+"[REVIEW: tuple; untranslated]       --rootdescend               search from root page to refind tuples\n"
+
+#: pg_amcheck.c:1212
+#, c-format
+msgid ""
+"\n"
+"Connection options:\n"
+msgstr ""
+"\n"
+"Connection options:\n"
+
+#: pg_amcheck.c:1213
+#, c-format
+msgid ""
+"  -h, --host=HOSTNAME             database server host or socket directory\n"
+msgstr ""
+"[REVIEW: untranslated]   -h, --host=HOSTNAME             database server host or socket directory\n"
+
+#: pg_amcheck.c:1214
+#, c-format
+msgid ""
+"  -p, --port=PORT                 database server port\n"
+msgstr ""
+"[REVIEW: untranslated]   -p, --port=PORT                 database server port\n"
+
+#: pg_amcheck.c:1215
+#, c-format
+msgid ""
+"  -U, --username=USERNAME         user name to connect as\n"
+msgstr ""
+"  -U, --username=USERNAME         प्रयोगकर्ता नाम to connect as\n"
+
+#: pg_amcheck.c:1216
+#, c-format
+msgid ""
+"  -w, --no-password               never prompt for password\n"
+msgstr ""
+"[REVIEW: untranslated]   -w, --no-password               never prompt for password\n"
+
+#: pg_amcheck.c:1217
+#, c-format
+msgid ""
+"  -W, --password                  force password prompt\n"
+msgstr ""
+"[REVIEW: untranslated]   -W, --password                  force password prompt\n"
+
+#: pg_amcheck.c:1218
+#, c-format
+msgid ""
+"      --maintenance-db=DBNAME     alternate maintenance database\n"
+msgstr ""
+"[REVIEW: untranslated]       --maintenance-db=DBNAME     alternate maintenance database\n"
+
+#: pg_amcheck.c:1219
+#, c-format
+msgid ""
+"\n"
+"Other options:\n"
+msgstr ""
+"\n"
+"Other options:\n"
+
+#: pg_amcheck.c:1220
+#, c-format
+msgid ""
+"  -e, --echo                      show the commands being sent to the server\n"
+msgstr ""
+"[REVIEW: untranslated]   -e, --echo                      show the commands being sent to the server\n"
+
+#: pg_amcheck.c:1221
+#, c-format
+msgid ""
+"  -j, --jobs=NUM                  use this many concurrent connections to the server\n"
+msgstr ""
+"[REVIEW: untranslated]   -j, --jobs=NUM                  use this many concurrent connections to the server\n"
+
+#: pg_amcheck.c:1222
+#, c-format
+msgid ""
+"  -P, --progress                  show progress information\n"
+msgstr ""
+"[REVIEW: untranslated]   -P, --progress                  show progress information\n"
+
+#: pg_amcheck.c:1223
+#, c-format
+msgid ""
+"  -v, --verbose                   write a lot of output\n"
+msgstr ""
+"[REVIEW: untranslated]   -v, --verbose                   write a lot of output\n"
+
+#: pg_amcheck.c:1224
+#, c-format
+msgid ""
+"  -V, --version                   output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version                   output version information, then exit\n"
+
+#: pg_amcheck.c:1225
+#, c-format
+msgid ""
+"      --install-missing           install missing extensions\n"
+msgstr ""
+"[REVIEW: extension]       --install-missing           install हराइरहेको extensions\n"
+
+#: pg_amcheck.c:1226
+#, c-format
+msgid ""
+"  -?, --help                      show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                      show this help, then exit\n"
+
+#: pg_amcheck.c:1228
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_amcheck.c:1229
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_amcheck.c:1282
+#, c-format
+msgid "%*s/%s relations (%d%%), %*s/%s pages (%d%%) %*s"
+msgstr "[REVIEW: relation] %*s/%s relations (%d%%), %*s/%s pages (%d%%) %*s"
+
+#: pg_amcheck.c:1293
+#, c-format
+msgid "%*s/%s relations (%d%%), %*s/%s pages (%d%%) (%s%-*.*s)"
+msgstr "[REVIEW: relation] %*s/%s relations (%d%%), %*s/%s pages (%d%%) (%s%-*.*s)"
+
+#: pg_amcheck.c:1308
+#, c-format
+msgid "%*s/%s relations (%d%%), %*s/%s pages (%d%%)"
+msgstr "[REVIEW: relation] %*s/%s relations (%d%%), %*s/%s pages (%d%%)"
+
+#: pg_amcheck.c:1367 pg_amcheck.c:1400
+#, c-format
+msgid "improper qualified name (too many dotted names): %s"
+msgstr "improper qualified नाम (too many dotted नामs): %s"
+
+#: pg_amcheck.c:1445
+#, c-format
+msgid "improper relation name (too many dotted names): %s"
+msgstr "[REVIEW: relation] improper relation नाम (too many dotted नामs): %s"
+
+#: pg_amcheck.c:1598 pg_amcheck.c:1737
+#, c-format
+msgid "including database \"%s\""
+msgstr "including database \"%s\""
+
+#: pg_amcheck.c:1719
+#, c-format
+msgid "internal error: received unexpected database pattern_id %d"
+msgstr "internal त्रुटि: received unexpected database pattern_id %d"
+
+#: pg_amcheck.c:1721
+#, c-format
+msgid "no connectable databases to check matching \"%s\""
+msgstr "[REVIEW: untranslated] no connectable databases to check matching \"%s\""
+
+#: pg_amcheck.c:2179
+#, c-format
+msgid "internal error: received unexpected relation pattern_id %d"
+msgstr "[REVIEW: relation] internal त्रुटि: received unexpected relation pattern_id %d"

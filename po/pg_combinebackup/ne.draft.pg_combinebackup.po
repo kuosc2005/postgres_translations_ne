@@ -1,0 +1,937 @@
+# Nepali translation draft for PostgreSQL pg_combinebackup.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_combinebackup\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_combinebackup.po\\n"
+
+#: ../../../src/common/logging.c:279
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:286
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:297
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:304
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/controldata_utils.c:97
+#, c-format
+msgid "could not open file \"%s\" for reading: %m"
+msgstr "गर्न सकिएन open फाइल \"%s\" for reading: %m"
+
+#: ../../common/controldata_utils.c:110 copy_file.c:164 load_manifest.c:161
+#: load_manifest.c:199 pg_combinebackup.c:1410 reconstruct.c:540
+#, c-format
+msgid "could not read file \"%s\": %m"
+msgstr "फाइल \"%s\" पढ्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:119
+#, c-format
+msgid "could not read file \"%s\": read %d of %zu"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %zu"
+
+#: ../../common/controldata_utils.c:132 ../../common/controldata_utils.c:280
+#: backup_label.c:174 copy_file.c:71 pg_combinebackup.c:548
+#: pg_combinebackup.c:1185 reconstruct.c:369 reconstruct.c:740
+#: write_manifest.c:187
+#, c-format
+msgid "could not close file \"%s\": %m"
+msgstr "गर्न सकिएन close फाइल \"%s\": %m"
+
+#: ../../common/controldata_utils.c:168
+msgid "byte ordering mismatch"
+msgstr "[REVIEW: untranslated] byte ordering mismatch"
+
+#: ../../common/controldata_utils.c:170
+#, c-format
+msgid ""
+"possible byte ordering mismatch\n"
+"The byte ordering used to store the pg_control file might not match the one\n"
+"used by this program.  In that case the results below would be incorrect, and\n"
+"the PostgreSQL installation would be incompatible with this data directory."
+msgstr ""
+"[REVIEW: untranslated] possible byte ordering mismatch\n"
+"[REVIEW: sentence] The byte ordering used to store the pg_control फाइल might not match the one\n"
+"[REVIEW: untranslated] used by this program.  In that case the results below would be incorrect, and\n"
+"[REVIEW: untranslated] the PostgreSQL installation would be incompatible with this data directory."
+
+#: ../../common/controldata_utils.c:230 ../../common/file_utils.c:69
+#: ../../common/file_utils.c:370 ../../common/file_utils.c:428
+#: ../../common/file_utils.c:502 backup_label.c:143 copy_file.c:69
+#: copy_file.c:153 copy_file.c:185 copy_file.c:189 copy_file.c:239
+#: copy_file.c:282 load_manifest.c:128 pg_combinebackup.c:533
+#: pg_combinebackup.c:1177 reconstruct.c:523 reconstruct.c:638
+#: write_manifest.c:250
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:249 backup_label.c:160 reconstruct.c:759
+#: write_manifest.c:260
+#, c-format
+msgid "could not write file \"%s\": %m"
+msgstr "फाइल \"%s\" लेख्न सकिएन: %m"
+
+#: ../../common/controldata_utils.c:268 ../../common/file_utils.c:440
+#: ../../common/file_utils.c:510
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/cryptohash.c:261 ../../common/cryptohash_openssl.c:356
+#: ../../common/jsonapi.c:2407 ../../common/parse_manifest.c:157
+#: ../../common/parse_manifest.c:852
+#, c-format
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: ../../common/cryptohash.c:266 ../../common/cryptohash.c:272
+#: ../../common/cryptohash_openssl.c:368 ../../common/cryptohash_openssl.c:376
+msgid "success"
+msgstr "success"
+
+#: ../../common/cryptohash.c:268 ../../common/cryptohash_openssl.c:370
+msgid "destination buffer too small"
+msgstr "[REVIEW: buffer; untranslated] destination buffer too small"
+
+#: ../../common/cryptohash_openssl.c:372
+msgid "OpenSSL failure"
+msgstr "OpenSSL failure"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/file_utils.c:75
+#, c-format
+msgid "could not synchronize file system for file \"%s\": %m"
+msgstr "गर्न सकिएन synchronize फाइल system for फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:123 ../../common/file_utils.c:588
+#: backup_label.c:187 load_manifest.c:133 pg_combinebackup.c:685
+#: pg_combinebackup.c:1141 pg_combinebackup.c:1393 reconstruct.c:204
+#: reconstruct.c:421
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:133 ../../common/file_utils.c:243
+#: ../../fe_utils/option_utils.c:99
+#, c-format
+msgid "this build does not support sync method \"%s\""
+msgstr "[REVIEW: untranslated] this build does not support sync method \"%s\""
+
+#: ../../common/file_utils.c:156 ../../common/file_utils.c:304
+#: pg_combinebackup.c:943 pg_combinebackup.c:1266
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: ../../common/file_utils.c:174 ../../common/file_utils.c:338
+#, c-format
+msgid "could not read directory \"%s\": %m"
+msgstr "गर्न सकिएन read directory \"%s\": %m"
+
+#: ../../common/file_utils.c:520
+#, c-format
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम फाइल \"%s\" to \"%s\": %m"
+
+#: ../../common/jsonapi.c:2432
+msgid "Recursive descent parser cannot use incremental lexer."
+msgstr "Recursive descent parser गर्न सकिँदैन use incremental lexer."
+
+#: ../../common/jsonapi.c:2434
+msgid "Incremental parser requires incremental lexer."
+msgstr "[REVIEW: untranslated] Incremental parser requires incremental lexer."
+
+#: ../../common/jsonapi.c:2436
+msgid "JSON nested too deep, maximum permitted depth is 6400."
+msgstr "[REVIEW: untranslated] JSON nested too deep, maximum permitted depth is 6400."
+
+#: ../../common/jsonapi.c:2438
+#, c-format
+msgid "Escape sequence \"\\%.*s\" is invalid."
+msgstr "Escape sequence \"\\%.*s\" is अमान्य."
+
+#: ../../common/jsonapi.c:2442
+#, c-format
+msgid "Character with value 0x%02x must be escaped."
+msgstr "[REVIEW: untranslated] Character with value 0x%02x must be escaped."
+
+#: ../../common/jsonapi.c:2446
+#, c-format
+msgid "Expected end of input, but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected end of input, but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2449
+#, c-format
+msgid "Expected array element or \"]\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected array element or \"]\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2452
+#, c-format
+msgid "Expected \",\" or \"]\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected \",\" or \"]\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2455
+#, c-format
+msgid "Expected \":\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected \":\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2458
+#, c-format
+msgid "Expected JSON value, but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected JSON value, but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2461
+msgid "The input string ended unexpectedly."
+msgstr "[REVIEW: untranslated] The input string ended unexpectedly."
+
+#: ../../common/jsonapi.c:2463
+#, c-format
+msgid "Expected string or \"}\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected string or \"}\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2466
+#, c-format
+msgid "Expected \",\" or \"}\", but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected \",\" or \"}\", but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2469
+#, c-format
+msgid "Expected string, but found \"%.*s\"."
+msgstr "[REVIEW: untranslated] Expected string, but found \"%.*s\"."
+
+#: ../../common/jsonapi.c:2472
+#, c-format
+msgid "Token \"%.*s\" is invalid."
+msgstr "Token \"%.*s\" is अमान्य."
+
+#: ../../common/jsonapi.c:2478
+msgid "\\u0000 cannot be converted to text."
+msgstr "\\u0000 गर्न सकिँदैन be converted to text."
+
+#: ../../common/jsonapi.c:2480
+msgid "\"\\u\" must be followed by four hexadecimal digits."
+msgstr "[REVIEW: untranslated] \"\\u\" must be followed by four hexadecimal digits."
+
+#: ../../common/jsonapi.c:2483
+msgid "Unicode escape values cannot be used for code point values above 007F when the encoding is not UTF8."
+msgstr "[REVIEW: encoding; sentence] Unicode escape values गर्न सकिँदैन be used for code point values above 007F when the encoding is not UTF8."
+
+#: ../../common/jsonapi.c:2492
+#, c-format
+msgid "Unicode escape value could not be translated to the server's encoding %s."
+msgstr "[REVIEW: encoding; sentence] Unicode escape value गर्न सकिएन be translated to the server's encoding %s."
+
+#: ../../common/jsonapi.c:2499
+msgid "Unicode high surrogate must not follow a high surrogate."
+msgstr "[REVIEW: untranslated] Unicode high surrogate must not follow a high surrogate."
+
+#: ../../common/jsonapi.c:2501
+msgid "Unicode low surrogate must follow a high surrogate."
+msgstr "[REVIEW: untranslated] Unicode low surrogate must follow a high surrogate."
+
+#: ../../common/jsonapi.c:2523
+msgid "out of memory while constructing error description"
+msgstr "out of memory while constructing त्रुटि description"
+
+#: ../../common/parse_manifest.c:159 ../../common/parse_manifest.c:854
+#, c-format
+msgid "could not initialize checksum of manifest"
+msgstr "[REVIEW: manifest] गर्न सकिएन initialize checksum of manifest"
+
+#: ../../common/parse_manifest.c:203 ../../common/parse_manifest.c:260
+msgid "manifest ended unexpectedly"
+msgstr "[REVIEW: manifest; untranslated] manifest ended unexpectedly"
+
+#: ../../common/parse_manifest.c:209 ../../common/parse_manifest.c:861
+#, c-format
+msgid "could not update checksum of manifest"
+msgstr "[REVIEW: manifest] गर्न सकिएन update checksum of manifest"
+
+#: ../../common/parse_manifest.c:301
+msgid "unexpected object start"
+msgstr "[REVIEW: untranslated] unexpected object start"
+
+#: ../../common/parse_manifest.c:336
+msgid "unexpected object end"
+msgstr "[REVIEW: untranslated] unexpected object end"
+
+#: ../../common/parse_manifest.c:365
+msgid "unexpected array start"
+msgstr "[REVIEW: untranslated] unexpected array start"
+
+#: ../../common/parse_manifest.c:390
+msgid "unexpected array end"
+msgstr "[REVIEW: untranslated] unexpected array end"
+
+#: ../../common/parse_manifest.c:417
+msgid "expected version indicator"
+msgstr "[REVIEW: untranslated] expected version indicator"
+
+#: ../../common/parse_manifest.c:453
+msgid "unrecognized top-level field"
+msgstr "[REVIEW: untranslated] unrecognized top-level field"
+
+#: ../../common/parse_manifest.c:472
+msgid "unexpected file field"
+msgstr "unexpected फाइल field"
+
+#: ../../common/parse_manifest.c:486
+msgid "unexpected WAL range field"
+msgstr "[REVIEW: WAL; untranslated] unexpected WAL range field"
+
+#: ../../common/parse_manifest.c:492
+msgid "unexpected object field"
+msgstr "[REVIEW: untranslated] unexpected object field"
+
+#: ../../common/parse_manifest.c:582
+msgid "unexpected scalar"
+msgstr "unexpected scalar"
+
+#: ../../common/parse_manifest.c:608
+msgid "manifest version not an integer"
+msgstr "[REVIEW: manifest; untranslated] manifest version not an integer"
+
+#: ../../common/parse_manifest.c:612
+msgid "unexpected manifest version"
+msgstr "[REVIEW: manifest; untranslated] unexpected manifest version"
+
+#: ../../common/parse_manifest.c:636
+msgid "system identifier in manifest not an integer"
+msgstr "[REVIEW: manifest; untranslated] system identifier in manifest not an integer"
+
+#: ../../common/parse_manifest.c:661
+msgid "missing path name"
+msgstr "हराइरहेको path नाम"
+
+#: ../../common/parse_manifest.c:664
+msgid "both path name and encoded path name"
+msgstr "both path नाम and encoded path नाम"
+
+#: ../../common/parse_manifest.c:666
+msgid "missing size"
+msgstr "हराइरहेको size"
+
+#: ../../common/parse_manifest.c:669
+msgid "checksum without algorithm"
+msgstr "[REVIEW: untranslated] checksum without algorithm"
+
+#: ../../common/parse_manifest.c:683
+msgid "could not decode file name"
+msgstr "गर्न सकिएन decode फाइल नाम"
+
+#: ../../common/parse_manifest.c:693
+msgid "file size is not an integer"
+msgstr "फाइल size is not an integer"
+
+#: ../../common/parse_manifest.c:699 pg_combinebackup.c:204
+#, c-format
+msgid "unrecognized checksum algorithm: \"%s\""
+msgstr "[REVIEW: untranslated] unrecognized checksum algorithm: \"%s\""
+
+#: ../../common/parse_manifest.c:718
+#, c-format
+msgid "invalid checksum for file \"%s\": \"%s\""
+msgstr "अमान्य checksum for फाइल \"%s\": \"%s\""
+
+#: ../../common/parse_manifest.c:761
+msgid "missing timeline"
+msgstr "[REVIEW: timeline] हराइरहेको timeलाइन"
+
+#: ../../common/parse_manifest.c:763
+msgid "missing start LSN"
+msgstr "[REVIEW: LSN] हराइरहेको start LSN"
+
+#: ../../common/parse_manifest.c:765
+msgid "missing end LSN"
+msgstr "[REVIEW: LSN] हराइरहेको end LSN"
+
+#: ../../common/parse_manifest.c:771
+msgid "timeline is not an integer"
+msgstr "[REVIEW: timeline] timeलाइन is not an integer"
+
+#: ../../common/parse_manifest.c:774
+msgid "could not parse start LSN"
+msgstr "[REVIEW: LSN] गर्न सकिएन parse start LSN"
+
+#: ../../common/parse_manifest.c:777
+msgid "could not parse end LSN"
+msgstr "[REVIEW: LSN] गर्न सकिएन parse end LSN"
+
+#: ../../common/parse_manifest.c:842
+msgid "expected at least 2 lines"
+msgstr "expected at least 2 लाइनs"
+
+#: ../../common/parse_manifest.c:845
+msgid "last line not newline-terminated"
+msgstr "last लाइन not newलाइन-terminated"
+
+#: ../../common/parse_manifest.c:864
+#, c-format
+msgid "could not finalize checksum of manifest"
+msgstr "[REVIEW: manifest] गर्न सकिएन finalize checksum of manifest"
+
+#: ../../common/parse_manifest.c:868
+#, c-format
+msgid "manifest has no checksum"
+msgstr "[REVIEW: manifest; untranslated] manifest has no checksum"
+
+#: ../../common/parse_manifest.c:872
+#, c-format
+msgid "invalid manifest checksum: \"%s\""
+msgstr "[REVIEW: manifest] अमान्य manifest checksum: \"%s\""
+
+#: ../../common/parse_manifest.c:876
+#, c-format
+msgid "manifest checksum mismatch"
+msgstr "[REVIEW: manifest; untranslated] manifest checksum mismatch"
+
+#: ../../common/parse_manifest.c:891
+#, c-format
+msgid "could not parse backup manifest: %s"
+msgstr "[REVIEW: manifest, backup] गर्न सकिएन parse backup manifest: %s"
+
+#: ../../fe_utils/option_utils.c:69
+#, c-format
+msgid "invalid value \"%s\" for option %s"
+msgstr "अमान्य value \"%s\" for option %s"
+
+#: ../../fe_utils/option_utils.c:76
+#, c-format
+msgid "%s must be in range %d..%d"
+msgstr "[REVIEW: untranslated] %s must be in range %d..%d"
+
+#: ../../fe_utils/option_utils.c:106
+#, c-format
+msgid "unrecognized sync method: %s"
+msgstr "[REVIEW: untranslated] unrecognized sync method: %s"
+
+#: backup_label.c:66 backup_label.c:85 backup_label.c:95
+#, c-format
+msgid "%s: could not parse %s"
+msgstr "%s: गर्न सकिएन parse %s"
+
+#: backup_label.c:69 backup_label.c:88
+#, c-format
+msgid "%s: improper terminator for %s"
+msgstr "[REVIEW: untranslated] %s: improper terminator for %s"
+
+#: backup_label.c:76
+#, c-format
+msgid "%s: could not parse TLI for %s"
+msgstr "%s: गर्न सकिएन parse TLI for %s"
+
+#: backup_label.c:79 backup_label.c:98
+#, c-format
+msgid "%s: invalid TLI"
+msgstr "%s: अमान्य TLI"
+
+#: backup_label.c:106 backup_label.c:108
+#, c-format
+msgid "%s: could not find %s"
+msgstr "%s: गर्न सकिएन find %s"
+
+#: backup_label.c:110 backup_label.c:113
+#, c-format
+msgid "%s: %s requires %s"
+msgstr "%s: %s requires %s"
+
+#: backup_label.c:162 reconstruct.c:761 write_manifest.c:262
+#, c-format
+msgid "could not write file \"%s\": wrote %d of %d"
+msgstr "फाइल \"%s\" लेख्न सकिएन: wrote %d of %d"
+
+#: backup_label.c:166 copy_file.c:160 copy_file.c:207 reconstruct.c:721
+#: reconstruct.c:767 write_manifest.c:270
+#, c-format
+msgid "could not update checksum of file \"%s\""
+msgstr "गर्न सकिएन update checksum of फाइल \"%s\""
+
+#: copy_file.c:200
+#, c-format
+msgid "could not write to file \"%s\": %m"
+msgstr "गर्न सकिएन write to फाइल \"%s\": %m"
+
+#: copy_file.c:202
+#, c-format
+msgid "could not write to file \"%s\", offset %u: wrote %d of %d"
+msgstr "गर्न सकिएन write to फाइल \"%s\", offset %u: wrote %d of %d"
+
+#: copy_file.c:213 reconstruct.c:784
+#, c-format
+msgid "could not read from file \"%s\": %m"
+msgstr "गर्न सकिएन read from फाइल \"%s\": %m"
+
+#: copy_file.c:232
+#, c-format
+msgid "error while cloning file \"%s\" to \"%s\": %m"
+msgstr "त्रुटि while cloning फाइल \"%s\" to \"%s\": %m"
+
+#: copy_file.c:243 copy_file.c:286
+#, c-format
+msgid "could not create file \"%s\": %m"
+msgstr "फाइल \"%s\" बनाउन सकिएन: %m"
+
+#: copy_file.c:251
+#, c-format
+msgid "error while cloning file \"%s\" to \"%s\": %s"
+msgstr "त्रुटि while cloning फाइल \"%s\" to \"%s\": %s"
+
+#: copy_file.c:259 pg_combinebackup.c:256
+#, c-format
+msgid "file cloning not supported on this platform"
+msgstr "फाइल cloning not supported on this platform"
+
+#: copy_file.c:292 reconstruct.c:704
+#, c-format
+msgid "error while copying file range from \"%s\" to \"%s\": %m"
+msgstr "त्रुटि while copying फाइल range from \"%s\" to \"%s\": %m"
+
+#: copy_file.c:299 pg_combinebackup.c:269 reconstruct.c:724
+#, c-format
+msgid "copy_file_range not supported on this platform"
+msgstr "copy_फाइल_range not supported on this platform"
+
+#: copy_file.c:314
+#, c-format
+msgid "could not copy file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन copy फाइल \"%s\" to \"%s\": %m"
+
+#: copy_file.c:333
+#, c-format
+msgid "could not create link from \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन create link from \"%s\" to \"%s\": %m"
+
+#: load_manifest.c:125
+#, c-format
+msgid "file \"%s\" does not exist"
+msgstr "फाइल \"%s\" अवस्थित छैन"
+
+#: load_manifest.c:163
+#, c-format
+msgid "could not read file \"%s\": read %d of %lld"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %lld"
+
+#: load_manifest.c:201
+#, c-format
+msgid "could not read file \"%s\": read %lld of %lld"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %lld of %lld"
+
+#: load_manifest.c:248
+#, c-format
+msgid "backup manifest version 1 does not support incremental backup"
+msgstr "[REVIEW: manifest, backup; untranslated] backup manifest version 1 does not support incremental backup"
+
+#: load_manifest.c:280
+#, c-format
+msgid "duplicate path name in backup manifest: \"%s\""
+msgstr "[REVIEW: manifest, backup] duplicate path नाम in backup manifest: \"%s\""
+
+#: pg_combinebackup.c:225 pg_combinebackup.c:233
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_combinebackup.c:232
+#, c-format
+msgid "no input directories specified"
+msgstr "[REVIEW: untranslated] no input directories specified"
+
+#: pg_combinebackup.c:238
+#, c-format
+msgid "no output directory specified"
+msgstr "[REVIEW: untranslated] no output directory specified"
+
+#: pg_combinebackup.c:306
+#, c-format
+msgid "%s: manifest system identifier is %<PRIu64>, but control file has %<PRIu64>"
+msgstr "[REVIEW: manifest] %s: manifest system identifier is %<PRIu64>, but control फाइल has %<PRIu64>"
+
+#: pg_combinebackup.c:345
+#, c-format
+msgid "cannot generate a manifest because no manifest is available for the final input backup"
+msgstr "[REVIEW: manifest, backup; sentence] गर्न सकिँदैन generate a manifest because no manifest is available for the final input backup"
+
+#: pg_combinebackup.c:392
+#, c-format
+msgid "could not create symbolic link from \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन create symbolic link from \"%s\" to \"%s\": %m"
+
+#: pg_combinebackup.c:404 pg_combinebackup.c:739 pg_combinebackup.c:937
+#, c-format
+msgid "could not create directory \"%s\": %m"
+msgstr "गर्न सकिएन create directory \"%s\": %m"
+
+#: pg_combinebackup.c:434
+#, c-format
+msgid "--link mode was used; any modifications to the output directory might destructively modify input directories"
+msgstr "[REVIEW: untranslated] --link mode was used; any modifications to the output directory might destructively modify input directories"
+
+#: pg_combinebackup.c:464
+#, c-format
+msgid "directory name too long"
+msgstr "directory नाम too long"
+
+#: pg_combinebackup.c:471
+#, c-format
+msgid "multiple \"=\" signs in tablespace mapping"
+msgstr "[REVIEW: tablespace; untranslated] multiple \"=\" signs in tablespace mapping"
+
+#: pg_combinebackup.c:479
+#, c-format
+msgid "invalid tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\""
+msgstr "[REVIEW: tablespace] अमान्य tablespace mapping format \"%s\", must be \"OLDDIR=NEWDIR\""
+
+#: pg_combinebackup.c:490 pg_combinebackup.c:494
+#, c-format
+msgid "old directory is not an absolute path in tablespace mapping: %s"
+msgstr "[REVIEW: tablespace; untranslated] old directory is not an absolute path in tablespace mapping: %s"
+
+#: pg_combinebackup.c:563
+#, c-format
+msgid "backup at \"%s\" is a full backup, but only the first backup should be a full backup"
+msgstr "[REVIEW: backup; untranslated] backup at \"%s\" is a full backup, but only the first backup should be a full backup"
+
+#: pg_combinebackup.c:566
+#, c-format
+msgid "backup at \"%s\" is an incremental backup, but the first backup should be a full backup"
+msgstr "[REVIEW: backup; untranslated] backup at \"%s\" is an incremental backup, but the first backup should be a full backup"
+
+#: pg_combinebackup.c:569
+#, c-format
+msgid "backup at \"%s\" starts on timeline %u, but expected %u"
+msgstr "[REVIEW: timeline, backup] backup at \"%s\" starts on timeलाइन %u, but expected %u"
+
+#: pg_combinebackup.c:572
+#, c-format
+msgid "backup at \"%s\" starts at LSN %X/%X, but expected %X/%X"
+msgstr "[REVIEW: backup, LSN; untranslated] backup at \"%s\" starts at LSN %X/%X, but expected %X/%X"
+
+#: pg_combinebackup.c:624
+#, c-format
+msgid "%s: CRC is incorrect"
+msgstr "[REVIEW: untranslated] %s: CRC is incorrect"
+
+#: pg_combinebackup.c:628
+#, c-format
+msgid "%s: unexpected control file version"
+msgstr "%s: unexpected control फाइल version"
+
+#: pg_combinebackup.c:635
+#, c-format
+msgid "%s: expected system identifier %<PRIu64>, but found %<PRIu64>"
+msgstr "[REVIEW: untranslated] %s: expected system identifier %<PRIu64>, but found %<PRIu64>"
+
+#: pg_combinebackup.c:666
+#, c-format
+msgid "only some backups have checksums enabled"
+msgstr "[REVIEW: backup; untranslated] only some backups have checksums enabled"
+
+#: pg_combinebackup.c:667
+#, c-format
+msgid "Disable, and optionally reenable, checksums on the output directory to avoid failures."
+msgstr "[REVIEW: OID; untranslated] Disable, and optionally reenable, checksums on the output directory to avoid failures."
+
+#: pg_combinebackup.c:702
+#, c-format
+msgid "removing output directory \"%s\""
+msgstr "[REVIEW: untranslated] removing output directory \"%s\""
+
+#: pg_combinebackup.c:704
+#, c-format
+msgid "failed to remove output directory"
+msgstr "असफल भयो to remove output directory"
+
+#: pg_combinebackup.c:708
+#, c-format
+msgid "removing contents of output directory \"%s\""
+msgstr "[REVIEW: untranslated] removing contents of output directory \"%s\""
+
+#: pg_combinebackup.c:711
+#, c-format
+msgid "failed to remove contents of output directory"
+msgstr "असफल भयो to remove contents of output directory"
+
+#: pg_combinebackup.c:751
+#, c-format
+msgid "directory \"%s\" exists but is not empty"
+msgstr "[REVIEW: untranslated] directory \"%s\" exists but is not empty"
+
+#: pg_combinebackup.c:754
+#, c-format
+msgid "could not access directory \"%s\": %m"
+msgstr "गर्न सकिएन access directory \"%s\": %m"
+
+#: pg_combinebackup.c:768
+#, c-format
+msgid ""
+"%s reconstructs full backups from incrementals.\n"
+"\n"
+msgstr ""
+"[REVIEW: backup; untranslated] %s reconstructs full backups from incrementals.\n"
+"\n"
+
+#: pg_combinebackup.c:769
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_combinebackup.c:770
+#, c-format
+msgid ""
+"  %s [OPTION]... DIRECTORY...\n"
+msgstr ""
+"  %s [OPTION]... DIRECTORY...\n"
+
+#: pg_combinebackup.c:771
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Options:\n"
+
+#: pg_combinebackup.c:772
+#, c-format
+msgid ""
+"  -d, --debug               generate lots of debugging output\n"
+msgstr ""
+"[REVIEW: untranslated]   -d, --debug               generate lots of debugging output\n"
+
+#: pg_combinebackup.c:773
+#, c-format
+msgid ""
+"  -k, --link                link files instead of copying\n"
+msgstr ""
+"  -k, --link                link फाइलs instead of copying\n"
+
+#: pg_combinebackup.c:774
+#, c-format
+msgid ""
+"  -n, --dry-run             do not actually do anything\n"
+msgstr ""
+"[REVIEW: untranslated]   -n, --dry-run             do not actually do anything\n"
+
+#: pg_combinebackup.c:775
+#, c-format
+msgid ""
+"  -N, --no-sync             do not wait for changes to be written safely to disk\n"
+msgstr ""
+"[REVIEW: untranslated]   -N, --no-sync             do not wait for changes to be written safely to disk\n"
+
+#: pg_combinebackup.c:776
+#, c-format
+msgid ""
+"  -o, --output=DIRECTORY    output directory\n"
+msgstr ""
+"[REVIEW: untranslated]   -o, --output=DIRECTORY    output directory\n"
+
+#: pg_combinebackup.c:777
+#, c-format
+msgid ""
+"  -T, --tablespace-mapping=OLDDIR=NEWDIR\n"
+"                            relocate tablespace in OLDDIR to NEWDIR\n"
+msgstr ""
+"[REVIEW: tablespace; untranslated]   -T, --tablespace-mapping=OLDDIR=NEWDIR\n"
+"[REVIEW: tablespace; untranslated]                             relocate tablespace in OLDDIR to NEWDIR\n"
+
+#: pg_combinebackup.c:779
+#, c-format
+msgid ""
+"      --clone               clone (reflink) files instead of copying\n"
+msgstr ""
+"      --clone               clone (reflink) फाइलs instead of copying\n"
+
+#: pg_combinebackup.c:780
+#, c-format
+msgid ""
+"      --copy                copy files (default)\n"
+msgstr ""
+"      --copy                copy फाइलs (default)\n"
+
+#: pg_combinebackup.c:781
+#, c-format
+msgid ""
+"      --copy-file-range     copy using copy_file_range() system call\n"
+msgstr ""
+"      --copy-file-range     copy using copy_फाइल_range() system call\n"
+
+#: pg_combinebackup.c:782
+#, c-format
+msgid ""
+"      --manifest-checksums=SHA{224,256,384,512}|CRC32C|NONE\n"
+"                            use algorithm for manifest checksums\n"
+msgstr ""
+"[REVIEW: manifest; untranslated]       --manifest-checksums=SHA{224,256,384,512}|CRC32C|NONE\n"
+"[REVIEW: manifest; untranslated]                             use algorithm for manifest checksums\n"
+
+#: pg_combinebackup.c:784
+#, c-format
+msgid ""
+"      --no-manifest         suppress generation of backup manifest\n"
+msgstr ""
+"[REVIEW: manifest, backup; untranslated]       --no-manifest         suppress generation of backup manifest\n"
+
+#: pg_combinebackup.c:785
+#, c-format
+msgid ""
+"      --sync-method=METHOD  set method for syncing files to disk\n"
+msgstr ""
+"      --sync-method=METHOD  set method for syncing फाइलs to disk\n"
+
+#: pg_combinebackup.c:786
+#, c-format
+msgid ""
+"  -V, --version             output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version             output version information, then exit\n"
+
+#: pg_combinebackup.c:787
+#, c-format
+msgid ""
+"  -?, --help                show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                show this help, then exit\n"
+
+#: pg_combinebackup.c:789
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_combinebackup.c:790
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_combinebackup.c:1005
+#, c-format
+msgid "skipping symbolic link \"%s\""
+msgstr "[REVIEW: untranslated] skipping symbolic link \"%s\""
+
+#: pg_combinebackup.c:1007
+#, c-format
+msgid "skipping special file \"%s\""
+msgstr "skipping special फाइल \"%s\""
+
+#: pg_combinebackup.c:1083 reconstruct.c:305
+#, c-format
+msgid "manifest file \"%s\" contains no entry for file \"%s\""
+msgstr "[REVIEW: manifest] manifest फाइल \"%s\" contains no entry for फाइल \"%s\""
+
+#: pg_combinebackup.c:1199
+#, c-format
+msgid "%s: server version too old"
+msgstr "[REVIEW: untranslated] %s: server version too old"
+
+#: pg_combinebackup.c:1200
+#, c-format
+msgid "%s: could not parse version number"
+msgstr "%s: गर्न सकिएन parse version number"
+
+#: pg_combinebackup.c:1319
+#, c-format
+msgid "could not read symbolic link \"%s\": %m"
+msgstr "गर्न सकिएन read symbolic link \"%s\": %m"
+
+#: pg_combinebackup.c:1322
+#, c-format
+msgid "target of symbolic link \"%s\" is too long"
+msgstr "[REVIEW: untranslated] target of symbolic link \"%s\" is too long"
+
+#: pg_combinebackup.c:1325
+#, c-format
+msgid "target of symbolic link \"%s\" is relative"
+msgstr "[REVIEW: untranslated] target of symbolic link \"%s\" is relative"
+
+#: pg_combinebackup.c:1347
+#, c-format
+msgid "tablespace at \"%s\" has no tablespace mapping"
+msgstr "[REVIEW: tablespace; untranslated] tablespace at \"%s\" has no tablespace mapping"
+
+#: pg_combinebackup.c:1365
+#, c-format
+msgid "tablespaces with OIDs %u and %u both point at directory \"%s\""
+msgstr "[REVIEW: tablespace, OID; untranslated] tablespaces with OIDs %u and %u both point at directory \"%s\""
+
+#: pg_combinebackup.c:1374
+#, c-format
+msgid "could not close directory \"%s\": %m"
+msgstr "गर्न सकिएन close directory \"%s\": %m"
+
+#: pg_combinebackup.c:1395
+#, c-format
+msgid "file \"%s\" is too large"
+msgstr "फाइल \"%s\" is too large"
+
+#: pg_combinebackup.c:1412
+#, c-format
+msgid "could not read file \"%s\": read %zd of %lld"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %zd of %lld"
+
+#: reconstruct.c:339
+#, c-format
+msgid "full backup contains unexpected incremental file \"%s\""
+msgstr "[REVIEW: backup] full backup contains unexpected incremental फाइल \"%s\""
+
+#: reconstruct.c:423
+#, c-format
+msgid "file \"%s\" is too short: expected %llu, found %llu"
+msgstr "फाइल \"%s\" is too short: expected %llu, found %llu"
+
+#: reconstruct.c:465
+#, c-format
+msgid "file \"%s\" has bad incremental magic number (0x%x, expected 0x%x)"
+msgstr "फाइल \"%s\" has bad incremental magic number (0x%x, expected 0x%x)"
+
+#: reconstruct.c:471
+#, c-format
+msgid "file \"%s\" has block count %u in excess of segment size %u"
+msgstr "[REVIEW: lock] फाइल \"%s\" has block count %u in excess of segment size %u"
+
+#: reconstruct.c:478
+#, c-format
+msgid "file \"%s\" has truncation block length %u in excess of segment size %u"
+msgstr "[REVIEW: lock] फाइल \"%s\" has truncation block length %u in excess of segment size %u"
+
+#: reconstruct.c:542
+#, c-format
+msgid "could not read file \"%s\": read %d of %u"
+msgstr "फाइल \"%s\" पढ्न सकिएन: read %d of %u"
+
+#: reconstruct.c:786
+#, c-format
+msgid "could not read from file \"%s\", offset %llu: read %d of %d"
+msgstr "गर्न सकिएन read from फाइल \"%s\", offset %llu: read %d of %d"

@@ -1,0 +1,213 @@
+# Nepali translation draft for PostgreSQL pg_archivecleanup.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_archivecleanup\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_archivecleanup.po\\n"
+
+#: ../../../src/common/logging.c:279
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:286
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:297
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:304
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: pg_archivecleanup.c:69
+#, c-format
+msgid "archive location \"%s\" does not exist"
+msgstr "[REVIEW: archive] archive location \"%s\" अवस्थित छैन"
+
+#: pg_archivecleanup.c:101
+#, c-format
+msgid "could not open archive location \"%s\": %m"
+msgstr "[REVIEW: archive] गर्न सकिएन open archive location \"%s\": %m"
+
+#: pg_archivecleanup.c:165
+#, c-format
+msgid "could not remove file \"%s\": %m"
+msgstr "गर्न सकिएन remove फाइल \"%s\": %m"
+
+#: pg_archivecleanup.c:170
+#, c-format
+msgid "could not read archive location \"%s\": %m"
+msgstr "[REVIEW: archive] गर्न सकिएन read archive location \"%s\": %m"
+
+#: pg_archivecleanup.c:173
+#, c-format
+msgid "could not close archive location \"%s\": %m"
+msgstr "[REVIEW: archive] गर्न सकिएन close archive location \"%s\": %m"
+
+#: pg_archivecleanup.c:246
+#, c-format
+msgid "invalid file name argument"
+msgstr "अमान्य फाइल नाम argument"
+
+#: pg_archivecleanup.c:247 pg_archivecleanup.c:335 pg_archivecleanup.c:355
+#: pg_archivecleanup.c:367 pg_archivecleanup.c:374
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_archivecleanup.c:260
+#, c-format
+msgid ""
+"%s removes older WAL files from PostgreSQL archives.\n"
+"\n"
+msgstr ""
+"[REVIEW: archive, WAL] %s removes older WAL फाइलs from PostgreSQL archives.\n"
+"\n"
+
+#: pg_archivecleanup.c:261
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_archivecleanup.c:262
+#, c-format
+msgid ""
+"  %s [OPTION]... ARCHIVELOCATION OLDESTKEPTWALFILE\n"
+msgstr ""
+"[REVIEW: archive, WAL; untranslated]   %s [OPTION]... ARCHIVELOCATION OLDESTKEPTWALFILE\n"
+
+#: pg_archivecleanup.c:263
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Options:\n"
+
+#: pg_archivecleanup.c:264
+#, c-format
+msgid ""
+"  -b, --clean-backup-history  clean up files including backup history files\n"
+msgstr ""
+"[REVIEW: backup]   -b, --clean-backup-history  clean up फाइलs including backup history फाइलs\n"
+
+#: pg_archivecleanup.c:265
+#, c-format
+msgid ""
+"  -d, --debug                 generate debug output (verbose mode)\n"
+msgstr ""
+"[REVIEW: untranslated]   -d, --debug                 generate debug output (verbose mode)\n"
+
+#: pg_archivecleanup.c:266
+#, c-format
+msgid ""
+"  -n, --dry-run               dry run, show the names of the files that would be\n"
+"                              removed\n"
+msgstr ""
+"[REVIEW: sentence]   -n, --dry-run               dry run, show the नामs of the फाइलs that would be\n"
+"                              removed\n"
+
+#: pg_archivecleanup.c:268
+#, c-format
+msgid ""
+"  -V, --version               output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version               output version information, then exit\n"
+
+#: pg_archivecleanup.c:269
+#, c-format
+msgid ""
+"  -x, --strip-extension=EXT   strip this extension before identifying files for\n"
+"                              clean up\n"
+msgstr ""
+"[REVIEW: extension]   -x, --strip-extension=EXT   strip this extension before identifying फाइलs for\n"
+"                              clean up\n"
+
+#: pg_archivecleanup.c:271
+#, c-format
+msgid ""
+"  -?, --help                  show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                  show this help, then exit\n"
+
+#: pg_archivecleanup.c:272
+#, c-format
+msgid ""
+"\n"
+"For use as \"archive_cleanup_command\" in postgresql.conf:\n"
+"  archive_cleanup_command = 'pg_archivecleanup [OPTION]... ARCHIVELOCATION %%r'\n"
+"e.g.\n"
+"  archive_cleanup_command = 'pg_archivecleanup /mnt/server/archiverdir %%r'\n"
+msgstr ""
+"\n"
+"[REVIEW: archive; untranslated] For use as \"archive_cleanup_command\" in postgresql.conf:\n"
+"[REVIEW: archive; untranslated]   archive_cleanup_command = 'pg_archivecleanup [OPTION]... ARCHIVELOCATION %%r'\n"
+"e.g.\n"
+"[REVIEW: archive; untranslated]   archive_cleanup_command = 'pg_archivecleanup /mnt/server/archiverdir %%r'\n"
+
+#: pg_archivecleanup.c:277
+#, c-format
+msgid ""
+"\n"
+"Or for use as a standalone archive cleaner:\n"
+"e.g.\n"
+"  pg_archivecleanup /mnt/server/archiverdir 000000010000000000000010.00000020.backup\n"
+msgstr ""
+"\n"
+"[REVIEW: archive; untranslated] Or for use as a standalone archive cleaner:\n"
+"e.g.\n"
+"[REVIEW: archive, backup; untranslated]   pg_archivecleanup /mnt/server/archiverdir 000000010000000000000010.00000020.backup\n"
+
+#: pg_archivecleanup.c:281
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_archivecleanup.c:282
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_archivecleanup.c:354
+#, c-format
+msgid "must specify archive location"
+msgstr "[REVIEW: archive; untranslated] must specify archive location"
+
+#: pg_archivecleanup.c:366
+#, c-format
+msgid "must specify oldest kept WAL file"
+msgstr "[REVIEW: WAL] must specify oldest kept WAL फाइल"
+
+#: pg_archivecleanup.c:373
+#, c-format
+msgid "too many command-line arguments"
+msgstr "too many command-लाइन arguments"

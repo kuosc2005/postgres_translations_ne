@@ -1,0 +1,189 @@
+# Nepali translation draft for PostgreSQL pg_walsummary.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_walsummary\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_walsummary.po\\n"
+
+#: ../../../src/common/logging.c:276
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:283
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:294
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:301
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/file_utils.c:70 ../../common/file_utils.c:347
+#: ../../common/file_utils.c:406 ../../common/file_utils.c:480
+#: pg_walsummary.c:109
+#, c-format
+msgid "could not open file \"%s\": %m"
+msgstr "फाइल \"%s\" खोल्न सकिएन: %m"
+
+#: ../../common/file_utils.c:76
+#, c-format
+msgid "could not synchronize file system for file \"%s\": %m"
+msgstr "गर्न सकिएन synchronize फाइल system for फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:120 ../../common/file_utils.c:566
+#, c-format
+msgid "could not stat file \"%s\": %m"
+msgstr "गर्न सकिएन stat फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:130 ../../common/file_utils.c:227
+#: ../../fe_utils/option_utils.c:99
+#, c-format
+msgid "this build does not support sync method \"%s\""
+msgstr "[REVIEW: untranslated] this build does not support sync method \"%s\""
+
+#: ../../common/file_utils.c:151 ../../common/file_utils.c:281
+#, c-format
+msgid "could not open directory \"%s\": %m"
+msgstr "गर्न सकिएन open directory \"%s\": %m"
+
+#: ../../common/file_utils.c:169 ../../common/file_utils.c:315
+#, c-format
+msgid "could not read directory \"%s\": %m"
+msgstr "गर्न सकिएन read directory \"%s\": %m"
+
+#: ../../common/file_utils.c:418 ../../common/file_utils.c:488
+#, c-format
+msgid "could not fsync file \"%s\": %m"
+msgstr "गर्न सकिएन fsync फाइल \"%s\": %m"
+
+#: ../../common/file_utils.c:498
+#, c-format
+msgid "could not rename file \"%s\" to \"%s\": %m"
+msgstr "गर्न सकिएन reनाम फाइल \"%s\" to \"%s\": %m"
+
+#: ../../fe_utils/option_utils.c:69
+#, c-format
+msgid "invalid value \"%s\" for option %s"
+msgstr "अमान्य value \"%s\" for option %s"
+
+#: ../../fe_utils/option_utils.c:76
+#, c-format
+msgid "%s must be in range %d..%d"
+msgstr "[REVIEW: untranslated] %s must be in range %d..%d"
+
+#: ../../fe_utils/option_utils.c:106
+#, c-format
+msgid "unrecognized sync method: %s"
+msgstr "[REVIEW: untranslated] unrecognized sync method: %s"
+
+#: pg_walsummary.c:87 pg_walsummary.c:95
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_walsummary.c:94
+#, c-format
+msgid "no input files specified"
+msgstr "no input फाइलs specified"
+
+#: pg_walsummary.c:252
+#, c-format
+msgid "could not read file \"%s\": %m"
+msgstr "फाइल \"%s\" पढ्न सकिएन: %m"
+
+#: pg_walsummary.c:267
+#, c-format
+msgid ""
+"%s prints the contents of a WAL summary file.\n"
+"\n"
+msgstr ""
+"[REVIEW: WAL] %s prints the contents of a WAL summary फाइल.\n"
+"\n"
+
+#: pg_walsummary.c:268
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_walsummary.c:269
+#, c-format
+msgid ""
+"  %s [OPTION]... FILE...\n"
+msgstr ""
+"  %s [OPTION]... FILE...\n"
+
+#: pg_walsummary.c:270
+#, c-format
+msgid ""
+"\n"
+"Options:\n"
+msgstr ""
+"\n"
+"Options:\n"
+
+#: pg_walsummary.c:271
+#, c-format
+msgid ""
+"  -i, --individual          list block numbers individually, not as ranges\n"
+msgstr ""
+"[REVIEW: lock; untranslated]   -i, --individual          list block numbers individually, not as ranges\n"
+
+#: pg_walsummary.c:272
+#, c-format
+msgid ""
+"  -q, --quiet               don't print anything, just parse the files\n"
+msgstr ""
+"  -q, --quiet               don't print anything, just parse the फाइलs\n"
+
+#: pg_walsummary.c:273
+#, c-format
+msgid ""
+"  -V, --version             output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version             output version information, then exit\n"
+
+#: pg_walsummary.c:274
+#, c-format
+msgid ""
+"  -?, --help                show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help                show this help, then exit\n"
+
+#: pg_walsummary.c:276
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_walsummary.c:277
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"

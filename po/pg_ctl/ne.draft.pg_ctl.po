@@ -1,0 +1,1091 @@
+# Nepali translation draft for PostgreSQL pg_ctl.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_ctl\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_ctl.po\\n"
+
+#: ../../common/controldata_utils.c:168
+msgid "byte ordering mismatch"
+msgstr "[REVIEW: untranslated] byte ordering mismatch"
+
+#: ../../common/exec.c:174
+#, c-format
+msgid "invalid binary \"%s\": %m"
+msgstr "अमान्य binary \"%s\": %m"
+
+#: ../../common/exec.c:217
+#, c-format
+msgid "could not read binary \"%s\": %m"
+msgstr "गर्न सकिएन read binary \"%s\": %m"
+
+#: ../../common/exec.c:225
+#, c-format
+msgid "could not find a \"%s\" to execute"
+msgstr "गर्न सकिएन find a \"%s\" to execute"
+
+#: ../../common/exec.c:252
+#, c-format
+msgid "could not resolve path \"%s\" to absolute form: %m"
+msgstr "गर्न सकिएन resolve path \"%s\" to absolute form: %m"
+
+#: ../../common/exec.c:363
+#, c-format
+msgid "could not execute command \"%s\": %m"
+msgstr "गर्न सकिएन execute command \"%s\": %m"
+
+#: ../../common/exec.c:375
+#, c-format
+msgid "could not read from command \"%s\": %m"
+msgstr "गर्न सकिएन read from command \"%s\": %m"
+
+#: ../../common/exec.c:378
+#, c-format
+msgid "no data was returned by command \"%s\""
+msgstr "[REVIEW: untranslated] no data was returned by command \"%s\""
+
+#: ../../common/exec.c:405
+#, c-format
+msgid "%s() failed: %m"
+msgstr "%s() असफल भयो: %m"
+
+#: ../../common/exec.c:543 ../../common/exec.c:588 ../../common/exec.c:680
+msgid "out of memory"
+msgstr "[REVIEW: untranslated] out of memory"
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#: ../../port/path.c:831 ../../port/path.c:868 ../../port/path.c:885
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#: ../../common/wait_error.c:55
+#, c-format
+msgid "command not executable"
+msgstr "[REVIEW: untranslated] command not executable"
+
+#: ../../common/wait_error.c:59
+#, c-format
+msgid "command not found"
+msgstr "command फेला परेन"
+
+#: ../../common/wait_error.c:64
+#, c-format
+msgid "child process exited with exit code %d"
+msgstr "[REVIEW: untranslated] child process exited with exit code %d"
+
+#: ../../common/wait_error.c:72
+#, c-format
+msgid "child process was terminated by exception 0x%X"
+msgstr "[REVIEW: untranslated] child process was terminated by exception 0x%X"
+
+#: ../../common/wait_error.c:76
+#, c-format
+msgid "child process was terminated by signal %d: %s"
+msgstr "[REVIEW: untranslated] child process was terminated by signal %d: %s"
+
+#: ../../common/wait_error.c:82
+#, c-format
+msgid "child process exited with unrecognized status %d"
+msgstr "[REVIEW: untranslated] child process exited with unrecognized status %d"
+
+#: ../../port/path.c:853
+#, c-format
+msgid ""
+"could not get current working directory: %m\n"
+msgstr ""
+"गर्न सकिएन get current working directory: %m\n"
+
+#: pg_ctl.c:255
+#, c-format
+msgid ""
+"%s: directory \"%s\" does not exist\n"
+msgstr ""
+"%s: directory \"%s\" अवस्थित छैन\n"
+
+#: pg_ctl.c:258
+#, c-format
+msgid ""
+"%s: could not access directory \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन access directory \"%s\": %m\n"
+
+#: pg_ctl.c:271
+#, c-format
+msgid ""
+"%s: directory \"%s\" is not a database cluster directory\n"
+msgstr ""
+"[REVIEW: untranslated] %s: directory \"%s\" is not a database cluster directory\n"
+
+#: pg_ctl.c:284
+#, c-format
+msgid ""
+"%s: could not open PID file \"%s\": %m\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिएन open PID फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:293
+#, c-format
+msgid ""
+"%s: the PID file \"%s\" is empty\n"
+msgstr ""
+"[REVIEW: PID] %s: the PID फाइल \"%s\" is empty\n"
+
+#: pg_ctl.c:296
+#, c-format
+msgid ""
+"%s: invalid data in PID file \"%s\"\n"
+msgstr ""
+"[REVIEW: PID] %s: अमान्य data in PID फाइल \"%s\"\n"
+
+#: pg_ctl.c:458 pg_ctl.c:500
+#, c-format
+msgid ""
+"%s: could not start server: %m\n"
+msgstr ""
+"%s: गर्न सकिएन start server: %m\n"
+
+#: pg_ctl.c:478
+#, c-format
+msgid ""
+"%s: could not start server due to setsid() failure: %m\n"
+msgstr ""
+"%s: गर्न सकिएन start server due to setsid() failure: %m\n"
+
+#: pg_ctl.c:548
+#, c-format
+msgid ""
+"%s: could not open log file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन open log फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:565
+#, c-format
+msgid ""
+"%s: could not start server: error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन start server: त्रुटि code %lu\n"
+
+#: pg_ctl.c:789
+#, c-format
+msgid ""
+"%s: cannot set core file size limit; disallowed by hard limit\n"
+msgstr ""
+"%s: गर्न सकिँदैन set core फाइल size limit; disallowed by hard limit\n"
+
+#: pg_ctl.c:815
+#, c-format
+msgid ""
+"%s: could not read file \"%s\"\n"
+msgstr ""
+"%s: गर्न सकिएन read फाइल \"%s\"\n"
+
+#: pg_ctl.c:820
+#, c-format
+msgid ""
+"%s: option file \"%s\" must have exactly one line\n"
+msgstr ""
+"%s: option फाइल \"%s\" must have exactly one लाइन\n"
+
+#: pg_ctl.c:862 pg_ctl.c:1050 pg_ctl.c:1117
+#, c-format
+msgid ""
+"%s: could not send stop signal (PID: %d): %m\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिएन send stop signal (PID: %d): %m\n"
+
+#: pg_ctl.c:890
+#, c-format
+msgid ""
+"program \"%s\" is needed by %s but was not found in the same directory as \"%s\"\n"
+msgstr ""
+"[REVIEW: sentence] program \"%s\" is needed by %s but was फेला परेन in the same directory as \"%s\"\n"
+
+#: pg_ctl.c:893
+#, c-format
+msgid ""
+"program \"%s\" was found by \"%s\" but was not the same version as %s\n"
+msgstr ""
+"[REVIEW: untranslated] program \"%s\" was found by \"%s\" but was not the same version as %s\n"
+
+#: pg_ctl.c:925
+#, c-format
+msgid ""
+"%s: database system initialization failed\n"
+msgstr ""
+"%s: database system initialization असफल भयो\n"
+
+#: pg_ctl.c:940
+#, c-format
+msgid ""
+"%s: another server might be running; trying to start server anyway\n"
+msgstr ""
+"[REVIEW: untranslated] %s: another server might be running; trying to start server anyway\n"
+
+#: pg_ctl.c:988
+msgid "waiting for server to start..."
+msgstr "[REVIEW: untranslated] waiting for server to start..."
+
+#: pg_ctl.c:993 pg_ctl.c:1003 pg_ctl.c:1073 pg_ctl.c:1135 pg_ctl.c:1247
+msgid ""
+" done\n"
+msgstr ""
+" done\n"
+
+#: pg_ctl.c:994
+msgid ""
+"server started\n"
+msgstr ""
+"server started\n"
+
+#: pg_ctl.c:997 pg_ctl.c:1007 pg_ctl.c:1252
+msgid ""
+" stopped waiting\n"
+msgstr ""
+" stopped waiting\n"
+
+#: pg_ctl.c:998
+#, c-format
+msgid ""
+"%s: server did not start in time\n"
+msgstr ""
+"[REVIEW: untranslated] %s: server did not start in time\n"
+
+#: pg_ctl.c:1004
+msgid ""
+"server shut down because of recovery target settings\n"
+msgstr ""
+"[REVIEW: recovery; untranslated] server shut down because of recovery target settings\n"
+
+#: pg_ctl.c:1008
+#, c-format
+msgid ""
+"%s: could not start server\n"
+"Examine the log output.\n"
+msgstr ""
+"%s: गर्न सकिएन start server\n"
+"[REVIEW: untranslated] Examine the log output.\n"
+
+#: pg_ctl.c:1016
+msgid ""
+"server starting\n"
+msgstr ""
+"server starting\n"
+
+#: pg_ctl.c:1035 pg_ctl.c:1093 pg_ctl.c:1156 pg_ctl.c:1195 pg_ctl.c:1276
+#, c-format
+msgid ""
+"%s: PID file \"%s\" does not exist\n"
+msgstr ""
+"[REVIEW: PID] %s: PID फाइल \"%s\" अवस्थित छैन\n"
+
+#: pg_ctl.c:1036 pg_ctl.c:1095 pg_ctl.c:1157 pg_ctl.c:1196 pg_ctl.c:1277
+msgid ""
+"Is server running?\n"
+msgstr ""
+"[REVIEW: untranslated] Is server running?\n"
+
+#: pg_ctl.c:1042
+#, c-format
+msgid ""
+"%s: cannot stop server; single-user server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिँदैन stop server; single-प्रयोगकर्ता server is running (PID: %d)\n"
+
+#: pg_ctl.c:1056
+msgid ""
+"server shutting down\n"
+msgstr ""
+"[REVIEW: untranslated] server shutting down\n"
+
+#: pg_ctl.c:1061 pg_ctl.c:1121
+msgid "waiting for server to shut down..."
+msgstr "[REVIEW: untranslated] waiting for server to shut down..."
+
+#: pg_ctl.c:1065 pg_ctl.c:1126
+msgid ""
+" failed\n"
+msgstr ""
+" असफल भयो\n"
+
+#: pg_ctl.c:1067 pg_ctl.c:1128
+#, c-format
+msgid ""
+"%s: server does not shut down\n"
+msgstr ""
+"[REVIEW: untranslated] %s: server does not shut down\n"
+
+#: pg_ctl.c:1069 pg_ctl.c:1130
+msgid ""
+"HINT: The \"-m fast\" option immediately disconnects sessions rather than\n"
+"waiting for session-initiated disconnection.\n"
+msgstr ""
+"[REVIEW: untranslated] HINT: The \"-m fast\" option immediately disconnects sessions rather than\n"
+"[REVIEW: untranslated] waiting for session-initiated disconnection.\n"
+
+#: pg_ctl.c:1075 pg_ctl.c:1136
+msgid ""
+"server stopped\n"
+msgstr ""
+"server stopped\n"
+
+#: pg_ctl.c:1096
+msgid ""
+"trying to start server anyway\n"
+msgstr ""
+"[REVIEW: untranslated] trying to start server anyway\n"
+
+#: pg_ctl.c:1105
+#, c-format
+msgid ""
+"%s: cannot restart server; single-user server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिँदैन restart server; single-प्रयोगकर्ता server is running (PID: %d)\n"
+
+#: pg_ctl.c:1108 pg_ctl.c:1166
+msgid ""
+"Please terminate the single-user server and try again.\n"
+msgstr ""
+"Please terminate the single-प्रयोगकर्ता server and try again.\n"
+
+#: pg_ctl.c:1140
+#, c-format
+msgid ""
+"%s: old server process (PID: %d) seems to be gone\n"
+msgstr ""
+"[REVIEW: PID; untranslated] %s: old server process (PID: %d) seems to be gone\n"
+
+#: pg_ctl.c:1142
+msgid ""
+"starting server anyway\n"
+msgstr ""
+"[REVIEW: untranslated] starting server anyway\n"
+
+#: pg_ctl.c:1163
+#, c-format
+msgid ""
+"%s: cannot reload server; single-user server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिँदैन reload server; single-प्रयोगकर्ता server is running (PID: %d)\n"
+
+#: pg_ctl.c:1172
+#, c-format
+msgid ""
+"%s: could not send reload signal (PID: %d): %m\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिएन send reload signal (PID: %d): %m\n"
+
+#: pg_ctl.c:1177
+msgid ""
+"server signaled\n"
+msgstr ""
+"server signaled\n"
+
+#: pg_ctl.c:1202
+#, c-format
+msgid ""
+"%s: cannot promote server; single-user server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिँदैन promote server; single-प्रयोगकर्ता server is running (PID: %d)\n"
+
+#: pg_ctl.c:1210
+#, c-format
+msgid ""
+"%s: cannot promote server; server is not in standby mode\n"
+msgstr ""
+"[REVIEW: standby] %s: गर्न सकिँदैन promote server; server is not in standby mode\n"
+
+#: pg_ctl.c:1220
+#, c-format
+msgid ""
+"%s: could not create promote signal file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन create promote signal फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:1226
+#, c-format
+msgid ""
+"%s: could not write promote signal file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन write promote signal फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:1234
+#, c-format
+msgid ""
+"%s: could not send promote signal (PID: %d): %m\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिएन send promote signal (PID: %d): %m\n"
+
+#: pg_ctl.c:1237
+#, c-format
+msgid ""
+"%s: could not remove promote signal file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन remove promote signal फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:1244
+msgid "waiting for server to promote..."
+msgstr "[REVIEW: untranslated] waiting for server to promote..."
+
+#: pg_ctl.c:1248
+msgid ""
+"server promoted\n"
+msgstr ""
+"server promoted\n"
+
+#: pg_ctl.c:1253
+#, c-format
+msgid ""
+"%s: server did not promote in time\n"
+msgstr ""
+"[REVIEW: untranslated] %s: server did not promote in time\n"
+
+#: pg_ctl.c:1259
+msgid ""
+"server promoting\n"
+msgstr ""
+"server promoting\n"
+
+#: pg_ctl.c:1283
+#, c-format
+msgid ""
+"%s: cannot rotate log file; single-user server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिँदैन rotate log फाइल; single-प्रयोगकर्ता server is running (PID: %d)\n"
+
+#: pg_ctl.c:1293
+#, c-format
+msgid ""
+"%s: could not create log rotation signal file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन create log rotation signal फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:1299
+#, c-format
+msgid ""
+"%s: could not write log rotation signal file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन write log rotation signal फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:1307
+#, c-format
+msgid ""
+"%s: could not send log rotation signal (PID: %d): %m\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिएन send log rotation signal (PID: %d): %m\n"
+
+#: pg_ctl.c:1310
+#, c-format
+msgid ""
+"%s: could not remove log rotation signal file \"%s\": %m\n"
+msgstr ""
+"%s: गर्न सकिएन remove log rotation signal फाइल \"%s\": %m\n"
+
+#: pg_ctl.c:1315
+msgid ""
+"server signaled to rotate log file\n"
+msgstr ""
+"server signaled to rotate log फाइल\n"
+
+#: pg_ctl.c:1362
+#, c-format
+msgid ""
+"%s: single-user server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID] %s: single-प्रयोगकर्ता server is running (PID: %d)\n"
+
+#: pg_ctl.c:1376
+#, c-format
+msgid ""
+"%s: server is running (PID: %d)\n"
+msgstr ""
+"[REVIEW: PID; untranslated] %s: server is running (PID: %d)\n"
+
+#: pg_ctl.c:1392
+#, c-format
+msgid ""
+"%s: no server running\n"
+msgstr ""
+"[REVIEW: untranslated] %s: no server running\n"
+
+#: pg_ctl.c:1409
+#, c-format
+msgid ""
+"%s: could not send signal %d (PID: %d): %m\n"
+msgstr ""
+"[REVIEW: PID] %s: गर्न सकिएन send signal %d (PID: %d): %m\n"
+
+#: pg_ctl.c:1440
+#, c-format
+msgid ""
+"%s: could not find own program executable\n"
+msgstr ""
+"%s: गर्न सकिएन find own program executable\n"
+
+#: pg_ctl.c:1450
+#, c-format
+msgid ""
+"%s: could not find postgres program executable\n"
+msgstr ""
+"%s: गर्न सकिएन find postgres program executable\n"
+
+#: pg_ctl.c:1520 pg_ctl.c:1554
+#, c-format
+msgid ""
+"%s: could not open service manager\n"
+msgstr ""
+"%s: गर्न सकिएन open service manager\n"
+
+#: pg_ctl.c:1526
+#, c-format
+msgid ""
+"%s: service \"%s\" already registered\n"
+msgstr ""
+"[REVIEW: untranslated] %s: service \"%s\" already registered\n"
+
+#: pg_ctl.c:1537
+#, c-format
+msgid ""
+"%s: could not register service \"%s\": error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन register service \"%s\": त्रुटि code %lu\n"
+
+#: pg_ctl.c:1560
+#, c-format
+msgid ""
+"%s: service \"%s\" not registered\n"
+msgstr ""
+"[REVIEW: untranslated] %s: service \"%s\" not registered\n"
+
+#: pg_ctl.c:1567
+#, c-format
+msgid ""
+"%s: could not open service \"%s\": error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन open service \"%s\": त्रुटि code %lu\n"
+
+#: pg_ctl.c:1576
+#, c-format
+msgid ""
+"%s: could not unregister service \"%s\": error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन unregister service \"%s\": त्रुटि code %lu\n"
+
+#: pg_ctl.c:1663
+msgid ""
+"Waiting for server startup...\n"
+msgstr ""
+"[REVIEW: untranslated] Waiting for server startup...\n"
+
+#: pg_ctl.c:1666
+msgid ""
+"Timed out waiting for server startup\n"
+msgstr ""
+"[REVIEW: untranslated] Timed out waiting for server startup\n"
+
+#: pg_ctl.c:1670
+msgid ""
+"Server started and accepting connections\n"
+msgstr ""
+"[REVIEW: untranslated] Server started and accepting connections\n"
+
+#: pg_ctl.c:1725
+#, c-format
+msgid ""
+"%s: could not start service \"%s\": error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन start service \"%s\": त्रुटि code %lu\n"
+
+#: pg_ctl.c:1798
+#, c-format
+msgid ""
+"%s: could not open process token: error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन open process token: त्रुटि code %lu\n"
+
+#: pg_ctl.c:1812
+#, c-format
+msgid ""
+"%s: could not allocate SIDs: error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन allocate SIDs: त्रुटि code %lu\n"
+
+#: pg_ctl.c:1838
+#, c-format
+msgid ""
+"%s: could not create restricted token: error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन create restricted token: त्रुटि code %lu\n"
+
+#: pg_ctl.c:1920
+#, c-format
+msgid ""
+"%s: could not get LUIDs for privileges: error code %lu\n"
+msgstr ""
+"[REVIEW: privilege] %s: गर्न सकिएन get LUIDs for privileges: त्रुटि code %lu\n"
+
+#: pg_ctl.c:1928 pg_ctl.c:1943
+#, c-format
+msgid ""
+"%s: could not get token information: error code %lu\n"
+msgstr ""
+"%s: गर्न सकिएन get token information: त्रुटि code %lu\n"
+
+#: pg_ctl.c:1937
+#, c-format
+msgid ""
+"%s: out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] %s: out of memory\n"
+
+#: pg_ctl.c:1967
+#, c-format
+msgid ""
+"Try \"%s --help\" for more information.\n"
+msgstr ""
+"थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।\n"
+
+#: pg_ctl.c:1975
+#, c-format
+msgid ""
+"%s is a utility to initialize, start, stop, or control a PostgreSQL server.\n"
+"\n"
+msgstr ""
+"[REVIEW: untranslated] %s is a utility to initialize, start, stop, or control a PostgreSQL server.\n"
+"\n"
+
+#: pg_ctl.c:1976
+#, c-format
+msgid ""
+"Usage:\n"
+msgstr ""
+"Usage:\n"
+
+#: pg_ctl.c:1977
+#, c-format
+msgid ""
+"  %s init[db]   [-D DATADIR] [-s] [-o OPTIONS]\n"
+msgstr ""
+"[REVIEW: untranslated]   %s init[db]   [-D DATADIR] [-s] [-o OPTIONS]\n"
+
+#: pg_ctl.c:1978
+#, c-format
+msgid ""
+"  %s start      [-D DATADIR] [-l FILENAME] [-W] [-t SECS] [-s]\n"
+"                    [-o OPTIONS] [-p PATH] [-c]\n"
+msgstr ""
+"[REVIEW: untranslated]   %s start      [-D DATADIR] [-l FILENAME] [-W] [-t SECS] [-s]\n"
+"                    [-o OPTIONS] [-p PATH] [-c]\n"
+
+#: pg_ctl.c:1980
+#, c-format
+msgid ""
+"  %s stop       [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
+msgstr ""
+"[REVIEW: untranslated]   %s stop       [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
+
+#: pg_ctl.c:1981
+#, c-format
+msgid ""
+"  %s restart    [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
+"                    [-o OPTIONS] [-c]\n"
+msgstr ""
+"[REVIEW: untranslated]   %s restart    [-D DATADIR] [-m SHUTDOWN-MODE] [-W] [-t SECS] [-s]\n"
+"                    [-o OPTIONS] [-c]\n"
+
+#: pg_ctl.c:1983
+#, c-format
+msgid ""
+"  %s reload     [-D DATADIR] [-s]\n"
+msgstr ""
+"  %s reload     [-D DATADIR] [-s]\n"
+
+#: pg_ctl.c:1984
+#, c-format
+msgid ""
+"  %s status     [-D DATADIR]\n"
+msgstr ""
+"  %s status     [-D DATADIR]\n"
+
+#: pg_ctl.c:1985
+#, c-format
+msgid ""
+"  %s promote    [-D DATADIR] [-W] [-t SECS] [-s]\n"
+msgstr ""
+"[REVIEW: untranslated]   %s promote    [-D DATADIR] [-W] [-t SECS] [-s]\n"
+
+#: pg_ctl.c:1986
+#, c-format
+msgid ""
+"  %s logrotate  [-D DATADIR] [-s]\n"
+msgstr ""
+"  %s logrotate  [-D DATADIR] [-s]\n"
+
+#: pg_ctl.c:1987
+#, c-format
+msgid ""
+"  %s kill       SIGNALNAME PID\n"
+msgstr ""
+"[REVIEW: PID; untranslated]   %s kill       SIGNALNAME PID\n"
+
+#: pg_ctl.c:1989
+#, c-format
+msgid ""
+"  %s register   [-D DATADIR] [-N SERVICENAME] [-U USERNAME] [-P PASSWORD]\n"
+"                    [-S START-TYPE] [-e SOURCE] [-W] [-t SECS] [-s] [-o OPTIONS]\n"
+msgstr ""
+"[REVIEW: untranslated]   %s register   [-D DATADIR] [-N SERVICENAME] [-U USERNAME] [-P PASSWORD]\n"
+"[REVIEW: untranslated]                     [-S START-TYPE] [-e SOURCE] [-W] [-t SECS] [-s] [-o OPTIONS]\n"
+
+#: pg_ctl.c:1991
+#, c-format
+msgid ""
+"  %s unregister [-N SERVICENAME]\n"
+msgstr ""
+"  %s unregister [-N SERVICENAME]\n"
+
+#: pg_ctl.c:1994
+#, c-format
+msgid ""
+"\n"
+"Common options:\n"
+msgstr ""
+"\n"
+"Common options:\n"
+
+#: pg_ctl.c:1995
+#, c-format
+msgid ""
+"  -D, --pgdata=DATADIR   location of the database storage area\n"
+msgstr ""
+"[REVIEW: untranslated]   -D, --pgdata=DATADIR   location of the database storage area\n"
+
+#: pg_ctl.c:1997
+#, c-format
+msgid ""
+"  -e SOURCE              event source for logging when running as a service\n"
+msgstr ""
+"[REVIEW: untranslated]   -e SOURCE              event source for logging when running as a service\n"
+
+#: pg_ctl.c:1999
+#, c-format
+msgid ""
+"  -s, --silent           only print errors, no informational messages\n"
+msgstr ""
+"  -s, --silent           only print त्रुटिs, no informational messages\n"
+
+#: pg_ctl.c:2000
+#, c-format
+msgid ""
+"  -t, --timeout=SECS     seconds to wait when using -w option\n"
+msgstr ""
+"[REVIEW: untranslated]   -t, --timeout=SECS     seconds to wait when using -w option\n"
+
+#: pg_ctl.c:2001
+#, c-format
+msgid ""
+"  -V, --version          output version information, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -V, --version          output version information, then exit\n"
+
+#: pg_ctl.c:2002
+#, c-format
+msgid ""
+"  -w, --wait             wait until operation completes (default)\n"
+msgstr ""
+"[REVIEW: untranslated]   -w, --wait             wait until operation completes (default)\n"
+
+#: pg_ctl.c:2003
+#, c-format
+msgid ""
+"  -W, --no-wait          do not wait until operation completes\n"
+msgstr ""
+"[REVIEW: untranslated]   -W, --no-wait          do not wait until operation completes\n"
+
+#: pg_ctl.c:2004
+#, c-format
+msgid ""
+"  -?, --help             show this help, then exit\n"
+msgstr ""
+"[REVIEW: untranslated]   -?, --help             show this help, then exit\n"
+
+#: pg_ctl.c:2005
+#, c-format
+msgid ""
+"If the -D option is omitted, the environment variable PGDATA is used.\n"
+msgstr ""
+"[REVIEW: untranslated] If the -D option is omitted, the environment variable PGDATA is used.\n"
+
+#: pg_ctl.c:2007
+#, c-format
+msgid ""
+"\n"
+"Options for start or restart:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Options for start or restart:\n"
+
+#: pg_ctl.c:2009
+#, c-format
+msgid ""
+"  -c, --core-files       allow postgres to produce core files\n"
+msgstr ""
+"  -c, --core-files       allow postgres to produce core फाइलs\n"
+
+#: pg_ctl.c:2011
+#, c-format
+msgid ""
+"  -c, --core-files       not applicable on this platform\n"
+msgstr ""
+"[REVIEW: untranslated]   -c, --core-files       not applicable on this platform\n"
+
+#: pg_ctl.c:2013
+#, c-format
+msgid ""
+"  -l, --log=FILENAME     write (or append) server log to FILENAME\n"
+msgstr ""
+"[REVIEW: untranslated]   -l, --log=FILENAME     write (or append) server log to FILENAME\n"
+
+#: pg_ctl.c:2014
+#, c-format
+msgid ""
+"  -o, --options=OPTIONS  command line options to pass to postgres\n"
+"                         (PostgreSQL server executable) or initdb\n"
+msgstr ""
+"  -o, --options=OPTIONS  command लाइन options to pass to postgres\n"
+"[REVIEW: untranslated]                          (PostgreSQL server executable) or initdb\n"
+
+#: pg_ctl.c:2016
+#, c-format
+msgid ""
+"  -p PATH-TO-POSTGRES    normally not necessary\n"
+msgstr ""
+"[REVIEW: untranslated]   -p PATH-TO-POSTGRES    normally not necessary\n"
+
+#: pg_ctl.c:2017
+#, c-format
+msgid ""
+"\n"
+"Options for stop or restart:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Options for stop or restart:\n"
+
+#: pg_ctl.c:2018
+#, c-format
+msgid ""
+"  -m, --mode=MODE        MODE can be \"smart\", \"fast\", or \"immediate\"\n"
+msgstr ""
+"[REVIEW: untranslated]   -m, --mode=MODE        MODE can be \"smart\", \"fast\", or \"immediate\"\n"
+
+#: pg_ctl.c:2020
+#, c-format
+msgid ""
+"\n"
+"Shutdown modes are:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Shutdown modes are:\n"
+
+#: pg_ctl.c:2021
+#, c-format
+msgid ""
+"  smart       quit after all clients have disconnected\n"
+msgstr ""
+"[REVIEW: untranslated]   smart       quit after all clients have disconnected\n"
+
+#: pg_ctl.c:2022
+#, c-format
+msgid ""
+"  fast        quit directly, with proper shutdown (default)\n"
+msgstr ""
+"[REVIEW: untranslated]   fast        quit directly, with proper shutdown (default)\n"
+
+#: pg_ctl.c:2023
+#, c-format
+msgid ""
+"  immediate   quit without complete shutdown; will lead to recovery on restart\n"
+msgstr ""
+"[REVIEW: recovery; untranslated]   immediate   quit without complete shutdown; will lead to recovery on restart\n"
+
+#: pg_ctl.c:2025
+#, c-format
+msgid ""
+"\n"
+"Allowed signal names for kill:\n"
+msgstr ""
+"\n"
+"Allowed signal नामs for kill:\n"
+
+#: pg_ctl.c:2029
+#, c-format
+msgid ""
+"\n"
+"Options for register and unregister:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Options for register and unregister:\n"
+
+#: pg_ctl.c:2030
+#, c-format
+msgid ""
+"  -N SERVICENAME  service name with which to register PostgreSQL server\n"
+msgstr ""
+"  -N SERVICENAME  service नाम with which to register PostgreSQL server\n"
+
+#: pg_ctl.c:2031
+#, c-format
+msgid ""
+"  -P PASSWORD     password of account to register PostgreSQL server\n"
+msgstr ""
+"[REVIEW: untranslated]   -P PASSWORD     password of account to register PostgreSQL server\n"
+
+#: pg_ctl.c:2032
+#, c-format
+msgid ""
+"  -U USERNAME     user name of account to register PostgreSQL server\n"
+msgstr ""
+"  -U USERNAME     प्रयोगकर्ता नाम of account to register PostgreSQL server\n"
+
+#: pg_ctl.c:2033
+#, c-format
+msgid ""
+"  -S START-TYPE   service start type to register PostgreSQL server\n"
+msgstr ""
+"[REVIEW: untranslated]   -S START-TYPE   service start type to register PostgreSQL server\n"
+
+#: pg_ctl.c:2035
+#, c-format
+msgid ""
+"\n"
+"Start types are:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Start types are:\n"
+
+#: pg_ctl.c:2036
+#, c-format
+msgid ""
+"  auto       start service automatically during system startup (default)\n"
+msgstr ""
+"[REVIEW: untranslated]   auto       start service automatically during system startup (default)\n"
+
+#: pg_ctl.c:2037
+#, c-format
+msgid ""
+"  demand     start service on demand\n"
+msgstr ""
+"[REVIEW: untranslated]   demand     start service on demand\n"
+
+#: pg_ctl.c:2040
+#, c-format
+msgid ""
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Report bugs to <%s>.\n"
+
+#: pg_ctl.c:2041
+#, c-format
+msgid ""
+"%s home page: <%s>\n"
+msgstr ""
+"%s home page: <%s>\n"
+
+#: pg_ctl.c:2066
+#, c-format
+msgid ""
+"%s: unrecognized shutdown mode \"%s\"\n"
+msgstr ""
+"[REVIEW: untranslated] %s: unrecognized shutdown mode \"%s\"\n"
+
+#: pg_ctl.c:2095
+#, c-format
+msgid ""
+"%s: unrecognized signal name \"%s\"\n"
+msgstr ""
+"%s: unrecognized signal नाम \"%s\"\n"
+
+#: pg_ctl.c:2112
+#, c-format
+msgid ""
+"%s: unrecognized start type \"%s\"\n"
+msgstr ""
+"[REVIEW: untranslated] %s: unrecognized start type \"%s\"\n"
+
+#: pg_ctl.c:2168
+#, c-format
+msgid ""
+"%s: could not determine the data directory using command \"%s\"\n"
+msgstr ""
+"%s: गर्न सकिएन determine the data directory using command \"%s\"\n"
+
+#: pg_ctl.c:2191
+#, c-format
+msgid ""
+"%s: control file appears to be corrupt\n"
+msgstr ""
+"%s: control फाइल appears to be corrupt\n"
+
+#: pg_ctl.c:2259
+#, c-format
+msgid ""
+"%s: cannot be run as root\n"
+"Please log in (using, e.g., \"su\") as the (unprivileged) user that will\n"
+"own the server process.\n"
+msgstr ""
+"%s: गर्न सकिँदैन be run as root\n"
+"[REVIEW: privilege; sentence] Please log in (using, e.g., \"su\") as the (unprivileged) प्रयोगकर्ता that will\n"
+"[REVIEW: untranslated] own the server process.\n"
+
+#: pg_ctl.c:2331
+#, c-format
+msgid ""
+"%s: -S option not supported on this platform\n"
+msgstr ""
+"[REVIEW: untranslated] %s: -S option not supported on this platform\n"
+
+#: pg_ctl.c:2387
+#, c-format
+msgid ""
+"%s: missing arguments for kill mode\n"
+msgstr ""
+"%s: हराइरहेको arguments for kill mode\n"
+
+#: pg_ctl.c:2405
+#, c-format
+msgid ""
+"%s: unrecognized operation mode \"%s\"\n"
+msgstr ""
+"[REVIEW: untranslated] %s: unrecognized operation mode \"%s\"\n"
+
+#: pg_ctl.c:2414
+#, c-format
+msgid ""
+"%s: too many command-line arguments (first is \"%s\")\n"
+msgstr ""
+"%s: too many command-लाइन arguments (first is \"%s\")\n"
+
+#: pg_ctl.c:2421
+#, c-format
+msgid ""
+"%s: no operation specified\n"
+msgstr ""
+"[REVIEW: untranslated] %s: no operation specified\n"
+
+#: pg_ctl.c:2442
+#, c-format
+msgid ""
+"%s: no database directory specified and environment variable PGDATA unset\n"
+msgstr ""
+"[REVIEW: untranslated] %s: no database directory specified and environment variable PGDATA unset\n"

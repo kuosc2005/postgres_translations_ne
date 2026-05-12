@@ -1,0 +1,243 @@
+# Nepali translation draft for PostgreSQL pg_test_fsync.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pg_test_fsync\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pg_test_fsync.po\\n"
+
+#: ../../../src/common/logging.c:276
+#, c-format
+msgid "error: "
+msgstr "त्रुटि: "
+
+#: ../../../src/common/logging.c:283
+#, c-format
+msgid "warning: "
+msgstr "चेतावनी: "
+
+#: ../../../src/common/logging.c:294
+#, c-format
+msgid "detail: "
+msgstr "विवरण: "
+
+#: ../../../src/common/logging.c:301
+#, c-format
+msgid "hint: "
+msgstr "सुझाव: "
+
+#: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
+#: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
+#, c-format
+msgid ""
+"out of memory\n"
+msgstr ""
+"[REVIEW: untranslated] out of memory\n"
+
+#: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
+#, c-format
+msgid ""
+"cannot duplicate null pointer (internal error)\n"
+msgstr ""
+"गर्न सकिँदैन duplicate null pointer (internal त्रुटि)\n"
+
+#. translator: maintain alignment with NA_FORMAT
+#: pg_test_fsync.c:38
+#, c-format
+msgid ""
+"%13.3f ops/sec  %6.0f usecs/op\n"
+msgstr ""
+"[REVIEW: untranslated] %13.3f ops/sec  %6.0f usecs/op\n"
+
+#: pg_test_fsync.c:56
+#, c-format
+msgid "could not create thread for alarm"
+msgstr "गर्न सकिएन create thread for alarm"
+
+#: pg_test_fsync.c:101
+#, c-format
+msgid "%s: %m"
+msgstr "%s: %m"
+
+#: pg_test_fsync.c:165
+#, c-format
+msgid ""
+"Usage: %s [-f FILENAME] [-s SECS-PER-TEST]\n"
+msgstr ""
+"[REVIEW: untranslated] Usage: %s [-f FILENAME] [-s SECS-PER-TEST]\n"
+
+#: pg_test_fsync.c:191
+#, c-format
+msgid "invalid argument for option %s"
+msgstr "अमान्य argument for option %s"
+
+#: pg_test_fsync.c:192 pg_test_fsync.c:204 pg_test_fsync.c:213
+#, c-format
+msgid "Try \"%s --help\" for more information."
+msgstr "थप जानकारीका लागि \"%s --help\" प्रयास गर्नुहोस्।"
+
+#: pg_test_fsync.c:198
+#, c-format
+msgid "%s must be in range %u..%u"
+msgstr "[REVIEW: untranslated] %s must be in range %u..%u"
+
+#: pg_test_fsync.c:211
+#, c-format
+msgid "too many command-line arguments (first is \"%s\")"
+msgstr "too many command-लाइन arguments (first is \"%s\")"
+
+#: pg_test_fsync.c:217
+#, c-format
+msgid ""
+"%u second per test\n"
+msgid_plural ""
+"%u seconds per test\n"
+msgstr[0] ""
+"[REVIEW: untranslated] %u second per test\n"
+msgstr[1] ""
+"[REVIEW: untranslated] %u seconds per test\n"
+
+#: pg_test_fsync.c:222
+#, c-format
+msgid ""
+"O_DIRECT supported on this platform for open_datasync and open_sync.\n"
+msgstr ""
+"[REVIEW: untranslated] O_DIRECT supported on this platform for open_datasync and open_sync.\n"
+
+#: pg_test_fsync.c:224
+#, c-format
+msgid ""
+"F_NOCACHE supported on this platform for open_datasync and open_sync.\n"
+msgstr ""
+"[REVIEW: untranslated] F_NOCACHE supported on this platform for open_datasync and open_sync.\n"
+
+#: pg_test_fsync.c:226
+#, c-format
+msgid ""
+"Direct I/O is not supported on this platform.\n"
+msgstr ""
+"[REVIEW: untranslated] Direct I/O is not supported on this platform.\n"
+
+#: pg_test_fsync.c:251 pg_test_fsync.c:341 pg_test_fsync.c:363
+#: pg_test_fsync.c:387 pg_test_fsync.c:531 pg_test_fsync.c:543
+#: pg_test_fsync.c:559 pg_test_fsync.c:565 pg_test_fsync.c:587
+msgid "could not open output file"
+msgstr "गर्न सकिएन open output फाइल"
+
+#: pg_test_fsync.c:255 pg_test_fsync.c:325 pg_test_fsync.c:350
+#: pg_test_fsync.c:372 pg_test_fsync.c:396 pg_test_fsync.c:435
+#: pg_test_fsync.c:494 pg_test_fsync.c:533 pg_test_fsync.c:561
+#: pg_test_fsync.c:592
+msgid "write failed"
+msgstr "write असफल भयो"
+
+#: pg_test_fsync.c:259 pg_test_fsync.c:374 pg_test_fsync.c:398
+#: pg_test_fsync.c:535 pg_test_fsync.c:567
+msgid "fsync failed"
+msgstr "fsync असफल भयो"
+
+#: pg_test_fsync.c:298
+#, c-format
+msgid ""
+"\n"
+"Compare file sync methods using one %dkB write:\n"
+msgstr ""
+"\n"
+"Compare फाइल sync methods using one %dkB write:\n"
+
+#: pg_test_fsync.c:300
+#, c-format
+msgid ""
+"\n"
+"Compare file sync methods using two %dkB writes:\n"
+msgstr ""
+"\n"
+"Compare फाइल sync methods using two %dkB writes:\n"
+
+#: pg_test_fsync.c:301
+#, c-format
+msgid ""
+"(in \"wal_sync_method\" preference order, except fdatasync is Linux's default)\n"
+msgstr ""
+"[REVIEW: WAL; untranslated] (in \"wal_sync_method\" preference order, except fdatasync is Linux's default)\n"
+
+#: pg_test_fsync.c:312 pg_test_fsync.c:415 pg_test_fsync.c:482
+msgid "n/a*"
+msgstr "n/a*"
+
+#: pg_test_fsync.c:331 pg_test_fsync.c:403 pg_test_fsync.c:441
+#: pg_test_fsync.c:500
+msgid "n/a"
+msgstr "n/a"
+
+#: pg_test_fsync.c:446
+#, c-format
+msgid ""
+"* This file system and its mount options do not support direct\n"
+"  I/O, e.g. ext4 in journaled mode.\n"
+msgstr ""
+"[REVIEW: sentence] * This फाइल system and its mount options do not support direct\n"
+"[REVIEW: untranslated]   I/O, e.g. ext4 in journaled mode.\n"
+
+#: pg_test_fsync.c:454
+#, c-format
+msgid ""
+"\n"
+"Compare open_sync with different write sizes:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Compare open_sync with different write sizes:\n"
+
+#: pg_test_fsync.c:455
+#, c-format
+msgid ""
+"(This is designed to compare the cost of writing 16kB in different write\n"
+"open_sync sizes.)\n"
+msgstr ""
+"[REVIEW: untranslated] (This is designed to compare the cost of writing 16kB in different write\n"
+"open_sync sizes.)\n"
+
+#: pg_test_fsync.c:458
+msgid " 1 * 16kB open_sync write"
+msgstr "[REVIEW: untranslated]  1 * 16kB open_sync write"
+
+#: pg_test_fsync.c:459
+msgid " 2 *  8kB open_sync writes"
+msgstr "[REVIEW: untranslated]  2 *  8kB open_sync writes"
+
+#: pg_test_fsync.c:460
+msgid " 4 *  4kB open_sync writes"
+msgstr "[REVIEW: untranslated]  4 *  4kB open_sync writes"
+
+#: pg_test_fsync.c:461
+msgid " 8 *  2kB open_sync writes"
+msgstr "[REVIEW: untranslated]  8 *  2kB open_sync writes"
+
+#: pg_test_fsync.c:462
+msgid "16 *  1kB open_sync writes"
+msgstr "[REVIEW: untranslated] 16 *  1kB open_sync writes"
+
+#: pg_test_fsync.c:516
+#, c-format
+msgid ""
+"\n"
+"Test if fsync on non-write file descriptor is honored:\n"
+msgstr ""
+"\n"
+"Test if fsync on non-write फाइल descriptor is honored:\n"
+
+#: pg_test_fsync.c:517
+#, c-format
+msgid ""
+"(If the times are similar, fsync() can sync data written on a different\n"
+"descriptor.)\n"
+msgstr ""
+"[REVIEW: untranslated] (If the times are similar, fsync() can sync data written on a different\n"
+"descriptor.)\n"
+
+#: pg_test_fsync.c:582
+#, c-format
+msgid ""
+"\n"
+"Non-sync'ed %dkB writes:\n"
+msgstr ""
+"\n"
+"[REVIEW: untranslated] Non-sync'ed %dkB writes:\n"

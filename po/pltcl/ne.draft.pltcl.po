@@ -1,0 +1,108 @@
+# Nepali translation draft for PostgreSQL pltcl.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL pltcl\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/pltcl.po\\n"
+
+#: pltcl.c:467
+msgid "PL/Tcl function to call once when pltcl is first used."
+msgstr "[REVIEW: untranslated] PL/Tcl function to call once when pltcl is first used."
+
+#: pltcl.c:474
+msgid "PL/TclU function to call once when pltclu is first used."
+msgstr "[REVIEW: untranslated] PL/TclU function to call once when pltclu is first used."
+
+#: pltcl.c:641
+#, c-format
+msgid "function \"%s\" is in the wrong language"
+msgstr "[REVIEW: untranslated] function \"%s\" is in the wrong language"
+
+#: pltcl.c:652
+#, c-format
+msgid "function \"%s\" must not be SECURITY DEFINER"
+msgstr "[REVIEW: untranslated] function \"%s\" must not be SECURITY DEFINER"
+
+#. translator: %s is "pltcl.start_proc" or "pltclu.start_proc"
+#: pltcl.c:686
+#, c-format
+msgid "processing %s parameter"
+msgstr "processing %s parameter"
+
+#: pltcl.c:838
+#, c-format
+msgid "set-valued function called in context that cannot accept a set"
+msgstr "set-valued function called in context that गर्न सकिँदैन accept a set"
+
+#: pltcl.c:843
+#, c-format
+msgid "materialize mode required, but it is not allowed in this context"
+msgstr "[REVIEW: sentence] materialize mode आवश्यक, but it is not allowed in this context"
+
+#: pltcl.c:1016
+#, c-format
+msgid "function returning record called in context that cannot accept type record"
+msgstr "[REVIEW: sentence] function returning record called in context that गर्न सकिँदैन accept type record"
+
+#: pltcl.c:1035
+#, c-format
+msgid "could not parse function return value: %s"
+msgstr "गर्न सकिएन parse function return value: %s"
+
+#: pltcl.c:1301
+#, c-format
+msgid "could not parse trigger return value: %s"
+msgstr "गर्न सकिएन parse trigger return value: %s"
+
+#: pltcl.c:1401 pltcl.c:1895
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: pltcl.c:1402
+#, c-format
+msgid ""
+"%s\n"
+"in PL/Tcl function %s"
+msgstr ""
+"%s\n"
+"[REVIEW: untranslated] in PL/Tcl function %s"
+
+#: pltcl.c:1630
+#, c-format
+msgid "trigger functions can only be called as triggers"
+msgstr "[REVIEW: untranslated] trigger functions can only be called as triggers"
+
+#: pltcl.c:1634
+#, c-format
+msgid "PL/Tcl functions cannot return type %s"
+msgstr "PL/Tcl functions गर्न सकिँदैन return type %s"
+
+#: pltcl.c:1673
+#, c-format
+msgid "PL/Tcl functions cannot accept type %s"
+msgstr "PL/Tcl functions गर्न सकिँदैन accept type %s"
+
+#: pltcl.c:1785
+#, c-format
+msgid "could not create internal procedure \"%s\": %s"
+msgstr "गर्न सकिएन create internal procedure \"%s\": %s"
+
+#: pltcl.c:3295
+#, c-format
+msgid "column name/value list must have even number of elements"
+msgstr "column नाम/value list must have even number of elements"
+
+#: pltcl.c:3313
+#, c-format
+msgid "column name/value list contains nonexistent column name \"%s\""
+msgstr "column नाम/value list contains nonexistent column नाम \"%s\""
+
+#: pltcl.c:3320
+#, c-format
+msgid "cannot set system attribute \"%s\""
+msgstr "गर्न सकिँदैन set system attribute \"%s\""
+
+#: pltcl.c:3326
+#, c-format
+msgid "cannot set generated column \"%s\""
+msgstr "गर्न सकिँदैन set generated column \"%s\""

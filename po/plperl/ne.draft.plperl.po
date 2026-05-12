@@ -1,0 +1,213 @@
+# Nepali translation draft for PostgreSQL plperl.
+# AI-assisted controlled draft for NDFP; native Nepali review required.
+#
+msgid ""
+"Project-Id-Version: PostgreSQL plperl\\nReport-Msgid-Bugs-To: pgsql-bugs@lists.postgresql.org\\nPO-Revision-Date: 2026-05-07 00:00+0000\\nLast-Translator: NDFP AI-assisted draft <review-required>\\nLanguage-Team: Nepali <review-required>\\nLanguage: ne\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\nPlural-Forms: nplurals=2; plural=(n != 1);\\nX-Source-Reference: po/de/plperl.po\\n"
+
+#: plperl.c:405
+msgid "If true, trusted and untrusted Perl code will be compiled in strict mode."
+msgstr "[REVIEW: untranslated] If true, trusted and untrusted Perl code will be compiled in strict mode."
+
+#: plperl.c:419
+msgid "Perl initialization code to execute when a Perl interpreter is initialized."
+msgstr "[REVIEW: untranslated] Perl initialization code to execute when a Perl interpreter is initialized."
+
+#: plperl.c:441
+msgid "Perl initialization code to execute once when plperl is first used."
+msgstr "[REVIEW: untranslated] Perl initialization code to execute once when plperl is first used."
+
+#: plperl.c:449
+msgid "Perl initialization code to execute once when plperlu is first used."
+msgstr "[REVIEW: untranslated] Perl initialization code to execute once when plperlu is first used."
+
+#: plperl.c:643
+#, c-format
+msgid "cannot allocate multiple Perl interpreters on this platform"
+msgstr "गर्न सकिँदैन allocate multiple Perl interpreters on this platform"
+
+#: plperl.c:666 plperl.c:850 plperl.c:856 plperl.c:973 plperl.c:985
+#: plperl.c:1028 plperl.c:1051 plperl.c:2151 plperl.c:2259 plperl.c:2327
+#: plperl.c:2390
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: plperl.c:667
+#, c-format
+msgid "while executing PostgreSQL::InServer::SPI::bootstrap"
+msgstr "[REVIEW: untranslated] while executing PostgreSQL::InServer::SPI::bootstrap"
+
+#: plperl.c:851
+#, c-format
+msgid "while parsing Perl initialization"
+msgstr "[REVIEW: untranslated] while parsing Perl initialization"
+
+#: plperl.c:857
+#, c-format
+msgid "while running Perl initialization"
+msgstr "[REVIEW: untranslated] while running Perl initialization"
+
+#: plperl.c:974
+#, c-format
+msgid "while executing PLC_TRUSTED"
+msgstr "[REVIEW: untranslated] while executing PLC_TRUSTED"
+
+#: plperl.c:986
+#, c-format
+msgid "while executing utf8fix"
+msgstr "[REVIEW: untranslated] while executing utf8fix"
+
+#: plperl.c:1029
+#, c-format
+msgid "while executing plperl.on_plperl_init"
+msgstr "[REVIEW: untranslated] while executing plperl.on_plperl_init"
+
+#: plperl.c:1052
+#, c-format
+msgid "while executing plperl.on_plperlu_init"
+msgstr "[REVIEW: untranslated] while executing plperl.on_plperlu_init"
+
+#: plperl.c:1098 plperl.c:1804
+#, c-format
+msgid "Perl hash contains nonexistent column \"%s\""
+msgstr "[REVIEW: untranslated] Perl hash contains nonexistent column \"%s\""
+
+#: plperl.c:1103 plperl.c:1809
+#, c-format
+msgid "cannot set system attribute \"%s\""
+msgstr "गर्न सकिँदैन set system attribute \"%s\""
+
+#: plperl.c:1199 plperl.c:1214 plperl.c:1231
+#, c-format
+msgid "multidimensional arrays must have array expressions with matching dimensions"
+msgstr "[REVIEW: untranslated] multidimensional arrays must have array expressions with matching dimensions"
+
+#: plperl.c:1204
+#, c-format
+msgid "number of array dimensions exceeds the maximum allowed (%d)"
+msgstr "[REVIEW: untranslated] number of array dimensions exceeds the maximum allowed (%d)"
+
+#: plperl.c:1274
+#, c-format
+msgid "cannot convert Perl array to non-array type %s"
+msgstr "गर्न सकिँदैन convert Perl array to non-array type %s"
+
+#: plperl.c:1375
+#, c-format
+msgid "cannot convert Perl hash to non-composite type %s"
+msgstr "गर्न सकिँदैन convert Perl hash to non-composite type %s"
+
+#: plperl.c:1397 plperl.c:3315
+#, c-format
+msgid "function returning record called in context that cannot accept type record"
+msgstr "[REVIEW: sentence] function returning record called in context that गर्न सकिँदैन accept type record"
+
+#: plperl.c:1458
+#, c-format
+msgid "lookup failed for type %s"
+msgstr "lookup असफल भयो for type %s"
+
+#: plperl.c:1779
+#, c-format
+msgid "$_TD->{new} does not exist"
+msgstr "$_TD->{new} अवस्थित छैन"
+
+#: plperl.c:1783
+#, c-format
+msgid "$_TD->{new} is not a hash reference"
+msgstr "[REVIEW: untranslated] $_TD->{new} is not a hash reference"
+
+#: plperl.c:1814
+#, c-format
+msgid "cannot set generated column \"%s\""
+msgstr "गर्न सकिँदैन set generated column \"%s\""
+
+#: plperl.c:2026 plperl.c:2867
+#, c-format
+msgid "PL/Perl functions cannot return type %s"
+msgstr "PL/Perl functions गर्न सकिँदैन return type %s"
+
+#: plperl.c:2039 plperl.c:2906
+#, c-format
+msgid "PL/Perl functions cannot accept type %s"
+msgstr "PL/Perl functions गर्न सकिँदैन accept type %s"
+
+#: plperl.c:2156
+#, c-format
+msgid "didn't get a CODE reference from compiling function \"%s\""
+msgstr "[REVIEW: untranslated] didn't get a CODE reference from compiling function \"%s\""
+
+#: plperl.c:2247
+#, c-format
+msgid "didn't get a return item from function"
+msgstr "[REVIEW: untranslated] didn't get a return item from function"
+
+#: plperl.c:2291 plperl.c:2358
+#, c-format
+msgid "couldn't fetch $_TD"
+msgstr "[REVIEW: untranslated] couldn't fetch $_TD"
+
+#: plperl.c:2315 plperl.c:2378
+#, c-format
+msgid "didn't get a return item from trigger function"
+msgstr "[REVIEW: untranslated] didn't get a return item from trigger function"
+
+#: plperl.c:2436
+#, c-format
+msgid "set-valued function called in context that cannot accept a set"
+msgstr "set-valued function called in context that गर्न सकिँदैन accept a set"
+
+#: plperl.c:2441
+#, c-format
+msgid "materialize mode required, but it is not allowed in this context"
+msgstr "[REVIEW: sentence] materialize mode आवश्यक, but it is not allowed in this context"
+
+#: plperl.c:2485
+#, c-format
+msgid "set-returning PL/Perl function must return reference to array or use return_next"
+msgstr "[REVIEW: untranslated] set-returning PL/Perl function must return reference to array or use return_next"
+
+#: plperl.c:2606
+#, c-format
+msgid "ignoring modified row in DELETE trigger"
+msgstr "[REVIEW: untranslated] ignoring modified row in DELETE trigger"
+
+#: plperl.c:2614
+#, c-format
+msgid "result of PL/Perl trigger function must be undef, \"SKIP\", or \"MODIFY\""
+msgstr "[REVIEW: untranslated] result of PL/Perl trigger function must be undef, \"SKIP\", or \"MODIFY\""
+
+#: plperl.c:2862
+#, c-format
+msgid "trigger functions can only be called as triggers"
+msgstr "[REVIEW: untranslated] trigger functions can only be called as triggers"
+
+#: plperl.c:3220
+#, c-format
+msgid "query result has too many rows to fit in a Perl array"
+msgstr "[REVIEW: query; untranslated] query result has too many rows to fit in a Perl array"
+
+#: plperl.c:3292
+#, c-format
+msgid "cannot use return_next in a non-SETOF function"
+msgstr "गर्न सकिँदैन use return_next in a non-SETOF function"
+
+#: plperl.c:3366
+#, c-format
+msgid "SETOF-composite-returning PL/Perl function must call return_next with reference to hash"
+msgstr "[REVIEW: untranslated] SETOF-composite-returning PL/Perl function must call return_next with reference to hash"
+
+#: plperl.c:4148
+#, c-format
+msgid "PL/Perl function \"%s\""
+msgstr "[REVIEW: untranslated] PL/Perl function \"%s\""
+
+#: plperl.c:4160
+#, c-format
+msgid "compilation of PL/Perl function \"%s\""
+msgstr "[REVIEW: untranslated] compilation of PL/Perl function \"%s\""
+
+#: plperl.c:4169
+#, c-format
+msgid "PL/Perl anonymous code block"
+msgstr "[REVIEW: lock; untranslated] PL/Perl anonymous code block"
