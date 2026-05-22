@@ -68,7 +68,7 @@ msgstr "गर्न सकिएन read from command \"%s\": %m"
 #: ../../common/exec.c:378
 #, c-format
 msgid "no data was returned by command \"%s\""
-msgstr "[REVIEW: untranslated] no data was returned by command \"%s\""
+msgstr "command द्वारा कुनै पनि data फिर्ता गरिएन \"%s\""
 
 #: ../../common/exec.c:405
 #, c-format
@@ -80,7 +80,7 @@ msgstr "%s() असफल भयो: %m"
 #: mainloop.c:80 mainloop.c:398
 #, c-format
 msgid "out of memory"
-msgstr "[REVIEW: untranslated] out of memory"
+msgstr "memory सकिएको छ"
 
 #: ../../common/fe_memutils.c:35 ../../common/fe_memutils.c:75
 #: ../../common/fe_memutils.c:98 ../../common/fe_memutils.c:161
@@ -88,7 +88,7 @@ msgstr "[REVIEW: untranslated] out of memory"
 msgid ""
 "out of memory\n"
 msgstr ""
-"[REVIEW: untranslated] out of memory\n"
+"memory सकिएको छ\n"
 
 #: ../../common/fe_memutils.c:92 ../../common/fe_memutils.c:153
 #, c-format
@@ -114,38 +114,38 @@ msgstr "प्रयोगकर्ता नाम lookup failure: त्रु
 #: ../../common/wait_error.c:55
 #, c-format
 msgid "command not executable"
-msgstr "[REVIEW: untranslated] command not executable"
+msgstr "command चल्दैन"
 
 #: ../../common/wait_error.c:59
 #, c-format
 msgid "command not found"
-msgstr "command फेला परेन"
+msgstr "command भेटिएन"
 
 #: ../../common/wait_error.c:64
 #, c-format
 msgid "child process exited with exit code %d"
-msgstr "[REVIEW: untranslated] child process exited with exit code %d"
+msgstr "चाइल्ड प्रोसेस एक्सिट कोड %d सहित समाप्त भयो"
 
 #: ../../common/wait_error.c:72
 #, c-format
 msgid "child process was terminated by exception 0x%X"
-msgstr "[REVIEW: untranslated] child process was terminated by exception 0x%X"
+msgstr "child process 0x%X exception कारण समाप्त भयो"
 
 #: ../../common/wait_error.c:76
 #, c-format
 msgid "child process was terminated by signal %d: %s"
-msgstr "[REVIEW: untranslated] child process was terminated by signal %d: %s"
+msgstr "child process सिग्नल %d द्वारा समाप्त भयो: %s"
 
 #: ../../common/wait_error.c:82
 #, c-format
 msgid "child process exited with unrecognized status %d"
-msgstr "[REVIEW: untranslated] child process exited with unrecognized status %d"
+msgstr "child process अपरिचित स्टाटस %d सहित समाप्त भयो"
 
 #: ../../fe_utils/cancel.c:186 ../../fe_utils/cancel.c:235
 msgid ""
 "Cancel request sent\n"
 msgstr ""
-"[REVIEW: untranslated] Cancel request sent\n"
+"Cancel request पठाइयो\n"
 
 #: ../../fe_utils/cancel.c:187 ../../fe_utils/cancel.c:236
 msgid "Could not send cancel request: "
@@ -4803,7 +4803,7 @@ msgstr "[REVIEW: untranslated] unterminated quoted string"
 #: psqlscanslash.l:834
 #, c-format
 msgid "%s: out of memory"
-msgstr "[REVIEW: untranslated] %s: out of memory"
+msgstr "%s: मेमोरी सकिएको छ"
 
 #: sql_help.c:35 sql_help.c:38 sql_help.c:41 sql_help.c:65 sql_help.c:66
 #: sql_help.c:68 sql_help.c:70 sql_help.c:81 sql_help.c:83 sql_help.c:85
