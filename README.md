@@ -29,6 +29,11 @@ The generator uses a conservative controlled-draft policy:
 This is intentionally not a fully polished Nepali translation. It is a work-saving pre-review layer.
 
 ## Review workflow
+## Contribution Guidelines
+
+- Check for existing PRs.
+- Ask for the current status of the translations made.
+- Add own translations over the exisiting translations
 
 1. Review `glossary/NDFP_NEPALI_GLOSSARY_v0_1.md`.
 2. Review `review/review_entries.tsv`.
@@ -47,3 +52,11 @@ This is intentionally not a fully polished Nepali translation. It is a work-savi
 ## Important limitation
 
 This draft is designed to save mechanical work, preserve PostgreSQL syntax, and focus human review on difficult terminology. It is not a substitute for native Nepali translation.
+
+## Contribution Guidelines
+
+- Check for existing PRs.
+- Ask for the current status of the translations made.
+- Add own translations over the exisiting translations.
+- Create a new fork and branch with following name format: `worktype-translation-yourname` e.g. `review-translation-shri`.
+- `[NECESSARY]` Look over the translations before committing: `git add DIR_NAME -p`.
