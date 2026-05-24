@@ -129,12 +129,12 @@ msgstr "चाइल्ड प्रोसेस एक्सिट कोड %d
 #: ../../common/wait_error.c:72
 #, c-format
 msgid "child process was terminated by exception 0x%X"
-msgstr "child process 0x%X exception कारण समाप्त भयो"
+msgstr "child process 0x%X exception का कारण समाप्त भयो"
 
 #: ../../common/wait_error.c:76
 #, c-format
 msgid "child process was terminated by signal %d: %s"
-msgstr "child process सिग्नल %d द्वारा समाप्त भयो: %s"
+msgstr "child process signal %d द्वारा समाप्त भयो: %s"
 
 #: ../../common/wait_error.c:82
 #, c-format
@@ -4803,7 +4803,7 @@ msgstr "[REVIEW: untranslated] unterminated quoted string"
 #: psqlscanslash.l:834
 #, c-format
 msgid "%s: out of memory"
-msgstr "%s: मेमोरी सकिएको छ"
+msgstr "%s: memory सकिएको छ"
 
 #: sql_help.c:35 sql_help.c:38 sql_help.c:41 sql_help.c:65 sql_help.c:66
 #: sql_help.c:68 sql_help.c:70 sql_help.c:81 sql_help.c:83 sql_help.c:85
