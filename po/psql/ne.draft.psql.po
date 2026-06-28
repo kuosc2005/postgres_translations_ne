@@ -194,7 +194,7 @@ msgstr "अमान्य output format (internal त्रुटि): %d"
 #: ../../fe_utils/psqlscan.l:723
 #, c-format
 msgid "skipping recursive expansion of variable \"%s\""
-msgstr "[REVIEW: untranslated] skipping recursive expansion of variable \"%s\""
+msgstr "variable \"%s\ को recursive expansion छोडिँदैछ""
 
 #: ../../fe_utils/string_utils.c:587
 #, c-format
@@ -218,17 +218,17 @@ msgstr "अमान्य command \\%s"
 #: command.c:247
 #, c-format
 msgid "Try \\? for help."
-msgstr "[REVIEW: untranslated] Try \\? for help."
+msgstr "सहयोगको लागि \\? प्रयास गर्नुहोस्।"
 
 #: command.c:265
 #, c-format
 msgid "\\%s: extra argument \"%s\" ignored"
-msgstr "[REVIEW: untranslated] \\%s: extra argument \"%s\" ignored"
+msgstr "\\%s: अतिरिक्त arguement \"%s\" लाई वेवास्ता गरियो "
 
 #: command.c:317
 #, c-format
 msgid "\\%s command ignored; use \\endif or Ctrl-C to exit current \\if block"
-msgstr "[REVIEW: lock; untranslated] \\%s command ignored; use \\endif or Ctrl-C to exit current \\if block"
+msgstr "\\%s command लाई बेवास्ता गरियो; हालको \\if block बाट बाहिर निस्कन \\endif वा Ctrl-C प्रयोग गर्नुहोस्"
 
 #: command.c:552 command.c:747 command.c:1882 command.c:2050 command.c:2363
 #: command.c:2377 command.c:2409 command.c:2498 command.c:2611 command.c:2889
@@ -251,8 +251,8 @@ msgstr "\\%s: गर्न सकिएन change directory to \"%s\": %m"
 #, c-format
 msgid ""
 "You are currently not connected to a database.\n"
-msgstr ""
-"[REVIEW: untranslated] You are currently not connected to a database.\n"
+msgstr "तपाईं हाल कुनै database सँग जोडिनुभएको छैन।\n"
+
 
 #: command.c:815
 msgid "Connection Information"
@@ -358,7 +358,8 @@ msgstr "none"
 #: command.c:1332 command.c:1433 command.c:3184
 #, c-format
 msgid "no query buffer"
-msgstr "[REVIEW: buffer, query; untranslated] no query buffer"
+msgstr "कुनै query buffer छैन"
+
 
 #: command.c:1365 command.c:6307
 #, c-format
@@ -420,7 +421,7 @@ msgstr "\\elif: गर्न सकिँदैन occur after \\else"
 #: command.c:2186
 #, c-format
 msgid "\\elif: no matching \\if"
-msgstr "[REVIEW: untranslated] \\elif: no matching \\if"
+msgstr "\\elif: कुनै मिल्ने \\if छैन "
 
 #: command.c:2250
 #, c-format
@@ -430,16 +431,16 @@ msgstr "\\else: गर्न सकिँदैन occur after \\else"
 #: command.c:2255
 #, c-format
 msgid "\\else: no matching \\if"
-msgstr "[REVIEW: untranslated] \\else: no matching \\if"
+msgstr "\\else: कुनै मिल्ने \\if छैन"
 
 #: command.c:2295
 #, c-format
 msgid "\\endif: no matching \\if"
-msgstr "[REVIEW: untranslated] \\endif: no matching \\if"
+msgstr "\\endif: कुनै मिल्ने \\if छैन"
 
 #: command.c:2473
 msgid "Query buffer is empty."
-msgstr "[REVIEW: buffer, query; untranslated] Query buffer is empty."
+msgstr "Query buffer खाली छ।"
 
 #: command.c:2550
 #, c-format
@@ -448,12 +449,12 @@ msgstr "Enter new password for प्रयोगकर्ता \"%s\": "
 
 #: command.c:2554
 msgid "Enter it again: "
-msgstr "[REVIEW: untranslated] Enter it again: "
+msgstr "फेरि प्रविस्ट गर्नुहोस्: "
 
 #: command.c:2563
 #, c-format
 msgid "Passwords didn't match."
-msgstr "[REVIEW: untranslated] Passwords didn't match."
+msgstr "पासवर्डहरु मिलेनन्।"
 
 #: command.c:2646
 #, c-format
@@ -462,7 +463,7 @@ msgstr "\\%s: गर्न सकिएन read value for variable"
 
 #: command.c:2748
 msgid "Query buffer reset (cleared)."
-msgstr "[REVIEW: buffer, query; untranslated] Query buffer reset (cleared)."
+msgstr "Query buffer reset (clear) गरियो।"
 
 #: command.c:2770
 #, c-format
@@ -498,11 +499,12 @@ msgstr "view नाम is आवश्यक"
 
 #: command.c:3123
 msgid "Timing is on."
-msgstr "[REVIEW: untranslated] Timing is on."
+msgstr "Timing on छ।" 
+
 
 #: command.c:3125
 msgid "Timing is off."
-msgstr "[REVIEW: untranslated] Timing is off."
+msgstr "Timing off  छ।"
 
 #: command.c:3211 command.c:3249 command.c:4694 command.c:4697 command.c:4700
 #: command.c:4706 command.c:4708 command.c:4734 command.c:4744 command.c:4756
@@ -525,37 +527,38 @@ msgstr "\\watch not allowed in pipeलाइन mode"
 #: command.c:3319 command.c:3385
 #, c-format
 msgid "\\watch: interval value is specified more than once"
-msgstr "[REVIEW: untranslated] \\watch: interval value is specified more than once"
+msgstr "\\watch: interval value एक पटक भन्दा बढी निर्दिष्ट गरिएको छ"
+
 
 #: command.c:3329 command.c:3395
 #, c-format
 msgid "\\watch: incorrect interval value \"%s\""
-msgstr "[REVIEW: untranslated] \\watch: incorrect interval value \"%s\""
+msgstr "\\watch: गलत interval value \"%s\""
 
 #: command.c:3339
 #, c-format
 msgid "\\watch: iteration count is specified more than once"
-msgstr "[REVIEW: untranslated] \\watch: iteration count is specified more than once"
+msgstr " \\watch: iteration count एक पटक भन्दा बढी निर्दिष्ट गरिएको छ"
 
 #: command.c:3349
 #, c-format
 msgid "\\watch: incorrect iteration count \"%s\""
-msgstr "[REVIEW: untranslated] \\watch: incorrect iteration count \"%s\""
+msgstr "\\watch: गलत iteration count \"%s\""
 
 #: command.c:3359
 #, c-format
 msgid "\\watch: minimum row count specified more than once"
-msgstr "[REVIEW: untranslated] \\watch: minimum row count specified more than once"
+msgstr "\\watch: न्युनतम row count एक पटक भन्दा बढी निर्दिष्ट गरिएको छ "
 
 #: command.c:3369
 #, c-format
 msgid "\\watch: incorrect minimum row count \"%s\""
-msgstr "[REVIEW: untranslated] \\watch: incorrect minimum row count \"%s\""
+msgstr "\\watch: गलत न्युनतम row count \"%s\""
 
 #: command.c:3376
 #, c-format
 msgid "\\watch: unrecognized parameter \"%s\""
-msgstr "[REVIEW: untranslated] \\watch: unrecognized parameter \"%s\""
+msgstr "\\watch: अपरिचित parameter \"%s\""
 
 #: command.c:3782 startup.c:248 startup.c:298
 msgid "Password: "
@@ -574,12 +577,13 @@ msgstr "[REVIEW: sentence] Do not give प्रयोगकर्ता, host, 
 #: command.c:3878
 #, c-format
 msgid "No database connection exists to re-use parameters from"
-msgstr "[REVIEW: untranslated] No database connection exists to re-use parameters from"
+msgstr "Parameters पुनः प्रयोग गर्नको लागि कुनै database connection छैन"
 
 #: command.c:4185
 #, c-format
 msgid "Previous connection kept"
-msgstr "[REVIEW: untranslated] Previous connection kept"
+msgstr "अघिल्लो connection कायम राखियो"
+
 
 #: command.c:4191
 #, c-format
