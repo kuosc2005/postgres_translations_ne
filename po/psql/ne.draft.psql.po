@@ -634,15 +634,15 @@ msgid ""
 "WARNING: %s major version %s, server major version %s.\n"
 "         Some psql features might not work.\n"
 msgstr ""
-"[REVIEW: untranslated] WARNING: %s major version %s, server major version %s.\n"
-"[REVIEW: untranslated]          Some psql features might not work.\n"
+"चेतावनी: %s major version %s, server major version %s.\n"
+"          केही psql सुविधाहरू काम नगर्न सक्छन्।\n"
 
 #: command.c:4422
 #, c-format
 msgid ""
 "SSL connection (protocol: %s, cipher: %s, compression: %s, ALPN: %s)\n"
 msgstr ""
-"[REVIEW: untranslated] SSL connection (protocol: %s, cipher: %s, compression: %s, ALPN: %s)\n"
+"SSL connection (protocol: %s, cipher: %s, compression: %s, ALPN: %s)\n"
 
 #: command.c:4425 help.c:39
 msgid "off"
@@ -666,9 +666,9 @@ msgid ""
 "         8-bit characters might not work correctly. See psql reference\n"
 "         page \"Notes for Windows users\" for details.\n"
 msgstr ""
-"[REVIEW: untranslated] WARNING: Console code page (%u) differs from Windows code page (%u)\n"
-"[REVIEW: untranslated]          8-bit characters might not work correctly. See psql reference\n"
-"         page \"Notes for Windows users\" for विवरणs.\n"
+"चेतावनी: Console code page (%u) Windows code page (%u) भन्दा फरक छ,\n"
+"          8-bit characters राम्रोसँग काम नगर्न सक्छ। विस्तृत जानकारीको लागि psql reference\n"
+"         page \"Notes for Windows users\" हेर्नुहोस्।\n"
 
 #: command.c:4569
 #, c-format
@@ -698,12 +698,12 @@ msgstr "गर्न सकिएन open temporary फाइल \"%s\": %m"
 #: command.c:5014
 #, c-format
 msgid "\\pset: ambiguous abbreviation \"%s\" matches both \"%s\" and \"%s\""
-msgstr "[REVIEW: untranslated] \\pset: ambiguous abbreviation \"%s\" matches both \"%s\" and \"%s\""
+msgstr "\\pset: अस्पष्ट संक्षिप्त रूप \"%s\" दुबै \"%s\" र \"%s\ सँग मेल खान्छ""
 
 #: command.c:5034
 #, c-format
 msgid "\\pset: allowed formats are aligned, asciidoc, csv, html, latex, latex-longtable, troff-ms, unaligned, wrapped"
-msgstr "[REVIEW: untranslated] \\pset: allowed formats are aligned, asciidoc, csv, html, latex, latex-longtable, troff-ms, unaligned, wrapped"
+msgstr "\\pset: aligned, asciidoc, csv, html, latex, latex-longtable, troff-ms, unaligned, wrapped अनुमति दिइएको format हरूहुन्।"
 
 #: command.c:5053
 #, c-format
@@ -728,12 +728,12 @@ msgstr "\\pset: allowed Unicode header लाइन styles are single, double"
 #: command.c:5150
 #, c-format
 msgid "\\pset: allowed xheader_width values are \"%s\" (default), \"%s\", \"%s\", or a number specifying the exact width"
-msgstr "[REVIEW: untranslated] \\pset: allowed xheader_width values are \"%s\" (default), \"%s\", \"%s\", or a number specifying the exact width"
+msgstr "\\pset: \"%s\" (पूर्वनिर्धारित), \"%s\", \"%s\", वा सटीक चौडाइ निर्दिष्ट गर्ने संख्या अनुमति भएका xheader_width मानहरू हुन्"
 
 #: command.c:5167
 #, c-format
 msgid "\\pset: csv_fieldsep must be a single one-byte character"
-msgstr "[REVIEW: untranslated] \\pset: csv_fieldsep must be a single one-byte character"
+msgstr "\\pset: csv_fieldsep one-byte character हुनुपर्छ"
 
 #: command.c:5172
 #, c-format
