@@ -750,98 +750,97 @@ msgstr "\\pset: अज्ञात option: %s"
 msgid ""
 "Border style is %d.\n"
 msgstr ""
-"[REVIEW: untranslated] Border style is %d.\n"
+"Border style %d हो।\n"
 
 #: command.c:5336
 #, c-format
 msgid ""
 "Target width is unset.\n"
 msgstr ""
-"[REVIEW: untranslated] Target width is unset.\n"
+"Targetको चौडाइ unset छ।\n"
 
 #: command.c:5338
 #, c-format
 msgid ""
 "Target width is %d.\n"
-msgstr ""
-"[REVIEW: untranslated] Target width is %d.\n"
+msgstr "" 
+"Targetको चौडाइ %d छ।\n"
 
 #: command.c:5345
 #, c-format
 msgid ""
 "Expanded display is on.\n"
 msgstr ""
-"[REVIEW: untranslated] Expanded display is on.\n"
-
+"Expanded display on छ।\n"
 #: command.c:5347
 #, c-format
 msgid ""
 "Expanded display is used automatically.\n"
 msgstr ""
-"[REVIEW: untranslated] Expanded display is used automatically.\n"
+"Expanded display आफै प्रयोग गरिन्छ।\n"
 
 #: command.c:5349
 #, c-format
 msgid ""
 "Expanded display is off.\n"
 msgstr ""
-"[REVIEW: untranslated] Expanded display is off.\n"
+"Expanded display off छ।\n"
 
 #: command.c:5356 command.c:5358 command.c:5360
 #, c-format
 msgid ""
 "Expanded header width is \"%s\".\n"
 msgstr ""
-"[REVIEW: untranslated] Expanded header width is \"%s\".\n"
+"Expanded header width \"%s\" हो।\n"
 
 #: command.c:5362
 #, c-format
 msgid ""
 "Expanded header width is %d.\n"
 msgstr ""
-"[REVIEW: untranslated] Expanded header width is %d.\n"
+"Expanded header width %d हो।\n"
 
 #: command.c:5368
 #, c-format
 msgid ""
 "Field separator for CSV is \"%s\".\n"
 msgstr ""
-"[REVIEW: untranslated] Field separator for CSV is \"%s\".\n"
+"CSV को लागि Field separator \"%s\" हो।\n"
 
 #: command.c:5376 command.c:5384
 #, c-format
 msgid ""
 "Field separator is zero byte.\n"
 msgstr ""
-"[REVIEW: untranslated] Field separator is zero byte.\n"
+"Field separator zero byte को छ।\n"
 
 #: command.c:5378
 #, c-format
 msgid ""
 "Field separator is \"%s\".\n"
 msgstr ""
-"[REVIEW: untranslated] Field separator is \"%s\".\n"
+"\"%s\" Field separator हो।\n"
 
 #: command.c:5391
 #, c-format
 msgid ""
 "Default footer is on.\n"
 msgstr ""
-"[REVIEW: untranslated] Default footer is on.\n"
+"पूर्वनिर्धारित footer on छ।\n"
 
 #: command.c:5393
 #, c-format
 msgid ""
 "Default footer is off.\n"
 msgstr ""
-"[REVIEW: untranslated] Default footer is off.\n"
+"पूर्वनिर्धारित footer off छ।\n"
 
 #: command.c:5399
 #, c-format
 msgid ""
 "Output format is %s.\n"
 msgstr ""
-"[REVIEW: untranslated] Output format is %s.\n"
+"%s output format हो।\n"
 
 #: command.c:5405
 #, c-format
@@ -855,42 +854,42 @@ msgstr ""
 msgid ""
 "Null display is \"%s\".\n"
 msgstr ""
-"[REVIEW: untranslated] Null display is \"%s\".\n"
+"\"%s\" Null display हो।\n"
 
 #: command.c:5420
 #, c-format
 msgid ""
 "Locale-adjusted numeric output is on.\n"
 msgstr ""
-"[REVIEW: locale; untranslated] Locale-adjusted numeric output is on.\n"
+"Locale-adjusted संख्यात्मक output on छ।\n"
 
 #: command.c:5422
 #, c-format
 msgid ""
 "Locale-adjusted numeric output is off.\n"
 msgstr ""
-"[REVIEW: locale; untranslated] Locale-adjusted numeric output is off.\n"
+"Locale-adjusted संख्यात्मक output off छ।\n"
 
 #: command.c:5429
 #, c-format
 msgid ""
 "Pager is used for long output.\n"
 msgstr ""
-"[REVIEW: untranslated] Pager is used for long output.\n"
+"Pager long output को लागि प्रयोग गरिन्छ।\n"
 
 #: command.c:5431
 #, c-format
 msgid ""
 "Pager is always used.\n"
 msgstr ""
-"[REVIEW: untranslated] Pager is always used.\n"
+"Pager सधैं प्रयोग गरिन्छ।\n"
 
 #: command.c:5433
 #, c-format
 msgid ""
 "Pager usage is off.\n"
 msgstr ""
-"[REVIEW: untranslated] Pager usage is off.\n"
+"Pager usage off छ।\n"
 
 #: command.c:5439
 #, c-format
@@ -908,7 +907,7 @@ msgstr[1] ""
 msgid ""
 "Record separator is zero byte.\n"
 msgstr ""
-"[REVIEW: untranslated] Record separator is zero byte.\n"
+"Record separator zero byte को छ।\n"
 
 #: command.c:5451
 #, c-format
@@ -922,35 +921,35 @@ msgstr ""
 msgid ""
 "Record separator is \"%s\".\n"
 msgstr ""
-"[REVIEW: untranslated] Record separator is \"%s\".\n"
+"Record separator \"%s\" हो।\n"
 
 #: command.c:5466
 #, c-format
 msgid ""
 "Table attributes are \"%s\".\n"
 msgstr ""
-"[REVIEW: untranslated] Table attributes are \"%s\".\n"
+"Table attributes \"%s\" हो।\n"
 
 #: command.c:5469
 #, c-format
 msgid ""
 "Table attributes unset.\n"
 msgstr ""
-"[REVIEW: untranslated] Table attributes unset.\n"
+"Table attributes unset.\n"
 
 #: command.c:5476
 #, c-format
 msgid ""
 "Title is \"%s\".\n"
 msgstr ""
-"Title is \"%s\".\n"
+"Title \"%s\" हो।\n"
 
 #: command.c:5478
 #, c-format
 msgid ""
 "Title is unset.\n"
 msgstr ""
-"[REVIEW: untranslated] Title is unset.\n"
+"Title set गरिएको छैन।\n"
 
 #: command.c:5485
 #, c-format
